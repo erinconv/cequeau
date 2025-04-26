@@ -2,7 +2,7 @@
 
 # Project related configuration options
 PROJECT_NAME           = "CEQUEAU"
-PROJECT_NUMBER         = "5.0.0"
+PROJECT_NUMBER         = "0.1.0"
 OUTPUT_DIRECTORY       = doxygen # Specify output directory for build artifacts
 CREATE_SUBDIRS         = YES
 OUTPUT_LANGUAGE        = English
