@@ -2,176 +2,40 @@ name: Deploy Documentation
 
 on:
   push:
-    branches: [ main, master ]
+    branches:
+      - main  # Set this to your default branch
     paths:
       - 'docs/**'
       - 'mkdocs.yml'
-      - '.github/workflows/docs-deploy.yml'
-
-  # Allow manual trigger
-  workflow_dispatch:
+      - 'requirements-docs.txt'
+  workflow_dispatch:  # Allows manual triggering
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  contents: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Check if running in GitHub Actions
-        id: check_github
-        run: |
-          if [ -n "$GITHUB_ACTIONS" ] && [ "$GITHUB_ACTIONS" = "true" ] && [ -z "$ACT" ]; then
-            echo "is_github=true" >> $GITHUB_OUTPUT
-          else
-            echo "is_github=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Setup documentation-only build mode for local testing
-        if: steps.check_github.outputs.is_github != 'true'
-        run: |
-          echo "Running in local mode - skipping GitHub Pages setup"
-          echo "GITHUB_TOKEN=mock-token" >> $GITHUB_ENV
-
-      - name: Setup Python
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper versioning
+      
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-
+      
+      - name: Install Doxygen
+        run: sudo apt-get update && sudo apt-get install -y doxygen
+      
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements-docs.txt ]; then
-            pip install --user -r requirements-docs.txt
-          else
-            pip install --user mkdocs mkdocs-material
-          fi
-          # Make sure installed tools are in PATH
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-
-      - name: Check if mkdocs.yml exists
-        id: check_files
-        run: |
-          if [ -f mkdocs.yml ]; then
-            echo "mkdocs_exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "mkdocs_exists=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Check for mkdoxy in existing config
-        id: check_mkdoxy
-        if: steps.check_files.outputs.mkdocs_exists == 'true'
-        run: |
-          if grep -q "mkdoxy" mkdocs.yml; then
-            echo "has_mkdoxy=true" >> $GITHUB_OUTPUT
-          else
-            echo "has_mkdoxy=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Create temporary mkdocs config without mkdoxy
-        if: steps.check_mkdoxy.outputs.has_mkdoxy == 'true'
-        run: |
-          echo "Creating temporary mkdocs.yml without mkdoxy plugin"
-          cp mkdocs.yml mkdocs.yml.original
-          sed '/mkdoxy:/,/search/s/^/#/' mkdocs.yml > mkdocs.yml.temp
-          grep -v "materialx.emoji" mkdocs.yml.temp > mkdocs.yml || true
-          sed -i 's/materialx\.emoji\.twemoji/material.extensions.emoji.twemoji/g' mkdocs.yml || true
-          sed -i 's/materialx\.emoji\.to_svg/material.extensions.emoji.to_svg/g' mkdocs.yml || true
-          echo "  - search" >> mkdocs.yml
-
-      - name: Setup mkdocs configuration if not exists
-        if: steps.check_files.outputs.mkdocs_exists != 'true'
-        run: |
-          echo "Creating default mkdocs.yml configuration"
-          cat > mkdocs.yml << EOF
-          site_name: CEQUEAU Documentation
-          theme:
-            name: material
-            palette:
-              primary: indigo
-              accent: indigo
-          markdown_extensions:
-            - pymdownx.highlight:
-                anchor_linenums: true
-            - pymdownx.superfences
-            - pymdownx.inlinehilite
-            - admonition
-            - pymdownx.details
-            - pymdownx.emoji:
-                emoji_index: !!python/name:material.extensions.emoji.twemoji
-                emoji_generator: !!python/name:material.extensions.emoji.to_svg
-          plugins:
-            - search
-          nav:
-            - Home: 'index.md'
-            - API Reference:
-              - Simulation: 'api/simulation.md'
-              - BassinVersant: 'api/bassin_versant.md'
-              - CarreauEntier: 'api/carreau_entier.md'
-              - CarreauPartiel: 'api/carreau_partiel.md'
-          EOF
-
-      - name: Create index page if not exists
-        run: |
-          mkdir -p docs
-          if [ ! -f docs/index.md ]; then
-            echo "Creating default index.md"
-            echo "# CEQUEAU Documentation" > docs/index.md
-            echo "" >> docs/index.md
-            echo "Welcome to the official documentation for the CEQUEAU hydrological model." >> docs/index.md
-            echo "" >> docs/index.md
-            echo "## Available Documentation" >> docs/index.md
-            echo "" >> docs/index.md
-            echo "- [API Reference](api/)" >> docs/index.md
-            echo "  - [Simulation Class](api/simulation.md)" >> docs/index.md
-            echo "  - [BassinVersant Class](api/bassin_versant.md)" >> docs/index.md
-            echo "  - [CarreauEntier Class](api/carreau_entier.md)" >> docs/index.md
-            echo "  - [CarreauPartiel Class](api/carreau_partiel.md)" >> docs/index.md
-          fi
-
-      - name: Build documentation
-        run: |
-          # Try to run mkdocs directly, or fallback to full path
-          if command -v mkdocs &> /dev/null; then
-            mkdocs build --site-dir ./_site
-          else
-            python -m mkdocs build --site-dir ./_site
-          fi
-
-      - name: Setup Pages
-        if: steps.check_github.outputs.is_github == 'true'
-        uses: actions/configure-pages@v3
-        with:
-          enablement: true
-
-      - name: Upload artifact
-        if: steps.check_github.outputs.is_github == 'true'
-        uses: actions/upload-pages-artifact@v2
-
-      - name: Handle local build artifact
-        if: steps.check_github.outputs.is_github != 'true'
-        run: |
-          echo "Documentation built successfully to _site directory"
-          echo "When running in GitHub Actions, this would be uploaded as an artifact"
-
-  deploy:
-    environment:
-      name: github-pages
-      url: "http://your-github-pages-url.com" # Placeholder for local execution
-    runs-on: ubuntu-latest
-    needs: build
-    if: github.event_name != 'pull_request' && github.repository_owner != 'act' && github.actor != 'nektos/act'
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          pip install -r requirements-docs.txt
+      
+      - name: Generate Doxygen XML
+        run: doxygen Doxyfile
+      
+      - name: Deploy documentation
+        run: mkdocs gh-deploy --force
