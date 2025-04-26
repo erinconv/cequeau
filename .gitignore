@@ -40,4 +40,8 @@ outputs/
 
 # MkDocs
 site/
+docs/media/
+
+# Doxygen
+doxygen/
 

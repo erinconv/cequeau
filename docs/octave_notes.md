@@ -15,14 +15,14 @@ Launch GNU Octave GUI to launch the graphical user interface
 application. As shown below, it is similar to Matlab. To run files, you
 need to navigate to the appropriate directory.
 
-![](../media/image1.png)
+![](media/image1.png)
 
 The Cequeau Mex program needs to be compiled using Octave for it to be
 used as a program using Octave. `Cequeau/src/` contains all of the source
 files as well as the compilation files for both Matlab
 (`compileCequeauMat.m`) and Octave (`compileCequeauOct.m`).
 
-![](../media/image2.png)
+![](media/image2.png)
 
 The command statement using `mkoctfile` is the line used to compile the
 octave mex program. The path `"../mex/cequeauQuantiteOct"` path indicates
@@ -83,7 +83,6 @@ grid on;
 hold off;
 ```
 
-<!-- Note: The image above (image3.emf) is in EMF format, which may not render correctly in all Markdown viewers or web browsers. Consider converting it to PNG or JPG if possible. -->
 
 For a complete overview of all timing functions:
 <https://wiki.octave.org/Date/Time_functions>

@@ -36,7 +36,7 @@ A C++ compiler that supports **at least C++14**.
 
 ### Matlab
 
-![](../media/image1.png)
+![](media/image1.png)
 Matlab supports both GCC (MinGW) and MSVC,
 with different supported compiler versions for each release. The
 supported compilers can be found
@@ -83,17 +83,17 @@ be found here (<https://www.mathworks.com/help/matlab/ref/mex.html>).
 
 To enable logging to the `.log` file, set the `log` variable to `true`.
 
-![](../media/image3.png)
+![](media/image3.png)
 
 To enable debugging, the `-g` flag must be set, to do so, simply set the
 `debug` variable to `true`.
 
-![](../media/image4.png)
+![](media/image4.png)
 
 The output file is specified in the `OUTFILE` variable, by default the
 compiled mex will be placed in `cequeau/mex/`.
 
-![](../media/image5.png)
+![](media/image5.png)
 
 ### Compilation in Octave
 
@@ -101,7 +101,7 @@ The compilation for octave is similar to the compilation in Matlab, with
 only some syntactical differences. As shown below
 (`cequeau/src/compileCequeauOct.m`).
 
-![](../media/image6.png)
+![](media/image6.png)
 
 The `FLAGS` variable contains the custom flag `-DENV_OCTAVE`, which is
 used within the cequeau program to detect whether it is the octave
@@ -170,19 +170,19 @@ by attaching the process to the running matlab instance.
     > Within the appropriate script to compile, set `debug` to `true`. After
     > compilation, there should be a `.pdb` file alongside the `.mex` file.
 
-2.  ![](../media/image7.png)
+2.  ![](media/image7.png)
     Open visual studio and continue without code
 
-3.  ![](../media/image9.png)
+3.  ![](media/image9.png)
     Click the `Attach to Process...` button in the top
     toolbar (The exact icon/location might vary slightly)
 
 4.  Find and attach to the Matlab process (e.g., `MATLAB.exe`). You can use the filtering
     textbox for quick retrieval.
 
-    ![](../media/image11.png)
+    ![](media/image11.png)
 
-5.  ![](../media/image13.png)
+5.  ![](media/image13.png)
     Open the source file `cequeauQuantiteMex.cpp`. Go to `File -> Open -> File`, and locate the file that was compiled in the Matlab workspace.
 
 6.  Set a breakpoint at the entry point, `mexFunction()`. Right click on
@@ -192,7 +192,7 @@ by attaching the process to the running matlab instance.
 
 8.  Visual Studio should display the function blocked at the breakpoint.
 
-9.  ![](../media/image14.png)
+9.  ![](media/image14.png)
     Disable `Access Violation` exceptions if they interrupt debugging unnecessarily. (Go to `Debug -> Windows -> Exception Settings` and uncheck `Common Language Runtime Exceptions -> System.AccessViolationException` or similar, depending on VS version).
 
 10. The program can now be debugged like any other C++ program, using
@@ -217,7 +217,7 @@ as `.mat` files within the `testing_octave/outputs/` folder. The following
 image demonstrates an example. The outputs are saved as v7 mat files
 since that is the highest version supported by Octave.
 
-![](../media/image16.png)
+![](media/image16.png)
 
-![](../media/image17.png)
+![](media/image17.png)
 Within the `testing_octave/` folder, the

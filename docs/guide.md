@@ -366,6 +366,6 @@ The same process was used to also simulate using a time step of 6. The
 following graphs demonstrate the results compared to actual water
 temperature from stations.
 
-![](../media/image3.png)
+![](/media/image3.png)
 
-![](../media/image4.png)
+![](/media/image4.png)
