@@ -32,16 +32,16 @@ jobs:
         id: check_github
         run: |
           if [ -n "$GITHUB_ACTIONS" ] && [ "$GITHUB_ACTIONS" = "true" ] && [ -z "$ACT" ]; then
-            echo "is_github=true" >> $GITHUB_OUTPUT
+            echo "is_github=true" >> "$GITHUB_OUTPUT"
           else
-            echo "is_github=false" >> $GITHUB_OUTPUT
+            echo "is_github=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup documentation-only build mode for local testing
         if: steps.check_github.outputs.is_github != 'true'
         run: |
           echo "Running in local mode - skipping GitHub Pages setup"
-          echo "GITHUB_TOKEN=mock-token" >> $GITHUB_ENV
+          echo "GITHUB_TOKEN=mock-token" >> "$GITHUB_ENV"
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -57,15 +57,15 @@ jobs:
             pip install --user mkdocs mkdocs-material
           fi
           # Make sure installed tools are in PATH
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - name: Check if mkdocs.yml exists
         id: check_files
         run: |
           if [ -f mkdocs.yml ]; then
-            echo "mkdocs_exists=true" >> $GITHUB_OUTPUT
+            echo "mkdocs_exists=true" >> "$GITHUB_OUTPUT"
           else
-            echo "mkdocs_exists=false" >> $GITHUB_OUTPUT
+            echo "mkdocs_exists=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Check for mkdoxy in existing config
@@ -73,9 +73,9 @@ jobs:
         if: steps.check_files.outputs.mkdocs_exists == 'true'
         run: |
           if grep -q "mkdoxy" mkdocs.yml; then
-            echo "has_mkdoxy=true" >> $GITHUB_OUTPUT
+            echo "has_mkdoxy=true" >> "$GITHUB_OUTPUT"
           else
-            echo "has_mkdoxy=false" >> $GITHUB_OUTPUT
+            echo "has_mkdoxy=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Create temporary mkdocs config without mkdoxy
@@ -156,7 +156,7 @@ jobs:
 
       - name: Upload artifact
         if: steps.check_github.outputs.is_github == 'true'
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
 
@@ -176,4 +176,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v3
