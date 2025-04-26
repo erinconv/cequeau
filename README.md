@@ -47,11 +47,12 @@ Once compiled, the MEX functions can be called directly from MATLAB or Octave li
 
 *   **Primary Simulation:** Use the compiled `cequeauQuantite*` function for running hydrological simulations.
 
-Refer to the detailed documentation in the `docs/` folder for specific usage instructions, function signatures, input/output formats, and parameter definitions:
+Refer to the detailed documentation in [user guide](https://erinconv.github.io/CEQUEAU/guide/) in the documentation guide. Since the documentation is still under development, you can refer to the `docs/` folder for specific usage instructions, function signatures, input/output formats, and parameter definitions using the following legacy documents:
 
 *   `cequeau_guide.docx`: User guide for using Cequeau.
-*   `Intrants – Extrants v5.docx`: Details on input and output data structures.
+*   `Intrants_Extrants_v5.docx`: Details on input and output data structures.
 *   `cequeau_octave.docx`: Specific notes for Octave users.
+*   `Cequeau.pdf`: For information about the theoretical basis of the CEQUEAU model (only available in French)
 
 ## Folder Structure
 
