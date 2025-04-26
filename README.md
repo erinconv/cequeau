@@ -45,7 +45,6 @@ CEQUEAU is a physically-based, distributed hydrological model designed to simula
 Once compiled, the MEX functions can be called directly from MATLAB or Octave like standard functions.
 
 *   **Primary Simulation:** Use the compiled `cequeauQuantite*` function for running hydrological simulations.
-*   **Interpolation:** Use the compiled `interpolation*` function for spatial interpolation tasks.
 
 Refer to the detailed documentation in the `docs/` folder for specific usage instructions, function signatures, input/output formats, and parameter definitions:
 

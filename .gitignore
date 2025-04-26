@@ -37,3 +37,7 @@ codegen/
 octave-workspace
 
 outputs/
+
+# MkDocs
+site/
+docs/media/
