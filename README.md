@@ -1,6 +1,7 @@
 # CEQUEAU STREAMFLOW AND RIVER TEMPERATURE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation](https://github.com/erinconv/CEQUEAU/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/erinconv/CEQUEAU/actions/workflows/docs-deploy.yml)
 
 A hydrological model for simulating streamflow and river temperature, implemented in C++ with interfaces for MATLAB and Octave.
 
