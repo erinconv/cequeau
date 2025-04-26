@@ -1,0 +1,55 @@
+# Doxyfile configuration tailored for processing French special characters
+
+# Project related configuration options
+PROJECT_NAME           = "CEQUEAU"
+PROJECT_NUMBER         = "5.0.0"
+OUTPUT_DIRECTORY       = doxygen # Specify output directory for build artifacts
+CREATE_SUBDIRS         = YES
+OUTPUT_LANGUAGE        = English
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = YES
+DOXYFILE_ENCODING      = UTF-8    # Crucial: Ensure Doxygen reads this file as UTF-8
+INPUT_ENCODING         = UTF-8    # Crucial: Ensure Doxygen reads your source files as UTF-8
+
+# Build related configuration options
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_ANON_NSPACES   = YES
+
+# Input files configuration
+INPUT                  = src      # Replace 'src' with the actual path to your source files
+FILE_PATTERNS          = *.cpp *.h *.hpp *.c *.cc # Add other relevant file extensions
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       =        # Add any patterns to exclude
+
+# Output generation configuration
+GENERATE_HTML          = NO       # We typically only need XML for tools like mkdoxy
+GENERATE_LATEX         = NO
+GENERATE_XML           = YES
+XML_OUTPUT             = xml      # Output XML to the 'xml' subdirectory within 'doxygen'
+XML_ENCODING           = UTF-8    # Explicitly set XML encoding to UTF-8 (though it's the default)
+XML_PROGRAMLISTING     = NO      # Set to NO to avoid code snippets which may contain encoding issues
+
+# Diagnostics for encoding
+WARN_FORMAT            = "$file:$line: $text"
+WARN_LOGFILE           = doxygen_warnings.log
+
+# Preprocessor configuration
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SKIP_FUNCTION_MACROS   = NO
+
+# Warning and progress configuration options
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED  = NO       # Adjust as needed
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO       # Adjust as needed
+
+# Source browsing configuration options
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_COMMENTS    = NO
