@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classSimulationQualite" kind="class" language="C++" prot="public">
+    <compoundname>SimulationQualite</compoundname>
+    <includes refid="SimulationQualite_8h" local="no">SimulationQualite.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSimulationQualite_1a4d97541a6e973d0280eaa690163d9a4b" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classSimulation" kindref="compound">Simulation</ref> &amp;</type>
+        <definition>const Simulation&amp; SimulationQualite::simulation_</definition>
+        <argsstring></argsstring>
+        <name>simulation_</name>
+        <qualifiedname>SimulationQualite::simulation_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="178" column="20" bodyfile="src/SimulationQualite.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1abad8c9b5a8724dba2bfee0df6ff6f366" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classBassinVersant" kindref="compound">BassinVersant</ref> &amp;</type>
+        <definition>const BassinVersant&amp; SimulationQualite::bassinVersant_</definition>
+        <argsstring></argsstring>
+        <name>bassinVersant_</name>
+        <qualifiedname>SimulationQualite::bassinVersant_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="179" column="23" bodyfile="src/SimulationQualite.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1af6fe4eb1f94a0d7f999a18a3242ec8b0" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classParametresQualite" kindref="compound">ParametresQualite</ref> &amp;</type>
+        <definition>const ParametresQualite&amp; SimulationQualite::parametresQualite_</definition>
+        <argsstring></argsstring>
+        <name>parametresQualite_</name>
+        <qualifiedname>SimulationQualite::parametresQualite_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="180" column="27" bodyfile="src/SimulationQualite.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1a93d971517899803cb9796646a838cc66" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classDonneesMeteo" kindref="compound">DonneesMeteo</ref> &amp;</type>
+        <definition>const DonneesMeteo&amp; SimulationQualite::donneesMeteo_</definition>
+        <argsstring></argsstring>
+        <name>donneesMeteo_</name>
+        <qualifiedname>SimulationQualite::donneesMeteo_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="181" column="22" bodyfile="src/SimulationQualite.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1a3cbee3a5083d9f7e57573e19c158150c" prot="private" static="no" mutable="no">
+        <type><ref refid="classDLI" kindref="compound">DLI</ref> &amp;</type>
+        <definition>DLI&amp; SimulationQualite::dli_</definition>
+        <argsstring></argsstring>
+        <name>dli_</name>
+        <qualifiedname>SimulationQualite::dli_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="182" column="7" bodyfile="src/SimulationQualite.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1a0ea5a14dfc84110047b441749527d79d" prot="private" static="no" mutable="no">
+        <type>const mxArray *</type>
+        <definition>const mxArray* SimulationQualite::etatsPrecedents_</definition>
+        <argsstring></argsstring>
+        <name>etatsPrecedents_</name>
+        <qualifiedname>SimulationQualite::etatsPrecedents_</qualifiedname>
+        <briefdescription>
+<para>Etats precedents. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="185" column="17" bodyfile="src/SimulationQualite.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1a4ee07f598a4888640701c459bf3e99c5" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, Qualite::EtatsCarreauxPartielsAssim &gt;</type>
+        <definition>std::map&lt;DateChrono, Qualite::EtatsCarreauxPartielsAssim&gt; SimulationQualite::assimilationsCP_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsCP_</name>
+        <qualifiedname>SimulationQualite::assimilationsCP_</qualifiedname>
+        <briefdescription>
+<para>Donnees a assimiler aux etats des carreaux partiels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="198" column="12" bodyfile="src/SimulationQualite.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1a4d473d362d899d4700408eda9b1dbbe7" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, Qualite::EtatsCarreauxPartiels &gt;</type>
+        <definition>std::map&lt;DateChrono, Qualite::EtatsCarreauxPartiels&gt; SimulationQualite::avantAssimilationsCP_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsCP_</name>
+        <qualifiedname>SimulationQualite::avantAssimilationsCP_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux partiels, avant assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="200" column="12" bodyfile="src/SimulationQualite.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulationQualite_1abe7f0f47ec48d8d9964c1f460a7be1cf" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; Qualite::EtatsCarreauxPartiels &gt;</type>
+        <definition>std::vector&lt;Qualite::EtatsCarreauxPartiels&gt; SimulationQualite::qualite_</definition>
+        <argsstring></argsstring>
+        <name>qualite_</name>
+        <qualifiedname>SimulationQualite::qualite_</qualifiedname>
+        <briefdescription>
+<para>Resultat du transfert. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="207" column="15" bodyfile="src/SimulationQualite.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSimulationQualite_1afe3ee91a63d7608901e0c3ae272f45b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SimulationQualite::SimulationQualite</definition>
+        <argsstring>(Simulation &amp;simulation, ParametresQualite &amp;param, DLI &amp;dli, const mxArray *etatsPrecedents, const mxArray *assimilations=NULL)</argsstring>
+        <name>SimulationQualite</name>
+        <qualifiedname>SimulationQualite::SimulationQualite</qualifiedname>
+        <param>
+          <type><ref refid="classSimulation" kindref="compound">Simulation</ref> &amp;</type>
+          <declname>simulation</declname>
+        </param>
+        <param>
+          <type><ref refid="classParametresQualite" kindref="compound">ParametresQualite</ref> &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type><ref refid="classDLI" kindref="compound">DLI</ref> &amp;</type>
+          <declname>dli</declname>
+        </param>
+        <param>
+          <type>const mxArray *</type>
+          <declname>etatsPrecedents</declname>
+        </param>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Construteur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="166" column="3" bodyfile="src/SimulationQualite.cpp" bodystart="31" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1ab28df9cb88becbb6421f9880aa9f3dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SimulationQualite::~SimulationQualite</definition>
+        <argsstring>()</argsstring>
+        <name>~SimulationQualite</name>
+        <qualifiedname>SimulationQualite::~SimulationQualite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="168" column="3" bodyfile="src/SimulationQualite.cpp" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1a10f1685f8a18e42c9cfef08b22fca104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimulationQualite::executer</definition>
+        <argsstring>(bool estMexFile=false)</argsstring>
+        <name>executer</name>
+        <qualifiedname>SimulationQualite::executer</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>estMexFile</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Execution de la simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="171" column="7" bodyfile="src/SimulationQualite.cpp" bodystart="63" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1ad179d14bdc8a35669abde6b8487b203e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * SimulationQualite::obtenirEtatsCP</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirEtatsCP</name>
+        <qualifiedname>SimulationQualite::obtenirEtatsCP</qualifiedname>
+        <briefdescription>
+<para>Etats CP Qualite en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="174" column="11" bodyfile="src/SimulationQualite_IO.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1ae836db576c5f6032f3775d673e1dcfe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * SimulationQualite::obtenirEtatsAvantAssimilations</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirEtatsAvantAssimilations</name>
+        <qualifiedname>SimulationQualite::obtenirEtatsAvantAssimilations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="175" column="11" bodyfile="src/SimulationQualite_IO.cpp" bodystart="221" bodyend="268"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSimulationQualite_1ade49f3c269fbe19074176bbfbbac1524" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimulationQualite::initialiserEtats</definition>
+        <argsstring>()</argsstring>
+        <name>initialiserEtats</name>
+        <qualifiedname>SimulationQualite::initialiserEtats</qualifiedname>
+        <briefdescription>
+<para>Initialisation des etats initiaux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>L&apos;initialisation se fait a partir des parametres ou bien d&apos;etats precedents, s&apos;ils sont presents dans les intrants. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="192" column="9" bodyfile="src/SimulationQualite.cpp" bodystart="123" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1ae8be7950011887b38fb33275f2ecd854" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>matError SimulationQualite::chargerEtatsCP</definition>
+        <argsstring>(Qualite::EtatsCarreauxPartiels &amp;etatsCarreauxPartiels)</argsstring>
+        <name>chargerEtatsCP</name>
+        <qualifiedname>SimulationQualite::chargerEtatsCP</qualifiedname>
+        <param>
+          <type>Qualite::EtatsCarreauxPartiels &amp;</type>
+          <declname>etatsCarreauxPartiels</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des etats des carreaux partiels a partir d&apos;etats precedents en format Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="195" column="7" bodyfile="src/SimulationQualite_IO.cpp" bodystart="128" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1a7a4b798ade0529a4bd73ef7885ef7937" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimulationQualite::initialiserAssimilations</definition>
+        <argsstring>(const mxArray *assimilations)</argsstring>
+        <name>initialiserAssimilations</name>
+        <qualifiedname>SimulationQualite::initialiserAssimilations</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des donnees d&apos;assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="202" column="7" bodyfile="src/SimulationQualite_IO.cpp" bodystart="165" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1a1afe2f5c63540133271f93448ccff992" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimulationQualite::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, Qualite::EtatsCarreauxPartiels &amp;etatsCarreauxPartiels)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>SimulationQualite::assimiler</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>Qualite::EtatsCarreauxPartiels &amp;</type>
+          <declname>etatsCarreauxPartiels</declname>
+        </param>
+        <briefdescription>
+<para>Assimilation donnees CP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="204" column="7" bodyfile="src/SimulationQualite.cpp" bodystart="889" bodyend="963"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1a8ef3ba86615ae136b6ba661cc259919b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimulationQualite::calculerTemperatureEau</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const int &amp;noPasDeTemps)</argsstring>
+        <name>calculerTemperatureEau</name>
+        <qualifiedname>SimulationQualite::calculerTemperatureEau</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noPasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>variable de surface</para>
+<para>variable de fonte</para>
+<para>variable d&apos;Ã©nergie (e....)</para>
+<para>variable d&apos;enthalpie (q....)</para>
+<para>variable de volume</para>
+<para>variable de tempÃ©rature (T...)</para>
+<para>variable de tempÃ©rature en Kelvin (TK...)</para>
+<para>variable de atmospherique</para>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="209" column="7" bodyfile="src/SimulationQualite.cpp" bodystart="207" bodyend="883"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1ae046347604d354843037d4591bde98cc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * SimulationQualite::obtenirEtatsCP</definition>
+        <argsstring>(const std::vector&lt; Qualite::EtatsCarreauxPartiels &gt; &amp;etatsPasDeTemps)</argsstring>
+        <name>obtenirEtatsCP</name>
+        <qualifiedname>SimulationQualite::obtenirEtatsCP</qualifiedname>
+        <param>
+          <type>const std::vector&lt; Qualite::EtatsCarreauxPartiels &gt; &amp;</type>
+          <declname>etatsPasDeTemps</declname>
+        </param>
+        <briefdescription>
+<para>Etats CP en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="213" column="11" bodyfile="src/SimulationQualite_IO.cpp" bodystart="23" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1a4203d14d279b4e379906fb90ad61d9fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SimulationQualite::calculerIndexPasDeTemps</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const int &amp;noPasDeTemps)</argsstring>
+        <name>calculerIndexPasDeTemps</name>
+        <qualifiedname>SimulationQualite::calculerIndexPasDeTemps</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noPasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="215" column="5" bodyfile="src/SimulationQualite.cpp" bodystart="189" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1ae6c03d83c1ef38a02e63832c4c1de6db" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SimulationQualite::calculerRatioOmbre</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, PositionSolaire &amp;pos, const CarreauPartielPtr &amp;carreauPartielPtr) const</argsstring>
+        <name>calculerRatioOmbre</name>
+        <qualifiedname>SimulationQualite::calculerRatioOmbre</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type><ref refid="classPositionSolaire" kindref="compound">PositionSolaire</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const CarreauPartielPtr &amp;</type>
+          <declname>carreauPartielPtr</declname>
+        </param>
+        <briefdescription>
+<para>Module ombrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="219" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1af8aabd2ad50c90d631adfaa2636f4ae4" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SimulationQualite::calculerRatioOmbre</definition>
+        <argsstring>(double altitudeSolaire, double azimutSolaire, double azimutRiviere, double largeurRiviere, double hauteurArbre) const</argsstring>
+        <name>calculerRatioOmbre</name>
+        <qualifiedname>SimulationQualite::calculerRatioOmbre</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>altitudeSolaire</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>azimutSolaire</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>azimutRiviere</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>largeurRiviere</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hauteurArbre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>coefficient pour convertir des degrÃ©s en radians</para>
+<para>coefficient pour convertir des radians en degrÃ©s</para>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="220" column="10" bodyfile="src/SimulationQualite.cpp" bodystart="1005" bodyend="1063"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1a3f9cba9e1e2d40bf89c5960e4c2174d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SimulationQualite::calculerCanopeLAI</definition>
+        <argsstring>(double LAI)</argsstring>
+        <name>calculerCanopeLAI</name>
+        <qualifiedname>SimulationQualite::calculerCanopeLAI</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>LAI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="222" column="10" bodyfile="src/SimulationQualite.cpp" bodystart="969" bodyend="973"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulationQualite_1a67551c53263912d5b149ee62f98920da" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SimulationQualite::calculerCanopeTypeArbre</definition>
+        <argsstring>(double pctConifer, double pctFeuillu)</argsstring>
+        <name>calculerCanopeTypeArbre</name>
+        <qualifiedname>SimulationQualite::calculerCanopeTypeArbre</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>pctConifer</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>pctFeuillu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="223" column="10" bodyfile="src/SimulationQualite.cpp" bodystart="977" bodyend="999"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe <ref refid="classSimulationQualite" kindref="compound">SimulationQualite</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SimulationQualite.h" line="162" column="1" bodyfile="src/SimulationQualite.h" bodystart="163" bodyend="226"/>
+    <listofallmembers>
+      <member refid="classSimulationQualite_1a4ee07f598a4888640701c459bf3e99c5" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>assimilationsCP_</name></member>
+      <member refid="classSimulationQualite_1a1afe2f5c63540133271f93448ccff992" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>assimiler</name></member>
+      <member refid="classSimulationQualite_1a4d473d362d899d4700408eda9b1dbbe7" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>avantAssimilationsCP_</name></member>
+      <member refid="classSimulationQualite_1abad8c9b5a8724dba2bfee0df6ff6f366" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>bassinVersant_</name></member>
+      <member refid="classSimulationQualite_1a3f9cba9e1e2d40bf89c5960e4c2174d2" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>calculerCanopeLAI</name></member>
+      <member refid="classSimulationQualite_1a67551c53263912d5b149ee62f98920da" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>calculerCanopeTypeArbre</name></member>
+      <member refid="classSimulationQualite_1a4203d14d279b4e379906fb90ad61d9fa" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>calculerIndexPasDeTemps</name></member>
+      <member refid="classSimulationQualite_1ae6c03d83c1ef38a02e63832c4c1de6db" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>calculerRatioOmbre</name></member>
+      <member refid="classSimulationQualite_1af8aabd2ad50c90d631adfaa2636f4ae4" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>calculerRatioOmbre</name></member>
+      <member refid="classSimulationQualite_1a8ef3ba86615ae136b6ba661cc259919b" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>calculerTemperatureEau</name></member>
+      <member refid="classSimulationQualite_1ae8be7950011887b38fb33275f2ecd854" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>chargerEtatsCP</name></member>
+      <member refid="classSimulationQualite_1a3cbee3a5083d9f7e57573e19c158150c" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>dli_</name></member>
+      <member refid="classSimulationQualite_1a93d971517899803cb9796646a838cc66" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>donneesMeteo_</name></member>
+      <member refid="classSimulationQualite_1a0ea5a14dfc84110047b441749527d79d" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>etatsPrecedents_</name></member>
+      <member refid="classSimulationQualite_1a10f1685f8a18e42c9cfef08b22fca104" prot="public" virt="non-virtual"><scope>SimulationQualite</scope><name>executer</name></member>
+      <member refid="classSimulationQualite_1a7a4b798ade0529a4bd73ef7885ef7937" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>initialiserAssimilations</name></member>
+      <member refid="classSimulationQualite_1ade49f3c269fbe19074176bbfbbac1524" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>initialiserEtats</name></member>
+      <member refid="classSimulationQualite_1ae836db576c5f6032f3775d673e1dcfe7" prot="public" virt="non-virtual"><scope>SimulationQualite</scope><name>obtenirEtatsAvantAssimilations</name></member>
+      <member refid="classSimulationQualite_1ad179d14bdc8a35669abde6b8487b203e" prot="public" virt="non-virtual"><scope>SimulationQualite</scope><name>obtenirEtatsCP</name></member>
+      <member refid="classSimulationQualite_1ae046347604d354843037d4591bde98cc" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>obtenirEtatsCP</name></member>
+      <member refid="classSimulationQualite_1af6fe4eb1f94a0d7f999a18a3242ec8b0" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>parametresQualite_</name></member>
+      <member refid="classSimulationQualite_1abe7f0f47ec48d8d9964c1f460a7be1cf" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>qualite_</name></member>
+      <member refid="classSimulationQualite_1a4d97541a6e973d0280eaa690163d9a4b" prot="private" virt="non-virtual"><scope>SimulationQualite</scope><name>simulation_</name></member>
+      <member refid="classSimulationQualite_1afe3ee91a63d7608901e0c3ae272f45b8" prot="public" virt="non-virtual"><scope>SimulationQualite</scope><name>SimulationQualite</name></member>
+      <member refid="classSimulationQualite_1ab28df9cb88becbb6421f9880aa9f3dda" prot="public" virt="non-virtual"><scope>SimulationQualite</scope><name>~SimulationQualite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

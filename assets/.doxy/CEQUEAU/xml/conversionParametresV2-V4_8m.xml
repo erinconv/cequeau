@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="conversionParametresV2-V4_8m" kind="file" language="Objective-C">
+    <compoundname>conversionParametresV2-V4.m</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1acabe94bc2d0bdd6fc5ff01ccf219ffc2" prot="public" static="no" mutable="no">
+        <type>function</type>
+        <definition>function paramconv</definition>
+        <argsstring></argsstring>
+        <name>paramconv</name>
+        <initializer>= conversionParametres(paramIn)
+    %
+    % Conversions de parametres Cequeau 2.x vers Cequeau 4.x
+    % 
+    % Retraits:
+    %  -- parametres.option.calculFonteExterne
+    %  
+    % Deplacements:
+    %  -- parametres.neige -&gt; fonte.cequeau
+    %  -- parametres.option.jonei -&gt; fonte.cequeau.jonei
+    %  -- parametres.option.joeva -&gt; evapo.cequeau.joeva
+    %  
+    %  -- parametres.solInitial.tmur -&gt; fonte.cequeau.tmur
+    %  -- parametres.solInitial.tstock -&gt; fonte.cequeau.tstock
+    %  
+    %  -- parametres.sol.evnap -&gt; evapo.cequeau.evnap
+    %  -- parametres.sol.xaa -&gt; evapo.cequeau.xaa
+    %  -- parametres.sol.xit -&gt; evapo.cequeau.xit
+    % 
+    %  Ajouts:
+    %  -- parametres.option.moduleFonte
+    %  -- parametres.option.moduleEvapo
+    %  -- parametre.option.calculQualite 
+
+    try 
+        parametresWork = paramIn</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="1" column="10" bodyfile="src/conversionParametresV2-V4.m" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1af0f86eaaaab60741fb0c312162d3b816" prot="public" static="no" mutable="no">
+        <type>parametresWork fonte</type>
+        <definition>parametresWork fonte cequeau</definition>
+        <argsstring></argsstring>
+        <name>cequeau</name>
+        <initializer>= paramIn.neige</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="28" column="28" bodyfile="src/conversionParametresV2-V4.m" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a6d9ab078ec11c9a9e2e974a475c4b319" prot="public" static="no" mutable="no">
+        <type>parametresWork fonte cequeau</type>
+        <definition>parametresWork fonte cequeau jonei</definition>
+        <argsstring></argsstring>
+        <name>jonei</name>
+        <initializer>= paramIn.option.jonei</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="29" column="35" bodyfile="src/conversionParametresV2-V4.m" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a217f230fe6e18217978dda51af811b9c" prot="public" static="no" mutable="no">
+        <type>parametresWork evapo cequeau</type>
+        <definition>parametresWork evapo cequeau joeva</definition>
+        <argsstring></argsstring>
+        <name>joeva</name>
+        <initializer>= paramIn.option.joeva</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="30" column="35" bodyfile="src/conversionParametresV2-V4.m" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a637c0a9d9e2f5aee6606d128d2ef03c2" prot="public" static="no" mutable="no">
+        <type>parametresWork fonte cequeau</type>
+        <definition>parametresWork fonte cequeau tmur</definition>
+        <argsstring></argsstring>
+        <name>tmur</name>
+        <initializer>= paramIn.solInitial.tmur</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="32" column="35" bodyfile="src/conversionParametresV2-V4.m" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a92470be3a817d0595c333e4f795416a3" prot="public" static="no" mutable="no">
+        <type>parametresWork fonte cequeau</type>
+        <definition>parametresWork fonte cequeau tstock</definition>
+        <argsstring></argsstring>
+        <name>tstock</name>
+        <initializer>= paramIn.solInitial.tstock</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="33" column="35" bodyfile="src/conversionParametresV2-V4.m" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a64a9ceef49250694ce64d1373744c2d0" prot="public" static="no" mutable="no">
+        <type>parametresWork evapo cequeau</type>
+        <definition>parametresWork evapo cequeau evnap</definition>
+        <argsstring></argsstring>
+        <name>evnap</name>
+        <initializer>= paramIn.sol.evnap</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="35" column="35" bodyfile="src/conversionParametresV2-V4.m" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1ad2996b2829d4183b58bc8dac9362a20c" prot="public" static="no" mutable="no">
+        <type>parametresWork evapo cequeau</type>
+        <definition>parametresWork evapo cequeau xaa</definition>
+        <argsstring></argsstring>
+        <name>xaa</name>
+        <initializer>= paramIn.sol.xaa</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="36" column="35" bodyfile="src/conversionParametresV2-V4.m" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1aeaf66bf440eab060c4d3735f8fbdd408" prot="public" static="no" mutable="no">
+        <type>parametresWork evapo cequeau</type>
+        <definition>parametresWork evapo cequeau xit</definition>
+        <argsstring></argsstring>
+        <name>xit</name>
+        <initializer>= paramIn.sol.xit</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="37" column="35" bodyfile="src/conversionParametresV2-V4.m" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1ab10d29e4f397f9a08674104b16be6514" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>parametresWork</definition>
+        <argsstring></argsstring>
+        <name>parametresWork</name>
+        <initializer>= rmfield(paramIn, &apos;neige&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="39" column="9" bodyfile="src/conversionParametresV2-V4.m" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a767326f95857cc1cf680b76156c33cc1" prot="public" static="no" mutable="no">
+        <type>parametresWork</type>
+        <definition>parametresWork option</definition>
+        <argsstring></argsstring>
+        <name>option</name>
+        <initializer>= rmfield(paramIn.option, {&apos;calculFonteExterne&apos;, &apos;jonei&apos;, &apos;joeva&apos;})</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="40" column="23" bodyfile="src/conversionParametresV2-V4.m" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1ace3f70a15c06c6b88cd34dd1523f2196" prot="public" static="no" mutable="no">
+        <type>parametresWork</type>
+        <definition>parametresWork solInitial</definition>
+        <argsstring></argsstring>
+        <name>solInitial</name>
+        <initializer>= rmfield(paramIn.solInitial, {&apos;tmur&apos;, &apos;tstock&apos;})</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="41" column="23" bodyfile="src/conversionParametresV2-V4.m" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a10c6f84ec8e116fbfd7af31a9f515bef" prot="public" static="no" mutable="no">
+        <type>parametresWork</type>
+        <definition>parametresWork sol</definition>
+        <argsstring></argsstring>
+        <name>sol</name>
+        <initializer>= rmfield(paramIn.sol, {&apos;evnap&apos;, &apos;xaa&apos;, &apos;xit&apos;})</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="42" column="23" bodyfile="src/conversionParametresV2-V4.m" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conversionParametresV2-V4_8m_1a7dfe1f45d2d9166ca31b040ef7dd1ee7" prot="public" static="no" mutable="no">
+        <type>parametresWork option</type>
+        <definition>parametresWork option moduleFonte</definition>
+        <argsstring></argsstring>
+        <name>moduleFonte</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="44" column="29" bodyfile="src/conversionParametresV2-V4.m" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="conversionParametresV2-V4_8m_1aa8c08ca51ac4532ee02afa3c858fba34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>catch err</type>
+        <definition>catch err disp</definition>
+        <argsstring>(getReport(err, &apos;extended&apos;))</argsstring>
+        <name>disp</name>
+        <param>
+          <type>getReport(err, &apos;extended&apos;)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="50" column="8" declfile="src/conversionParametresV2-V4.m" declline="50" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="conversionParametresV2-V4_8m_1aef5d4ab4e42dd22e4408049411ec370f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>disp</definition>
+        <argsstring>(&apos;CONVERSION INCOMPLETE&apos;)</argsstring>
+        <name>disp</name>
+        <param>
+          <type>&apos;CONVERSION INCOMPLETE&apos;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/conversionParametresV2-V4.m" line="51" column="8" declfile="src/conversionParametresV2-V4.m" declline="51" declcolumn="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/conversionParametresV2-V4.m"/>
+  </compounddef>
+</doxygen>

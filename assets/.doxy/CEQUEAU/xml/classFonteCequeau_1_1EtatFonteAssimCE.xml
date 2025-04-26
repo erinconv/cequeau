@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteCequeau_1_1EtatFonteAssimCE" kind="class" language="C++" prot="private">
+    <compoundname>FonteCequeau::EtatFonteAssimCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1a3d81b23284a34683ef167b5e809a3efe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FonteCequeau::EtatFonteAssimCE::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="255" column="9" bodyfile="src/FonteCequeau.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1a0d4bed490849084af6e4ed615a4aabce" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteCequeau::EtatFonteAssimCE::SNC_stockNeigeForetType</definition>
+        <argsstring></argsstring>
+        <name>SNC_stockNeigeForetType</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::SNC_stockNeigeForetType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="257" column="15" bodyfile="src/FonteCequeau.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1ae0c92cf170eb2c64a5f04f879a6a35cf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteAssimCE::SNC_stockNeigeForet[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SNC_stockNeigeForet</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::SNC_stockNeigeForet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="259" column="11" bodyfile="src/FonteCequeau.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1aebd4f5befeeff5ea4e01e2b46ac6e5bf" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteCequeau::EtatFonteAssimCE::SND_stockNeigeClairiereType</definition>
+        <argsstring></argsstring>
+        <name>SND_stockNeigeClairiereType</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::SND_stockNeigeClairiereType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="261" column="15" bodyfile="src/FonteCequeau.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1a7961023a57ccff93d39a1b2e58e48084" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteAssimCE::SND_stockNeigeClairiere[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SND_stockNeigeClairiere</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::SND_stockNeigeClairiere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="263" column="11" bodyfile="src/FonteCequeau.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1a708dcc4fed332416f0ec397fb5b13050" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteCequeau::EtatFonteAssimCE::QNUI3_indexMurissementNeigeType</definition>
+        <argsstring></argsstring>
+        <name>QNUI3_indexMurissementNeigeType</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::QNUI3_indexMurissementNeigeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="265" column="15" bodyfile="src/FonteCequeau.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1add84f99f3299c77b430c0f2e3b1e5383" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteAssimCE::QNUI3_indexMurissementNeige[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>QNUI3_indexMurissementNeige</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::QNUI3_indexMurissementNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="267" column="11" bodyfile="src/FonteCequeau.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1a05dc1482039adb2e104e1b0cdf6d7bf5" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteCequeau::EtatFonteAssimCE::QNUI4_indexTempNeigeType</definition>
+        <argsstring></argsstring>
+        <name>QNUI4_indexTempNeigeType</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::QNUI4_indexTempNeigeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="269" column="15" bodyfile="src/FonteCequeau.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteAssimCE_1a2ef006bd5fe06ba525f2ed141f2c5c32" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteAssimCE::QNUI4_indexTempNeige[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>QNUI4_indexTempNeige</name>
+        <qualifiedname>FonteCequeau::EtatFonteAssimCE::QNUI4_indexTempNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="271" column="11" bodyfile="src/FonteCequeau.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteCequeau.h" line="249" column="3" bodyfile="src/FonteCequeau.h" bodystart="251" bodyend="273"/>
+    <listofallmembers>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1a3d81b23284a34683ef167b5e809a3efe" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>idCarreauEntier</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1add84f99f3299c77b430c0f2e3b1e5383" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>QNUI3_indexMurissementNeige</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1a708dcc4fed332416f0ec397fb5b13050" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>QNUI3_indexMurissementNeigeType</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1a2ef006bd5fe06ba525f2ed141f2c5c32" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>QNUI4_indexTempNeige</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1a05dc1482039adb2e104e1b0cdf6d7bf5" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>QNUI4_indexTempNeigeType</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1ae0c92cf170eb2c64a5f04f879a6a35cf" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>SNC_stockNeigeForet</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1a0d4bed490849084af6e4ed615a4aabce" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>SNC_stockNeigeForetType</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1a7961023a57ccff93d39a1b2e58e48084" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>SND_stockNeigeClairiere</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteAssimCE_1aebd4f5befeeff5ea4e01e2b46ac6e5bf" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteAssimCE</scope><name>SND_stockNeigeClairiereType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

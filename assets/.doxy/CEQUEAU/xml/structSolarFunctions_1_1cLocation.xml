@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structSolarFunctions_1_1cLocation" kind="struct" language="C++" prot="private">
+    <compoundname>SolarFunctions::cLocation</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSolarFunctions_1_1cLocation_1aacb63c7efe3111eed422fa43894961e5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::cLocation::dLongitude</definition>
+        <argsstring></argsstring>
+        <name>dLongitude</name>
+        <qualifiedname>SolarFunctions::cLocation::dLongitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="39" column="15" bodyfile="src/SolarFunctions.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSolarFunctions_1_1cLocation_1a0663a21ddf9d11082f26f45bb2849cda" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::cLocation::dLatitude</definition>
+        <argsstring></argsstring>
+        <name>dLatitude</name>
+        <qualifiedname>SolarFunctions::cLocation::dLatitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="40" column="15" bodyfile="src/SolarFunctions.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SolarFunctions.h" line="37" column="5" bodyfile="src/SolarFunctions.h" bodystart="38" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structSolarFunctions_1_1cLocation_1a0663a21ddf9d11082f26f45bb2849cda" prot="public" virt="non-virtual"><scope>SolarFunctions::cLocation</scope><name>dLatitude</name></member>
+      <member refid="structSolarFunctions_1_1cLocation_1aacb63c7efe3111eed422fa43894961e5" prot="public" virt="non-virtual"><scope>SolarFunctions::cLocation</scope><name>dLongitude</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

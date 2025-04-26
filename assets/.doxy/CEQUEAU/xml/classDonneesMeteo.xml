@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classDonneesMeteo" kind="class" language="C++" prot="public">
+    <compoundname>DonneesMeteo</compoundname>
+    <includes refid="DonneesMeteo_8h" local="no">DonneesMeteo.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDonneesMeteo_1a9129ea9ae9416135fb1a1aae76de23ef" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DonneesMeteo::nbCarreauxEntiers_</definition>
+        <argsstring></argsstring>
+        <name>nbCarreauxEntiers_</name>
+        <qualifiedname>DonneesMeteo::nbCarreauxEntiers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="59" column="7" bodyfile="src/DonneesMeteo.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDonneesMeteo_1a2d6af68eb265547ccc32519f6402a062" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DonneesMeteo::nbPasDeTemps_</definition>
+        <argsstring></argsstring>
+        <name>nbPasDeTemps_</name>
+        <qualifiedname>DonneesMeteo::nbPasDeTemps_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="60" column="7" bodyfile="src/DonneesMeteo.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDonneesMeteo_1ae1a7aad8ceaf8d1fa7a2fe4179cd685a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DonneesMeteo::estPtot_</definition>
+        <argsstring></argsstring>
+        <name>estPtot_</name>
+        <qualifiedname>DonneesMeteo::estPtot_</qualifiedname>
+        <briefdescription>
+<para>Est-ce que la pluie et neige est donne sous forme liquide? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="62" column="8" bodyfile="src/DonneesMeteo.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDonneesMeteo_1a8bdd9e3ce0ce85a392a946b3e9bd6525" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; MeteoGrille &gt;</type>
+        <definition>std::vector&lt;MeteoGrille&gt; DonneesMeteo::valeurs_</definition>
+        <argsstring></argsstring>
+        <name>valeurs_</name>
+        <qualifiedname>DonneesMeteo::valeurs_</qualifiedname>
+        <briefdescription>
+<para>Vecteur #1: Pas de temps. Vecteur #2: <ref refid="classMeteo" kindref="compound">Meteo</ref> aux points de grille. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="64" column="15" bodyfile="src/DonneesMeteo.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDonneesMeteo_1add03b2a1d3a61a38be10c15233905268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DonneesMeteo::DonneesMeteo</definition>
+        <argsstring>()</argsstring>
+        <name>DonneesMeteo</name>
+        <qualifiedname>DonneesMeteo::DonneesMeteo</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="30" column="3" bodyfile="src/DonneesMeteo.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a680a4bcc4892fa8fe41cb3b8dd3e6013" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DonneesMeteo::DonneesMeteo</definition>
+        <argsstring>(int nbCarreauxEntiers, int nbPasDeTemps)</argsstring>
+        <name>DonneesMeteo</name>
+        <qualifiedname>DonneesMeteo::DonneesMeteo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nbCarreauxEntiers</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbPasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="31" column="3" bodyfile="src/DonneesMeteo.cpp" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a93bb0458f61498d7dd0308794b02a2d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DonneesMeteo::~DonneesMeteo</definition>
+        <argsstring>()</argsstring>
+        <name>~DonneesMeteo</name>
+        <qualifiedname>DonneesMeteo::~DonneesMeteo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="32" column="3" bodyfile="src/DonneesMeteo.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a407ba10c9243492fb11a4908ae0f849b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DonneesMeteo::nbCarreauxEntiers</definition>
+        <argsstring>() const</argsstring>
+        <name>nbCarreauxEntiers</name>
+        <qualifiedname>DonneesMeteo::nbCarreauxEntiers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="35" column="7" bodyfile="src/DonneesMeteo.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1aa0eb5caa79349caa263f6bedf3104e40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DonneesMeteo::nbPasDeTemps</definition>
+        <argsstring>() const</argsstring>
+        <name>nbPasDeTemps</name>
+        <qualifiedname>DonneesMeteo::nbPasDeTemps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="37" column="7" bodyfile="src/DonneesMeteo.cpp" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a7e1e57fa3de2f82b63abfc8b5d59cd40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DonneesMeteo::estPtot</definition>
+        <argsstring>() const</argsstring>
+        <name>estPtot</name>
+        <qualifiedname>DonneesMeteo::estPtot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="39" column="8" bodyfile="src/DonneesMeteo.cpp" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a2339de37aca18d0f968127d6af53ccee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; MeteoGrille &gt; &amp;</type>
+        <definition>const std::vector&lt; MeteoGrille &gt; &amp; DonneesMeteo::valeurs</definition>
+        <argsstring>() const</argsstring>
+        <name>valeurs</name>
+        <qualifiedname>DonneesMeteo::valeurs</qualifiedname>
+        <briefdescription>
+<para>Getter des donnees meteo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retourne une reference sur un vecteur de vecteur de meteo. Pour chacun des jours on a un vecteur de meteo de chaque carreau entier. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="46" column="21" bodyfile="src/DonneesMeteo.cpp" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1af254f9d1fd54f659afeef558b0c1e57b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonneesMeteo::initialiserFichier</definition>
+        <argsstring>(const std::string fichierEntree)</argsstring>
+        <name>initialiserFichier</name>
+        <qualifiedname>DonneesMeteo::initialiserFichier</qualifiedname>
+        <param>
+          <type>const std::string</type>
+          <declname>fichierEntree</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des donnes meteo a partir d&apos;un fichier Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="49" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1ae2ec51dbe40e9c516e9df198a95d3d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonneesMeteo::initialiser</definition>
+        <argsstring>(const mxArray *meteo)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>DonneesMeteo::initialiser</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>meteo</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des donnes meteo a partir d&apos;un mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="51" column="8" bodyfile="src/DonneesMeteo.cpp" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a73dae6022cd4b48107e71bbdf1accb51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonneesMeteo::initialiser</definition>
+        <argsstring>(const mxArray *meteo, const std::vector&lt; std::string &gt; &amp;champsFonte, const std::vector&lt; std::string &gt; &amp;champsEvapo, const std::vector&lt; std::string &gt; &amp;champsAutre)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>DonneesMeteo::initialiser</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>champsFonte</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>champsEvapo</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>champsAutre</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des donnes meteo a partir d&apos;un mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="53" column="8" bodyfile="src/DonneesMeteo.cpp" bodystart="105" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a35b4c053c8ed659a487fe7a35c530e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonneesMeteo::trierParId</definition>
+        <argsstring>(const std::vector&lt; CarreauEntierPtr &gt; &amp;carreauxEntiers)</argsstring>
+        <name>trierParId</name>
+        <qualifiedname>DonneesMeteo::trierParId</qualifiedname>
+        <param>
+          <type>const std::vector&lt; CarreauEntierPtr &gt; &amp;</type>
+          <declname>carreauxEntiers</declname>
+        </param>
+        <briefdescription>
+<para>Tri des donnees meteo selon les id des carreaux entiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="56" column="8" bodyfile="src/DonneesMeteo.cpp" bodystart="334" bodyend="368"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classDonneesMeteo_1aabd41b2a7e12c4358d39dcd1b4af0b63" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void DonneesMeteo::initialiser</definition>
+        <argsstring>(const mxArray *meteo, const std::vector&lt; std::string &gt; &amp;champsFonte, const std::vector&lt; std::string &gt; &amp;champsEvapo, const std::vector&lt; std::string &gt; &amp;champsAutre)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>DonneesMeteo::initialiser</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>champsFonte</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>champsEvapo</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>champsAutre</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des donnes meteo a partir d&apos;un mxArray selon un type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="68" column="8" bodyfile="src/DonneesMeteo.cpp" bodystart="144" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesMeteo_1a042b6f909e34fe72cb151c2eb89b5013" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DonneesMeteo::validerDonneesMeteo</definition>
+        <argsstring>()</argsstring>
+        <name>validerDonneesMeteo</name>
+        <qualifiedname>DonneesMeteo::validerDonneesMeteo</qualifiedname>
+        <briefdescription>
+<para>Validation de la quantite de donnees meteo en fonction du nombre de jours et CE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="72" column="7" bodyfile="src/DonneesMeteo.cpp" bodystart="289" bodyend="306"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Ensemble des donnees meteo. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Donnees meteo grille pour chaque pas de temps de la simulation. </para>
+    </detaileddescription>
+    <location file="src/DonneesMeteo.h" line="26" column="1" bodyfile="src/DonneesMeteo.h" bodystart="27" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classDonneesMeteo_1add03b2a1d3a61a38be10c15233905268" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>DonneesMeteo</name></member>
+      <member refid="classDonneesMeteo_1a680a4bcc4892fa8fe41cb3b8dd3e6013" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>DonneesMeteo</name></member>
+      <member refid="classDonneesMeteo_1a7e1e57fa3de2f82b63abfc8b5d59cd40" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>estPtot</name></member>
+      <member refid="classDonneesMeteo_1ae1a7aad8ceaf8d1fa7a2fe4179cd685a" prot="private" virt="non-virtual"><scope>DonneesMeteo</scope><name>estPtot_</name></member>
+      <member refid="classDonneesMeteo_1ae2ec51dbe40e9c516e9df198a95d3d1b" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>initialiser</name></member>
+      <member refid="classDonneesMeteo_1a73dae6022cd4b48107e71bbdf1accb51" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>initialiser</name></member>
+      <member refid="classDonneesMeteo_1aabd41b2a7e12c4358d39dcd1b4af0b63" prot="private" virt="non-virtual"><scope>DonneesMeteo</scope><name>initialiser</name></member>
+      <member refid="classDonneesMeteo_1af254f9d1fd54f659afeef558b0c1e57b" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>initialiserFichier</name></member>
+      <member refid="classDonneesMeteo_1a407ba10c9243492fb11a4908ae0f849b" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>nbCarreauxEntiers</name></member>
+      <member refid="classDonneesMeteo_1a9129ea9ae9416135fb1a1aae76de23ef" prot="private" virt="non-virtual"><scope>DonneesMeteo</scope><name>nbCarreauxEntiers_</name></member>
+      <member refid="classDonneesMeteo_1aa0eb5caa79349caa263f6bedf3104e40" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>nbPasDeTemps</name></member>
+      <member refid="classDonneesMeteo_1a2d6af68eb265547ccc32519f6402a062" prot="private" virt="non-virtual"><scope>DonneesMeteo</scope><name>nbPasDeTemps_</name></member>
+      <member refid="classDonneesMeteo_1a35b4c053c8ed659a487fe7a35c530e6f" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>trierParId</name></member>
+      <member refid="classDonneesMeteo_1a2339de37aca18d0f968127d6af53ccee" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>valeurs</name></member>
+      <member refid="classDonneesMeteo_1a8bdd9e3ce0ce85a392a946b3e9bd6525" prot="private" virt="non-virtual"><scope>DonneesMeteo</scope><name>valeurs_</name></member>
+      <member refid="classDonneesMeteo_1a042b6f909e34fe72cb151c2eb89b5013" prot="private" virt="non-virtual"><scope>DonneesMeteo</scope><name>validerDonneesMeteo</name></member>
+      <member refid="classDonneesMeteo_1a93bb0458f61498d7dd0308794b02a2d1" prot="public" virt="non-virtual"><scope>DonneesMeteo</scope><name>~DonneesMeteo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

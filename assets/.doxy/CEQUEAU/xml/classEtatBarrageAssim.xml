@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEtatBarrageAssim" kind="class" language="C++" prot="public">
+    <compoundname>EtatBarrageAssim</compoundname>
+    <includes refid="Simulation_8h" local="no">Simulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEtatBarrageAssim_1a99a77416698a1e3347f59117b4a59b52" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatBarrageAssim::idCarreauPartiel</definition>
+        <argsstring></argsstring>
+        <name>idCarreauPartiel</name>
+        <qualifiedname>EtatBarrageAssim::idCarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="162" column="9" bodyfile="src/Simulation.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrageAssim_1ad338574d1adb5d4a3e0e3d9e7d05fc78" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatBarrageAssim::volumeType</definition>
+        <argsstring></argsstring>
+        <name>volumeType</name>
+        <qualifiedname>EtatBarrageAssim::volumeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="163" column="13" bodyfile="src/Simulation.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrageAssim_1a2af7421288d47ee7f24090e14cee7644" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatBarrageAssim::volume[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>volume</name>
+        <qualifiedname>EtatBarrageAssim::volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="164" column="9" bodyfile="src/Simulation.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrageAssim_1a45a3762e95febf59812eb601d707a836" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatBarrageAssim::niveauType</definition>
+        <argsstring></argsstring>
+        <name>niveauType</name>
+        <qualifiedname>EtatBarrageAssim::niveauType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="165" column="13" bodyfile="src/Simulation.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrageAssim_1a17c9307ec53bd10040f1700c5ea85426" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatBarrageAssim::niveau[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>niveau</name>
+        <qualifiedname>EtatBarrageAssim::niveau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="166" column="9" bodyfile="src/Simulation.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees pour l&apos;assimilation des etats d&apos;un barrage. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Utilise pour assimiler des etats aux barrage. Une valeur: on substitue cette valeur. Deux valeurs: La premiere est un facteur multiplicatif et la seconde une valeur a additionner. </para>
+    </detaileddescription>
+    <location file="src/Simulation.h" line="159" column="1" bodyfile="src/Simulation.h" bodystart="160" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classEtatBarrageAssim_1a99a77416698a1e3347f59117b4a59b52" prot="public" virt="non-virtual"><scope>EtatBarrageAssim</scope><name>idCarreauPartiel</name></member>
+      <member refid="classEtatBarrageAssim_1a17c9307ec53bd10040f1700c5ea85426" prot="public" virt="non-virtual"><scope>EtatBarrageAssim</scope><name>niveau</name></member>
+      <member refid="classEtatBarrageAssim_1a45a3762e95febf59812eb601d707a836" prot="public" virt="non-virtual"><scope>EtatBarrageAssim</scope><name>niveauType</name></member>
+      <member refid="classEtatBarrageAssim_1a2af7421288d47ee7f24090e14cee7644" prot="public" virt="non-virtual"><scope>EtatBarrageAssim</scope><name>volume</name></member>
+      <member refid="classEtatBarrageAssim_1ad338574d1adb5d4a3e0e3d9e7d05fc78" prot="public" virt="non-virtual"><scope>EtatBarrageAssim</scope><name>volumeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

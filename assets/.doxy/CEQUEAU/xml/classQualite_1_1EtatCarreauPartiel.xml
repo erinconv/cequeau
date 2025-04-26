@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classQualite_1_1EtatCarreauPartiel" kind="class" language="C++" prot="public">
+    <compoundname>Qualite::EtatCarreauPartiel</compoundname>
+    <includes refid="SimulationQualite_8h" local="no">SimulationQualite.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a69946a5c6f45c21cf10b926222a6f4c7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Qualite::EtatCarreauPartiel::idCarreauPartiel</definition>
+        <argsstring></argsstring>
+        <name>idCarreauPartiel</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::idCarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="29" column="7" bodyfile="src/SimulationQualite.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1acca271b573fc95fd419f9a9005ea8e7d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::temperature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="30" column="7" bodyfile="src/SimulationQualite.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1af1bcb47bd6187ee27f2d558aca626b71" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qruiss</definition>
+        <argsstring></argsstring>
+        <name>qruiss</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qruiss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="31" column="7" bodyfile="src/SimulationQualite.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1aae48fae8fd4f9361c5c5505845548f24" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qnappe</definition>
+        <argsstring></argsstring>
+        <name>qnappe</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qnappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="32" column="7" bodyfile="src/SimulationQualite.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a76a373e580083735e53e29b349215117" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qhypo</definition>
+        <argsstring></argsstring>
+        <name>qhypo</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qhypo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="33" column="7" bodyfile="src/SimulationQualite.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a6484d1986ac16025a6947d42b4a99010" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qlacma</definition>
+        <argsstring></argsstring>
+        <name>qlacma</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qlacma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="34" column="7" bodyfile="src/SimulationQualite.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1abc71ded5a6d98a0da868b810c9fd16e9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qradso</definition>
+        <argsstring></argsstring>
+        <name>qradso</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qradso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="35" column="7" bodyfile="src/SimulationQualite.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a471a22ddd9e9b483775623c9aa6f9229" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qradin</definition>
+        <argsstring></argsstring>
+        <name>qradin</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qradin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="36" column="7" bodyfile="src/SimulationQualite.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a23b06fa7d6f25ea99b5d76f339ebd3d3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qevap</definition>
+        <argsstring></argsstring>
+        <name>qevap</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qevap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="37" column="7" bodyfile="src/SimulationQualite.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a7363354491541f02708c5cf7fc031604" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::qconv</definition>
+        <argsstring></argsstring>
+        <name>qconv</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::qconv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="38" column="7" bodyfile="src/SimulationQualite.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a8c0d236e841c1851a5a9955b66ca6e5e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::enerlo</definition>
+        <argsstring></argsstring>
+        <name>enerlo</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::enerlo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="39" column="7" bodyfile="src/SimulationQualite.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a868b38249b84d98691ac48040fc30bd7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::eneram</definition>
+        <argsstring></argsstring>
+        <name>eneram</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::eneram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="40" column="7" bodyfile="src/SimulationQualite.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartiel_1a35587758e6161d321f3f1b4e77082a50" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartiel::eneres</definition>
+        <argsstring></argsstring>
+        <name>eneres</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::eneres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="41" column="7" bodyfile="src/SimulationQualite.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQualite_1_1EtatCarreauPartiel_1aa2fb49d1b6e3e7148b831ba599f5db4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Qualite::EtatCarreauPartiel::EtatCarreauPartiel</definition>
+        <argsstring>()</argsstring>
+        <name>EtatCarreauPartiel</name>
+        <qualifiedname>Qualite::EtatCarreauPartiel::EtatCarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="42" column="5" bodyfile="src/SimulationQualite.h" bodystart="42" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Etats de la qualite a chaque CP. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SimulationQualite.h" line="26" column="3" bodyfile="src/SimulationQualite.h" bodystart="27" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a868b38249b84d98691ac48040fc30bd7" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>eneram</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a35587758e6161d321f3f1b4e77082a50" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>eneres</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a8c0d236e841c1851a5a9955b66ca6e5e" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>enerlo</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1aa2fb49d1b6e3e7148b831ba599f5db4d" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>EtatCarreauPartiel</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a69946a5c6f45c21cf10b926222a6f4c7" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>idCarreauPartiel</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a7363354491541f02708c5cf7fc031604" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qconv</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a23b06fa7d6f25ea99b5d76f339ebd3d3" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qevap</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a76a373e580083735e53e29b349215117" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qhypo</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a6484d1986ac16025a6947d42b4a99010" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qlacma</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1aae48fae8fd4f9361c5c5505845548f24" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qnappe</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1a471a22ddd9e9b483775623c9aa6f9229" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qradin</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1abc71ded5a6d98a0da868b810c9fd16e9" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qradso</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1af1bcb47bd6187ee27f2d558aca626b71" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>qruiss</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartiel_1acca271b573fc95fd419f9a9005ea8e7d" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartiel</scope><name>temperature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

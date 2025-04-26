@@ -1,0 +1,482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteCequeau" kind="class" language="C++" prot="public">
+    <compoundname>FonteCequeau</compoundname>
+    <basecompoundref refid="classFonte" prot="public" virt="non-virtual">Fonte</basecompoundref>
+    <includes refid="FonteCequeau_8h" local="no">FonteCequeau.h</includes>
+    <innerclass refid="classFonteCequeau_1_1EtatFonteAssimCE" prot="private">FonteCequeau::EtatFonteAssimCE</innerclass>
+    <innerclass refid="classFonteCequeau_1_1EtatFonteCE" prot="public">FonteCequeau::EtatFonteCE</innerclass>
+    <innerclass refid="classFonteCequeau_1_1Params" prot="private">FonteCequeau::Params</innerclass>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classFonteCequeau_1aeb51e0a4c44d4192cfbdb79598859172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Simulation</definition>
+        <argsstring></argsstring>
+        <name>Simulation</name>
+        <qualifiedname>FonteCequeau::Simulation</qualifiedname>
+        <param>
+          <type><ref refid="classSimulation" kindref="compound">Simulation</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="41" column="16" bodyfile="src/FonteCequeau.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFonteCequeau_1a8c97f36a808583061bd671ee54015db6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::constModulationSoleil_</definition>
+        <argsstring></argsstring>
+        <name>constModulationSoleil_</name>
+        <qualifiedname>FonteCequeau::constModulationSoleil_</qualifiedname>
+        <briefdescription>
+<para>Constante de modulation solaire (TAPHI). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialisee par le constructeur. Varie en fonction de la latitude</para>
+<para>moyenne du basin versant. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="149" column="9" bodyfile="src/FonteCequeau.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1ade23eba14c17904ce490ad8bc1d593f9" prot="private" static="no" mutable="no">
+        <type>class FonteCequeau::Params</type>
+        <definition>class FonteCequeau::Params FonteCequeau::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>FonteCequeau::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="225" column="11"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1a7cdb1fc169d66da203b8cf04d526d8ac" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; FonteCequeau::nomChamps_</definition>
+        <argsstring></argsstring>
+        <name>nomChamps_</name>
+        <qualifiedname>FonteCequeau::nomChamps_</qualifiedname>
+        <briefdescription>
+<para>Noms des variable d&apos;etat dans les intrants. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="231" column="15" bodyfile="src/FonteCequeau.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1a77303c12636247e2628ca44090f4bf9b" prot="private" static="no" mutable="no">
+        <type><ref refid="classFonteCequeau_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref></type>
+        <definition>EtatFonteCE FonteCequeau::etatFonteCE_</definition>
+        <argsstring></argsstring>
+        <name>etatFonteCE_</name>
+        <qualifiedname>FonteCequeau::etatFonteCE_</qualifiedname>
+        <briefdescription>
+<para>Etat pour un carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="235" column="15" bodyfile="src/FonteCequeau.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1af29bc54fbae2e0c40beca5a14ba2fce4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classFonteCequeau_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt;</type>
+        <definition>std::vector&lt;EtatFonteCE&gt; FonteCequeau::etatsFonteCE_</definition>
+        <argsstring></argsstring>
+        <name>etatsFonteCE_</name>
+        <qualifiedname>FonteCequeau::etatsFonteCE_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour un pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="239" column="15" bodyfile="src/FonteCequeau.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1a818f7433934f46954458a8778786b6fb" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="classFonteCequeau_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;EtatFonteCE&gt; &gt; FonteCequeau::etatsFonte_</definition>
+        <argsstring></argsstring>
+        <name>etatsFonte_</name>
+        <qualifiedname>FonteCequeau::etatsFonte_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour tous les pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="243" column="15" bodyfile="src/FonteCequeau.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1a0c67de80beb62272765b2bf4507d2bdb" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; EtatFonteAssimCE &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatFonteAssimCE&gt; &gt; FonteCequeau::assimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsCE_</name>
+        <qualifiedname>FonteCequeau::assimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="277" column="12" bodyfile="src/FonteCequeau.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1af7c0700ed820c6819643397529cdf9cf" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; <ref refid="classFonteCequeau_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatFonteCE&gt; &gt; FonteCequeau::avantAssimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsCE_</name>
+        <qualifiedname>FonteCequeau::avantAssimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="281" column="12" bodyfile="src/FonteCequeau.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFonteCequeau_1ab2d02c26f5015901d3807ce99069e8d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteCequeau::FonteCequeau</definition>
+        <argsstring>()</argsstring>
+        <name>FonteCequeau</name>
+        <qualifiedname>FonteCequeau::FonteCequeau</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="47" column="3" bodyfile="src/FonteCequeau.cpp" bodystart="16" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1a783e218d6a8ce22f7495e409ef52483f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteCequeau::FonteCequeau</definition>
+        <argsstring>(int latitudeMoyenneBV, int nbCE)</argsstring>
+        <name>FonteCequeau</name>
+        <qualifiedname>FonteCequeau::FonteCequeau</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>latitudeMoyenneBV</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="49" column="3" bodyfile="src/FonteCequeau.cpp" bodystart="20" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1a73b418eb12168fb4df415c954483af4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteCequeau::~FonteCequeau</definition>
+        <argsstring>()</argsstring>
+        <name>~FonteCequeau</name>
+        <qualifiedname>FonteCequeau::~FonteCequeau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="51" column="3" bodyfile="src/FonteCequeau.cpp" bodystart="36" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1a41d5806fa7c55a02b599bfda7a9f6708" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteCequeau::calculerFonte</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const Meteo &amp;meteo, const CarreauEntier &amp;carreauEntier, float &amp;precipationsTotales, float &amp;eauDisponible)</argsstring>
+        <name>calculerFonte</name>
+        <qualifiedname>FonteCequeau::calculerFonte</qualifiedname>
+        <reimplements refid="classFonte_1a3c6e8e0f14fd0e2184c2461c2e7a1b25">calculerFonte</reimplements>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMeteo" kindref="compound">Meteo</ref> &amp;</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classCarreauEntier" kindref="compound">CarreauEntier</ref> &amp;</type>
+          <declname>carreauEntier</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>precipationsTotales</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>eauDisponible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="55" column="7" bodyfile="src/FonteCequeau.cpp" bodystart="40" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1a50acd65ff6af4207d7153d50aa2506a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteCequeau::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>FonteCequeau::assimiler</qualifiedname>
+        <reimplements refid="classFonte_1a9344acd070ebf94c416b303077262a33">assimiler</reimplements>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="75" column="7" bodyfile="src/FonteCequeau.cpp" bodystart="207" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1aaa3651349da3716e96bb35c7e31a07fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteCequeau::initialiserAssimilations</definition>
+        <argsstring>(const mxArray *assimilations)</argsstring>
+        <name>initialiserAssimilations</name>
+        <qualifiedname>FonteCequeau::initialiserAssimilations</qualifiedname>
+        <reimplements refid="classFonte_1a4aa80145ee5dc377094b0286b0007156">initialiserAssimilations</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="79" column="7" bodyfile="src/FonteCequeau.cpp" bodystart="255" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1af32dd72f02a0c74dc50a9bd3c8e1a113" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteCequeau::initialiserEtats</definition>
+        <argsstring>(const mxArray *etatsInitiaux)</argsstring>
+        <name>initialiserEtats</name>
+        <qualifiedname>FonteCequeau::initialiserEtats</qualifiedname>
+        <reimplements refid="classFonte_1a423e51288cb0a57d6b71eb86daee66d0">initialiserEtats</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>etatsInitiaux</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="83" column="8" bodyfile="src/FonteCequeau.cpp" bodystart="336" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1af867e26f8ebdb9ab3a87b7081de7cebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteCequeau::lireParametres</definition>
+        <argsstring>(const mxArray *paramSimul)</argsstring>
+        <name>lireParametres</name>
+        <qualifiedname>FonteCequeau::lireParametres</qualifiedname>
+        <reimplements refid="classFonte_1a8a1372c8a75fd2f8aa264514d11ad217">lireParametres</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramSimul</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="87" column="8" bodyfile="src/FonteCequeau.cpp" bodystart="368" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1a3f5adc436238ba24e8c7334ec0726865" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * FonteCequeau::obtenirEtats</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtats</name>
+        <qualifiedname>FonteCequeau::obtenirEtats</qualifiedname>
+        <reimplements refid="classFonte_1ad5a3db713b5465a192f722db05072cc8">obtenirEtats</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="91" column="11" bodyfile="src/FonteCequeau.cpp" bodystart="387" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1a80219b926e804e244d036bb39b05a817" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * FonteCequeau::obtenirEtatsAvantAssimilations</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtatsAvantAssimilations</name>
+        <qualifiedname>FonteCequeau::obtenirEtatsAvantAssimilations</qualifiedname>
+        <reimplements refid="classFonte_1ae10c3d849cda37c71e798626c985396d">obtenirEtatsAvantAssimilations</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="95" column="11" bodyfile="src/FonteCequeau.cpp" bodystart="382" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1ad43e4da36563dc55a308fbafd200fd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteCequeau::preserverEtatsPasDeTemps</definition>
+        <argsstring>()</argsstring>
+        <name>preserverEtatsPasDeTemps</name>
+        <qualifiedname>FonteCequeau::preserverEtatsPasDeTemps</qualifiedname>
+        <reimplements refid="classFonte_1a8006c05d531a2a5c40f29a158007bb83">preserverEtatsPasDeTemps</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="99" column="8" bodyfile="src/FonteCequeau.cpp" bodystart="392" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteCequeau_1a594f161330fb1b051364713ff87c8333" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; std::vector&lt; <ref refid="classFonteCequeau_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt; std::vector&lt; EtatFonteCE &gt; &gt; &amp; FonteCequeau::etatsFonte</definition>
+        <argsstring>() const</argsstring>
+        <name>etatsFonte</name>
+        <qualifiedname>FonteCequeau::etatsFonte</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="133" column="21" bodyfile="src/FonteCequeau.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classFonteCequeau_1aa877384f2db93a6ac516d76040b8ad08" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double FonteCequeau::calculerFacteurModulationSoleil</definition>
+        <argsstring>(int noJour) const</argsstring>
+        <name>calculerFacteurModulationSoleil</name>
+        <qualifiedname>FonteCequeau::calculerFacteurModulationSoleil</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noJour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="285" column="10" bodyfile="src/FonteCequeau.cpp" bodystart="397" bodyend="403"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition d&apos;une classe de calcul de la fonte. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Fonte</label>
+        <link refid="classFonte"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FonteCequeau</label>
+        <link refid="classFonteCequeau"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Fonte</label>
+        <link refid="classFonte"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FonteCequeau</label>
+        <link refid="classFonteCequeau"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/FonteCequeau.h" line="33" column="1" bodyfile="src/FonteCequeau.h" bodystart="35" bodyend="287"/>
+    <listofallmembers>
+      <member refid="classFonteCequeau_1a0c67de80beb62272765b2bf4507d2bdb" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>assimilationsCE_</name></member>
+      <member refid="classFonteCequeau_1a50acd65ff6af4207d7153d50aa2506a6" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>assimiler</name></member>
+      <member refid="classFonteCequeau_1af7c0700ed820c6819643397529cdf9cf" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>avantAssimilationsCE_</name></member>
+      <member refid="classFonteCequeau_1aa877384f2db93a6ac516d76040b8ad08" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>calculerFacteurModulationSoleil</name></member>
+      <member refid="classFonteCequeau_1a41d5806fa7c55a02b599bfda7a9f6708" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>calculerFonte</name></member>
+      <member refid="classFonteCequeau_1a8c97f36a808583061bd671ee54015db6" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>constModulationSoleil_</name></member>
+      <member refid="classFonteCequeau_1a77303c12636247e2628ca44090f4bf9b" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>etatFonteCE_</name></member>
+      <member refid="classFonteCequeau_1a594f161330fb1b051364713ff87c8333" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>etatsFonte</name></member>
+      <member refid="classFonteCequeau_1a818f7433934f46954458a8778786b6fb" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>etatsFonte_</name></member>
+      <member refid="classFonteCequeau_1af29bc54fbae2e0c40beca5a14ba2fce4" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>etatsFonteCE_</name></member>
+      <member refid="classFonte_1a09033c0db2dd7570e035a8de5d9a425c" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>Fonte</name></member>
+      <member refid="classFonte_1a819b44ef8da7fa51bbb710a08ffe1f52" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>Fonte</name></member>
+      <member refid="classFonteCequeau_1ab2d02c26f5015901d3807ce99069e8d8" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>FonteCequeau</name></member>
+      <member refid="classFonteCequeau_1a783e218d6a8ce22f7495e409ef52483f" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>FonteCequeau</name></member>
+      <member refid="classFonteCequeau_1aaa3651349da3716e96bb35c7e31a07fc" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>initialiserAssimilations</name></member>
+      <member refid="classFonteCequeau_1af32dd72f02a0c74dc50a9bd3c8e1a113" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>initialiserEtats</name></member>
+      <member refid="classModuleBase_1a3c3d7ab65439a094044950cd1c3a2312" prot="protected" virt="non-virtual"><scope>FonteCequeau</scope><name>initialiserEtatsHelper</name></member>
+      <member refid="classFonteCequeau_1af867e26f8ebdb9ab3a87b7081de7cebc" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>lireParametres</name></member>
+      <member refid="classModuleBase_1a4cffe012ccefb97ad6bf4682ed00505b" prot="protected" virt="non-virtual"><scope>FonteCequeau</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1a875fb504bc8f14ca91bbe9df11afb7b6" prot="protected" virt="non-virtual"><scope>FonteCequeau</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1aa8ae84ac06d564c430330814bc2bb87a" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1a62c9211ac18959dcbd73139a570775de" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1aa62c61597fe7950d6180dc24965051a7" prot="protected" virt="non-virtual"><scope>FonteCequeau</scope><name>nbCE_</name></member>
+      <member refid="classFonteCequeau_1a7cdb1fc169d66da203b8cf04d526d8ac" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>nomChamps_</name></member>
+      <member refid="classModuleBase_1aedc9ff9160a84a9b033b78a91cc7a775" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>nomModele</name></member>
+      <member refid="classModuleBase_1af6dc293923c42f9a4426fb9cf10cba97" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>nomsChampsMeteo</name></member>
+      <member refid="classFonteCequeau_1a3f5adc436238ba24e8c7334ec0726865" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>obtenirEtats</name></member>
+      <member refid="classModuleBase_1acb5b7967590954504cb9858ba0e30fda" prot="protected" virt="non-virtual"><scope>FonteCequeau</scope><name>obtenirEtatsAvantAssimHelper</name></member>
+      <member refid="classFonteCequeau_1a80219b926e804e244d036bb39b05a817" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>obtenirEtatsAvantAssimilations</name></member>
+      <member refid="classModuleBase_1a4c987a973c6c983ad77e01b9471e50b2" prot="protected" virt="non-virtual"><scope>FonteCequeau</scope><name>obtenirEtatsHelper</name></member>
+      <member refid="classFonteCequeau_1ade23eba14c17904ce490ad8bc1d593f9" prot="private" virt="non-virtual"><scope>FonteCequeau</scope><name>params_</name></member>
+      <member refid="classFonteCequeau_1ad43e4da36563dc55a308fbafd200fd69" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>preserverEtatsPasDeTemps</name></member>
+      <member refid="classFonteCequeau_1aeb51e0a4c44d4192cfbdb79598859172" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>Simulation</name></member>
+      <member refid="classFonte_1ad5f341e04045fac683d6befb1c0753be" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>~Fonte</name></member>
+      <member refid="classFonteCequeau_1a73b418eb12168fb4df415c954483af4f" prot="public" virt="non-virtual"><scope>FonteCequeau</scope><name>~FonteCequeau</name></member>
+      <member refid="classModuleBase_1a2f9388584ac2c9f845d0a38678abb852" prot="public" virt="virtual"><scope>FonteCequeau</scope><name>~ModuleBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

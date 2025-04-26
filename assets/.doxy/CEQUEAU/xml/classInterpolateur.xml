@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classInterpolateur" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Interpolateur</compoundname>
+    <derivedcompoundref refid="classInterpolateurPolygoneThiessen" prot="public" virt="non-virtual">InterpolateurPolygoneThiessen</derivedcompoundref>
+    <derivedcompoundref refid="classInterpolateurPonderationStations" prot="public" virt="non-virtual">InterpolateurPonderationStations</derivedcompoundref>
+    <includes refid="Interpolateur_8h" local="no">Interpolateur.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classInterpolateur_1a073bc5737c30eeb2b587c51627d0e625" prot="protected" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Interpolateur::nbStation_</definition>
+        <argsstring></argsstring>
+        <name>nbStation_</name>
+        <qualifiedname>Interpolateur::nbStation_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="60" column="13" bodyfile="src/Interpolateur.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1ac4399f7405d9a0e38310b8d15d511ca5" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="classBassinVersant" kindref="compound">BassinVersant</ref> &amp;</type>
+        <definition>const BassinVersant&amp; Interpolateur::bassinVersant_</definition>
+        <argsstring></argsstring>
+        <name>bassinVersant_</name>
+        <qualifiedname>Interpolateur::bassinVersant_</qualifiedname>
+        <briefdescription>
+<para>Definition du bassin versant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="62" column="23" bodyfile="src/Interpolateur.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1a58ac88d1cff868b7c4f761c04d5b7e31" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; DonneesCarreaux &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;DonneesCarreaux&gt; &gt; Interpolateur::donneesCarreauxTemps_</definition>
+        <argsstring></argsstring>
+        <name>donneesCarreauxTemps_</name>
+        <qualifiedname>Interpolateur::donneesCarreauxTemps_</qualifiedname>
+        <briefdescription>
+<para>Liste des donnees necessaires pour interpoler la meteo a chaque CE et pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="64" column="15" bodyfile="src/Interpolateur.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1ad662f63ae0c97023a8617c1f58671019" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="classListeStation" kindref="compound">ListeStation</ref> &amp;</type>
+        <definition>const ListeStation&amp; Interpolateur::stations_</definition>
+        <argsstring></argsstring>
+        <name>stations_</name>
+        <qualifiedname>Interpolateur::stations_</qualifiedname>
+        <briefdescription>
+<para>Liste des stations meteo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="66" column="22" bodyfile="src/Interpolateur.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1ad1b236174246770c1fa415110a4a1f4d" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="classParametres" kindref="compound">Parametres</ref> &amp;</type>
+        <definition>const Parametres&amp; Interpolateur::parametres_</definition>
+        <argsstring></argsstring>
+        <name>parametres_</name>
+        <qualifiedname>Interpolateur::parametres_</qualifiedname>
+        <briefdescription>
+<para><ref refid="classParametres" kindref="compound">Parametres</ref> de Cequeau Quantite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="68" column="20" bodyfile="src/Interpolateur.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1ae11920673905c03c4b229921bb360031" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="classParametresInterpolation" kindref="compound">ParametresInterpolation</ref> &amp;</type>
+        <definition>const ParametresInterpolation&amp; Interpolateur::paramInterpolation_</definition>
+        <argsstring></argsstring>
+        <name>paramInterpolation_</name>
+        <qualifiedname>Interpolateur::paramInterpolation_</qualifiedname>
+        <briefdescription>
+<para><ref refid="classParametres" kindref="compound">Parametres</ref> de l&apos;interpolation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="70" column="33" bodyfile="src/Interpolateur.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1a0f48f4315ca04248c52e4037b2345dbb" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="classDonneesMeteo" kindref="compound">DonneesMeteo</ref> &amp;</type>
+        <definition>const DonneesMeteo&amp; Interpolateur::meteoStations_</definition>
+        <argsstring></argsstring>
+        <name>meteoStations_</name>
+        <qualifiedname>Interpolateur::meteoStations_</qualifiedname>
+        <briefdescription>
+<para>Donnees meteo aux stations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="72" column="22" bodyfile="src/Interpolateur.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1a80f419304b769fd94ec1acfb9f66cff9" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; MeteoGrille &gt;</type>
+        <definition>std::vector&lt;MeteoGrille&gt; Interpolateur::meteoInterpolee_</definition>
+        <argsstring></argsstring>
+        <name>meteoInterpolee_</name>
+        <qualifiedname>Interpolateur::meteoInterpolee_</qualifiedname>
+        <briefdescription>
+<para>Donnees meteo interpolees. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="74" column="15" bodyfile="src/Interpolateur.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classInterpolateur_1a499a0b36b483d7e3b21d5e217622bd3c" prot="protected" static="no" mutable="no">
+        <type>const std::vector&lt; std::string &gt; &amp;</type>
+        <definition>const std::vector&lt;std::string&gt;&amp; Interpolateur::nomsAutresMeteo_</definition>
+        <argsstring></argsstring>
+        <name>nomsAutresMeteo_</name>
+        <qualifiedname>Interpolateur::nomsAutresMeteo_</qualifiedname>
+        <briefdescription>
+<para>Noms des champs meteo supplementaires. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="76" column="21" bodyfile="src/Interpolateur.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classInterpolateur_1a2bec9efa706369edcd0096b360218bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Interpolateur::Interpolateur</definition>
+        <argsstring>(const BassinVersant &amp;bv, const ListeStation &amp;stations, const Parametres &amp;parametres, const ParametresInterpolation &amp;paramInterpolation, const DonneesMeteo &amp;meteoStations, const std::vector&lt; std::string &gt; &amp;nomsAutresMeteo, int nbStation)</argsstring>
+        <name>Interpolateur</name>
+        <qualifiedname>Interpolateur::Interpolateur</qualifiedname>
+        <param>
+          <type>const <ref refid="classBassinVersant" kindref="compound">BassinVersant</ref> &amp;</type>
+          <declname>bv</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classListeStation" kindref="compound">ListeStation</ref> &amp;</type>
+          <declname>stations</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classParametres" kindref="compound">Parametres</ref> &amp;</type>
+          <declname>parametres</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classParametresInterpolation" kindref="compound">ParametresInterpolation</ref> &amp;</type>
+          <declname>paramInterpolation</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classDonneesMeteo" kindref="compound">DonneesMeteo</ref> &amp;</type>
+          <declname>meteoStations</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>nomsAutresMeteo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbStation</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="50" column="3" bodyfile="src/Interpolateur.cpp" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classInterpolateur_1ae029b99e6dc599ae11bd928d76226874" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Interpolateur::~Interpolateur</definition>
+        <argsstring>()</argsstring>
+        <name>~Interpolateur</name>
+        <qualifiedname>Interpolateur::~Interpolateur</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="53" column="11" bodyfile="src/Interpolateur.cpp" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classInterpolateur_1a825aaf32dd2fceabc94014e0f0d573dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Interpolateur::executer</definition>
+        <argsstring>()=0</argsstring>
+        <name>executer</name>
+        <qualifiedname>Interpolateur::executer</qualifiedname>
+        <reimplementedby refid="classInterpolateurPolygoneThiessen_1a7e2ad35f0ffaa64989a4534907b58cce">executer</reimplementedby>
+        <reimplementedby refid="classInterpolateurPonderationStations_1a683d4d19dba21fca834387dec2ddad50">executer</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="55" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classInterpolateur_1a70595d065226419a0725e304823bbad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Interpolateur::obtenirMeteoInterpolee</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirMeteoInterpolee</name>
+        <qualifiedname>Interpolateur::obtenirMeteoInterpolee</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="56" column="11" bodyfile="src/Interpolateur.cpp" bodystart="187" bodyend="279"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classInterpolateur_1addce2f8f4e5eed59d5571ddd6ce263de" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interpolateur::initialiserListeCE</definition>
+        <argsstring>()</argsstring>
+        <name>initialiserListeCE</name>
+        <qualifiedname>Interpolateur::initialiserListeCE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="78" column="8" bodyfile="src/Interpolateur.cpp" bodystart="61" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classInterpolateur_1ab7d6b389a670d1923ac3b801006b70a2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interpolateur::trouverStationPlusPres</definition>
+        <argsstring>(int idxTypeMeteo, int pasDeTemps)</argsstring>
+        <name>trouverStationPlusPres</name>
+        <qualifiedname>Interpolateur::trouverStationPlusPres</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idxTypeMeteo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="79" column="8" bodyfile="src/Interpolateur.cpp" bodystart="96" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classInterpolateur_1ab55e649b77c52dce792a7732d955cb5c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Interpolateur::obtenirNombreAutreMeteo</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirNombreAutreMeteo</name>
+        <qualifiedname>Interpolateur::obtenirNombreAutreMeteo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="80" column="7" bodyfile="src/Interpolateur.cpp" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classInterpolateur_1adf80c434cf40658fd9bf0abfb4b49568" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Interpolateur::calculerCorrections</definition>
+        <argsstring>(int idxTypeMeteo, int pasDeTemps)=0</argsstring>
+        <name>calculerCorrections</name>
+        <qualifiedname>Interpolateur::calculerCorrections</qualifiedname>
+        <reimplementedby refid="classInterpolateurPolygoneThiessen_1abe45281a0f3e6b47b225716bb5040243">calculerCorrections</reimplementedby>
+        <reimplementedby refid="classInterpolateurPonderationStations_1a1253978fad24135532949698c985b7cd">calculerCorrections</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>idxTypeMeteo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="81" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classInterpolateur_1a527d3c9b8c2814bcf42884e5040feb1c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Interpolateur::interpoler</definition>
+        <argsstring>(int pasDeTemps)=0</argsstring>
+        <name>interpoler</name>
+        <qualifiedname>Interpolateur::interpoler</qualifiedname>
+        <reimplementedby refid="classInterpolateurPolygoneThiessen_1a2acc1c2fc5782627b786872aedc0a365">interpoler</reimplementedby>
+        <reimplementedby refid="classInterpolateurPonderationStations_1a10f1b7d11557d3ab7e625fa0fec9f23a">interpoler</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>pasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="82" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe Interpolation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Interpolateur</label>
+        <link refid="classInterpolateur"/>
+      </node>
+      <node id="2">
+        <label>InterpolateurPolygoneThiessen</label>
+        <link refid="classInterpolateurPolygoneThiessen"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>InterpolateurPonderationStations</label>
+        <link refid="classInterpolateurPonderationStations"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BassinVersant</label>
+        <link refid="classBassinVersant"/>
+      </node>
+      <node id="7">
+        <label>DonneesMeteo</label>
+        <link refid="classDonneesMeteo"/>
+      </node>
+      <node id="1">
+        <label>Interpolateur</label>
+        <link refid="classInterpolateur"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>bassinVersant_</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>donneesCarreauxTemps_</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>stations_</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>parametres_</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>paramInterpolation_</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>meteoStations_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>meteoInterpolee_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>nomsAutresMeteo_</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ListeStation</label>
+        <link refid="classListeStation"/>
+      </node>
+      <node id="5">
+        <label>Parametres</label>
+        <link refid="classParametres"/>
+      </node>
+      <node id="6">
+        <label>ParametresInterpolation</label>
+        <link refid="classParametresInterpolation"/>
+      </node>
+      <node id="10">
+        <label>T</label>
+      </node>
+      <node id="13">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="12">
+        <label>std::string</label>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>std::vector&lt; T &gt;</label>
+        <childnode refid="10" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::vector&lt; MeteoGrille &gt;</label>
+        <childnode refid="9" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>std::vector&lt; std::string &gt;</label>
+        <childnode refid="12" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::vector&lt; std::vector&lt; DonneesCarreaux &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/Interpolateur.h" line="46" column="1" bodyfile="src/Interpolateur.h" bodystart="47" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classInterpolateur_1ac4399f7405d9a0e38310b8d15d511ca5" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>bassinVersant_</name></member>
+      <member refid="classInterpolateur_1adf80c434cf40658fd9bf0abfb4b49568" prot="protected" virt="pure-virtual"><scope>Interpolateur</scope><name>calculerCorrections</name></member>
+      <member refid="classInterpolateur_1a58ac88d1cff868b7c4f761c04d5b7e31" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>donneesCarreauxTemps_</name></member>
+      <member refid="classInterpolateur_1a825aaf32dd2fceabc94014e0f0d573dc" prot="public" virt="pure-virtual"><scope>Interpolateur</scope><name>executer</name></member>
+      <member refid="classInterpolateur_1addce2f8f4e5eed59d5571ddd6ce263de" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>initialiserListeCE</name></member>
+      <member refid="classInterpolateur_1a2bec9efa706369edcd0096b360218bf7" prot="public" virt="non-virtual"><scope>Interpolateur</scope><name>Interpolateur</name></member>
+      <member refid="classInterpolateur_1a527d3c9b8c2814bcf42884e5040feb1c" prot="protected" virt="pure-virtual"><scope>Interpolateur</scope><name>interpoler</name></member>
+      <member refid="classInterpolateur_1a80f419304b769fd94ec1acfb9f66cff9" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>meteoInterpolee_</name></member>
+      <member refid="classInterpolateur_1a0f48f4315ca04248c52e4037b2345dbb" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>meteoStations_</name></member>
+      <member refid="classInterpolateur_1a073bc5737c30eeb2b587c51627d0e625" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>nbStation_</name></member>
+      <member refid="classInterpolateur_1a499a0b36b483d7e3b21d5e217622bd3c" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>nomsAutresMeteo_</name></member>
+      <member refid="classInterpolateur_1a70595d065226419a0725e304823bbad5" prot="public" virt="non-virtual"><scope>Interpolateur</scope><name>obtenirMeteoInterpolee</name></member>
+      <member refid="classInterpolateur_1ab55e649b77c52dce792a7732d955cb5c" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>obtenirNombreAutreMeteo</name></member>
+      <member refid="classInterpolateur_1ad1b236174246770c1fa415110a4a1f4d" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>parametres_</name></member>
+      <member refid="classInterpolateur_1ae11920673905c03c4b229921bb360031" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>paramInterpolation_</name></member>
+      <member refid="classInterpolateur_1ad662f63ae0c97023a8617c1f58671019" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>stations_</name></member>
+      <member refid="classInterpolateur_1ab7d6b389a670d1923ac3b801006b70a2" prot="protected" virt="non-virtual"><scope>Interpolateur</scope><name>trouverStationPlusPres</name></member>
+      <member refid="classInterpolateur_1ae029b99e6dc599ae11bd928d76226874" prot="public" virt="virtual"><scope>Interpolateur</scope><name>~Interpolateur</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

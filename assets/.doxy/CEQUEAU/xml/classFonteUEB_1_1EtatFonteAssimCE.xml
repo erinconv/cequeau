@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteUEB_1_1EtatFonteAssimCE" kind="class" language="C++" prot="private">
+    <compoundname>FonteUEB::EtatFonteAssimCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a1dd4acbd13ea6d63cc53ff875404a972" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FonteUEB::EtatFonteAssimCE::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="261" column="13" bodyfile="src/FonteUEB.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a11499259b5b95eff901740f61a9db79f" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteUEB::EtatFonteAssimCE::SNC_stockNeigeForetType</definition>
+        <argsstring></argsstring>
+        <name>SNC_stockNeigeForetType</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::SNC_stockNeigeForetType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="262" column="19" bodyfile="src/FonteUEB.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1ac797b5887c0a6fff3377bc6f795c8407" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteAssimCE::SNC_stockNeigeForet[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SNC_stockNeigeForet</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::SNC_stockNeigeForet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="263" column="15" bodyfile="src/FonteUEB.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a0a89e52ee2cf2c9b9ce5f27e958579d3" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteUEB::EtatFonteAssimCE::SND_stockNeigeClairiereType</definition>
+        <argsstring></argsstring>
+        <name>SND_stockNeigeClairiereType</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::SND_stockNeigeClairiereType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="264" column="19" bodyfile="src/FonteUEB.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a8275d88296456da515b09066eca91105" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteAssimCE::SND_stockNeigeClairiere[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SND_stockNeigeClairiere</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::SND_stockNeigeClairiere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="265" column="15" bodyfile="src/FonteUEB.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a0b661f9f2b4320a2df508c7df05ecc6b" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteUEB::EtatFonteAssimCE::QNUI3_indexMurissementNeigeType</definition>
+        <argsstring></argsstring>
+        <name>QNUI3_indexMurissementNeigeType</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::QNUI3_indexMurissementNeigeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="266" column="19" bodyfile="src/FonteUEB.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a3325b4d39ecd7cd3031e9149e9bcacfb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteAssimCE::QNUI3_indexMurissementNeige[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>QNUI3_indexMurissementNeige</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::QNUI3_indexMurissementNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="267" column="15" bodyfile="src/FonteUEB.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a698e2d094435b765e8c06d19b397415d" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteUEB::EtatFonteAssimCE::QNUI4_indexTempNeigeType</definition>
+        <argsstring></argsstring>
+        <name>QNUI4_indexTempNeigeType</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::QNUI4_indexTempNeigeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="268" column="19" bodyfile="src/FonteUEB.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteAssimCE_1a6db934b2b4d1274a11222f45698f9e92" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteAssimCE::QNUI4_indexTempNeige[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>QNUI4_indexTempNeige</name>
+        <qualifiedname>FonteUEB::EtatFonteAssimCE::QNUI4_indexTempNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="269" column="15" bodyfile="src/FonteUEB.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteUEB.h" line="258" column="5" bodyfile="src/FonteUEB.h" bodystart="259" bodyend="270"/>
+    <listofallmembers>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a1dd4acbd13ea6d63cc53ff875404a972" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>idCarreauEntier</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a3325b4d39ecd7cd3031e9149e9bcacfb" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>QNUI3_indexMurissementNeige</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a0b661f9f2b4320a2df508c7df05ecc6b" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>QNUI3_indexMurissementNeigeType</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a6db934b2b4d1274a11222f45698f9e92" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>QNUI4_indexTempNeige</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a698e2d094435b765e8c06d19b397415d" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>QNUI4_indexTempNeigeType</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1ac797b5887c0a6fff3377bc6f795c8407" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>SNC_stockNeigeForet</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a11499259b5b95eff901740f61a9db79f" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>SNC_stockNeigeForetType</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a8275d88296456da515b09066eca91105" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>SND_stockNeigeClairiere</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteAssimCE_1a0a89e52ee2cf2c9b9ce5f27e958579d3" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteAssimCE</scope><name>SND_stockNeigeClairiereType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

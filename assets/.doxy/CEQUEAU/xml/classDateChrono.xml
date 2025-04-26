@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classDateChrono" kind="class" language="C++" prot="public">
+    <compoundname>DateChrono</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDateChrono_1ac31acee81a548458964ee4a37a9511c3" prot="private" static="no" mutable="no">
+        <type>std::chrono::system_clock::time_point</type>
+        <definition>std::chrono::system_clock::time_point DateChrono::timePoint</definition>
+        <argsstring></argsstring>
+        <name>timePoint</name>
+        <qualifiedname>DateChrono::timePoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="11" column="43" bodyfile="src/DateChrono.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDateChrono_1a7bc2b5a1e69fa4ae220a6795695327e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DateChrono::DateChrono</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>DateChrono</name>
+        <qualifiedname>DateChrono::DateChrono</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="15" column="5" bodyfile="src/DateChrono.cpp" bodystart="7" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a1f1a6cdb1a57a62820a882ff8eaa11bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DateChrono::DateChrono</definition>
+        <argsstring>(std::chrono::system_clock::time_point timePoint)</argsstring>
+        <name>DateChrono</name>
+        <qualifiedname>DateChrono::DateChrono</qualifiedname>
+        <param>
+          <type>std::chrono::system_clock::time_point</type>
+          <declname>timePoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="16" column="5" bodyfile="src/DateChrono.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a170cd15746c86546bc1977cdc2694763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DateChrono::DateChrono</definition>
+        <argsstring>()</argsstring>
+        <name>DateChrono</name>
+        <qualifiedname>DateChrono::DateChrono</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="17" column="5" bodyfile="src/DateChrono.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1ac06b560d2d1a893f69bd3e79641492d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DateChrono::display</definition>
+        <argsstring>() const</argsstring>
+        <name>display</name>
+        <qualifiedname>DateChrono::display</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="20" column="10" bodyfile="src/DateChrono.cpp" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1ab9c845dd0f818f5bb6bb8f5b93c51b07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DateChrono::operator==</definition>
+        <argsstring>(const DateChrono &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>DateChrono::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="23" column="10" bodyfile="src/DateChrono.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a293c721bde550b47e6c36faaf9539530" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DateChrono::operator!=</definition>
+        <argsstring>(const DateChrono &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>DateChrono::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="24" column="10" bodyfile="src/DateChrono.cpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a2f94af2c7b9a6c87fcb33da6bb5fe4d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DateChrono::operator&lt;</definition>
+        <argsstring>(const DateChrono &amp;other) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>DateChrono::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="25" column="5" bodyfile="src/DateChrono.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a68190485c0c60c4c02926337262c71e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DateChrono::operator&lt;=</definition>
+        <argsstring>(const DateChrono &amp;other) const</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>DateChrono::operator&lt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="26" column="5" bodyfile="src/DateChrono.cpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a0b6e1db5f994040b72b6b255f0a3b1d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DateChrono::operator&gt;</definition>
+        <argsstring>(const DateChrono &amp;other) const</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>DateChrono::operator&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="27" column="10" bodyfile="src/DateChrono.cpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a20efbd942cb99fcef1744db25e1bdb29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DateChrono::operator&gt;=</definition>
+        <argsstring>(const DateChrono &amp;other) const</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>DateChrono::operator&gt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="28" column="10" bodyfile="src/DateChrono.cpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1aa5454f605dbc1d86e2b350144e337764" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>DateChrono DateChrono::operator+</definition>
+        <argsstring>(int days) const</argsstring>
+        <name>operator+</name>
+        <qualifiedname>DateChrono::operator+</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="30" column="16" bodyfile="src/DateChrono.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a01959777a5ed1b1b19f36d8d83853a03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>DateChrono DateChrono::operator-</definition>
+        <argsstring>(int days) const</argsstring>
+        <name>operator-</name>
+        <qualifiedname>DateChrono::operator-</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="31" column="16" bodyfile="src/DateChrono.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a9cb0e90386abe08f91316251d6137efe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+        <definition>DateChrono &amp; DateChrono::operator+=</definition>
+        <argsstring>(int days)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>DateChrono::operator+=</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="32" column="16" bodyfile="src/DateChrono.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a3480865b8e3c40eb408a0677a4192033" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DateChrono::toMatlabDatenum</definition>
+        <argsstring>() const</argsstring>
+        <name>toMatlabDatenum</name>
+        <qualifiedname>DateChrono::toMatlabDatenum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="37" column="12" bodyfile="src/DateChrono.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a91395ea38f7a282866bdc91a782d8d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::chrono::system_clock::time_point</type>
+        <definition>std::chrono::system_clock::time_point DateChrono::getTimePoint</definition>
+        <argsstring>()</argsstring>
+        <name>getTimePoint</name>
+        <qualifiedname>DateChrono::getTimePoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="42" column="43" bodyfile="src/DateChrono.cpp" bodystart="87" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a46e3ebc45afca4b39b8454a011e3b1ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DateChrono::getYear</definition>
+        <argsstring>() const</argsstring>
+        <name>getYear</name>
+        <qualifiedname>DateChrono::getYear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="43" column="9" bodyfile="src/DateChrono.cpp" bodystart="133" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1acad45a153603a95493607d4341ce544b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DateChrono::getMonth</definition>
+        <argsstring>() const</argsstring>
+        <name>getMonth</name>
+        <qualifiedname>DateChrono::getMonth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="44" column="9" bodyfile="src/DateChrono.cpp" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1ad15969452320f10dfcdefe5781b24261" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DateChrono::getDay</definition>
+        <argsstring>() const</argsstring>
+        <name>getDay</name>
+        <qualifiedname>DateChrono::getDay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="45" column="9" bodyfile="src/DateChrono.cpp" bodystart="147" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1a6475ce4543e14581c1c0dbd2a9426e4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DateChrono::getDayNumber</definition>
+        <argsstring>() const</argsstring>
+        <name>getDayNumber</name>
+        <qualifiedname>DateChrono::getDayNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="47" column="9" bodyfile="src/DateChrono.cpp" bodystart="103" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1ad684551342c52a18c57653f747d14845" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DateChrono::getDayOfYear</definition>
+        <argsstring>() const</argsstring>
+        <name>getDayOfYear</name>
+        <qualifiedname>DateChrono::getDayOfYear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="48" column="9" bodyfile="src/DateChrono.cpp" bodystart="92" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classDateChrono_1ad6b793a418efc1dba5ba5c34ad65e892" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DateChrono::getJulianDay</definition>
+        <argsstring>() const</argsstring>
+        <name>getJulianDay</name>
+        <qualifiedname>DateChrono::getJulianDay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="49" column="9" bodyfile="src/DateChrono.cpp" bodystart="113" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classDateChrono_1a7549e6d5a983b0537de162dc5412f9da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>DateChrono DateChrono::fromMatlabDatenum</definition>
+        <argsstring>(double matlabDatenum)</argsstring>
+        <name>fromMatlabDatenum</name>
+        <qualifiedname>DateChrono::fromMatlabDatenum</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>matlabDatenum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="40" column="23" bodyfile="src/DateChrono.cpp" bodystart="71" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classDateChrono_1af338c35e87161d17ce3cad238af32037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const DateChrono &amp;date)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>DateChrono::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DateChrono.h" line="51" column="12" bodyfile="src/DateChrono.cpp" bodystart="154" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/DateChrono.h" line="9" column="1" bodyfile="src/DateChrono.h" bodystart="9" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classDateChrono_1a7bc2b5a1e69fa4ae220a6795695327e2" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>DateChrono</name></member>
+      <member refid="classDateChrono_1a1f1a6cdb1a57a62820a882ff8eaa11bb" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>DateChrono</name></member>
+      <member refid="classDateChrono_1a170cd15746c86546bc1977cdc2694763" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>DateChrono</name></member>
+      <member refid="classDateChrono_1ac06b560d2d1a893f69bd3e79641492d9" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>display</name></member>
+      <member refid="classDateChrono_1a7549e6d5a983b0537de162dc5412f9da" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>fromMatlabDatenum</name></member>
+      <member refid="classDateChrono_1ad15969452320f10dfcdefe5781b24261" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>getDay</name></member>
+      <member refid="classDateChrono_1a6475ce4543e14581c1c0dbd2a9426e4f" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>getDayNumber</name></member>
+      <member refid="classDateChrono_1ad684551342c52a18c57653f747d14845" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>getDayOfYear</name></member>
+      <member refid="classDateChrono_1ad6b793a418efc1dba5ba5c34ad65e892" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>getJulianDay</name></member>
+      <member refid="classDateChrono_1acad45a153603a95493607d4341ce544b" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>getMonth</name></member>
+      <member refid="classDateChrono_1a91395ea38f7a282866bdc91a782d8d0b" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>getTimePoint</name></member>
+      <member refid="classDateChrono_1a46e3ebc45afca4b39b8454a011e3b1ad" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>getYear</name></member>
+      <member refid="classDateChrono_1a293c721bde550b47e6c36faaf9539530" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator!=</name></member>
+      <member refid="classDateChrono_1aa5454f605dbc1d86e2b350144e337764" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator+</name></member>
+      <member refid="classDateChrono_1a9cb0e90386abe08f91316251d6137efe" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator+=</name></member>
+      <member refid="classDateChrono_1a01959777a5ed1b1b19f36d8d83853a03" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator-</name></member>
+      <member refid="classDateChrono_1a2f94af2c7b9a6c87fcb33da6bb5fe4d3" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator&lt;</name></member>
+      <member refid="classDateChrono_1af338c35e87161d17ce3cad238af32037" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classDateChrono_1a68190485c0c60c4c02926337262c71e7" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator&lt;=</name></member>
+      <member refid="classDateChrono_1ab9c845dd0f818f5bb6bb8f5b93c51b07" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator==</name></member>
+      <member refid="classDateChrono_1a0b6e1db5f994040b72b6b255f0a3b1d0" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator&gt;</name></member>
+      <member refid="classDateChrono_1a20efbd942cb99fcef1744db25e1bdb29" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>operator&gt;=</name></member>
+      <member refid="classDateChrono_1ac31acee81a548458964ee4a37a9511c3" prot="private" virt="non-virtual"><scope>DateChrono</scope><name>timePoint</name></member>
+      <member refid="classDateChrono_1a3480865b8e3c40eb408a0677a4192033" prot="public" virt="non-virtual"><scope>DateChrono</scope><name>toMatlabDatenum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

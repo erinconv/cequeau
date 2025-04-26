@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structQualite_1_1spa__data" kind="struct" language="C++" prot="public">
+    <compoundname>Qualite::spa_data</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a50d75695e601fc63307a79d9e140a762" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>const DateChrono Qualite::spa_data::pasDeTemps</definition>
+        <argsstring></argsstring>
+        <name>pasDeTemps</name>
+        <qualifiedname>Qualite::spa_data::pasDeTemps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="70" column="18" bodyfile="src/SimulationQualite.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a32ed8278376821eb817810d79362c159" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::spa_data::heureLocal</definition>
+        <argsstring></argsstring>
+        <name>heureLocal</name>
+        <qualifiedname>Qualite::spa_data::heureLocal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="71" column="7" bodyfile="src/SimulationQualite.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a627d05b0ab43855c70aaf51bec265d55" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::latitude</definition>
+        <argsstring></argsstring>
+        <name>latitude</name>
+        <qualifiedname>Qualite::spa_data::latitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="72" column="8" bodyfile="src/SimulationQualite.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a9f9aa9eb142dbb89f095e8862fa90b40" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::longitude</definition>
+        <argsstring></argsstring>
+        <name>longitude</name>
+        <qualifiedname>Qualite::spa_data::longitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="73" column="8" bodyfile="src/SimulationQualite.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a2b9bae5856d2b39728817fe980274144" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::elevation</definition>
+        <argsstring></argsstring>
+        <name>elevation</name>
+        <qualifiedname>Qualite::spa_data::elevation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="74" column="8" bodyfile="src/SimulationQualite.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1ab8eec5dcb66908a24a9c9deb3993635b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::spa_data::fuseauHoraire</definition>
+        <argsstring></argsstring>
+        <name>fuseauHoraire</name>
+        <qualifiedname>Qualite::spa_data::fuseauHoraire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="75" column="7" bodyfile="src/SimulationQualite.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1ad37afb78003a55bc06072ba187a40dfc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::jj</definition>
+        <argsstring></argsstring>
+        <name>jj</name>
+        <qualifiedname>Qualite::spa_data::jj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="78" column="8" bodyfile="src/SimulationQualite.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a13cdd86cf9fd396a6287805572f4f2e7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::jd</definition>
+        <argsstring></argsstring>
+        <name>jd</name>
+        <qualifiedname>Qualite::spa_data::jd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="79" column="8" bodyfile="src/SimulationQualite.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1af1aa06e98c9497ee76b3e5a1b53c3628" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::jce</definition>
+        <argsstring></argsstring>
+        <name>jce</name>
+        <qualifiedname>Qualite::spa_data::jce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="80" column="8" bodyfile="src/SimulationQualite.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1aa4615c5cb86358c9727d6993dcf99df6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::jme</definition>
+        <argsstring></argsstring>
+        <name>jme</name>
+        <qualifiedname>Qualite::spa_data::jme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="81" column="8" bodyfile="src/SimulationQualite.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a395ca4e366cca5565b6f319f5d1a61af" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::azimuth</definition>
+        <argsstring></argsstring>
+        <name>azimuth</name>
+        <qualifiedname>Qualite::spa_data::azimuth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="85" column="8" bodyfile="src/SimulationQualite.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structQualite_1_1spa__data_1a812894da8f78691d3c149d6c34e1cdec" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Qualite::spa_data::altitude</definition>
+        <argsstring></argsstring>
+        <name>altitude</name>
+        <qualifiedname>Qualite::spa_data::altitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="86" column="8" bodyfile="src/SimulationQualite.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>DateChrono</label>
+        <link refid="classDateChrono"/>
+      </node>
+      <node id="1">
+        <label>Qualite::spa_data</label>
+        <link refid="structQualite_1_1spa__data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pasDeTemps</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/SimulationQualite.h" line="66" column="3" bodyfile="src/SimulationQualite.h" bodystart="66" bodyend="88"/>
+    <listofallmembers>
+      <member refid="structQualite_1_1spa__data_1a812894da8f78691d3c149d6c34e1cdec" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>altitude</name></member>
+      <member refid="structQualite_1_1spa__data_1a395ca4e366cca5565b6f319f5d1a61af" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>azimuth</name></member>
+      <member refid="structQualite_1_1spa__data_1a2b9bae5856d2b39728817fe980274144" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>elevation</name></member>
+      <member refid="structQualite_1_1spa__data_1ab8eec5dcb66908a24a9c9deb3993635b" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>fuseauHoraire</name></member>
+      <member refid="structQualite_1_1spa__data_1a32ed8278376821eb817810d79362c159" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>heureLocal</name></member>
+      <member refid="structQualite_1_1spa__data_1af1aa06e98c9497ee76b3e5a1b53c3628" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>jce</name></member>
+      <member refid="structQualite_1_1spa__data_1a13cdd86cf9fd396a6287805572f4f2e7" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>jd</name></member>
+      <member refid="structQualite_1_1spa__data_1ad37afb78003a55bc06072ba187a40dfc" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>jj</name></member>
+      <member refid="structQualite_1_1spa__data_1aa4615c5cb86358c9727d6993dcf99df6" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>jme</name></member>
+      <member refid="structQualite_1_1spa__data_1a627d05b0ab43855c70aaf51bec265d55" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>latitude</name></member>
+      <member refid="structQualite_1_1spa__data_1a9f9aa9eb142dbb89f095e8862fa90b40" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>longitude</name></member>
+      <member refid="structQualite_1_1spa__data_1a50d75695e601fc63307a79d9e140a762" prot="public" virt="non-virtual"><scope>Qualite::spa_data</scope><name>pasDeTemps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

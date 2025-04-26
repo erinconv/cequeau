@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classParametres" kind="class" language="C++" prot="public">
+    <compoundname>Parametres</compoundname>
+    <includes refid="Parametres_8h" local="no">Parametres.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classParametres_1a382f77fba9d54318840c714cbb73d89e" prot="private" static="no" mutable="no">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>DateChrono Parametres::dateDebut_</definition>
+        <argsstring></argsstring>
+        <name>dateDebut_</name>
+        <qualifiedname>Parametres::dateDebut_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="459" column="15" bodyfile="src/Parametres.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1ab619e105bf96d56520054c8700952444" prot="private" static="no" mutable="no">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>DateChrono Parametres::dateFin_</definition>
+        <argsstring></argsstring>
+        <name>dateFin_</name>
+        <qualifiedname>Parametres::dateFin_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="461" column="15" bodyfile="src/Parametres.h" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1ac68d75cb3205a8be1b943de1c759b717" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Parametres::dureeHeuresPasSimulation_</definition>
+        <argsstring></argsstring>
+        <name>dureeHeuresPasSimulation_</name>
+        <qualifiedname>Parametres::dureeHeuresPasSimulation_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="465" column="8" bodyfile="src/Parametres.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1aa1ee409256a32add041021ba7db8380f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; Parametres::resultatsIdCE_</definition>
+        <argsstring></argsstring>
+        <name>resultatsIdCE_</name>
+        <qualifiedname>Parametres::resultatsIdCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="469" column="16" bodyfile="src/Parametres.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1a168442cadf79823f308c7433509f62d9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; Parametres::resultatsIdCP_</definition>
+        <argsstring></argsstring>
+        <name>resultatsIdCP_</name>
+        <qualifiedname>Parametres::resultatsIdCP_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="473" column="16" bodyfile="src/Parametres.h" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1ac14b91ba0ee421d2f794486320bfe7ba" prot="private" static="no" mutable="no">
+        <type><ref refid="classParamSol" kindref="compound">ParamSol</ref></type>
+        <definition>ParamSol Parametres::sol_</definition>
+        <argsstring></argsstring>
+        <name>sol_</name>
+        <qualifiedname>Parametres::sol_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="475" column="15" bodyfile="src/Parametres.h" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1a18e441d4879c33041a9355d986caa8ef" prot="private" static="no" mutable="no">
+        <type><ref refid="classParamSolInitial" kindref="compound">ParamSolInitial</ref></type>
+        <definition>ParamSolInitial Parametres::solInitial_</definition>
+        <argsstring></argsstring>
+        <name>solInitial_</name>
+        <qualifiedname>Parametres::solInitial_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="477" column="20" bodyfile="src/Parametres.h" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1a4541a02683a790fbe505de62e015b030" prot="private" static="no" mutable="no">
+        <type><ref refid="classParamOption" kindref="compound">ParamOption</ref></type>
+        <definition>ParamOption Parametres::option_</definition>
+        <argsstring></argsstring>
+        <name>option_</name>
+        <qualifiedname>Parametres::option_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="479" column="16" bodyfile="src/Parametres.h" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1a5190538a2a5a08a496adee2d14ca9a11" prot="private" static="no" mutable="no">
+        <type><ref refid="classParamTransfert" kindref="compound">ParamTransfert</ref></type>
+        <definition>ParamTransfert Parametres::transfert_</definition>
+        <argsstring></argsstring>
+        <name>transfert_</name>
+        <qualifiedname>Parametres::transfert_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="481" column="19" bodyfile="src/Parametres.h" bodystart="481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1a6a4b92d8131392808c7475c3ba4b119e" prot="private" static="no" mutable="no">
+        <type><ref refid="classParamFacultatifs" kindref="compound">ParamFacultatifs</ref></type>
+        <definition>ParamFacultatifs Parametres::facultatifs_</definition>
+        <argsstring></argsstring>
+        <name>facultatifs_</name>
+        <qualifiedname>Parametres::facultatifs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="483" column="21" bodyfile="src/Parametres.h" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametres_1a7d0c9478e3efd7af8d98bc35c71f1358" prot="private" static="no" mutable="no">
+        <type><ref refid="classParamPompage" kindref="compound">ParamPompage</ref></type>
+        <definition>ParamPompage Parametres::pompage_</definition>
+        <argsstring></argsstring>
+        <name>pompage_</name>
+        <qualifiedname>Parametres::pompage_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="485" column="17" bodyfile="src/Parametres.h" bodystart="485" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classParametres_1ac023d612b41eb65c4e102f99464f2154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Parametres::Parametres</definition>
+        <argsstring>()</argsstring>
+        <name>Parametres</name>
+        <qualifiedname>Parametres::Parametres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="381" column="4" bodyfile="src/Parametres.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a06ddd88d12b6f58b7f21f65c8838796d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Parametres::Parametres</definition>
+        <argsstring>(DateChrono dateDebut, DateChrono dateFin)</argsstring>
+        <name>Parametres</name>
+        <qualifiedname>Parametres::Parametres</qualifiedname>
+        <param>
+          <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+          <declname>dateDebut</declname>
+        </param>
+        <param>
+          <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+          <declname>dateFin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="383" column="4" bodyfile="src/Parametres.cpp" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a83068e95596ef05b4307b43b67ffc24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Parametres::~Parametres</definition>
+        <argsstring>()</argsstring>
+        <name>~Parametres</name>
+        <qualifiedname>Parametres::~Parametres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="385" column="4" bodyfile="src/Parametres.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a49b3a1d050f0995d6dd05ec0fbba96a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+        <definition>const DateChrono &amp; Parametres::dateDebut</definition>
+        <argsstring>() const</argsstring>
+        <name>dateDebut</name>
+        <qualifiedname>Parametres::dateDebut</qualifiedname>
+        <briefdescription>
+<para>Getter Date de debut de la simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="391" column="21" bodyfile="src/Parametres.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1aef6482b90ca8e79b020c6ef03e55bc97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+        <definition>const DateChrono &amp; Parametres::dateFin</definition>
+        <argsstring>() const</argsstring>
+        <name>dateFin</name>
+        <qualifiedname>Parametres::dateFin</qualifiedname>
+        <briefdescription>
+<para>Getter Date de fin de la simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="395" column="21" bodyfile="src/Parametres.cpp" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a7e3b670e04ac45f6a6656d8b3d70ad8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Parametres::dureeHeuresPasSimulation</definition>
+        <argsstring>() const</argsstring>
+        <name>dureeHeuresPasSimulation</name>
+        <qualifiedname>Parametres::dureeHeuresPasSimulation</qualifiedname>
+        <briefdescription>
+<para>Getter Duree en heure d&apos;un pas de simulation: 1,2,3,4,6,8,12,24 heures. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="399" column="8" bodyfile="src/Parametres.cpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1ae5354dc824391dda3d1f36a269f06ca9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Parametres::nbJoursSimulation</definition>
+        <argsstring>() const</argsstring>
+        <name>nbJoursSimulation</name>
+        <qualifiedname>Parametres::nbJoursSimulation</qualifiedname>
+        <briefdescription>
+<para>Getter nombre jours de simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="403" column="8" bodyfile="src/Parametres.cpp" bodystart="460" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1aaa307069ec8859464fe29562deabcfdf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Parametres::nbPasSimulation</definition>
+        <argsstring>() const</argsstring>
+        <name>nbPasSimulation</name>
+        <qualifiedname>Parametres::nbPasSimulation</qualifiedname>
+        <briefdescription>
+<para>Getter nombre pas de simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="407" column="8" bodyfile="src/Parametres.cpp" bodystart="477" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1aa520244498c80c5c0616972f2b03d787" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Parametres::nbPasParJourSimulation</definition>
+        <argsstring>() const</argsstring>
+        <name>nbPasParJourSimulation</name>
+        <qualifiedname>Parametres::nbPasParJourSimulation</qualifiedname>
+        <briefdescription>
+<para>Getter nombre pas pas jour de simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="411" column="8" bodyfile="src/Parametres.cpp" bodystart="484" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a0202a6ecce86965840d6215a400804e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; bool &gt; &amp;</type>
+        <definition>const std::vector&lt; bool &gt; &amp; Parametres::resultatsIdCE</definition>
+        <argsstring>() const</argsstring>
+        <name>resultatsIdCE</name>
+        <qualifiedname>Parametres::resultatsIdCE</qualifiedname>
+        <briefdescription>
+<para>Getter selection des carreaux entiers qu&apos;on desire en sortie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="415" column="22" bodyfile="src/Parametres.cpp" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1abf45883b4535d6eee91369980fc072e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; bool &gt; &amp;</type>
+        <definition>const std::vector&lt; bool &gt; &amp; Parametres::resultatsIdCP</definition>
+        <argsstring>() const</argsstring>
+        <name>resultatsIdCP</name>
+        <qualifiedname>Parametres::resultatsIdCP</qualifiedname>
+        <briefdescription>
+<para>Getter selection des carreaux partiels qu&apos;on desire en sortie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="419" column="22" bodyfile="src/Parametres.cpp" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a552aa7b8c2702397bd55cd49cd1b5f23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classParamSol" kindref="compound">ParamSol</ref> &amp;</type>
+        <definition>const ParamSol &amp; Parametres::sol</definition>
+        <argsstring>() const</argsstring>
+        <name>sol</name>
+        <qualifiedname>Parametres::sol</qualifiedname>
+        <briefdescription>
+<para>Getter param sol. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="423" column="19" bodyfile="src/Parametres.cpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a99a3b90a07dead279090fe58a5715599" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classParamSolInitial" kindref="compound">ParamSolInitial</ref> &amp;</type>
+        <definition>const ParamSolInitial &amp; Parametres::solInitial</definition>
+        <argsstring>() const</argsstring>
+        <name>solInitial</name>
+        <qualifiedname>Parametres::solInitial</qualifiedname>
+        <briefdescription>
+<para>Getter param solInitial. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="427" column="26" bodyfile="src/Parametres.cpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a6532d79dc205ce654a4f9751d8e8b786" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classParamOption" kindref="compound">ParamOption</ref> &amp;</type>
+        <definition>const ParamOption &amp; Parametres::option</definition>
+        <argsstring>() const</argsstring>
+        <name>option</name>
+        <qualifiedname>Parametres::option</qualifiedname>
+        <briefdescription>
+<para>Getter param option. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="431" column="22" bodyfile="src/Parametres.cpp" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a66ecc55d0a8a5bfda500a8bcf30a10fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classParamTransfert" kindref="compound">ParamTransfert</ref> &amp;</type>
+        <definition>const ParamTransfert &amp; Parametres::transfert</definition>
+        <argsstring>() const</argsstring>
+        <name>transfert</name>
+        <qualifiedname>Parametres::transfert</qualifiedname>
+        <briefdescription>
+<para>Getter param transfert. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="435" column="25" bodyfile="src/Parametres.cpp" bodystart="91" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a0b62c687b2088b5a61b52b83cc8696ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classParamFacultatifs" kindref="compound">ParamFacultatifs</ref> &amp;</type>
+        <definition>const ParamFacultatifs &amp; Parametres::facultatifs</definition>
+        <argsstring>() const</argsstring>
+        <name>facultatifs</name>
+        <qualifiedname>Parametres::facultatifs</qualifiedname>
+        <briefdescription>
+<para>Getter param facultatifs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="439" column="27" bodyfile="src/Parametres.cpp" bodystart="98" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a52d28c3149e1fcde0d1dec996d9450c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classParamPompage" kindref="compound">ParamPompage</ref> &amp;</type>
+        <definition>const ParamPompage &amp; Parametres::pompage</definition>
+        <argsstring>() const</argsstring>
+        <name>pompage</name>
+        <qualifiedname>Parametres::pompage</qualifiedname>
+        <briefdescription>
+<para>Getter param pompage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="443" column="23" bodyfile="src/Parametres.cpp" bodystart="103" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a51e5a85d6e54b8d19f7049f796e8a767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Parametres::initialiserFichier</definition>
+        <argsstring>(std::string nomFichierParamExec, std::string nomFichierParamSimul, int nbCE, int nbCP)</argsstring>
+        <name>initialiserFichier</name>
+        <qualifiedname>Parametres::initialiserFichier</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>nomFichierParamExec</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>nomFichierParamSimul</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCE</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCP</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des parametres a partir de fichiers d&apos;intrants Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="449" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametres_1a345c38b84759d55c66f6173d275da774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Parametres::initialiser</definition>
+        <argsstring>(const mxArray *paramExec, const mxArray *paramSimul, int nbCE, int nbCP)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>Parametres::initialiser</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramExec</declname>
+        </param>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramSimul</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCE</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCP</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des parametres a partir de variables Matlab (mxArray) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>option</para>
+<para>sol</para>
+<para>solInitial</para>
+<para>lacExutoire</para>
+<para>transfert</para>
+<para>ctp</para>
+<para>lac</para>
+<para>surface</para>
+<para>pompage</para>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="453" column="9" bodyfile="src/Parametres.cpp" bodystart="129" bodyend="435"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classParametres_1a36a58f89b1dbe2e121d0fa7f67396058" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Parametres::validerNombreValeurs</definition>
+        <argsstring>(const std::string &amp;nomChamp, int nbValeur, int nbValeursOK)</argsstring>
+        <name>validerNombreValeurs</name>
+        <qualifiedname>Parametres::validerNombreValeurs</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbValeur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbValeursOK</declname>
+        </param>
+        <briefdescription>
+<para>Validation du nombre de valeurs d&apos;un parametre spatialisable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="491" column="9" bodyfile="src/Parametres.cpp" bodystart="438" bodyend="457"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe des parametres de la simulation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Parametres.h" line="375" column="1" bodyfile="src/Parametres.h" bodystart="377" bodyend="493"/>
+    <listofallmembers>
+      <member refid="classParametres_1a49b3a1d050f0995d6dd05ec0fbba96a8" prot="public" virt="non-virtual"><scope>Parametres</scope><name>dateDebut</name></member>
+      <member refid="classParametres_1a382f77fba9d54318840c714cbb73d89e" prot="private" virt="non-virtual"><scope>Parametres</scope><name>dateDebut_</name></member>
+      <member refid="classParametres_1aef6482b90ca8e79b020c6ef03e55bc97" prot="public" virt="non-virtual"><scope>Parametres</scope><name>dateFin</name></member>
+      <member refid="classParametres_1ab619e105bf96d56520054c8700952444" prot="private" virt="non-virtual"><scope>Parametres</scope><name>dateFin_</name></member>
+      <member refid="classParametres_1a7e3b670e04ac45f6a6656d8b3d70ad8a" prot="public" virt="non-virtual"><scope>Parametres</scope><name>dureeHeuresPasSimulation</name></member>
+      <member refid="classParametres_1ac68d75cb3205a8be1b943de1c759b717" prot="private" virt="non-virtual"><scope>Parametres</scope><name>dureeHeuresPasSimulation_</name></member>
+      <member refid="classParametres_1a0b62c687b2088b5a61b52b83cc8696ff" prot="public" virt="non-virtual"><scope>Parametres</scope><name>facultatifs</name></member>
+      <member refid="classParametres_1a6a4b92d8131392808c7475c3ba4b119e" prot="private" virt="non-virtual"><scope>Parametres</scope><name>facultatifs_</name></member>
+      <member refid="classParametres_1a345c38b84759d55c66f6173d275da774" prot="public" virt="non-virtual"><scope>Parametres</scope><name>initialiser</name></member>
+      <member refid="classParametres_1a51e5a85d6e54b8d19f7049f796e8a767" prot="public" virt="non-virtual"><scope>Parametres</scope><name>initialiserFichier</name></member>
+      <member refid="classParametres_1ae5354dc824391dda3d1f36a269f06ca9" prot="public" virt="non-virtual"><scope>Parametres</scope><name>nbJoursSimulation</name></member>
+      <member refid="classParametres_1aa520244498c80c5c0616972f2b03d787" prot="public" virt="non-virtual"><scope>Parametres</scope><name>nbPasParJourSimulation</name></member>
+      <member refid="classParametres_1aaa307069ec8859464fe29562deabcfdf" prot="public" virt="non-virtual"><scope>Parametres</scope><name>nbPasSimulation</name></member>
+      <member refid="classParametres_1a6532d79dc205ce654a4f9751d8e8b786" prot="public" virt="non-virtual"><scope>Parametres</scope><name>option</name></member>
+      <member refid="classParametres_1a4541a02683a790fbe505de62e015b030" prot="private" virt="non-virtual"><scope>Parametres</scope><name>option_</name></member>
+      <member refid="classParametres_1ac023d612b41eb65c4e102f99464f2154" prot="public" virt="non-virtual"><scope>Parametres</scope><name>Parametres</name></member>
+      <member refid="classParametres_1a06ddd88d12b6f58b7f21f65c8838796d" prot="public" virt="non-virtual"><scope>Parametres</scope><name>Parametres</name></member>
+      <member refid="classParametres_1a52d28c3149e1fcde0d1dec996d9450c7" prot="public" virt="non-virtual"><scope>Parametres</scope><name>pompage</name></member>
+      <member refid="classParametres_1a7d0c9478e3efd7af8d98bc35c71f1358" prot="private" virt="non-virtual"><scope>Parametres</scope><name>pompage_</name></member>
+      <member refid="classParametres_1a0202a6ecce86965840d6215a400804e4" prot="public" virt="non-virtual"><scope>Parametres</scope><name>resultatsIdCE</name></member>
+      <member refid="classParametres_1aa1ee409256a32add041021ba7db8380f" prot="private" virt="non-virtual"><scope>Parametres</scope><name>resultatsIdCE_</name></member>
+      <member refid="classParametres_1abf45883b4535d6eee91369980fc072e1" prot="public" virt="non-virtual"><scope>Parametres</scope><name>resultatsIdCP</name></member>
+      <member refid="classParametres_1a168442cadf79823f308c7433509f62d9" prot="private" virt="non-virtual"><scope>Parametres</scope><name>resultatsIdCP_</name></member>
+      <member refid="classParametres_1a552aa7b8c2702397bd55cd49cd1b5f23" prot="public" virt="non-virtual"><scope>Parametres</scope><name>sol</name></member>
+      <member refid="classParametres_1ac14b91ba0ee421d2f794486320bfe7ba" prot="private" virt="non-virtual"><scope>Parametres</scope><name>sol_</name></member>
+      <member refid="classParametres_1a99a3b90a07dead279090fe58a5715599" prot="public" virt="non-virtual"><scope>Parametres</scope><name>solInitial</name></member>
+      <member refid="classParametres_1a18e441d4879c33041a9355d986caa8ef" prot="private" virt="non-virtual"><scope>Parametres</scope><name>solInitial_</name></member>
+      <member refid="classParametres_1a66ecc55d0a8a5bfda500a8bcf30a10fb" prot="public" virt="non-virtual"><scope>Parametres</scope><name>transfert</name></member>
+      <member refid="classParametres_1a5190538a2a5a08a496adee2d14ca9a11" prot="private" virt="non-virtual"><scope>Parametres</scope><name>transfert_</name></member>
+      <member refid="classParametres_1a36a58f89b1dbe2e121d0fa7f67396058" prot="private" virt="non-virtual"><scope>Parametres</scope><name>validerNombreValeurs</name></member>
+      <member refid="classParametres_1a83068e95596ef05b4307b43b67ffc24d" prot="public" virt="non-virtual"><scope>Parametres</scope><name>~Parametres</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

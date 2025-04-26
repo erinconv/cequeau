@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteCequeau_1_1EtatFonteCE" kind="class" language="C++" prot="public">
+    <compoundname>FonteCequeau::EtatFonteCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteCE_1a3e5b490fca5d4a9647278f85f03c7515" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteCE::SNC_stockNeigeForet</definition>
+        <argsstring></argsstring>
+        <name>SNC_stockNeigeForet</name>
+        <qualifiedname>FonteCequeau::EtatFonteCE::SNC_stockNeigeForet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="115" column="13" bodyfile="src/FonteCequeau.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteCE_1a6700710d477f45d846963dc65e912f96" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteCE::SND_stockNeigeClairiere</definition>
+        <argsstring></argsstring>
+        <name>SND_stockNeigeClairiere</name>
+        <qualifiedname>FonteCequeau::EtatFonteCE::SND_stockNeigeClairiere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="117" column="13" bodyfile="src/FonteCequeau.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteCE_1a06a035ff843355a41408c454ddf00f56" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteCE::QNUI3_indexMurissementNeige</definition>
+        <argsstring></argsstring>
+        <name>QNUI3_indexMurissementNeige</name>
+        <qualifiedname>FonteCequeau::EtatFonteCE::QNUI3_indexMurissementNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="119" column="13" bodyfile="src/FonteCequeau.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteCE_1a98b8eef8d95ebaf48eb0e17d38a3fd22" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteCE::QNUI4_indexTempNeige</definition>
+        <argsstring></argsstring>
+        <name>QNUI4_indexTempNeige</name>
+        <qualifiedname>FonteCequeau::EtatFonteCE::QNUI4_indexTempNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="121" column="13" bodyfile="src/FonteCequeau.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCequeau_1_1EtatFonteCE_1a90373ed42f85a661a8358bc35b65202c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCequeau::EtatFonteCE::eauDisponible</definition>
+        <argsstring></argsstring>
+        <name>eauDisponible</name>
+        <qualifiedname>FonteCequeau::EtatFonteCE::eauDisponible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCequeau.h" line="123" column="13" bodyfile="src/FonteCequeau.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteCequeau.h" line="109" column="3" bodyfile="src/FonteCequeau.h" bodystart="111" bodyend="125"/>
+    <listofallmembers>
+      <member refid="classFonteCequeau_1_1EtatFonteCE_1a90373ed42f85a661a8358bc35b65202c" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteCE</scope><name>eauDisponible</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteCE_1a06a035ff843355a41408c454ddf00f56" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteCE</scope><name>QNUI3_indexMurissementNeige</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteCE_1a98b8eef8d95ebaf48eb0e17d38a3fd22" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteCE</scope><name>QNUI4_indexTempNeige</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteCE_1a3e5b490fca5d4a9647278f85f03c7515" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteCE</scope><name>SNC_stockNeigeForet</name></member>
+      <member refid="classFonteCequeau_1_1EtatFonteCE_1a6700710d477f45d846963dc65e912f96" prot="public" virt="non-virtual"><scope>FonteCequeau::EtatFonteCE</scope><name>SND_stockNeigeClairiere</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

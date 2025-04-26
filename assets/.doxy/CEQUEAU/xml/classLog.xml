@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classLog" kind="class" language="C++" prot="public">
+    <compoundname>Log</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classLog_1a01de1c92999fe0c55e5b4a50ffe02336" prot="protected" static="no" mutable="no">
+        <type>std::ostringstream</type>
+        <definition>std::ostringstream Log&lt; T &gt;::os</definition>
+        <argsstring></argsstring>
+        <name>os</name>
+        <qualifiedname>Log::os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="24" column="24" bodyfile="src/log.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLog_1ad55df14b1034b676de6e71de64c1a04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Log&lt; T &gt;::Log</definition>
+        <argsstring>()</argsstring>
+        <name>Log</name>
+        <qualifiedname>Log::Log</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="16" column="5" bodyfile="src/log.h" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classLog_1a63b4053be167c0215c0968a49f4edf39" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Log&lt; T &gt;::~Log</definition>
+        <argsstring>()</argsstring>
+        <name>~Log</name>
+        <qualifiedname>Log::~Log</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="17" column="13" bodyfile="src/log.h" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classLog_1af1e91af54d9f85caaa661f794b37bffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostringstream &amp;</type>
+        <definition>std::ostringstream &amp; Log&lt; T &gt;::Get</definition>
+        <argsstring>(TLogLevel level=logINFO)</argsstring>
+        <name>Get</name>
+        <qualifiedname>Log::Get</qualifiedname>
+        <param>
+          <type>TLogLevel</type>
+          <declname>level</declname>
+          <defval>logINFO</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="18" column="24" bodyfile="src/log.h" bodystart="36" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classLog_1a7e74a1454fd3d52a408eaa1c04ab4d23" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TLogLevel &amp;</type>
+        <definition>TLogLevel &amp; Log&lt; T &gt;::ReportingLevel</definition>
+        <argsstring>()</argsstring>
+        <name>ReportingLevel</name>
+        <qualifiedname>Log::ReportingLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="20" column="22" bodyfile="src/log.h" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classLog_1aa889a30fd8ee83904e193ec5e9446216" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Log&lt; T &gt;::ToString</definition>
+        <argsstring>(TLogLevel level)</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Log::ToString</qualifiedname>
+        <param>
+          <type>TLogLevel</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="21" column="24" bodyfile="src/log.h" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classLog_1a684966272ade00c32c6e9744eb6b3e9c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TLogLevel</type>
+        <definition>TLogLevel Log&lt; T &gt;::FromString</definition>
+        <argsstring>(const std::string &amp;level)</argsstring>
+        <name>FromString</name>
+        <qualifiedname>Log::FromString</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="22" column="22" bodyfile="src/log.h" bodystart="66" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classLog_1a7e5705c62ab51b42df03f67f9fd0147c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Log&lt; T &gt;::Log</definition>
+        <argsstring>(const Log &amp;)</argsstring>
+        <name>Log</name>
+        <qualifiedname>Log::Log</qualifiedname>
+        <param>
+          <type>const <ref refid="classLog" kindref="compound">Log</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="26" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classLog_1a07ebc258cb7f728fa479ff4dde402ec8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classLog" kindref="compound">Log</ref> &amp;</type>
+        <definition>Log &amp; Log&lt; T &gt;::operator=</definition>
+        <argsstring>(const Log &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>Log::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classLog" kindref="compound">Log</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="27" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Log&lt; T &gt;</label>
+        <link refid="classLog"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>os</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::basic_ostream&lt; Char &gt;</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::basic_ostringstream&lt; Char &gt;</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::ios_base</label>
+      </node>
+      <node id="2">
+        <label>std::ostringstream</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/log.h" line="13" column="1" bodyfile="src/log.h" bodystart="14" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classLog_1a684966272ade00c32c6e9744eb6b3e9c" prot="public" virt="non-virtual"><scope>Log</scope><name>FromString</name></member>
+      <member refid="classLog_1af1e91af54d9f85caaa661f794b37bffb" prot="public" virt="non-virtual"><scope>Log</scope><name>Get</name></member>
+      <member refid="classLog_1ad55df14b1034b676de6e71de64c1a04c" prot="public" virt="non-virtual"><scope>Log</scope><name>Log</name></member>
+      <member refid="classLog_1a7e5705c62ab51b42df03f67f9fd0147c" prot="private" virt="non-virtual"><scope>Log</scope><name>Log</name></member>
+      <member refid="classLog_1a07ebc258cb7f728fa479ff4dde402ec8" prot="private" virt="non-virtual"><scope>Log</scope><name>operator=</name></member>
+      <member refid="classLog_1a01de1c92999fe0c55e5b4a50ffe02336" prot="protected" virt="non-virtual"><scope>Log</scope><name>os</name></member>
+      <member refid="classLog_1a7e74a1454fd3d52a408eaa1c04ab4d23" prot="public" virt="non-virtual"><scope>Log</scope><name>ReportingLevel</name></member>
+      <member refid="classLog_1aa889a30fd8ee83904e193ec5e9446216" prot="public" virt="non-virtual"><scope>Log</scope><name>ToString</name></member>
+      <member refid="classLog_1a63b4053be167c0215c0968a49f4edf39" prot="public" virt="virtual"><scope>Log</scope><name>~Log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

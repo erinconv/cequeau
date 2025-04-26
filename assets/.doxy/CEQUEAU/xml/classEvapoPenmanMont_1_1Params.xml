@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoPenmanMont_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>EvapoPenmanMont::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoPenmanMont_1_1Params_1a67b6c7e34282a0e778478ddc52c03c7a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPenmanMont::Params::paramALPHA</definition>
+        <argsstring></argsstring>
+        <name>paramALPHA</name>
+        <qualifiedname>EvapoPenmanMont::Params::paramALPHA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPenmanMont.h" line="66" column="11" bodyfile="src/EvapoPenmanMont.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoPenmanMont_1_1Params_1a0d7afb9f07ed3957baaa838a88178a6b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPenmanMont::Params::fractionEvapoNappe</definition>
+        <argsstring></argsstring>
+        <name>fractionEvapoNappe</name>
+        <qualifiedname>EvapoPenmanMont::Params::fractionEvapoNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPenmanMont.h" line="67" column="7" bodyfile="src/EvapoPenmanMont.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoPenmanMont.h" line="62" column="3" bodyfile="src/EvapoPenmanMont.h" bodystart="63" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classEvapoPenmanMont_1_1Params_1a0d7afb9f07ed3957baaa838a88178a6b" prot="public" virt="non-virtual"><scope>EvapoPenmanMont::Params</scope><name>fractionEvapoNappe</name></member>
+      <member refid="classEvapoPenmanMont_1_1Params_1a67b6c7e34282a0e778478ddc52c03c7a" prot="public" virt="non-virtual"><scope>EvapoPenmanMont::Params</scope><name>paramALPHA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

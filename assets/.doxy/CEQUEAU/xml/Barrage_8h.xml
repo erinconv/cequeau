@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="Barrage_8h" kind="file" language="C++">
+    <compoundname>Barrage.h</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includedby refid="Barrage_8cpp" local="yes">src/Barrage.cpp</includedby>
+    <includedby refid="BassinVersant_8h" local="yes">src/BassinVersant.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>src/Barrage.h</label>
+        <link refid="Barrage_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>DateChrono.h</label>
+        <link refid="DateChrono_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>Defs.h</label>
+        <link refid="Defs_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MexHelper.hpp</label>
+        <link refid="MexHelper_8hpp_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>log.h</label>
+        <link refid="log_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>targetver.h</label>
+        <link refid="targetver_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="6">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>chrono</label>
+      </node>
+      <node id="12">
+        <label>climits</label>
+      </node>
+      <node id="8">
+        <label>cmath</label>
+      </node>
+      <node id="7">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>ctime</label>
+      </node>
+      <node id="9">
+        <label>fstream</label>
+      </node>
+      <node id="10">
+        <label>iomanip</label>
+      </node>
+      <node id="11">
+        <label>iostream</label>
+      </node>
+      <node id="13">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>memory</label>
+      </node>
+      <node id="26">
+        <label>mex.h</label>
+      </node>
+      <node id="14">
+        <label>sstream</label>
+      </node>
+      <node id="23">
+        <label>stdio.h</label>
+      </node>
+      <node id="20">
+        <label>string</label>
+      </node>
+      <node id="24">
+        <label>sys/time.h</label>
+      </node>
+      <node id="28">
+        <label>typeinfo</label>
+      </node>
+      <node id="5">
+        <label>unistd.h</label>
+      </node>
+      <node id="15">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>src/Barrage.h</label>
+        <link refid="Barrage_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/BassinVersant.h</label>
+        <link refid="BassinVersant_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/DonneesMeteo.h</label>
+        <link refid="DonneesMeteo_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/Interpolateur.h</label>
+        <link refid="Interpolateur_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>src/InterpolateurPolygoneThiessen.h</label>
+        <link refid="InterpolateurPolygoneThiessen_8h_source"/>
+      </node>
+      <node id="6">
+        <label>src/InterpolateurPonderationStations.h</label>
+        <link refid="InterpolateurPonderationStations_8h_source"/>
+      </node>
+      <node id="7">
+        <label>src/Simulation.h</label>
+        <link refid="Simulation_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>src/SimulationQualite.h</label>
+        <link refid="SimulationQualite_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classBarrage" prot="public">Barrage</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="Barrage_8h_1afdf20dae0058b928cf98bdc247c45e0e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TypeBarrage</name>
+        <enumvalue id="Barrage_8h_1afdf20dae0058b928cf98bdc247c45e0ea25d38d223de07b00c80777628a7c07b7" prot="public">
+          <name>EVACUATION_MESUREE_INT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Barrage_8h_1afdf20dae0058b928cf98bdc247c45e0eab632531ff39a7eb72fe3c1264c228580" prot="public">
+          <name>EVACUATION_CALCULEE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Barrage_8h_1afdf20dae0058b928cf98bdc247c45e0eadbf9c44bd1c3d068d32b681e8d88a7ec" prot="public">
+          <name>EVACUATION_MESUREE_EXT</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Barrage_8h_1afdf20dae0058b928cf98bdc247c45e0ea7de5ae3965ea732ac45314238a04f3cc" prot="public">
+          <name>EVACUATION_CALCULEE_SPECIAL</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Types de barrage. La valeur numerique represente le type selon Cequeau original. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="33" column="1" bodyfile="src/Barrage.h" bodystart="33" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Barrage.h"/>
+  </compounddef>
+</doxygen>

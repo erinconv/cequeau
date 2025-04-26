@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="CequeauQuantiteMex_8cpp" kind="file" language="C++">
+    <compoundname>CequeauQuantiteMex.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="BassinVersant_8h" local="yes">BassinVersant.h</includes>
+    <includes refid="Simulation_8h" local="yes">Simulation.h</includes>
+    <includes refid="Parametres_8h" local="yes">Parametres.h</includes>
+    <includes refid="DonneesMeteo_8h" local="yes">DonneesMeteo.h</includes>
+    <includes refid="FonteCequeau_8h" local="yes">FonteCequeau.h</includes>
+    <includes refid="EvapoCequeau_8h" local="yes">EvapoCequeau.h</includes>
+    <includes refid="ParametresQualite_8h" local="yes">ParametresQualite.h</includes>
+    <includes refid="SimulationQualite_8h" local="yes">SimulationQualite.h</includes>
+    <includes refid="DLI_8h" local="yes">DLI.h</includes>
+    <includes refid="FonteTemplate_8h" local="yes">FonteTemplate.h</includes>
+    <includes refid="FonteUEB_8h" local="yes">FonteUEB.h</includes>
+    <includes refid="EvapoTemplate_8h" local="yes">EvapoTemplate.h</includes>
+    <includes refid="EvapoKPenman_8h" local="yes">EvapoKPenman.h</includes>
+    <includes refid="EvapoPriestleyTaylor_8h" local="yes">EvapoPriestleyTaylor.h</includes>
+    <includes refid="EvapoPenmanMont_8h" local="yes">EvapoPenmanMont.h</includes>
+    <includes refid="EvapoMcGuinness_8h" local="yes">EvapoMcGuinness.h</includes>
+    <includes refid="FonteCemaNeige_8h" local="yes">FonteCemaNeige.h</includes>
+    <includes refid="EvapoMorton_8h" local="yes">EvapoMorton.h</includes>
+    <includes refid="InterpolateurPolygoneThiessen_8h" local="yes">InterpolateurPolygoneThiessen.h</includes>
+    <includes refid="InterpolateurPonderationStations_8h" local="yes">InterpolateurPonderationStations.h</includes>
+    <includes refid="ParametresInterpolation_8h" local="yes">ParametresInterpolation.h</includes>
+    <incdepgraph>
+      <node id="40">
+        <label>AssimilationHelper.hpp</label>
+        <link refid="AssimilationHelper_8hpp_source"/>
+      </node>
+      <node id="33">
+        <label>Barrage.h</label>
+        <link refid="Barrage_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>BassinVersant.h</label>
+        <link refid="BassinVersant_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>CarreauEntier.h</label>
+        <link refid="CarreauEntier_8h_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>CarreauPartiel.h</label>
+        <link refid="CarreauPartiel_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/CequeauQuantiteMex.cpp</label>
+        <link refid="CequeauQuantiteMex_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>DLI.h</label>
+        <link refid="DLI_8h_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>DateChrono.h</label>
+        <link refid="DateChrono_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>Defs.h</label>
+        <link refid="Defs_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>DonneesMeteo.h</label>
+        <link refid="DonneesMeteo_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Evapo.h</label>
+        <link refid="Evapo_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>EvapoCequeau.h</label>
+        <link refid="EvapoCequeau_8h_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>EvapoKPenman.h</label>
+        <link refid="EvapoKPenman_8h_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>EvapoMcGuinness.h</label>
+        <link refid="EvapoMcGuinness_8h_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>EvapoMorton.h</label>
+        <link refid="EvapoMorton_8h_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>EvapoPenmanMont.h</label>
+        <link refid="EvapoPenmanMont_8h_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>EvapoPriestleyTaylor.h</label>
+        <link refid="EvapoPriestleyTaylor_8h_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>EvapoTemplate.h</label>
+        <link refid="EvapoTemplate_8h_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>Fonte.h</label>
+        <link refid="Fonte_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>FonteCemaNeige.h</label>
+        <link refid="FonteCemaNeige_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>FonteCequeau.h</label>
+        <link refid="FonteCequeau_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>FonteTemplate.h</label>
+        <link refid="FonteTemplate_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>FonteUEB.h</label>
+        <link refid="FonteUEB_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>Interpolateur.h</label>
+        <link refid="Interpolateur_8h_source"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>InterpolateurPolygoneThiessen.h</label>
+        <link refid="InterpolateurPolygoneThiessen_8h_source"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>InterpolateurPonderationStations.h</label>
+        <link refid="InterpolateurPonderationStations_8h_source"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>ListeStation.h</label>
+        <link refid="ListeStation_8h_source"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Meteo.h</label>
+        <link refid="Meteo_8h_source"/>
+      </node>
+      <node id="25">
+        <label>MexHelper.hpp</label>
+        <link refid="MexHelper_8hpp_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>ModuleBase.hpp</label>
+        <link refid="ModuleBase_8hpp_source"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Parametres.h</label>
+        <link refid="Parametres_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>ParametresInterpolation.h</label>
+        <link refid="ParametresInterpolation_8h_source"/>
+      </node>
+      <node id="44">
+        <label>ParametresQualite.h</label>
+        <link refid="ParametresQualite_8h_source"/>
+      </node>
+      <node id="34">
+        <label>Puits.h</label>
+        <link refid="Puits_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Simulation.h</label>
+        <link refid="Simulation_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>SimulationQualite.h</label>
+        <link refid="SimulationQualite_8h_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>Station.h</label>
+        <link refid="Station_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>log.h</label>
+        <link refid="log_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>targetver.h</label>
+        <link refid="targetver_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="6">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>chrono</label>
+      </node>
+      <node id="12">
+        <label>climits</label>
+      </node>
+      <node id="8">
+        <label>cmath</label>
+      </node>
+      <node id="7">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>ctime</label>
+      </node>
+      <node id="9">
+        <label>fstream</label>
+      </node>
+      <node id="10">
+        <label>iomanip</label>
+      </node>
+      <node id="11">
+        <label>iostream</label>
+      </node>
+      <node id="13">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>memory</label>
+      </node>
+      <node id="26">
+        <label>mex.h</label>
+      </node>
+      <node id="14">
+        <label>sstream</label>
+      </node>
+      <node id="23">
+        <label>stdio.h</label>
+      </node>
+      <node id="20">
+        <label>string</label>
+      </node>
+      <node id="24">
+        <label>sys/time.h</label>
+      </node>
+      <node id="28">
+        <label>typeinfo</label>
+      </node>
+      <node id="5">
+        <label>unistd.h</label>
+      </node>
+      <node id="15">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="CequeauQuantiteMex_8cpp_1abf477a42334e759ff6b08b957e2ae9fa" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classInterpolateur" kindref="compound">Interpolateur</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Interpolateur&gt; InterpolateurPtr</definition>
+        <argsstring></argsstring>
+        <name>InterpolateurPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CequeauQuantiteMex.cpp" line="45" column="25" bodyfile="src/CequeauQuantiteMex.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="CequeauQuantiteMex_8cpp_1a6fbc6891ca3805f38a383acb2ba2be6a" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string idMex</definition>
+        <argsstring></argsstring>
+        <name>idMex</name>
+        <initializer>= &quot;Cequeau Quantite v4.6.1 et Qualite v2.0.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CequeauQuantiteMex.cpp" line="42" column="19" bodyfile="src/CequeauQuantiteMex.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="CequeauQuantiteMex_8cpp_1a6a215cbfde54f82a3ce599228fc3fce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mexFunction</definition>
+        <argsstring>(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])</argsstring>
+        <name>mexFunction</name>
+        <param>
+          <type>int</type>
+          <declname>nlhs</declname>
+        </param>
+        <param>
+          <type>mxArray *</type>
+          <declname>plhs</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nrhs</declname>
+        </param>
+        <param>
+          <type>const mxArray *</type>
+          <declname>prhs</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CequeauQuantiteMex.cpp" line="47" column="6" bodyfile="src/CequeauQuantiteMex.cpp" bodystart="47" bodyend="408"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/CequeauQuantiteMex.cpp"/>
+  </compounddef>
+</doxygen>

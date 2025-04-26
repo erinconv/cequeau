@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteUEB_1_1EtatFonteCE" kind="class" language="C++" prot="public">
+    <compoundname>FonteUEB::EtatFonteCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1af2c34f98fa753b0a22a9997dfa677547" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="54" column="15" bodyfile="src/FonteUEB.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1abf5a2fdf412ec0f2dbbb7ed442fc0906" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::ub</definition>
+        <argsstring></argsstring>
+        <name>ub</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::ub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="56" column="15" bodyfile="src/FonteUEB.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a1d3ae19135b03b93a597f8b327c159f5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::Qh</definition>
+        <argsstring></argsstring>
+        <name>Qh</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::Qh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="57" column="15" bodyfile="src/FonteUEB.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a59c4daac91a9f1188672f24d9adf2b3a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::Qe</definition>
+        <argsstring></argsstring>
+        <name>Qe</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::Qe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="58" column="15" bodyfile="src/FonteUEB.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a86acec9ed6720f91d9f059d98ed95651" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::E</definition>
+        <argsstring></argsstring>
+        <name>E</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::E</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="60" column="15" bodyfile="src/FonteUEB.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a33e9aa44ebc879dfeeed63b149bbb9b3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::Mr</definition>
+        <argsstring></argsstring>
+        <name>Mr</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::Mr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="62" column="15" bodyfile="src/FonteUEB.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1af1ba9b377646be501238e90dafae216d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::Qm</definition>
+        <argsstring></argsstring>
+        <name>Qm</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::Qm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="63" column="15" bodyfile="src/FonteUEB.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a509340d2fe73a2797af25765269e673a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::Q</definition>
+        <argsstring></argsstring>
+        <name>Q</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::Q</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="65" column="15" bodyfile="src/FonteUEB.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1abfafd1579d1b840b635747c10882931a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::Fm</definition>
+        <argsstring></argsstring>
+        <name>Fm</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::Fm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="67" column="15" bodyfile="src/FonteUEB.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a092475b467207c2dcfc7469505b7d7a7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::tsurf</definition>
+        <argsstring></argsstring>
+        <name>tsurf</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::tsurf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="69" column="15" bodyfile="src/FonteUEB.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a7349780547716967a8cabde856fcb9fe" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::albedo</definition>
+        <argsstring></argsstring>
+        <name>albedo</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::albedo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="70" column="15" bodyfile="src/FonteUEB.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1aaf18015695edcafb9b9736f6eadcfcef" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::tave</definition>
+        <argsstring></argsstring>
+        <name>tave</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::tave</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="72" column="15" bodyfile="src/FonteUEB.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1a6f7a4af0587695322c9f923fcd2a1ce2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::tausn</definition>
+        <argsstring></argsstring>
+        <name>tausn</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::tausn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="74" column="15" bodyfile="src/FonteUEB.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1af9f0fc21a4804db1739b59e6726f9f9f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::SNC_stockNeigeForet</definition>
+        <argsstring></argsstring>
+        <name>SNC_stockNeigeForet</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::SNC_stockNeigeForet</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="81" column="15" bodyfile="src/FonteUEB.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1_1EtatFonteCE_1ae1f5bb266af2153d7142f65bb8b83aaf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::EtatFonteCE::SND_stockNeigeClairiere</definition>
+        <argsstring></argsstring>
+        <name>SND_stockNeigeClairiere</name>
+        <qualifiedname>FonteUEB::EtatFonteCE::SND_stockNeigeClairiere</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="82" column="15" bodyfile="src/FonteUEB.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteUEB.h" line="50" column="5" bodyfile="src/FonteUEB.h" bodystart="51" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a7349780547716967a8cabde856fcb9fe" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>albedo</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a86acec9ed6720f91d9f059d98ed95651" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>E</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1abfafd1579d1b840b635747c10882931a" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>Fm</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a33e9aa44ebc879dfeeed63b149bbb9b3" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>Mr</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a509340d2fe73a2797af25765269e673a" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>Q</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a59c4daac91a9f1188672f24d9adf2b3a" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>Qe</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a1d3ae19135b03b93a597f8b327c159f5" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>Qh</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1af1ba9b377646be501238e90dafae216d" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>Qm</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1af9f0fc21a4804db1739b59e6726f9f9f" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>SNC_stockNeigeForet</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1ae1f5bb266af2153d7142f65bb8b83aaf" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>SND_stockNeigeClairiere</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a6f7a4af0587695322c9f923fcd2a1ce2" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>tausn</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1aaf18015695edcafb9b9736f6eadcfcef" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>tave</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1a092475b467207c2dcfc7469505b7d7a7" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>tsurf</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1abf5a2fdf412ec0f2dbbb7ed442fc0906" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>ub</name></member>
+      <member refid="classFonteUEB_1_1EtatFonteCE_1af2c34f98fa753b0a22a9997dfa677547" prot="public" virt="non-virtual"><scope>FonteUEB::EtatFonteCE</scope><name>w</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

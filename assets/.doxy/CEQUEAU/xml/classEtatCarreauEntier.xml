@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEtatCarreauEntier" kind="class" language="C++" prot="public">
+    <compoundname>EtatCarreauEntier</compoundname>
+    <includes refid="Simulation_8h" local="no">Simulation.h</includes>
+    <innerclass refid="classEtatCarreauEntier_1_1Qualite" prot="public">EtatCarreauEntier::Qualite</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEtatCarreauEntier_1a3f1e0540f3e1f6b1da4782386e320091" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauEntier::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>EtatCarreauEntier::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="42" column="9" bodyfile="src/Simulation.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1adfbc2d48110a567071bd46d1a09774e8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauEntier::iCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>iCarreauEntier</name>
+        <qualifiedname>EtatCarreauEntier::iCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="43" column="9" bodyfile="src/Simulation.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1aec6ec802f4fda5c63bf859e66689e893" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauEntier::jCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>jCarreauEntier</name>
+        <qualifiedname>EtatCarreauEntier::jCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="44" column="9" bodyfile="src/Simulation.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1af889f38f1fef439eeb294d374a4e5d5f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntier::niveauEauSol</definition>
+        <argsstring></argsstring>
+        <name>niveauEauSol</name>
+        <qualifiedname>EtatCarreauEntier::niveauEauSol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="45" column="9" bodyfile="src/Simulation.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1a26c7fe480c7bba48bd7c30e05ca29dd7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntier::niveauEauNappe</definition>
+        <argsstring></argsstring>
+        <name>niveauEauNappe</name>
+        <qualifiedname>EtatCarreauEntier::niveauEauNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="46" column="9" bodyfile="src/Simulation.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1aef0abc8c40c60290126b7ba1d3d2e7f2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntier::niveauEauLacsMarais</definition>
+        <argsstring></argsstring>
+        <name>niveauEauLacsMarais</name>
+        <qualifiedname>EtatCarreauEntier::niveauEauLacsMarais</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="47" column="9" bodyfile="src/Simulation.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1a6c0df972ede6529e5ccb434a9c87de7e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntier::evapoPotJour</definition>
+        <argsstring></argsstring>
+        <name>evapoPotJour</name>
+        <qualifiedname>EtatCarreauEntier::evapoPotJour</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="48" column="9" bodyfile="src/Simulation.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1aac47dcca35fb897460eb35153ee8e955" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntier::production</definition>
+        <argsstring></argsstring>
+        <name>production</name>
+        <qualifiedname>EtatCarreauEntier::production</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="49" column="9" bodyfile="src/Simulation.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1a9616439e96a61ca2673dbe9c74d771a7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntier::recharge</definition>
+        <argsstring></argsstring>
+        <name>recharge</name>
+        <qualifiedname>EtatCarreauEntier::recharge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="50" column="9" bodyfile="src/Simulation.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntier_1a779e51e76ae4d35e86edb78b2815b2e9" prot="public" static="no" mutable="no">
+        <type>class <ref refid="classEtatCarreauEntier_1_1Qualite" kindref="compound">EtatCarreauEntier::Qualite</ref></type>
+        <definition>class EtatCarreauEntier::Qualite EtatCarreauEntier::Qualite</definition>
+        <argsstring></argsstring>
+        <name>Qualite</name>
+        <qualifiedname>EtatCarreauEntier::Qualite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="68" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees de l&apos;etat d&apos;un carreau entier. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Utilise pour conserver l&apos;etat d&apos;un carreau entier apres la fonction de production. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>EtatCarreauEntier</label>
+        <link refid="classEtatCarreauEntier"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Qualite</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EtatCarreauEntier::Qualite</label>
+        <link refid="classEtatCarreauEntier_1_1Qualite"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/Simulation.h" line="39" column="1" bodyfile="src/Simulation.h" bodystart="40" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classEtatCarreauEntier_1a6c0df972ede6529e5ccb434a9c87de7e" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>evapoPotJour</name></member>
+      <member refid="classEtatCarreauEntier_1adfbc2d48110a567071bd46d1a09774e8" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>iCarreauEntier</name></member>
+      <member refid="classEtatCarreauEntier_1a3f1e0540f3e1f6b1da4782386e320091" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>idCarreauEntier</name></member>
+      <member refid="classEtatCarreauEntier_1aec6ec802f4fda5c63bf859e66689e893" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>jCarreauEntier</name></member>
+      <member refid="classEtatCarreauEntier_1aef0abc8c40c60290126b7ba1d3d2e7f2" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>niveauEauLacsMarais</name></member>
+      <member refid="classEtatCarreauEntier_1a26c7fe480c7bba48bd7c30e05ca29dd7" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>niveauEauNappe</name></member>
+      <member refid="classEtatCarreauEntier_1af889f38f1fef439eeb294d374a4e5d5f" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>niveauEauSol</name></member>
+      <member refid="classEtatCarreauEntier_1aac47dcca35fb897460eb35153ee8e955" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>production</name></member>
+      <member refid="classEtatCarreauEntier_1a779e51e76ae4d35e86edb78b2815b2e9" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>Qualite</name></member>
+      <member refid="classEtatCarreauEntier_1a9616439e96a61ca2673dbe9c74d771a7" prot="public" virt="non-virtual"><scope>EtatCarreauEntier</scope><name>recharge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

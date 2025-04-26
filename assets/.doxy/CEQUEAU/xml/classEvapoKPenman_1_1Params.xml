@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoKPenman_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>EvapoKPenman::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoKPenman_1_1Params_1a15def1eb03784bbd75b5607e9bd0bec4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoKPenman::Params::fractionEvapoNappe</definition>
+        <argsstring></argsstring>
+        <name>fractionEvapoNappe</name>
+        <qualifiedname>EvapoKPenman::Params::fractionEvapoNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoKPenman.h" line="71" column="7" bodyfile="src/EvapoKPenman.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoKPenman.h" line="62" column="3" bodyfile="src/EvapoKPenman.h" bodystart="63" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classEvapoKPenman_1_1Params_1a15def1eb03784bbd75b5607e9bd0bec4" prot="public" virt="non-virtual"><scope>EvapoKPenman::Params</scope><name>fractionEvapoNappe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

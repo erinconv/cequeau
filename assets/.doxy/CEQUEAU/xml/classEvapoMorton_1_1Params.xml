@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoMorton_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>EvapoMorton::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoMorton_1_1Params_1a74724d53a3a8fbe01abd6be73954a6f1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoMorton::Params::paramALPHA</definition>
+        <argsstring></argsstring>
+        <name>paramALPHA</name>
+        <qualifiedname>EvapoMorton::Params::paramALPHA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoMorton.h" line="66" column="11" bodyfile="src/EvapoMorton.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoMorton_1_1Params_1a099e6c197d906507889c5b6dbf7e4027" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoMorton::Params::fractionEvapoNappe</definition>
+        <argsstring></argsstring>
+        <name>fractionEvapoNappe</name>
+        <qualifiedname>EvapoMorton::Params::fractionEvapoNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoMorton.h" line="67" column="7" bodyfile="src/EvapoMorton.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoMorton.h" line="62" column="3" bodyfile="src/EvapoMorton.h" bodystart="63" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classEvapoMorton_1_1Params_1a099e6c197d906507889c5b6dbf7e4027" prot="public" virt="non-virtual"><scope>EvapoMorton::Params</scope><name>fractionEvapoNappe</name></member>
+      <member refid="classEvapoMorton_1_1Params_1a74724d53a3a8fbe01abd6be73954a6f1" prot="public" virt="non-virtual"><scope>EvapoMorton::Params</scope><name>paramALPHA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

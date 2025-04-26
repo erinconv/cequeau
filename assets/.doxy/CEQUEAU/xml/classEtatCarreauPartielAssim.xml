@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEtatCarreauPartielAssim" kind="class" language="C++" prot="public">
+    <compoundname>EtatCarreauPartielAssim</compoundname>
+    <includes refid="Simulation_8h" local="no">Simulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEtatCarreauPartielAssim_1a6cccdf56759ed645046be1c9bdc503ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauPartielAssim::idCarreauPartiel</definition>
+        <argsstring></argsstring>
+        <name>idCarreauPartiel</name>
+        <qualifiedname>EtatCarreauPartielAssim::idCarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="127" column="9" bodyfile="src/Simulation.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartielAssim_1aa77dc600495f8a1775ce0d1decde0bae" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauPartielAssim::apportType</definition>
+        <argsstring></argsstring>
+        <name>apportType</name>
+        <qualifiedname>EtatCarreauPartielAssim::apportType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="128" column="13" bodyfile="src/Simulation.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartielAssim_1aed740ed8f79413c95390b7f07df62d27" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauPartielAssim::apport[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>apport</name>
+        <qualifiedname>EtatCarreauPartielAssim::apport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="129" column="9" bodyfile="src/Simulation.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartielAssim_1a17075921078e4f3e392c33545e9c09dd" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauPartielAssim::volumeType</definition>
+        <argsstring></argsstring>
+        <name>volumeType</name>
+        <qualifiedname>EtatCarreauPartielAssim::volumeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="130" column="13" bodyfile="src/Simulation.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartielAssim_1a1070431f4d6a2ddb5b09b662bca344a0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauPartielAssim::volume[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>volume</name>
+        <qualifiedname>EtatCarreauPartielAssim::volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="131" column="9" bodyfile="src/Simulation.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartielAssim_1a328203fb09770bd26c2b4c99faa5a5a1" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauPartielAssim::debitType</definition>
+        <argsstring></argsstring>
+        <name>debitType</name>
+        <qualifiedname>EtatCarreauPartielAssim::debitType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="132" column="13" bodyfile="src/Simulation.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartielAssim_1ab1a6b8725180721f4658775c7a2d0881" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauPartielAssim::debit[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>debit</name>
+        <qualifiedname>EtatCarreauPartielAssim::debit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="133" column="9" bodyfile="src/Simulation.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees pour l&apos;assimilation des etats d&apos;un carreau partiel. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Utilise pour assimiler des etats aux carreaux partiels. Une valeur: on substitue cette valeur. Deux valeurs: La premiere est un facteur multiplicatif et la seconde une valeur a additionner. </para>
+    </detaileddescription>
+    <location file="src/Simulation.h" line="124" column="1" bodyfile="src/Simulation.h" bodystart="125" bodyend="134"/>
+    <listofallmembers>
+      <member refid="classEtatCarreauPartielAssim_1aed740ed8f79413c95390b7f07df62d27" prot="public" virt="non-virtual"><scope>EtatCarreauPartielAssim</scope><name>apport</name></member>
+      <member refid="classEtatCarreauPartielAssim_1aa77dc600495f8a1775ce0d1decde0bae" prot="public" virt="non-virtual"><scope>EtatCarreauPartielAssim</scope><name>apportType</name></member>
+      <member refid="classEtatCarreauPartielAssim_1ab1a6b8725180721f4658775c7a2d0881" prot="public" virt="non-virtual"><scope>EtatCarreauPartielAssim</scope><name>debit</name></member>
+      <member refid="classEtatCarreauPartielAssim_1a328203fb09770bd26c2b4c99faa5a5a1" prot="public" virt="non-virtual"><scope>EtatCarreauPartielAssim</scope><name>debitType</name></member>
+      <member refid="classEtatCarreauPartielAssim_1a6cccdf56759ed645046be1c9bdc503ea" prot="public" virt="non-virtual"><scope>EtatCarreauPartielAssim</scope><name>idCarreauPartiel</name></member>
+      <member refid="classEtatCarreauPartielAssim_1a1070431f4d6a2ddb5b09b662bca344a0" prot="public" virt="non-virtual"><scope>EtatCarreauPartielAssim</scope><name>volume</name></member>
+      <member refid="classEtatCarreauPartielAssim_1a17075921078e4f3e392c33545e9c09dd" prot="public" virt="non-virtual"><scope>EtatCarreauPartielAssim</scope><name>volumeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classStation" kind="class" language="C++" prot="public">
+    <compoundname>Station</compoundname>
+    <includes refid="Station_8h" local="no">Station.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classStation_1a650368a983a74625734a90ef2cfe8286" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Station::no_</definition>
+        <argsstring></argsstring>
+        <name>no_</name>
+        <qualifiedname>Station::no_</qualifiedname>
+        <briefdescription>
+<para>Nom de la station meteo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="61" column="15" bodyfile="src/Station.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStation_1a91800c46a6e8b3611cf005cd6ce17d84" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Station::nom_</definition>
+        <argsstring></argsstring>
+        <name>nom_</name>
+        <qualifiedname>Station::nom_</qualifiedname>
+        <briefdescription>
+<para>Nom de la station meteo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="65" column="15" bodyfile="src/Station.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStation_1a616ce805b4a52aba3af40a18bce91f11" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Station::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>Station::id_</qualifiedname>
+        <briefdescription>
+<para>Id interne de la station. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="69" column="7" bodyfile="src/Station.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStation_1a94bf73e3963c41bc2f5241197412044d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Station::i_</definition>
+        <argsstring></argsstring>
+        <name>i_</name>
+        <qualifiedname>Station::i_</qualifiedname>
+        <briefdescription>
+<para>Position i de la station dans le système de coordonnées &quot;I et J&quot; du bassin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="73" column="7" bodyfile="src/Station.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStation_1af39d5f9f41f23d04b1e29e86d1339c7e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Station::j_</definition>
+        <argsstring></argsstring>
+        <name>j_</name>
+        <qualifiedname>Station::j_</qualifiedname>
+        <briefdescription>
+<para>Postion j de la station dans le système de coordonnées &quot;I et J&quot; du bassin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="77" column="7" bodyfile="src/Station.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStation_1ac8d4e2e821f082a1194ca36c8e25ca3b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Station::moyAnPrecipitation_</definition>
+        <argsstring></argsstring>
+        <name>moyAnPrecipitation_</name>
+        <qualifiedname>Station::moyAnPrecipitation_</qualifiedname>
+        <briefdescription>
+<para>Precipitation moyenne interannuelle de la station (mm) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="81" column="9" bodyfile="src/Station.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStation_1a3a87678f53c2b31a8a4cb4d7cd92cb3d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Station::altitude_</definition>
+        <argsstring></argsstring>
+        <name>altitude_</name>
+        <qualifiedname>Station::altitude_</qualifiedname>
+        <briefdescription>
+<para>Altitude de la station (m) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="85" column="9" bodyfile="src/Station.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classStation_1aa46ee31eddea2553490a4d820fc644fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Station::Station</definition>
+        <argsstring>(std::string no, std::string nom, int id, int i, int j, float moyAnPrecipitation_, float altitude_)</argsstring>
+        <name>Station</name>
+        <qualifiedname>Station::Station</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>no</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>nom</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>moyAnPrecipitation_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>altitude_</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="39" column="3" bodyfile="src/Station.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classStation_1a00434e79e8ee7f4ebd6d3b631dde5ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Station::~Station</definition>
+        <argsstring>()</argsstring>
+        <name>~Station</name>
+        <qualifiedname>Station::~Station</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="41" column="3" bodyfile="src/Station.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classStation_1a672f2c99e6cb47cfd0e6f695ea0e62f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Station::i</definition>
+        <argsstring>() const</argsstring>
+        <name>i</name>
+        <qualifiedname>Station::i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="45" column="7" bodyfile="src/Station.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classStation_1a2601eb6968e02102c373f6d6f0a5653b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Station::j</definition>
+        <argsstring>() const</argsstring>
+        <name>j</name>
+        <qualifiedname>Station::j</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="47" column="7" bodyfile="src/Station.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classStation_1a2bb67685b39733d7a12b12ba73176097" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Station::id</definition>
+        <argsstring>() const</argsstring>
+        <name>id</name>
+        <qualifiedname>Station::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="49" column="7" bodyfile="src/Station.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classStation_1a627e45f92488487c23084b6ac1e2e46c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Station::moyAnPrecipitation</definition>
+        <argsstring>() const</argsstring>
+        <name>moyAnPrecipitation</name>
+        <qualifiedname>Station::moyAnPrecipitation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="51" column="9" bodyfile="src/Station.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classStation_1a345ac0dcd536aee6375cd737bdea3bdf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Station::altitude</definition>
+        <argsstring>() const</argsstring>
+        <name>altitude</name>
+        <qualifiedname>Station::altitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Station.h" line="53" column="9" bodyfile="src/Station.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition d&apos;une station meteo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Station.h" line="31" column="1" bodyfile="src/Station.h" bodystart="33" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classStation_1a345ac0dcd536aee6375cd737bdea3bdf" prot="public" virt="non-virtual"><scope>Station</scope><name>altitude</name></member>
+      <member refid="classStation_1a3a87678f53c2b31a8a4cb4d7cd92cb3d" prot="private" virt="non-virtual"><scope>Station</scope><name>altitude_</name></member>
+      <member refid="classStation_1a672f2c99e6cb47cfd0e6f695ea0e62f3" prot="public" virt="non-virtual"><scope>Station</scope><name>i</name></member>
+      <member refid="classStation_1a94bf73e3963c41bc2f5241197412044d" prot="private" virt="non-virtual"><scope>Station</scope><name>i_</name></member>
+      <member refid="classStation_1a2bb67685b39733d7a12b12ba73176097" prot="public" virt="non-virtual"><scope>Station</scope><name>id</name></member>
+      <member refid="classStation_1a616ce805b4a52aba3af40a18bce91f11" prot="private" virt="non-virtual"><scope>Station</scope><name>id_</name></member>
+      <member refid="classStation_1a2601eb6968e02102c373f6d6f0a5653b" prot="public" virt="non-virtual"><scope>Station</scope><name>j</name></member>
+      <member refid="classStation_1af39d5f9f41f23d04b1e29e86d1339c7e" prot="private" virt="non-virtual"><scope>Station</scope><name>j_</name></member>
+      <member refid="classStation_1a627e45f92488487c23084b6ac1e2e46c" prot="public" virt="non-virtual"><scope>Station</scope><name>moyAnPrecipitation</name></member>
+      <member refid="classStation_1ac8d4e2e821f082a1194ca36c8e25ca3b" prot="private" virt="non-virtual"><scope>Station</scope><name>moyAnPrecipitation_</name></member>
+      <member refid="classStation_1a650368a983a74625734a90ef2cfe8286" prot="private" virt="non-virtual"><scope>Station</scope><name>no_</name></member>
+      <member refid="classStation_1a91800c46a6e8b3611cf005cd6ce17d84" prot="private" virt="non-virtual"><scope>Station</scope><name>nom_</name></member>
+      <member refid="classStation_1aa46ee31eddea2553490a4d820fc644fa" prot="public" virt="non-virtual"><scope>Station</scope><name>Station</name></member>
+      <member refid="classStation_1a00434e79e8ee7f4ebd6d3b631dde5ac0" prot="public" virt="non-virtual"><scope>Station</scope><name>~Station</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

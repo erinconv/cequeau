@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoCequeau_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>EvapoCequeau::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoCequeau_1_1Params_1a8a66b6a59881c7110c68cc45694836a0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EvapoCequeau::Params::jourSoleilMaxEvapo</definition>
+        <argsstring></argsstring>
+        <name>jourSoleilMaxEvapo</name>
+        <qualifiedname>EvapoCequeau::Params::jourSoleilMaxEvapo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="94" column="5" bodyfile="src/EvapoCequeau.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1_1Params_1a36ef95185f4e429a299a2491104f28e3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::Params::fractionEvapoNappe</definition>
+        <argsstring></argsstring>
+        <name>fractionEvapoNappe</name>
+        <qualifiedname>EvapoCequeau::Params::fractionEvapoNappe</qualifiedname>
+        <briefdescription>
+<para>Fraction de l&apos;évapotranspiration prise dans le réservoir NAPPE (de 0.0 a 1.0);. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="97" column="7" bodyfile="src/EvapoCequeau.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1_1Params_1a2675cc7bfd6542a880619bbeeabd9794" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::Params::exposantThornthwaite</definition>
+        <argsstring></argsstring>
+        <name>exposantThornthwaite</name>
+        <qualifiedname>EvapoCequeau::Params::exposantThornthwaite</qualifiedname>
+        <briefdescription>
+<para>Exposant de la formule de Thornthwaite;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="100" column="7" bodyfile="src/EvapoCequeau.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1_1Params_1aa00b03127206e97adcc0730e20e1c7ee" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::Params::indexThermiqueThornthwaite</definition>
+        <argsstring></argsstring>
+        <name>indexThermiqueThornthwaite</name>
+        <qualifiedname>EvapoCequeau::Params::indexThermiqueThornthwaite</qualifiedname>
+        <briefdescription>
+<para>Valeur de l&apos;index thermique de Thornthwaite;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="103" column="7" bodyfile="src/EvapoCequeau.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoCequeau.h" line="90" column="1" bodyfile="src/EvapoCequeau.h" bodystart="91" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classEvapoCequeau_1_1Params_1a2675cc7bfd6542a880619bbeeabd9794" prot="public" virt="non-virtual"><scope>EvapoCequeau::Params</scope><name>exposantThornthwaite</name></member>
+      <member refid="classEvapoCequeau_1_1Params_1a36ef95185f4e429a299a2491104f28e3" prot="public" virt="non-virtual"><scope>EvapoCequeau::Params</scope><name>fractionEvapoNappe</name></member>
+      <member refid="classEvapoCequeau_1_1Params_1aa00b03127206e97adcc0730e20e1c7ee" prot="public" virt="non-virtual"><scope>EvapoCequeau::Params</scope><name>indexThermiqueThornthwaite</name></member>
+      <member refid="classEvapoCequeau_1_1Params_1a8a66b6a59881c7110c68cc45694836a0" prot="public" virt="non-virtual"><scope>EvapoCequeau::Params</scope><name>jourSoleilMaxEvapo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

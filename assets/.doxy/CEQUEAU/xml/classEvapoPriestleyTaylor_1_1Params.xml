@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoPriestleyTaylor_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>EvapoPriestleyTaylor::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoPriestleyTaylor_1_1Params_1a8ff612ddd15d64354f4b02e709bc794d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPriestleyTaylor::Params::paramALPHA</definition>
+        <argsstring></argsstring>
+        <name>paramALPHA</name>
+        <qualifiedname>EvapoPriestleyTaylor::Params::paramALPHA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPriestleyTaylor.h" line="86" column="11" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoPriestleyTaylor_1_1Params_1a994448a80190c957cb5b04ffb2236443" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPriestleyTaylor::Params::fractionEvapoNappe</definition>
+        <argsstring></argsstring>
+        <name>fractionEvapoNappe</name>
+        <qualifiedname>EvapoPriestleyTaylor::Params::fractionEvapoNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPriestleyTaylor.h" line="87" column="7" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoPriestleyTaylor.h" line="82" column="3" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="83" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classEvapoPriestleyTaylor_1_1Params_1a994448a80190c957cb5b04ffb2236443" prot="public" virt="non-virtual"><scope>EvapoPriestleyTaylor::Params</scope><name>fractionEvapoNappe</name></member>
+      <member refid="classEvapoPriestleyTaylor_1_1Params_1a8ff612ddd15d64354f4b02e709bc794d" prot="public" virt="non-virtual"><scope>EvapoPriestleyTaylor::Params</scope><name>paramALPHA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

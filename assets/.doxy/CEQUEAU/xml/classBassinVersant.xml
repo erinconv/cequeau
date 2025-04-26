@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classBassinVersant" kind="class" language="C++" prot="public">
+    <compoundname>BassinVersant</compoundname>
+    <includes refid="BassinVersant_8h" local="no">BassinVersant.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classBassinVersant_1a66b2772be7733af942a8fe837b0e3838" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BassinVersant::nbCarreauxEntiers_</definition>
+        <argsstring></argsstring>
+        <name>nbCarreauxEntiers_</name>
+        <qualifiedname>BassinVersant::nbCarreauxEntiers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="89" column="7" bodyfile="src/BassinVersant.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1a38723c99e8ef7490753b42414d967455" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BassinVersant::nbCarreauxPartiels_</definition>
+        <argsstring></argsstring>
+        <name>nbCarreauxPartiels_</name>
+        <qualifiedname>BassinVersant::nbCarreauxPartiels_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="90" column="7" bodyfile="src/BassinVersant.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1aa721d6db45b949d71799ad1811370eab" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string BassinVersant::nomBassinVersant_</definition>
+        <argsstring></argsstring>
+        <name>nomBassinVersant_</name>
+        <qualifiedname>BassinVersant::nomBassinVersant_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="91" column="15" bodyfile="src/BassinVersant.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1af9601be3052c4085a723e56297850b9f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BassinVersant::nbCarreauxPartielsCheminLong_</definition>
+        <argsstring></argsstring>
+        <name>nbCarreauxPartielsCheminLong_</name>
+        <qualifiedname>BassinVersant::nbCarreauxPartielsCheminLong_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Nombre de carreaux partiels sur le chemin le plus long, c&apos;est-a-dire de l&apos;exutoire a la partie la plus eloignee du bassin versant </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="97" column="7" bodyfile="src/BassinVersant.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1aea6197e3f3e745e14e1cc931e5e296a4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BassinVersant::superficieCarreauEntier_</definition>
+        <argsstring></argsstring>
+        <name>superficieCarreauEntier_</name>
+        <qualifiedname>BassinVersant::superficieCarreauEntier_</qualifiedname>
+        <briefdescription>
+<para>Superficie des carreaux entier (km**2) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="99" column="9" bodyfile="src/BassinVersant.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1a3a52dc6adf3e5f747b5d8af8e2e4cac3" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; CarreauEntierPtr &gt;</type>
+        <definition>std::vector&lt;CarreauEntierPtr&gt; BassinVersant::carreauxEntiers_</definition>
+        <argsstring></argsstring>
+        <name>carreauxEntiers_</name>
+        <qualifiedname>BassinVersant::carreauxEntiers_</qualifiedname>
+        <briefdescription>
+<para>Liste des carreaux entiers du bassin versant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="102" column="15" bodyfile="src/BassinVersant.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1a60fca2fda60a3ca9ac4279fa8b5b0051" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; CarreauPartielPtr &gt;</type>
+        <definition>std::vector&lt;CarreauPartielPtr&gt; BassinVersant::carreauxPartiels_</definition>
+        <argsstring></argsstring>
+        <name>carreauxPartiels_</name>
+        <qualifiedname>BassinVersant::carreauxPartiels_</qualifiedname>
+        <briefdescription>
+<para>Liste des carreaux partiels du bassin versant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="104" column="15" bodyfile="src/BassinVersant.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1acd1179683b97e018f316c82fccbc502a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; BarragePtr &gt;</type>
+        <definition>std::vector&lt;BarragePtr&gt; BassinVersant::barrages_</definition>
+        <argsstring></argsstring>
+        <name>barrages_</name>
+        <qualifiedname>BassinVersant::barrages_</qualifiedname>
+        <briefdescription>
+<para>Liste des barrages du bassin versant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="106" column="15" bodyfile="src/BassinVersant.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1af2ab35cc984276140e3b140ddceaf0a2" prot="private" static="no" mutable="no">
+        <type>std::map&lt; int, bool &gt;</type>
+        <definition>std::map&lt;int, bool&gt; BassinVersant::listeCpBarrage_</definition>
+        <argsstring></argsstring>
+        <name>listeCpBarrage_</name>
+        <qualifiedname>BassinVersant::listeCpBarrage_</qualifiedname>
+        <briefdescription>
+<para>Liste des CP ayant un barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="108" column="12" bodyfile="src/BassinVersant.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBassinVersant_1ad1d25505353414d01365c89f574a41c6" prot="private" static="no" mutable="no">
+        <type>std::map&lt; int, std::vector&lt; PuitsPtr &gt; &gt;</type>
+        <definition>std::map&lt;int, std::vector&lt;PuitsPtr&gt; &gt; BassinVersant::puits_</definition>
+        <argsstring></argsstring>
+        <name>puits_</name>
+        <qualifiedname>BassinVersant::puits_</qualifiedname>
+        <briefdescription>
+<para>Liste des puits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="110" column="12" bodyfile="src/BassinVersant.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBassinVersant_1af21740cb2dc8bf26dc823de88db4e22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BassinVersant::BassinVersant</definition>
+        <argsstring>()</argsstring>
+        <name>BassinVersant</name>
+        <qualifiedname>BassinVersant::BassinVersant</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="38" column="3" bodyfile="src/BassinVersant.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a29d8d87b594bed4537e7ffd295553a47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BassinVersant::~BassinVersant</definition>
+        <argsstring>()</argsstring>
+        <name>~BassinVersant</name>
+        <qualifiedname>BassinVersant::~BassinVersant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="39" column="3" bodyfile="src/BassinVersant.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a2c8885e88c32f6769156d54d1ab4afde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BassinVersant::initialiserFichier</definition>
+        <argsstring>(const std::string nomFichierintrants)</argsstring>
+        <name>initialiserFichier</name>
+        <qualifiedname>BassinVersant::initialiserFichier</qualifiedname>
+        <param>
+          <type>const std::string</type>
+          <declname>nomFichierintrants</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation du bassin versant a partir d&apos;un fichier Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="42" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a04971380aa41b37090b27148f0c77d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BassinVersant::initialiser</definition>
+        <argsstring>(const mxArray *bassinVersant)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>BassinVersant::initialiser</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>bassinVersant</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation du bassin versant a partir d&apos;un variable Matlab (mxArray) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="44" column="8" bodyfile="src/BassinVersant.cpp" bodystart="358" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a07c3a28cf566dc51d9c453291c223b07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string BassinVersant::nomBassinVersant</definition>
+        <argsstring>() const</argsstring>
+        <name>nomBassinVersant</name>
+        <qualifiedname>BassinVersant::nomBassinVersant</qualifiedname>
+        <briefdescription>
+<para>Getter nomBassinVersant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="47" column="15" bodyfile="src/BassinVersant.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a1f5d9b02e918e4e25e65c0c37609e5df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int BassinVersant::nbCarreauxEntiers</definition>
+        <argsstring>() const</argsstring>
+        <name>nbCarreauxEntiers</name>
+        <qualifiedname>BassinVersant::nbCarreauxEntiers</qualifiedname>
+        <briefdescription>
+<para>Getter nbCarreauxEntiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="49" column="7" bodyfile="src/BassinVersant.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a93053589f5e46049ba6d617fecf2bbd0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int BassinVersant::nbCarreauxPartiels</definition>
+        <argsstring>() const</argsstring>
+        <name>nbCarreauxPartiels</name>
+        <qualifiedname>BassinVersant::nbCarreauxPartiels</qualifiedname>
+        <briefdescription>
+<para>Getter nbCarreauxPartiels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="51" column="7" bodyfile="src/BassinVersant.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a0242e709d659ba5efdadbba04ad98c18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int BassinVersant::nbCarreauxPartielsCheminLong</definition>
+        <argsstring>() const</argsstring>
+        <name>nbCarreauxPartielsCheminLong</name>
+        <qualifiedname>BassinVersant::nbCarreauxPartielsCheminLong</qualifiedname>
+        <briefdescription>
+<para>Getter nbCarreauxPartielsCheminLong. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="53" column="7" bodyfile="src/BassinVersant.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1adae962066ba65b7b2bb76ee98cee127f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int BassinVersant::nbBarrages</definition>
+        <argsstring>() const</argsstring>
+        <name>nbBarrages</name>
+        <qualifiedname>BassinVersant::nbBarrages</qualifiedname>
+        <briefdescription>
+<para>Getter nbBarrages. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="55" column="7" bodyfile="src/BassinVersant.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1ac19f9df3505aff77f3b677b3637b3e98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float BassinVersant::superficieCarreauEntier</definition>
+        <argsstring>() const</argsstring>
+        <name>superficieCarreauEntier</name>
+        <qualifiedname>BassinVersant::superficieCarreauEntier</qualifiedname>
+        <briefdescription>
+<para>Getter superficieCarreauEntier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="57" column="9" bodyfile="src/BassinVersant.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1ad7b7c85f80474b3f23b4e74fdf23e8eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; CarreauEntierPtr &gt; &amp;</type>
+        <definition>const std::vector&lt; CarreauEntierPtr &gt; &amp; BassinVersant::carreauxEntiers</definition>
+        <argsstring>() const</argsstring>
+        <name>carreauxEntiers</name>
+        <qualifiedname>BassinVersant::carreauxEntiers</qualifiedname>
+        <briefdescription>
+<para>Getter liste des carreaux entiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="59" column="21" bodyfile="src/BassinVersant.cpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a3fb9ac51a8134c06fbdf7f798838705b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; CarreauPartielPtr &gt; &amp;</type>
+        <definition>const std::vector&lt; CarreauPartielPtr &gt; &amp; BassinVersant::carreauxPartiels</definition>
+        <argsstring>() const</argsstring>
+        <name>carreauxPartiels</name>
+        <qualifiedname>BassinVersant::carreauxPartiels</qualifiedname>
+        <briefdescription>
+<para>Getter liste des carreaux partiels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="61" column="21" bodyfile="src/BassinVersant.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1abbb8903aa5dc24feb933849b8fca3429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; BarragePtr &gt; &amp;</type>
+        <definition>std::vector&lt; BarragePtr &gt; &amp; BassinVersant::barrages</definition>
+        <argsstring>()</argsstring>
+        <name>barrages</name>
+        <qualifiedname>BassinVersant::barrages</qualifiedname>
+        <briefdescription>
+<para>Getter barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="63" column="15" bodyfile="src/BassinVersant.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1aa00ba506b9580c38bd2aeaf03c7ba706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BassinVersant::initialiserBarrage</definition>
+        <argsstring>(int idCP, int idCPAval, float volumeInitial, ParamEquation &amp;coeffNiveau, ParamEquation &amp;coeffDebit)</argsstring>
+        <name>initialiserBarrage</name>
+        <qualifiedname>BassinVersant::initialiserBarrage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCP</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idCPAval</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeInitial</declname>
+        </param>
+        <param>
+          <type>ParamEquation &amp;</type>
+          <declname>coeffNiveau</declname>
+        </param>
+        <param>
+          <type>ParamEquation &amp;</type>
+          <declname>coeffDebit</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation barrage type 2. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="65" column="8" bodyfile="src/BassinVersant.cpp" bodystart="320" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1af1e71c99e32e4d9a24e4fe83aaf3a031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BassinVersant::initialiserBarrage</definition>
+        <argsstring>(int idCP, int idCPAval, float volumeInitial, ParamEquation &amp;coeffNiveau, ParamEquation &amp;coeffVolume, std::vector&lt; ParamEquation &gt; &amp;coeffDebitInt, std::vector&lt; InfoEvacuationExt &gt; &amp;coeffDebitExt)</argsstring>
+        <name>initialiserBarrage</name>
+        <qualifiedname>BassinVersant::initialiserBarrage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCP</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idCPAval</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeInitial</declname>
+        </param>
+        <param>
+          <type>ParamEquation &amp;</type>
+          <declname>coeffNiveau</declname>
+        </param>
+        <param>
+          <type>ParamEquation &amp;</type>
+          <declname>coeffVolume</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; ParamEquation &gt; &amp;</type>
+          <declname>coeffDebitInt</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="classInfoEvacuationExt" kindref="compound">InfoEvacuationExt</ref> &gt; &amp;</type>
+          <declname>coeffDebitExt</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation barrage type 5. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="67" column="8" bodyfile="src/BassinVersant.cpp" bodystart="327" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1ae787b9cffe846a8e9bc78038aa1e0f94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BassinVersant::initialiserBarrage</definition>
+        <argsstring>(int idCPAval, std::vector&lt; float &gt; &amp;debitsExternesMesures)</argsstring>
+        <name>initialiserBarrage</name>
+        <qualifiedname>BassinVersant::initialiserBarrage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCPAval</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>debitsExternesMesures</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation barrage type 3. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="70" column="8" bodyfile="src/BassinVersant.cpp" bodystart="335" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1addb7d9163aa90e14be4ea2937d836b76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BassinVersant::possedeBarrage</definition>
+        <argsstring>() const</argsstring>
+        <name>possedeBarrage</name>
+        <qualifiedname>BassinVersant::possedeBarrage</qualifiedname>
+        <briefdescription>
+<para>Le bassin possede des barrages? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="72" column="8" bodyfile="src/BassinVersant.cpp" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a1de13c83b714f0e4ca0a4770a455b991" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BassinVersant::possedeBarrage</definition>
+        <argsstring>(int idCP) const</argsstring>
+        <name>possedeBarrage</name>
+        <qualifiedname>BassinVersant::possedeBarrage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCP</declname>
+        </param>
+        <briefdescription>
+<para>Le CP possede un barrage? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="74" column="8" bodyfile="src/BassinVersant.cpp" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1ac80567f7752b1d95fb2ca85591d2ce22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const BarragePtr</type>
+        <definition>const BarragePtr BassinVersant::trouverBarrageParIdCpAval</definition>
+        <argsstring>(int idCP) const</argsstring>
+        <name>trouverBarrageParIdCpAval</name>
+        <qualifiedname>BassinVersant::trouverBarrageParIdCpAval</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCP</declname>
+        </param>
+        <briefdescription>
+<para>Recherche d&apos;un barrage ayant un CP particuler en aval. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="76" column="20" bodyfile="src/BassinVersant.cpp" bodystart="99" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1ac5067ffa5c77c72cbed46f52ebbb0b3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const BarragePtr</type>
+        <definition>const BarragePtr BassinVersant::trouverBarrageParIdCP</definition>
+        <argsstring>(int idCP) const</argsstring>
+        <name>trouverBarrageParIdCP</name>
+        <qualifiedname>BassinVersant::trouverBarrageParIdCP</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCP</declname>
+        </param>
+        <briefdescription>
+<para>Recherche d&apos;un barrage situe sur ce CP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="78" column="20" bodyfile="src/BassinVersant.cpp" bodystart="114" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a363138fd89e955cac9943dcd0750e390" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const CarreauEntierPtr</type>
+        <definition>const CarreauEntierPtr BassinVersant::trouverCarreauEntierParId</definition>
+        <argsstring>(int id) const</argsstring>
+        <name>trouverCarreauEntierParId</name>
+        <qualifiedname>BassinVersant::trouverCarreauEntierParId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Obtention d&apos;un carreau entier selon son id. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="81" column="26" bodyfile="src/BassinVersant.cpp" bodystart="129" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1ad6b8783e20c8267fefc96135825a8db9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::map&lt; int, std::vector&lt; PuitsPtr &gt; &gt; &amp;</type>
+        <definition>const std::map&lt; int, std::vector&lt; PuitsPtr &gt; &gt; &amp; BassinVersant::puits</definition>
+        <argsstring>() const</argsstring>
+        <name>puits</name>
+        <qualifiedname>BassinVersant::puits</qualifiedname>
+        <briefdescription>
+<para>Getter liste des puits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="84" column="18" bodyfile="src/BassinVersant.cpp" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1a1d31f3486d56cefaba1a84f3de773f9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; PuitsPtr &gt; &amp;</type>
+        <definition>const std::vector&lt; PuitsPtr &gt; &amp; BassinVersant::puitsParIdCE</definition>
+        <argsstring>(int idCE) const</argsstring>
+        <name>puitsParIdCE</name>
+        <qualifiedname>BassinVersant::puitsParIdCE</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="86" column="21" bodyfile="src/BassinVersant.cpp" bodystart="151" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classBassinVersant_1a6e8b421f4974d73037ee70054e79af75" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BassinVersant::initialiserCarreauxEntiers</definition>
+        <argsstring>(const mxArray *bassinVersant)</argsstring>
+        <name>initialiserCarreauxEntiers</name>
+        <qualifiedname>BassinVersant::initialiserCarreauxEntiers</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>bassinVersant</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des carreaux entiers a partir d&apos;une structure Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="113" column="8" bodyfile="src/BassinVersant.cpp" bodystart="273" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classBassinVersant_1aaf1b2483bcb3af62750d7835c43e4087" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BassinVersant::initialiserCarreauxPartiels</definition>
+        <argsstring>(const mxArray *bassinVersant)</argsstring>
+        <name>initialiserCarreauxPartiels</name>
+        <qualifiedname>BassinVersant::initialiserCarreauxPartiels</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>bassinVersant</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des carreaux partiels a partir d&apos;une structure Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="115" column="8" bodyfile="src/BassinVersant.cpp" bodystart="162" bodyend="270"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition du bassin versant. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Definition du bassin versant. NOTE: Il s&apos;agit de la representation des donnees physiographiques PREPAREES. </para>
+    </detaileddescription>
+    <location file="src/BassinVersant.h" line="34" column="1" bodyfile="src/BassinVersant.h" bodystart="35" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classBassinVersant_1abbb8903aa5dc24feb933849b8fca3429" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>barrages</name></member>
+      <member refid="classBassinVersant_1acd1179683b97e018f316c82fccbc502a" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>barrages_</name></member>
+      <member refid="classBassinVersant_1af21740cb2dc8bf26dc823de88db4e22f" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>BassinVersant</name></member>
+      <member refid="classBassinVersant_1ad7b7c85f80474b3f23b4e74fdf23e8eb" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>carreauxEntiers</name></member>
+      <member refid="classBassinVersant_1a3a52dc6adf3e5f747b5d8af8e2e4cac3" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>carreauxEntiers_</name></member>
+      <member refid="classBassinVersant_1a3fb9ac51a8134c06fbdf7f798838705b" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>carreauxPartiels</name></member>
+      <member refid="classBassinVersant_1a60fca2fda60a3ca9ac4279fa8b5b0051" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>carreauxPartiels_</name></member>
+      <member refid="classBassinVersant_1a04971380aa41b37090b27148f0c77d2f" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>initialiser</name></member>
+      <member refid="classBassinVersant_1aa00ba506b9580c38bd2aeaf03c7ba706" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>initialiserBarrage</name></member>
+      <member refid="classBassinVersant_1af1e71c99e32e4d9a24e4fe83aaf3a031" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>initialiserBarrage</name></member>
+      <member refid="classBassinVersant_1ae787b9cffe846a8e9bc78038aa1e0f94" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>initialiserBarrage</name></member>
+      <member refid="classBassinVersant_1a6e8b421f4974d73037ee70054e79af75" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>initialiserCarreauxEntiers</name></member>
+      <member refid="classBassinVersant_1aaf1b2483bcb3af62750d7835c43e4087" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>initialiserCarreauxPartiels</name></member>
+      <member refid="classBassinVersant_1a2c8885e88c32f6769156d54d1ab4afde" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>initialiserFichier</name></member>
+      <member refid="classBassinVersant_1af2ab35cc984276140e3b140ddceaf0a2" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>listeCpBarrage_</name></member>
+      <member refid="classBassinVersant_1adae962066ba65b7b2bb76ee98cee127f" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>nbBarrages</name></member>
+      <member refid="classBassinVersant_1a1f5d9b02e918e4e25e65c0c37609e5df" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>nbCarreauxEntiers</name></member>
+      <member refid="classBassinVersant_1a66b2772be7733af942a8fe837b0e3838" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>nbCarreauxEntiers_</name></member>
+      <member refid="classBassinVersant_1a93053589f5e46049ba6d617fecf2bbd0" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>nbCarreauxPartiels</name></member>
+      <member refid="classBassinVersant_1a38723c99e8ef7490753b42414d967455" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>nbCarreauxPartiels_</name></member>
+      <member refid="classBassinVersant_1a0242e709d659ba5efdadbba04ad98c18" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>nbCarreauxPartielsCheminLong</name></member>
+      <member refid="classBassinVersant_1af9601be3052c4085a723e56297850b9f" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>nbCarreauxPartielsCheminLong_</name></member>
+      <member refid="classBassinVersant_1a07c3a28cf566dc51d9c453291c223b07" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>nomBassinVersant</name></member>
+      <member refid="classBassinVersant_1aa721d6db45b949d71799ad1811370eab" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>nomBassinVersant_</name></member>
+      <member refid="classBassinVersant_1addb7d9163aa90e14be4ea2937d836b76" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>possedeBarrage</name></member>
+      <member refid="classBassinVersant_1a1de13c83b714f0e4ca0a4770a455b991" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>possedeBarrage</name></member>
+      <member refid="classBassinVersant_1ad6b8783e20c8267fefc96135825a8db9" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>puits</name></member>
+      <member refid="classBassinVersant_1ad1d25505353414d01365c89f574a41c6" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>puits_</name></member>
+      <member refid="classBassinVersant_1a1d31f3486d56cefaba1a84f3de773f9d" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>puitsParIdCE</name></member>
+      <member refid="classBassinVersant_1ac19f9df3505aff77f3b677b3637b3e98" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>superficieCarreauEntier</name></member>
+      <member refid="classBassinVersant_1aea6197e3f3e745e14e1cc931e5e296a4" prot="private" virt="non-virtual"><scope>BassinVersant</scope><name>superficieCarreauEntier_</name></member>
+      <member refid="classBassinVersant_1ac5067ffa5c77c72cbed46f52ebbb0b3e" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>trouverBarrageParIdCP</name></member>
+      <member refid="classBassinVersant_1ac80567f7752b1d95fb2ca85591d2ce22" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>trouverBarrageParIdCpAval</name></member>
+      <member refid="classBassinVersant_1a363138fd89e955cac9943dcd0750e390" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>trouverCarreauEntierParId</name></member>
+      <member refid="classBassinVersant_1a29d8d87b594bed4537e7ffd295553a47" prot="public" virt="non-virtual"><scope>BassinVersant</scope><name>~BassinVersant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

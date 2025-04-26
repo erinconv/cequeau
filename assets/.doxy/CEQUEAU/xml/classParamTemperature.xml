@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classParamTemperature" kind="class" language="C++" prot="public">
+    <compoundname>ParamTemperature</compoundname>
+    <includes refid="ParametresQualite_8h" local="no">ParametresQualite.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classParamTemperature_1a0552a8ee072f40b06b24d98894e06041" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::crayso</definition>
+        <argsstring></argsstring>
+        <name>crayso</name>
+        <qualifiedname>ParamTemperature::crayso</qualifiedname>
+        <briefdescription>
+<para>Coefficient rayonnement solaire. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Coefficient permettant d&apos;augmenter ou de diminuer</para>
+<para>l&apos;importance du rayonnement solaire dans le bilan d&apos;energie. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="51" column="9" bodyfile="src/ParametresQualite.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1a723ab73020a237fdfb3f31656c312c86" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::crayin</definition>
+        <argsstring></argsstring>
+        <name>crayin</name>
+        <qualifiedname>ParamTemperature::crayin</qualifiedname>
+        <briefdescription>
+<para>Coefficient rayonnement infrarouge. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Coefficient permettant d&apos;augmenter ou de diminuer</para>
+<para>l&apos;importance du rayonnement infrarouge dans le bilan d&apos;energie. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="59" column="9" bodyfile="src/ParametresQualite.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1a883e2516d31b94c8e257cd07fb8f7f2a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::cevapo</definition>
+        <argsstring></argsstring>
+        <name>cevapo</name>
+        <qualifiedname>ParamTemperature::cevapo</qualifiedname>
+        <briefdescription>
+<para>Coefficient evaporation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Coefficient permettant d&apos;augmenter ou de diminuer</para>
+<para>l&apos;importance de l&apos;ï¿½vaporation dans le bilan d&apos;ï¿½nergie </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="67" column="9" bodyfile="src/ParametresQualite.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1afab064f7b026c71df2fb4c3d170c394e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::cconve</definition>
+        <argsstring></argsstring>
+        <name>cconve</name>
+        <qualifiedname>ParamTemperature::cconve</qualifiedname>
+        <briefdescription>
+<para>Coefficient convection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Coefficient permettant d&apos;augmenter ou de diminuer</para>
+<para>l&apos;importance de la convection dans le bilan d&apos;ï¿½nergie </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="75" column="9" bodyfile="src/ParametresQualite.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1a9183d9df0281be20b2dc81ad5ada763b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::crigel</definition>
+        <argsstring></argsstring>
+        <name>crigel</name>
+        <qualifiedname>ParamTemperature::crigel</qualifiedname>
+        <briefdescription>
+<para>Critere de gel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="79" column="9" bodyfile="src/ParametresQualite.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1a5d4dedbd7955af98b2850708de9d3281" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::tnap</definition>
+        <argsstring></argsstring>
+        <name>tnap</name>
+        <qualifiedname>ParamTemperature::tnap</qualifiedname>
+        <briefdescription>
+<para>Temperature moyenne annuelle des eaux souterraines sur le bassin versant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="83" column="9" bodyfile="src/ParametresQualite.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1a6cebe25db6db204f1e56a4597daf826c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::panap</definition>
+        <argsstring></argsstring>
+        <name>panap</name>
+        <qualifiedname>ParamTemperature::panap</qualifiedname>
+        <briefdescription>
+<para>Parametre permettant d&apos;ajuster la temperature de l&apos;ecoulement souterrain arrivant en riviere. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="87" column="9" bodyfile="src/ParametresQualite.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1adfb83055de86401fcfe267b8f264b6de" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::tinit</definition>
+        <argsstring></argsstring>
+        <name>tinit</name>
+        <qualifiedname>ParamTemperature::tinit</qualifiedname>
+        <briefdescription>
+<para>Temperature moyenne de l&apos;eau sur l&apos;ensemble du bassin versant estimee au premier jour des simulations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="91" column="9" bodyfile="src/ParametresQualite.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1aab56485480d13ec7eecc53be7f0cc7c3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::bassol</definition>
+        <argsstring></argsstring>
+        <name>bassol</name>
+        <qualifiedname>ParamTemperature::bassol</qualifiedname>
+        <briefdescription>
+<para>Lame de precipitation totale permettant de detecter les jours de faible rayonnement solaire. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="95" column="9" bodyfile="src/ParametresQualite.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1a480b05030b2b7b9ab3303121099dacf0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::corsol</definition>
+        <argsstring></argsstring>
+        <name>corsol</name>
+        <qualifiedname>ParamTemperature::corsol</qualifiedname>
+        <briefdescription>
+<para>Correction du rayonnement solaire moyen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Correction du rayonnement solaire moyen (RSM) pour les</para>
+<para>jours sans pluie (RSM x (1+CORSOL)) et les jours de fortes</para>
+<para>pluies (RSM x (1-CORSOL)) (entre 0.0 et 1.0). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="105" column="9" bodyfile="src/ParametresQualite.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1aa52729307bee76de1da667b08c916f6c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::ccanope</definition>
+        <argsstring></argsstring>
+        <name>ccanope</name>
+        <qualifiedname>ParamTemperature::ccanope</qualifiedname>
+        <briefdescription>
+<para>couverture du sol par la canopï¿½ de la forï¿½t (entre 0.0 et 1.0) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="111" column="9" bodyfile="src/ParametresQualite.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamTemperature_1a84bc85fa2d9a829655f94389fc818d4f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamTemperature::hombre</definition>
+        <argsstring></argsstring>
+        <name>hombre</name>
+        <qualifiedname>ParamTemperature::hombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresQualite.h" line="113" column="9" bodyfile="src/ParametresQualite.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees des parametres qualite relatifs a la temperature de l&apos;eau. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/ParametresQualite.h" line="39" column="1" bodyfile="src/ParametresQualite.h" bodystart="41" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classParamTemperature_1aab56485480d13ec7eecc53be7f0cc7c3" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>bassol</name></member>
+      <member refid="classParamTemperature_1aa52729307bee76de1da667b08c916f6c" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>ccanope</name></member>
+      <member refid="classParamTemperature_1afab064f7b026c71df2fb4c3d170c394e" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>cconve</name></member>
+      <member refid="classParamTemperature_1a883e2516d31b94c8e257cd07fb8f7f2a" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>cevapo</name></member>
+      <member refid="classParamTemperature_1a480b05030b2b7b9ab3303121099dacf0" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>corsol</name></member>
+      <member refid="classParamTemperature_1a723ab73020a237fdfb3f31656c312c86" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>crayin</name></member>
+      <member refid="classParamTemperature_1a0552a8ee072f40b06b24d98894e06041" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>crayso</name></member>
+      <member refid="classParamTemperature_1a9183d9df0281be20b2dc81ad5ada763b" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>crigel</name></member>
+      <member refid="classParamTemperature_1a84bc85fa2d9a829655f94389fc818d4f" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>hombre</name></member>
+      <member refid="classParamTemperature_1a6cebe25db6db204f1e56a4597daf826c" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>panap</name></member>
+      <member refid="classParamTemperature_1adfb83055de86401fcfe267b8f264b6de" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>tinit</name></member>
+      <member refid="classParamTemperature_1a5d4dedbd7955af98b2850708de9d3281" prot="public" virt="non-virtual"><scope>ParamTemperature</scope><name>tnap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

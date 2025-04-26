@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceMexHelper" kind="namespace" language="C++">
+    <compoundname>MexHelper</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMexHelper_1aa6b281d20aa7f3760e1cc8fd4e92f50f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * MexHelper::mhMxGetField</definition>
+        <argsstring>(const mxArray *pm, mwIndex index, const std::string &amp;fieldname)</argsstring>
+        <name>mhMxGetField</name>
+        <qualifiedname>MexHelper::mhMxGetField</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pm</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>fieldname</declname>
+        </param>
+        <briefdescription>
+<para>Equivalent d&apos;un matOpen mais avec gestion d&apos;erreur. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Equivalent d&apos;un mxGetField mais avec gestion d&apos;erreur. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="259" column="18" bodyfile="src/MexHelper.hpp" bodystart="259" bodyend="279" declfile="src/MexHelper.hpp" declline="81" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1a7221156bf6f52fe7b756319dd0208031" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MexHelper::hasField</definition>
+        <argsstring>(const mxArray *pm, mwIndex index, const std::string &amp;fieldname)</argsstring>
+        <name>hasField</name>
+        <qualifiedname>MexHelper::hasField</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pm</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>fieldname</declname>
+        </param>
+        <briefdescription>
+<para>Est-ce que le champ existe dans la struct? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="285" column="15" bodyfile="src/MexHelper.hpp" bodystart="285" bodyend="301" declfile="src/MexHelper.hpp" declline="85" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1adf36aeeff6e44bc79144e107774ef7b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double *</type>
+        <definition>double * MexHelper::mhMxGetPr</definition>
+        <argsstring>(const mxArray *pm, const std::string &amp;fieldname)</argsstring>
+        <name>mhMxGetPr</name>
+        <qualifiedname>MexHelper::mhMxGetPr</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pm</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>fieldname</declname>
+        </param>
+        <briefdescription>
+<para>Equivalent d&apos;un mxGetPr mais avec gestion d&apos;erreur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="307" column="18" bodyfile="src/MexHelper.hpp" bodystart="307" bodyend="331" declfile="src/MexHelper.hpp" declline="89" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1ab2b40308ac13857f8f91df9231b83482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>Type *</type>
+        <definition>Type * MexHelper::mhMxGetData</definition>
+        <argsstring>(const mxArray *pm, const std::string &amp;fieldname)</argsstring>
+        <name>mhMxGetData</name>
+        <qualifiedname>MexHelper::mhMxGetData</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pm</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>fieldname</declname>
+        </param>
+        <briefdescription>
+<para>mxGetData generique avec gestion d&apos;erreur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="343" column="16" bodyfile="src/MexHelper.hpp" bodystart="343" bodyend="367" declfile="src/MexHelper.hpp" declline="95" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1a65e14e8acaeddc18291647c50176f659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, std::vector&lt; Type &gt; &amp;param, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; Type &gt; &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement de valeurs dans un vecteur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="375" column="15" bodyfile="src/MexHelper.hpp" bodystart="375" bodyend="397" declfile="src/MexHelper.hpp" declline="101" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1ae918c5f60ebfe9a4d47e9c4b53c35121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, Type &amp;param, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>Type &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement d&apos;une valeur dans un type de base. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="405" column="15" bodyfile="src/MexHelper.hpp" bodystart="405" bodyend="427" declfile="src/MexHelper.hpp" declline="107" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1aeb71d68599ff74b3188c0939abc231a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, Type &amp;param, Type &amp;valDefaut, mwIndex index)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>Type &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>Type &amp;</type>
+          <declname>valDefaut</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Chargement d&apos;une valeur dans un type de base avec une valeur par defaut si le champ est absent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="113" column="8" declfile="src/MexHelper.hpp" declline="113" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1acd1cb18b4f2251abf265e3ac145a8250" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, int *param, unsigned int nbItems, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nbItems</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement des valeurs dans un array de int. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="455" column="15" bodyfile="src/MexHelper.hpp" bodystart="455" bodyend="483" declfile="src/MexHelper.hpp" declline="117" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1a06902af3e72a1efce067ff8b46096ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, std::string &amp;param, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement d&apos;une valeur dans un string. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="489" column="15" bodyfile="src/MexHelper.hpp" bodystart="489" bodyend="519" declfile="src/MexHelper.hpp" declline="121" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1a68d21c735bb3d8394cf5b7ba4caaa083" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, ParamEquation &amp;param, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>ParamEquation &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement des valeurs dans un ParamEquation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="525" column="15" bodyfile="src/MexHelper.hpp" bodystart="525" bodyend="551" declfile="src/MexHelper.hpp" declline="125" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1ad59385251691f7e3bce4a4735702b4d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, MoyenneMois &amp;param, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>MoyenneMois &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement des valeurs dans un MoyenneMois. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="557" column="15" bodyfile="src/MexHelper.hpp" bodystart="557" bodyend="577" declfile="src/MexHelper.hpp" declline="129" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1ac34ef5d7eff9358d6c39244341e7d06e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, std::vector&lt; ParamEquation &gt; &amp;param, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; ParamEquation &gt; &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement des valeurs dans un vecteur de ParamEquation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="583" column="15" bodyfile="src/MexHelper.hpp" bodystart="583" bodyend="625" declfile="src/MexHelper.hpp" declline="133" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1aaca95462c4d8035be56f492e7cab8a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, std::vector&lt; InfoEvacuationExt &gt; &amp;param, mwIndex index=0)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="classInfoEvacuationExt" kindref="compound">InfoEvacuationExt</ref> &gt; &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Chargement des valeurs dans un vecteur de <ref refid="classInfoEvacuationExt" kindref="compound">InfoEvacuationExt</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="631" column="15" bodyfile="src/MexHelper.hpp" bodystart="631" bodyend="677" declfile="src/MexHelper.hpp" declline="137" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1a74b1058c6fba81c6cf9c6a7e0a9a4d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>DateChrono MexHelper::datenumToDate</definition>
+        <argsstring>(double *aDatenum)</argsstring>
+        <name>datenumToDate</name>
+        <qualifiedname>MexHelper::datenumToDate</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>aDatenum</declname>
+        </param>
+        <briefdescription>
+<para>Conversion d&apos;un date Matlab de format datenum en date. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="731" column="21" bodyfile="src/MexHelper.hpp" bodystart="731" bodyend="737" declfile="src/MexHelper.hpp" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1a09570712884961d413f788ef88394880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double MexHelper::dateToDatenum</definition>
+        <argsstring>(DateChrono &amp;aDate)</argsstring>
+        <name>dateToDatenum</name>
+        <qualifiedname>MexHelper::dateToDatenum</qualifiedname>
+        <param>
+          <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>aDate</declname>
+        </param>
+        <briefdescription>
+<para>Conversion d&apos;une date en format Matlab datenum. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="743" column="17" bodyfile="src/MexHelper.hpp" bodystart="743" bodyend="751" declfile="src/MexHelper.hpp" declline="163" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMexHelper_1a149203869ae0003c68dbd574432cbf3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MexHelper::chargerValeurs</definition>
+        <argsstring>(const mxArray *pStruct, const std::string &amp;nomChamp, Type &amp;param, Type valDefaut, mwIndex index)</argsstring>
+        <name>chargerValeurs</name>
+        <qualifiedname>MexHelper::chargerValeurs</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>pStruct</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>Type &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>valDefaut</declname>
+        </param>
+        <param>
+          <type>mwIndex</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/MexHelper.hpp" line="435" column="15" bodyfile="src/MexHelper.hpp" bodystart="435" bodyend="449"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Fonctions utilitaires pour faciliter l&apos;usage de l&apos;API Matlab. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/MexHelper.hpp" line="67" column="1"/>
+  </compounddef>
+</doxygen>

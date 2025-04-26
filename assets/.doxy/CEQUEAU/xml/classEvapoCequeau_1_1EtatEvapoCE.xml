@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoCequeau_1_1EtatEvapoCE" kind="class" language="C++" prot="public">
+    <compoundname>EvapoCequeau::EtatEvapoCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoCequeau_1_1EtatEvapoCE_1a099f8b60a2966f65695a63f2084cb4c6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::EtatEvapoCE::stateSol</definition>
+        <argsstring></argsstring>
+        <name>stateSol</name>
+        <qualifiedname>EvapoCequeau::EtatEvapoCE::stateSol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="68" column="7" bodyfile="src/EvapoCequeau.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1_1EtatEvapoCE_1acd22deacaa6a09e8850da7f92e96620e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::EtatEvapoCE::stateNappe</definition>
+        <argsstring></argsstring>
+        <name>stateNappe</name>
+        <qualifiedname>EvapoCequeau::EtatEvapoCE::stateNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="69" column="7" bodyfile="src/EvapoCequeau.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1_1EtatEvapoCE_1a6f40f6a361745f6933de5f34847709ec" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::EtatEvapoCE::stateEauLibre</definition>
+        <argsstring></argsstring>
+        <name>stateEauLibre</name>
+        <qualifiedname>EvapoCequeau::EtatEvapoCE::stateEauLibre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="70" column="7" bodyfile="src/EvapoCequeau.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1_1EtatEvapoCE_1a2161930e62299d8c8961e96363847dd5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::EtatEvapoCE::statePot</definition>
+        <argsstring></argsstring>
+        <name>statePot</name>
+        <qualifiedname>EvapoCequeau::EtatEvapoCE::statePot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="71" column="7" bodyfile="src/EvapoCequeau.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoCequeau.h" line="62" column="1" bodyfile="src/EvapoCequeau.h" bodystart="63" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classEvapoCequeau_1_1EtatEvapoCE_1a6f40f6a361745f6933de5f34847709ec" prot="public" virt="non-virtual"><scope>EvapoCequeau::EtatEvapoCE</scope><name>stateEauLibre</name></member>
+      <member refid="classEvapoCequeau_1_1EtatEvapoCE_1acd22deacaa6a09e8850da7f92e96620e" prot="public" virt="non-virtual"><scope>EvapoCequeau::EtatEvapoCE</scope><name>stateNappe</name></member>
+      <member refid="classEvapoCequeau_1_1EtatEvapoCE_1a2161930e62299d8c8961e96363847dd5" prot="public" virt="non-virtual"><scope>EvapoCequeau::EtatEvapoCE</scope><name>statePot</name></member>
+      <member refid="classEvapoCequeau_1_1EtatEvapoCE_1a099f8b60a2966f65695a63f2084cb4c6" prot="public" virt="non-virtual"><scope>EvapoCequeau::EtatEvapoCE</scope><name>stateSol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

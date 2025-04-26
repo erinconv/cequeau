@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteTemplate" kind="class" language="C++" prot="public">
+    <compoundname>FonteTemplate</compoundname>
+    <basecompoundref refid="classFonte" prot="public" virt="non-virtual">Fonte</basecompoundref>
+    <innerclass refid="classFonteTemplate_1_1EtatFonteAssimCE" prot="private">FonteTemplate::EtatFonteAssimCE</innerclass>
+    <innerclass refid="classFonteTemplate_1_1EtatFonteCE" prot="private">FonteTemplate::EtatFonteCE</innerclass>
+    <innerclass refid="classFonteTemplate_1_1Params" prot="private">FonteTemplate::Params</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFonteTemplate_1ad4662d03888a71bcc043e291706dd079" prot="private" static="no" mutable="no">
+        <type>class FonteTemplate::Params</type>
+        <definition>class FonteTemplate::Params FonteTemplate::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>FonteTemplate::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="65" column="11"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteTemplate_1adbe347e1c131c8e733cd693a65a8da82" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; FonteTemplate::nomChamps_</definition>
+        <argsstring></argsstring>
+        <name>nomChamps_</name>
+        <qualifiedname>FonteTemplate::nomChamps_</qualifiedname>
+        <briefdescription>
+<para>Noms des variable d&apos;etat dans les intrants. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="101" column="15" bodyfile="src/FonteTemplate.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteTemplate_1a3605e047bfb5729c348c3f4d6182e8bc" prot="private" static="no" mutable="no">
+        <type>EtatFonteCE</type>
+        <definition>EtatFonteCE FonteTemplate::etatFonteCE_</definition>
+        <argsstring></argsstring>
+        <name>etatFonteCE_</name>
+        <qualifiedname>FonteTemplate::etatFonteCE_</qualifiedname>
+        <briefdescription>
+<para>Etat pour un carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="103" column="15" bodyfile="src/FonteTemplate.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteTemplate_1ab91db9e69b6c4974a3daa54546fa5349" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; EtatFonteCE &gt;</type>
+        <definition>std::vector&lt;EtatFonteCE&gt; FonteTemplate::etatsFonteCE_</definition>
+        <argsstring></argsstring>
+        <name>etatsFonteCE_</name>
+        <qualifiedname>FonteTemplate::etatsFonteCE_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour un pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="105" column="15" bodyfile="src/FonteTemplate.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteTemplate_1acde8ff000eecd218954d99ec2fc0fa6d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; EtatFonteCE &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;EtatFonteCE&gt; &gt; FonteTemplate::etatsFonte_</definition>
+        <argsstring></argsstring>
+        <name>etatsFonte_</name>
+        <qualifiedname>FonteTemplate::etatsFonte_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour tous les pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="107" column="15" bodyfile="src/FonteTemplate.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteTemplate_1abddfa9fcc84d9806121025bacc75cd5b" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; EtatFonteAssimCE &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatFonteAssimCE&gt; &gt; FonteTemplate::assimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsCE_</name>
+        <qualifiedname>FonteTemplate::assimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="110" column="12" bodyfile="src/FonteTemplate.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteTemplate_1ae8ed11a83a9a22191169846c81d9659e" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; EtatFonteCE &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatFonteCE&gt; &gt; FonteTemplate::avantAssimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsCE_</name>
+        <qualifiedname>FonteTemplate::avantAssimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="112" column="12" bodyfile="src/FonteTemplate.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFonteTemplate_1adb5337349c844c5350559c289d0cd871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteTemplate::FonteTemplate</definition>
+        <argsstring>()</argsstring>
+        <name>FonteTemplate</name>
+        <qualifiedname>FonteTemplate::FonteTemplate</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="27" column="3" bodyfile="src/FonteTemplate.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1af5b3cf5339c28fcb02c575b9f7189873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteTemplate::FonteTemplate</definition>
+        <argsstring>(int latitudeMoyenneBV, int nbCE)</argsstring>
+        <name>FonteTemplate</name>
+        <qualifiedname>FonteTemplate::FonteTemplate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>latitudeMoyenneBV</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="28" column="3" bodyfile="src/FonteTemplate.cpp" bodystart="28" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1ab45188b7b1af747ee2711b9f9dd18914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteTemplate::~FonteTemplate</definition>
+        <argsstring>()</argsstring>
+        <name>~FonteTemplate</name>
+        <qualifiedname>FonteTemplate::~FonteTemplate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="29" column="3" bodyfile="src/FonteTemplate.cpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1ab71fd28477568c0e3fa3226f5e413da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int FonteTemplate::calculerFonte</definition>
+        <argsstring>(const int &amp;noJour, const Meteo &amp;meteo, const CarreauEntier &amp;carreauEntier, float &amp;precipationsTotales, float &amp;eauDisponible)</argsstring>
+        <name>calculerFonte</name>
+        <qualifiedname>FonteTemplate::calculerFonte</qualifiedname>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noJour</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMeteo" kindref="compound">Meteo</ref> &amp;</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classCarreauEntier" kindref="compound">CarreauEntier</ref> &amp;</type>
+          <declname>carreauEntier</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>precipationsTotales</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>eauDisponible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="31" column="7" bodyfile="src/FonteTemplate.cpp" bodystart="56" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1ab769992477570f22a54588529e582d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteTemplate::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>FonteTemplate::assimiler</qualifiedname>
+        <reimplements refid="classFonte_1a9344acd070ebf94c416b303077262a33">assimiler</reimplements>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="41" column="7" bodyfile="src/FonteTemplate.cpp" bodystart="104" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1a1837060bd6a541e7f199adf705115157" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteTemplate::initialiserAssimilations</definition>
+        <argsstring>(const mxArray *assimilations)</argsstring>
+        <name>initialiserAssimilations</name>
+        <qualifiedname>FonteTemplate::initialiserAssimilations</qualifiedname>
+        <reimplements refid="classFonte_1a4aa80145ee5dc377094b0286b0007156">initialiserAssimilations</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="43" column="7" bodyfile="src/FonteTemplate.cpp" bodystart="156" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1a17b0ec2488d869a8180de763baac6175" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteTemplate::initialiserEtats</definition>
+        <argsstring>(const mxArray *etatsInitiaux)</argsstring>
+        <name>initialiserEtats</name>
+        <qualifiedname>FonteTemplate::initialiserEtats</qualifiedname>
+        <reimplements refid="classFonte_1a423e51288cb0a57d6b71eb86daee66d0">initialiserEtats</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>etatsInitiaux</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="45" column="8" bodyfile="src/FonteTemplate.cpp" bodystart="246" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1a2b99add468441f058c73e8479f54f6ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteTemplate::lireParametres</definition>
+        <argsstring>(const mxArray *paramSimul)</argsstring>
+        <name>lireParametres</name>
+        <qualifiedname>FonteTemplate::lireParametres</qualifiedname>
+        <reimplements refid="classFonte_1a8a1372c8a75fd2f8aa264514d11ad217">lireParametres</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramSimul</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="47" column="8" bodyfile="src/FonteTemplate.cpp" bodystart="284" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1a351f7f94890846d2b95e1079a1b2827f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * FonteTemplate::obtenirEtats</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtats</name>
+        <qualifiedname>FonteTemplate::obtenirEtats</qualifiedname>
+        <reimplements refid="classFonte_1ad5a3db713b5465a192f722db05072cc8">obtenirEtats</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="49" column="11" bodyfile="src/FonteTemplate.cpp" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1aacc2c3bcaae66ff6d4b559e049ed2bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * FonteTemplate::obtenirEtatsAvantAssimilations</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtatsAvantAssimilations</name>
+        <qualifiedname>FonteTemplate::obtenirEtatsAvantAssimilations</qualifiedname>
+        <reimplements refid="classFonte_1ae10c3d849cda37c71e798626c985396d">obtenirEtatsAvantAssimilations</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="51" column="11" bodyfile="src/FonteTemplate.cpp" bodystart="294" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteTemplate_1a768ea692585b20af227b36d445d15d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteTemplate::preserverEtatsPasDeTemps</definition>
+        <argsstring>()</argsstring>
+        <name>preserverEtatsPasDeTemps</name>
+        <qualifiedname>FonteTemplate::preserverEtatsPasDeTemps</qualifiedname>
+        <reimplements refid="classFonte_1a8006c05d531a2a5c40f29a158007bb83">preserverEtatsPasDeTemps</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="53" column="8" bodyfile="src/FonteTemplate.cpp" bodystart="306" bodyend="309"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Fonte</label>
+        <link refid="classFonte"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FonteTemplate</label>
+        <link refid="classFonteTemplate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Fonte</label>
+        <link refid="classFonte"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FonteTemplate</label>
+        <link refid="classFonteTemplate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/FonteTemplate.h" line="23" column="1" bodyfile="src/FonteTemplate.h" bodystart="24" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classFonteTemplate_1abddfa9fcc84d9806121025bacc75cd5b" prot="private" virt="non-virtual"><scope>FonteTemplate</scope><name>assimilationsCE_</name></member>
+      <member refid="classFonteTemplate_1ab769992477570f22a54588529e582d3b" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>assimiler</name></member>
+      <member refid="classFonteTemplate_1ae8ed11a83a9a22191169846c81d9659e" prot="private" virt="non-virtual"><scope>FonteTemplate</scope><name>avantAssimilationsCE_</name></member>
+      <member refid="classFonteTemplate_1ab71fd28477568c0e3fa3226f5e413da3" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>calculerFonte</name></member>
+      <member refid="classFonte_1a3c6e8e0f14fd0e2184c2461c2e7a1b25" prot="public" virt="pure-virtual" ambiguityscope="Fonte::"><scope>FonteTemplate</scope><name>calculerFonte</name></member>
+      <member refid="classFonteTemplate_1a3605e047bfb5729c348c3f4d6182e8bc" prot="private" virt="non-virtual"><scope>FonteTemplate</scope><name>etatFonteCE_</name></member>
+      <member refid="classFonteTemplate_1acde8ff000eecd218954d99ec2fc0fa6d" prot="private" virt="non-virtual"><scope>FonteTemplate</scope><name>etatsFonte_</name></member>
+      <member refid="classFonteTemplate_1ab91db9e69b6c4974a3daa54546fa5349" prot="private" virt="non-virtual"><scope>FonteTemplate</scope><name>etatsFonteCE_</name></member>
+      <member refid="classFonte_1a09033c0db2dd7570e035a8de5d9a425c" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>Fonte</name></member>
+      <member refid="classFonte_1a819b44ef8da7fa51bbb710a08ffe1f52" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>Fonte</name></member>
+      <member refid="classFonteTemplate_1adb5337349c844c5350559c289d0cd871" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>FonteTemplate</name></member>
+      <member refid="classFonteTemplate_1af5b3cf5339c28fcb02c575b9f7189873" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>FonteTemplate</name></member>
+      <member refid="classFonteTemplate_1a1837060bd6a541e7f199adf705115157" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>initialiserAssimilations</name></member>
+      <member refid="classFonteTemplate_1a17b0ec2488d869a8180de763baac6175" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>initialiserEtats</name></member>
+      <member refid="classModuleBase_1a3c3d7ab65439a094044950cd1c3a2312" prot="protected" virt="non-virtual"><scope>FonteTemplate</scope><name>initialiserEtatsHelper</name></member>
+      <member refid="classFonteTemplate_1a2b99add468441f058c73e8479f54f6ae" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>lireParametres</name></member>
+      <member refid="classModuleBase_1a4cffe012ccefb97ad6bf4682ed00505b" prot="protected" virt="non-virtual"><scope>FonteTemplate</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1a875fb504bc8f14ca91bbe9df11afb7b6" prot="protected" virt="non-virtual"><scope>FonteTemplate</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1aa8ae84ac06d564c430330814bc2bb87a" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1a62c9211ac18959dcbd73139a570775de" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1aa62c61597fe7950d6180dc24965051a7" prot="protected" virt="non-virtual"><scope>FonteTemplate</scope><name>nbCE_</name></member>
+      <member refid="classFonteTemplate_1adbe347e1c131c8e733cd693a65a8da82" prot="private" virt="non-virtual"><scope>FonteTemplate</scope><name>nomChamps_</name></member>
+      <member refid="classModuleBase_1aedc9ff9160a84a9b033b78a91cc7a775" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>nomModele</name></member>
+      <member refid="classModuleBase_1af6dc293923c42f9a4426fb9cf10cba97" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>nomsChampsMeteo</name></member>
+      <member refid="classFonteTemplate_1a351f7f94890846d2b95e1079a1b2827f" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>obtenirEtats</name></member>
+      <member refid="classModuleBase_1acb5b7967590954504cb9858ba0e30fda" prot="protected" virt="non-virtual"><scope>FonteTemplate</scope><name>obtenirEtatsAvantAssimHelper</name></member>
+      <member refid="classFonteTemplate_1aacc2c3bcaae66ff6d4b559e049ed2bd6" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>obtenirEtatsAvantAssimilations</name></member>
+      <member refid="classModuleBase_1a4c987a973c6c983ad77e01b9471e50b2" prot="protected" virt="non-virtual"><scope>FonteTemplate</scope><name>obtenirEtatsHelper</name></member>
+      <member refid="classFonteTemplate_1ad4662d03888a71bcc043e291706dd079" prot="private" virt="non-virtual"><scope>FonteTemplate</scope><name>params_</name></member>
+      <member refid="classFonteTemplate_1a768ea692585b20af227b36d445d15d0b" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>preserverEtatsPasDeTemps</name></member>
+      <member refid="classFonte_1ad5f341e04045fac683d6befb1c0753be" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>~Fonte</name></member>
+      <member refid="classFonteTemplate_1ab45188b7b1af747ee2711b9f9dd18914" prot="public" virt="non-virtual"><scope>FonteTemplate</scope><name>~FonteTemplate</name></member>
+      <member refid="classModuleBase_1a2f9388584ac2c9f845d0a38678abb852" prot="public" virt="virtual"><scope>FonteTemplate</scope><name>~ModuleBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

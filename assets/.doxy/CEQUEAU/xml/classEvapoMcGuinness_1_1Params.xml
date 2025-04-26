@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoMcGuinness_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>EvapoMcGuinness::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoMcGuinness_1_1Params_1ae297722c883814981bf292d3d5e86bb3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoMcGuinness::Params::fractionEvapoNappe</definition>
+        <argsstring></argsstring>
+        <name>fractionEvapoNappe</name>
+        <qualifiedname>EvapoMcGuinness::Params::fractionEvapoNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoMcGuinness.h" line="71" column="7" bodyfile="src/EvapoMcGuinness.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoMcGuinness.h" line="62" column="3" bodyfile="src/EvapoMcGuinness.h" bodystart="63" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classEvapoMcGuinness_1_1Params_1ae297722c883814981bf292d3d5e86bb3" prot="public" virt="non-virtual"><scope>EvapoMcGuinness::Params</scope><name>fractionEvapoNappe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="Simulation_8h" kind="file" language="C++">
+    <compoundname>Simulation.h</compoundname>
+    <includes refid="BassinVersant_8h" local="yes">BassinVersant.h</includes>
+    <includes refid="Parametres_8h" local="yes">Parametres.h</includes>
+    <includes refid="DonneesMeteo_8h" local="yes">DonneesMeteo.h</includes>
+    <includes refid="Fonte_8h" local="yes">Fonte.h</includes>
+    <includes refid="Evapo_8h" local="yes">Evapo.h</includes>
+    <includes refid="DateChrono_8h" local="yes">DateChrono.h</includes>
+    <includedby refid="CequeauQuantiteMex_8cpp" local="yes">src/CequeauQuantiteMex.cpp</includedby>
+    <includedby refid="Simulation_8cpp" local="yes">src/Simulation.cpp</includedby>
+    <includedby refid="SimulationQualite_8h" local="yes">src/SimulationQualite.h</includedby>
+    <includedby refid="Simulation__Assimilation_8cpp" local="yes">src/Simulation_Assimilation.cpp</includedby>
+    <includedby refid="Simulation__IO_8cpp" local="yes">src/Simulation_IO.cpp</includedby>
+    <includedby refid="Simulation__Production_8cpp" local="yes">src/Simulation_Production.cpp</includedby>
+    <includedby refid="Simulation__Transfert_8cpp" local="yes">src/Simulation_Transfert.cpp</includedby>
+    <incdepgraph>
+      <node id="39">
+        <label>AssimilationHelper.hpp</label>
+        <link refid="AssimilationHelper_8hpp_source"/>
+      </node>
+      <node id="11">
+        <label>Barrage.h</label>
+        <link refid="Barrage_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>BassinVersant.h</label>
+        <link refid="BassinVersant_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CarreauEntier.h</label>
+        <link refid="CarreauEntier_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CarreauPartiel.h</label>
+        <link refid="CarreauPartiel_8h_source"/>
+      </node>
+      <node id="5">
+        <label>DateChrono.h</label>
+        <link refid="DateChrono_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Defs.h</label>
+        <link refid="Defs_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>DonneesMeteo.h</label>
+        <link refid="DonneesMeteo_8h_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Evapo.h</label>
+        <link refid="Evapo_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Fonte.h</label>
+        <link refid="Fonte_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Meteo.h</label>
+        <link refid="Meteo_8h_source"/>
+      </node>
+      <node id="30">
+        <label>MexHelper.hpp</label>
+        <link refid="MexHelper_8hpp_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>ModuleBase.hpp</label>
+        <link refid="ModuleBase_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Parametres.h</label>
+        <link refid="Parametres_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Puits.h</label>
+        <link refid="Puits_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/Simulation.h</label>
+        <link refid="Simulation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>log.h</label>
+        <link refid="log_8h_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>targetver.h</label>
+        <link refid="targetver_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="16">
+        <label>algorithm</label>
+      </node>
+      <node id="24">
+        <label>array</label>
+      </node>
+      <node id="7">
+        <label>chrono</label>
+      </node>
+      <node id="20">
+        <label>climits</label>
+      </node>
+      <node id="8">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>cstring</label>
+      </node>
+      <node id="9">
+        <label>ctime</label>
+      </node>
+      <node id="18">
+        <label>fstream</label>
+      </node>
+      <node id="19">
+        <label>iomanip</label>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="21">
+        <label>map</label>
+      </node>
+      <node id="25">
+        <label>memory</label>
+      </node>
+      <node id="31">
+        <label>mex.h</label>
+      </node>
+      <node id="22">
+        <label>sstream</label>
+      </node>
+      <node id="28">
+        <label>stdio.h</label>
+      </node>
+      <node id="26">
+        <label>string</label>
+      </node>
+      <node id="29">
+        <label>sys/time.h</label>
+      </node>
+      <node id="33">
+        <label>typeinfo</label>
+      </node>
+      <node id="15">
+        <label>unistd.h</label>
+      </node>
+      <node id="23">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>src/Simulation.h</label>
+        <link refid="Simulation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/SimulationQualite.h</label>
+        <link refid="SimulationQualite_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classEtatCarreauEntier" prot="public">EtatCarreauEntier</innerclass>
+    <innerclass refid="classEtatCarreauEntier_1_1Qualite" prot="public">EtatCarreauEntier::Qualite</innerclass>
+    <innerclass refid="classEtatCarreauEntierAssim" prot="public">EtatCarreauEntierAssim</innerclass>
+    <innerclass refid="classEtatCarreauPartiel" prot="public">EtatCarreauPartiel</innerclass>
+    <innerclass refid="classEtatCarreauPartiel_1_1Qualite" prot="public">EtatCarreauPartiel::Qualite</innerclass>
+    <innerclass refid="classEtatCarreauPartielAssim" prot="public">EtatCarreauPartielAssim</innerclass>
+    <innerclass refid="classEtatBarrage" prot="public">EtatBarrage</innerclass>
+    <innerclass refid="classEtatBarrageAssim" prot="public">EtatBarrageAssim</innerclass>
+    <innerclass refid="classReleveNeige" prot="public">ReleveNeige</innerclass>
+    <innerclass refid="classSimulation" prot="public">Simulation</innerclass>
+    <innernamespace refid="namespaceModuleFonte">ModuleFonte</innernamespace>
+    <innernamespace refid="namespaceModuleEvapo">ModuleEvapo</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="Simulation_8h_1a4ac8b7eb1a1d0f700163858d0aa2aec4" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classFonte" kindref="compound">Fonte</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Fonte&gt; FontePtr</definition>
+        <argsstring></argsstring>
+        <name>FontePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="22" column="25" bodyfile="src/Simulation.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1ab83ce0ecc25fb45a59f7aecdd3cfbb82" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classEvapo" kindref="compound">Evapo</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Evapo&gt; EvapoPtr</definition>
+        <argsstring></argsstring>
+        <name>EvapoPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="23" column="25" bodyfile="src/Simulation.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1a79243c3f0b49ea37dd92b6f44677b732" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classReleveNeige" kindref="compound">ReleveNeige</ref> &gt;</type>
+        <definition>typedef std::vector&lt;ReleveNeige&gt; RelevesNeige</definition>
+        <argsstring></argsstring>
+        <name>RelevesNeige</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="181" column="21" bodyfile="src/Simulation.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1ac650fd3759522a8fa7cdfd1be64f71c3" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classEtatCarreauEntier" kindref="compound">EtatCarreauEntier</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatCarreauEntier&gt; EtatsCarreauxEntiers</definition>
+        <argsstring></argsstring>
+        <name>EtatsCarreauxEntiers</name>
+        <briefdescription>
+<para>Liste des etats des carreaux entiers a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="185" column="22" bodyfile="src/Simulation.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1a7496517d3748b220fb7f39833fc2fe11" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classEtatCarreauPartiel" kindref="compound">EtatCarreauPartiel</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatCarreauPartiel&gt; EtatsCarreauxPartiels</definition>
+        <argsstring></argsstring>
+        <name>EtatsCarreauxPartiels</name>
+        <briefdescription>
+<para>Liste des etats des carreaux partiels a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="187" column="21" bodyfile="src/Simulation.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1a4567bc108a495fd99a5876c8bb326642" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classEtatBarrage" kindref="compound">EtatBarrage</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatBarrage&gt; EtatsBarrages</definition>
+        <argsstring></argsstring>
+        <name>EtatsBarrages</name>
+        <briefdescription>
+<para>Liste des etats des barrages a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="189" column="28" bodyfile="src/Simulation.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1a2d1f017cb7d2a8c7eef8da34a4a1f757" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classEtatCarreauEntierAssim" kindref="compound">EtatCarreauEntierAssim</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatCarreauEntierAssim&gt; EtatsCarreauxEntiersAssim</definition>
+        <argsstring></argsstring>
+        <name>EtatsCarreauxEntiersAssim</name>
+        <briefdescription>
+<para>Liste des assimilations des carreaux entiers a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="192" column="22" bodyfile="src/Simulation.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1aee20001170e89c16c52cf0540f340190" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classEtatCarreauPartielAssim" kindref="compound">EtatCarreauPartielAssim</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatCarreauPartielAssim&gt; EtatsCarreauxPartielsAssim</definition>
+        <argsstring></argsstring>
+        <name>EtatsCarreauxPartielsAssim</name>
+        <briefdescription>
+<para>Liste des assimilations des carreaux partiels a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="194" column="21" bodyfile="src/Simulation.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Simulation_8h_1a66141e645bdb146894b01e6fb98c3312" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classEtatBarrageAssim" kindref="compound">EtatBarrageAssim</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatBarrageAssim&gt; EtatsBarragesAssim</definition>
+        <argsstring></argsstring>
+        <name>EtatsBarragesAssim</name>
+        <briefdescription>
+<para>Liste des assimilations des barrages a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="196" column="28" bodyfile="src/Simulation.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="Simulation_8h_1a6e18faa2d2519d12979ead6d40f33250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sortByDistance</definition>
+        <argsstring>(const ReleveNeige &amp;lhs, const ReleveNeige &amp;rhs)</argsstring>
+        <name>sortByDistance</name>
+        <param>
+          <type>const <ref refid="classReleveNeige" kindref="compound">ReleveNeige</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classReleveNeige" kindref="compound">ReleveNeige</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="182" column="6" bodyfile="src/Simulation_Production.cpp" bodystart="711" bodyend="717" declfile="src/Simulation.h" declline="182" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Simulation.h"/>
+  </compounddef>
+</doxygen>

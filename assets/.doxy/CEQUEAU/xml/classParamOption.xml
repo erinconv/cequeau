@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classParamOption" kind="class" language="C++" prot="public">
+    <compoundname>ParamOption</compoundname>
+    <includes refid="Parametres_8h" local="no">Parametres.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classParamOption_1a71b0b1e7790768038c0e180b2817016c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParamOption::moduleFonte</definition>
+        <argsstring></argsstring>
+        <name>moduleFonte</name>
+        <qualifiedname>ParamOption::moduleFonte</qualifiedname>
+        <briefdescription>
+<para>Module de fonte a utiliser. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="213" column="7" bodyfile="src/Parametres.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamOption_1a0440f4ce27a038d572e1b6618beae22d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParamOption::moduleEvapo</definition>
+        <argsstring></argsstring>
+        <name>moduleEvapo</name>
+        <qualifiedname>ParamOption::moduleEvapo</qualifiedname>
+        <briefdescription>
+<para>Module d&apos;evapotranspiration a utiliser. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="217" column="7" bodyfile="src/Parametres.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamOption_1a4169c24a238c586731ab63e632ccb68e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ParamOption::calculQualite</definition>
+        <argsstring></argsstring>
+        <name>calculQualite</name>
+        <qualifiedname>ParamOption::calculQualite</qualifiedname>
+        <briefdescription>
+<para>Execution de la qualite? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="221" column="8" bodyfile="src/Parametres.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamOption_1a638485b1f19320cbd9c6d813045ba409" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParamOption::moduleDLI</definition>
+        <argsstring></argsstring>
+        <name>moduleDLI</name>
+        <qualifiedname>ParamOption::moduleDLI</qualifiedname>
+        <briefdescription>
+<para>Module <ref refid="classDLI" kindref="compound">DLI</ref> %%%%%. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="225" column="7" bodyfile="src/Parametres.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamOption_1af9f79d689ef2c7876114400863631a7f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ParamOption::logNeigeAjustee</definition>
+        <argsstring></argsstring>
+        <name>logNeigeAjustee</name>
+        <qualifiedname>ParamOption::logNeigeAjustee</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="229" column="8" bodyfile="src/Parametres.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamOption_1a24bf960087f0f43c77e055961319ea6f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParamOption::moduleOmbrage</definition>
+        <argsstring></argsstring>
+        <name>moduleOmbrage</name>
+        <qualifiedname>ParamOption::moduleOmbrage</qualifiedname>
+        <briefdescription>
+<para>Utilisation du module d&apos;ombrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="233" column="7" bodyfile="src/Parametres.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamOption_1a804f0ac5df8fdb816aa655a9e6c44dfa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParamOption::modulePompage</definition>
+        <argsstring></argsstring>
+        <name>modulePompage</name>
+        <qualifiedname>ParamOption::modulePompage</qualifiedname>
+        <briefdescription>
+<para>Utilisation du module de pompage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="237" column="7" bodyfile="src/Parametres.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees pour les parametres optionnels. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Parametres.h" line="205" column="1" bodyfile="src/Parametres.h" bodystart="207" bodyend="239"/>
+    <listofallmembers>
+      <member refid="classParamOption_1a4169c24a238c586731ab63e632ccb68e" prot="public" virt="non-virtual"><scope>ParamOption</scope><name>calculQualite</name></member>
+      <member refid="classParamOption_1af9f79d689ef2c7876114400863631a7f" prot="public" virt="non-virtual"><scope>ParamOption</scope><name>logNeigeAjustee</name></member>
+      <member refid="classParamOption_1a638485b1f19320cbd9c6d813045ba409" prot="public" virt="non-virtual"><scope>ParamOption</scope><name>moduleDLI</name></member>
+      <member refid="classParamOption_1a0440f4ce27a038d572e1b6618beae22d" prot="public" virt="non-virtual"><scope>ParamOption</scope><name>moduleEvapo</name></member>
+      <member refid="classParamOption_1a71b0b1e7790768038c0e180b2817016c" prot="public" virt="non-virtual"><scope>ParamOption</scope><name>moduleFonte</name></member>
+      <member refid="classParamOption_1a24bf960087f0f43c77e055961319ea6f" prot="public" virt="non-virtual"><scope>ParamOption</scope><name>moduleOmbrage</name></member>
+      <member refid="classParamOption_1a804f0ac5df8fdb816aa655a9e6c44dfa" prot="public" virt="non-virtual"><scope>ParamOption</scope><name>modulePompage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

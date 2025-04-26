@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteCemaNeige_1_1EtatFonteAssimCE" kind="class" language="C++" prot="private">
+    <compoundname>FonteCemaNeige::EtatFonteAssimCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteAssimCE_1acbe5668d9770f8d3a5cc71c5c7ac04d0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FonteCemaNeige::EtatFonteAssimCE::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteAssimCE::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="93" column="9" bodyfile="src/FonteCemaNeige.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteAssimCE_1a5fe214a42b2733f111c83475eac036f8" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteCemaNeige::EtatFonteAssimCE::SNC_stockNeigeForetType</definition>
+        <argsstring></argsstring>
+        <name>SNC_stockNeigeForetType</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteAssimCE::SNC_stockNeigeForetType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="94" column="15" bodyfile="src/FonteCemaNeige.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteAssimCE_1a506ba24f66beb4ba303fb15ce6ea43e8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::EtatFonteAssimCE::SNC_stockNeigeForet[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SNC_stockNeigeForet</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteAssimCE::SNC_stockNeigeForet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="95" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteAssimCE_1a90d3d523d932e6acd09bc2d0d8881803" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim FonteCemaNeige::EtatFonteAssimCE::SND_stockNeigeClairiereType</definition>
+        <argsstring></argsstring>
+        <name>SND_stockNeigeClairiereType</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteAssimCE::SND_stockNeigeClairiereType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="96" column="15" bodyfile="src/FonteCemaNeige.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteAssimCE_1a325a0041ee06569e94f0532ae44da3fe" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::EtatFonteAssimCE::SND_stockNeigeClairiere[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SND_stockNeigeClairiere</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteAssimCE::SND_stockNeigeClairiere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="97" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteCemaNeige.h" line="90" column="3" bodyfile="src/FonteCemaNeige.h" bodystart="91" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classFonteCemaNeige_1_1EtatFonteAssimCE_1acbe5668d9770f8d3a5cc71c5c7ac04d0" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteAssimCE</scope><name>idCarreauEntier</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteAssimCE_1a506ba24f66beb4ba303fb15ce6ea43e8" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteAssimCE</scope><name>SNC_stockNeigeForet</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteAssimCE_1a5fe214a42b2733f111c83475eac036f8" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteAssimCE</scope><name>SNC_stockNeigeForetType</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteAssimCE_1a325a0041ee06569e94f0532ae44da3fe" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteAssimCE</scope><name>SND_stockNeigeClairiere</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteAssimCE_1a90d3d523d932e6acd09bc2d0d8881803" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteAssimCE</scope><name>SND_stockNeigeClairiereType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

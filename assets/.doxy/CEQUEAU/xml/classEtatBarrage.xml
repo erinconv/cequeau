@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEtatBarrage" kind="class" language="C++" prot="public">
+    <compoundname>EtatBarrage</compoundname>
+    <includes refid="Simulation_8h" local="no">Simulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEtatBarrage_1abaf8da636478ce4e0d9154b4fbb6d859" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatBarrage::idCarreauPartiel</definition>
+        <argsstring></argsstring>
+        <name>idCarreauPartiel</name>
+        <qualifiedname>EtatBarrage::idCarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="140" column="9" bodyfile="src/Simulation.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrage_1a94b25bc36a18333f62067dbe40db5f37" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatBarrage::volume</definition>
+        <argsstring></argsstring>
+        <name>volume</name>
+        <qualifiedname>EtatBarrage::volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="141" column="9" bodyfile="src/Simulation.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrage_1a2e1a3fdc7897a54d843f7c0a684b17d7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatBarrage::niveau</definition>
+        <argsstring></argsstring>
+        <name>niveau</name>
+        <qualifiedname>EtatBarrage::niveau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="142" column="9" bodyfile="src/Simulation.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrage_1a194dea3b2e8bbe1b56fc406a4ec7dcf7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatBarrage::debitEntrant</definition>
+        <argsstring></argsstring>
+        <name>debitEntrant</name>
+        <qualifiedname>EtatBarrage::debitEntrant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="144" column="9" bodyfile="src/Simulation.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatBarrage_1a5006a6e6c522bf2dcdeba6a7d29c75a9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; EtatBarrage::debitsSortants</definition>
+        <argsstring></argsstring>
+        <name>debitsSortants</name>
+        <qualifiedname>EtatBarrage::debitsSortants</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="149" column="15" bodyfile="src/Simulation.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees de l&apos;etat d&apos;un barrage. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>EtatBarrage</label>
+        <link refid="classEtatBarrage"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>debitsSortants</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/Simulation.h" line="137" column="1" bodyfile="src/Simulation.h" bodystart="138" bodyend="150"/>
+    <listofallmembers>
+      <member refid="classEtatBarrage_1a194dea3b2e8bbe1b56fc406a4ec7dcf7" prot="public" virt="non-virtual"><scope>EtatBarrage</scope><name>debitEntrant</name></member>
+      <member refid="classEtatBarrage_1a5006a6e6c522bf2dcdeba6a7d29c75a9" prot="public" virt="non-virtual"><scope>EtatBarrage</scope><name>debitsSortants</name></member>
+      <member refid="classEtatBarrage_1abaf8da636478ce4e0d9154b4fbb6d859" prot="public" virt="non-virtual"><scope>EtatBarrage</scope><name>idCarreauPartiel</name></member>
+      <member refid="classEtatBarrage_1a2e1a3fdc7897a54d843f7c0a684b17d7" prot="public" virt="non-virtual"><scope>EtatBarrage</scope><name>niveau</name></member>
+      <member refid="classEtatBarrage_1a94b25bc36a18333f62067dbe40db5f37" prot="public" virt="non-virtual"><scope>EtatBarrage</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

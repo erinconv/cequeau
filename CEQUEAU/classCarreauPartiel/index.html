@@ -1,0 +1,1639 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the CEQUEAU hydrological model">
+      
+      
+        <meta name="author" content="CEQUEAU Team">
+      
+      
+        <link rel="canonical" href="https://erinconv.github.io/CEQUEAU/CEQUEAU/classCarreauPartiel/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Class CarreauPartiel - CEQUEAU Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#class-carreaupartiel" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CEQUEAU Documentation" class="md-header__button md-logo" aria-label="CEQUEAU Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CEQUEAU Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Class CarreauPartiel
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/erinconv/CEQUEAU" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CEQUEAU Model
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../api/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  API Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../annotated/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  API Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CEQUEAU Documentation" class="md-nav__button md-logo" aria-label="CEQUEAU Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CEQUEAU Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/erinconv/CEQUEAU" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CEQUEAU Model
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing to CEQUEAU
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../code_of_conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct for CEQUEAU Development
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API Documentation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            API Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API Documentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/simulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Simulation Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/bassin_versant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BassinVersant Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/carreau_entier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CarreauEntier Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/carreau_partiel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CarreauPartiel Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            API Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../annotated/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class List
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#public-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Public Functions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-functions-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Public Functions Documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Public Functions Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#function-carreaupartiel" class="md-nav__link">
+    <span class="md-ellipsis">
+      function CarreauPartiel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-altitudemoyenne" class="md-nav__link">
+    <span class="md-ellipsis">
+      function altitudeMoyenne
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-azimutcourseau" class="md-nav__link">
+    <span class="md-ellipsis">
+      function azimutCoursEau
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-calculercorrectiondebit" class="md-nav__link">
+    <span class="md-ellipsis">
+      function calculerCorrectionDebit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-codecarreaupartiel" class="md-nav__link">
+    <span class="md-ellipsis">
+      function codeCarreauPartiel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-coefftransfert-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      function coeffTransfert [1/2]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-coefftransfert-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      function coeffTransfert [2/2]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-cumulpctsuperficiecpamont" class="md-nav__link">
+    <span class="md-ellipsis">
+      function cumulPctSuperficieCPAmont
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-cumulpctsuperficieforetamont" class="md-nav__link">
+    <span class="md-ellipsis">
+      function cumulPctSuperficieForetAmont
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-cumulpctsuperficielacsamont" class="md-nav__link">
+    <span class="md-ellipsis">
+      function cumulPctSuperficieLacsAmont
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-cumulpctsuperficiemaraisamont" class="md-nav__link">
+    <span class="md-ellipsis">
+      function cumulPctSuperficieMaraisAmont
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-custom_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      function custom_1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-custom_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      function custom_2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-hautmoyennearbre" class="md-nav__link">
+    <span class="md-ellipsis">
+      function hautMoyenneArbre
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-icarreauentier" class="md-nav__link">
+    <span class="md-ellipsis">
+      function iCarreauEntier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      function id
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-idcarreauentier" class="md-nav__link">
+    <span class="md-ellipsis">
+      function idCarreauEntier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-idcarreaupartielaval" class="md-nav__link">
+    <span class="md-ellipsis">
+      function idCarreauPartielAval
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-idcarreauxpartielsamont" class="md-nav__link">
+    <span class="md-ellipsis">
+      function idCarreauxPartielsAmont
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-indicefoliaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      function indiceFoliaire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-jcarreauentier" class="md-nav__link">
+    <span class="md-ellipsis">
+      function jCarreauEntier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-largeurcourseauprincipal" class="md-nav__link">
+    <span class="md-ellipsis">
+      function largeurCoursEauPrincipal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-latitude" class="md-nav__link">
+    <span class="md-ellipsis">
+      function latitude
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-longitude" class="md-nav__link">
+    <span class="md-ellipsis">
+      function longitude
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-longueurcourseauprincipal" class="md-nav__link">
+    <span class="md-ellipsis">
+      function longueurCoursEauPrincipal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pctconifer" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctConifer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pcteau" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctEau
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pctfermeturefutaie" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctFermetureFutaie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pctfeuillu" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctFeuillu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pctforet" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctForet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pctmarais" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctMarais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pctsolnu" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctSolNu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-pctsurface" class="md-nav__link">
+    <span class="md-ellipsis">
+      function pctSurface
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-penteriviere" class="md-nav__link">
+    <span class="md-ellipsis">
+      function penteRiviere
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-profondeurminimum" class="md-nav__link">
+    <span class="md-ellipsis">
+      function profondeurMinimum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-superficiecpamontcorrige" class="md-nav__link">
+    <span class="md-ellipsis">
+      function superficieCPAmontCorrige
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-volumeinitial-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      function volumeInitial [1/2]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-volumeinitial-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      function volumeInitial [2/2]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-carreaupartiel_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      function ~CarreauPartiel
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="class-carreaupartiel">Class CarreauPartiel<a class="headerlink" href="#class-carreaupartiel" title="Permanent link">&para;</a></h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="./"><strong>CarreauPartiel</strong></a></p>
+<p><em>Definition d'un carreau partiel.</em> <a href="#detailed-description">More...</a></p>
+<ul>
+<li><code>#include &lt;CarreauPartiel.h&gt;</code></li>
+</ul>
+<h2 id="public-functions">Public Functions<a class="headerlink" href="#public-functions" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-carreaupartiel"><strong>CarreauPartiel</strong></a> (int id, char codeCarreauPartiel, int pctSurface, int iCarreauEntier, int jCarreauEntier, int idCarreauPartielAval, int idCarreauxPartielsAmont, int idCarreauEntier, int pctEau, int pctForet, int pctMarais, int pctSolNu, int altitudeMoyenne, int profondeurMinimum, int longueurCoursEauPrincipal, int largeurCoursEauPrincipal, int penteRiviere, int cumulPctSuperficieCPAmont, int cumulPctSuperficieLacsAmont, int cumulPctSuperficieMaraisAmont, int cumulPctSuperficieForetAmont, float superficieCarreauEntier, int pctFermetureFutaie, float indiceFoliaire, float custom_1, float custom_2, int lat, int lon, int pctFeuillu, int pctConifer, double hautMoyenneArbre, int azimutCoursEau) <br><em>Constructeur.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-altitudemoyenne"><strong>altitudeMoyenne</strong></a> () const<br><em>Getter altitude moyenne (metres).</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-azimutcourseau"><strong>azimutCoursEau</strong></a> () const<br><em>Getter azimutCoursEau.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-calculercorrectiondebit"><strong>calculerCorrectionDebit</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">char</td>
+<td style="text-align: left;"><a href="#function-codecarreaupartiel"><strong>codeCarreauPartiel</strong></a> () const<br><em>Getter Code du carreau partiel (A - B - C ou D).</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">double</td>
+<td style="text-align: left;"><a href="#function-coefftransfert-12"><strong>coeffTransfert</strong></a> () const<br><em>Getter Coefficient de transfert pour le pas de temps d'une journee.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-coefftransfert-22"><strong>coeffTransfert</strong></a> (double valeur) <br><em>Setter coefficient de transfert pour le pas de temps d'une journee.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-cumulpctsuperficiecpamont"><strong>cumulPctSuperficieCPAmont</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-cumulpctsuperficieforetamont"><strong>cumulPctSuperficieForetAmont</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-cumulpctsuperficielacsamont"><strong>cumulPctSuperficieLacsAmont</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-cumulpctsuperficiemaraisamont"><strong>cumulPctSuperficieMaraisAmont</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-custom_1"><strong>custom_1</strong></a> () const<br><em>Getter Custom_1.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-custom_2"><strong>custom_2</strong></a> () const<br><em>Getter Custom_2.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">double</td>
+<td style="text-align: left;"><a href="#function-hautmoyennearbre"><strong>hautMoyenneArbre</strong></a> () const<br><em>Getter hautMoy.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-icarreauentier"><strong>iCarreauEntier</strong></a> () const<br><em>Getter Abscisse I du carreau entier auquel appartient le carreau partiel.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-id"><strong>id</strong></a> () const<br><em>Getter Id du carreau partiel.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-idcarreauentier"><strong>idCarreauEntier</strong></a> () const<br><em>Getter Id du carreau entier auquel il appartient.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-idcarreaupartielaval"><strong>idCarreauPartielAval</strong></a> () const<br><em>Getter Id du carreau partiel dans lequel il se jette.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">const int *</td>
+<td style="text-align: left;"><a href="#function-idcarreauxpartielsamont"><strong>idCarreauxPartielsAmont</strong></a> () <br><em>Getter Liste des id des cinq carreaux affluents possible.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-indicefoliaire"><strong>indiceFoliaire</strong></a> () const<br><em>Getter Indice foliaire.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-jcarreauentier"><strong>jCarreauEntier</strong></a> () const<br><em>Getter Ordonnï¿½e J du carreau entier auquel appartient le carreau partiel.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-largeurcourseauprincipal"><strong>largeurCoursEauPrincipal</strong></a> () const<br><em>Getter Largeur du cours d'eau principal sur la parcelle (1/10 de metres).</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-latitude"><strong>latitude</strong></a> () const<br><em>Getter latitude.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-longitude"><strong>longitude</strong></a> () const<br><em>Getter longitude.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-longueurcourseauprincipal"><strong>longueurCoursEauPrincipal</strong></a> () const<br><em>Getter Longueur du cours d'eau principal sur la parcelle (1/10 de km).</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-pctconifer"><strong>pctConifer</strong></a> () const<br><em>Getter pctConifer.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-pcteau"><strong>pctEau</strong></a> () const<br><em>Getter Poucentage d'eau sur le carreau partiel.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-pctfermeturefutaie"><strong>pctFermetureFutaie</strong></a> () const<br><em>Getter Pourcentage fermeture futaie.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-pctfeuillu"><strong>pctFeuillu</strong></a> () const<br><em>Getter pctFeuillu.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-pctforet"><strong>pctForet</strong></a> () const<br><em>Getter Poucentage de foret sur le carreau partiel.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-pctmarais"><strong>pctMarais</strong></a> () const<br><em>Getter Poucentage de marais sur le carreau partiel.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-pctsolnu"><strong>pctSolNu</strong></a> () const<br><em>Getter Poucentage de sol deboise sur le carreau partiel.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-pctsurface"><strong>pctSurface</strong></a> () const<br><em>Getter Pourcentage du carreau partiel par rapport au carreau entier (0 a 1).</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-penteriviere"><strong>penteRiviere</strong></a> () const<br><em>Getter Pente de la riviere sur le carreau partiel (1/1000 de metres/km).</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-profondeurminimum"><strong>profondeurMinimum</strong></a> () const<br><em>Getter Profondeur minimum (1/100 de metres).</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-superficiecpamontcorrige"><strong>superficieCPAmontCorrige</strong></a> (float valeur) <br><em>Setter superficieCPAmontCorrige.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">float</td>
+<td style="text-align: left;"><a href="#function-volumeinitial-12"><strong>volumeInitial</strong></a> () const<br><em>Getter Volume d'eau initial.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-volumeinitial-22"><strong>volumeInitial</strong></a> (float valeur) <br><em>Setter Volume d'eau initial.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-carreaupartiel"><strong>~CarreauPartiel</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="detailed-description">Detailed Description<a class="headerlink" href="#detailed-description" title="Permanent link">&para;</a></h2>
+<p>Definition d'un carreau partiel</p>
+<p>selon les donnees physiographiques PREPAREES. </p>
+<h2 id="public-functions-documentation">Public Functions Documentation<a class="headerlink" href="#public-functions-documentation" title="Permanent link">&para;</a></h2>
+<h3 id="function-carreaupartiel">function CarreauPartiel<a class="headerlink" href="#function-carreaupartiel" title="Permanent link">&para;</a></h3>
+<p><em>Constructeur.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">CarreauPartiel</span><span class="w"> </span><span class="p">(</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">codeCarreauPartiel</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctSurface</span><span class="p">,</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">iCarreauEntier</span><span class="p">,</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">jCarreauEntier</span><span class="p">,</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">idCarreauPartielAval</span><span class="p">,</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">idCarreauxPartielsAmont</span><span class="p">,</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">idCarreauEntier</span><span class="p">,</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctEau</span><span class="p">,</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctForet</span><span class="p">,</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctMarais</span><span class="p">,</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctSolNu</span><span class="p">,</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">altitudeMoyenne</span><span class="p">,</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">profondeurMinimum</span><span class="p">,</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">longueurCoursEauPrincipal</span><span class="p">,</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">largeurCoursEauPrincipal</span><span class="p">,</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">penteRiviere</span><span class="p">,</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">cumulPctSuperficieCPAmont</span><span class="p">,</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">cumulPctSuperficieLacsAmont</span><span class="p">,</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">cumulPctSuperficieMaraisAmont</span><span class="p">,</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">cumulPctSuperficieForetAmont</span><span class="p">,</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">superficieCarreauEntier</span><span class="p">,</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctFermetureFutaie</span><span class="p">,</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">indiceFoliaire</span><span class="p">,</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">custom_1</span><span class="p">,</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">custom_2</span><span class="p">,</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">lat</span><span class="p">,</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">lon</span><span class="p">,</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctFeuillu</span><span class="p">,</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">pctConifer</span><span class="p">,</span>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">hautMoyenneArbre</span><span class="p">,</span>
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">azimutCoursEau</span>
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="p">)</span><span class="w"> </span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-altitudemoyenne">function altitudeMoyenne<a class="headerlink" href="#function-altitudemoyenne" title="Permanent link">&para;</a></h3>
+<p><em>Getter altitude moyenne (metres).</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">altitudeMoyenne</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-azimutcourseau">function azimutCoursEau<a class="headerlink" href="#function-azimutcourseau" title="Permanent link">&para;</a></h3>
+<p><em>Getter azimutCoursEau.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">azimutCoursEau</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-calculercorrectiondebit">function calculerCorrectionDebit<a class="headerlink" href="#function-calculercorrectiondebit" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">calculerCorrectionDebit</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div>
+<p>Facteur de correction du debit calcule.</p>
+<p>= cumulPctSuperficieCPAmontCorrige / cumulPctSuperficieCPAmont </p>
+<hr>
+
+<h3 id="function-codecarreaupartiel">function codeCarreauPartiel<a class="headerlink" href="#function-codecarreaupartiel" title="Permanent link">&para;</a></h3>
+<p><em>Getter Code du carreau partiel (A - B - C ou D).</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kt">char</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">codeCarreauPartiel</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-coefftransfert-12">function coeffTransfert [1/2]<a class="headerlink" href="#function-coefftransfert-12" title="Permanent link">&para;</a></h3>
+<p><em>Getter Coefficient de transfert pour le pas de temps d'une journee.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">coeffTransfert</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-coefftransfert-22">function coeffTransfert [2/2]<a class="headerlink" href="#function-coefftransfert-22" title="Permanent link">&para;</a></h3>
+<p><em>Setter coefficient de transfert pour le pas de temps d'une journee.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kt">void</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">coeffTransfert</span><span class="w"> </span><span class="p">(</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">valeur</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="p">)</span><span class="w"> </span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-cumulpctsuperficiecpamont">function cumulPctSuperficieCPAmont<a class="headerlink" href="#function-cumulpctsuperficiecpamont" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">cumulPctSuperficieCPAmont</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div>
+<p>Getter Cumul des pourcentages de superficie des carreaux partiels en</p>
+<p>amont, calcule ï¿½ la sortie du carreau partiel considere. </p>
+<hr>
+
+<h3 id="function-cumulpctsuperficieforetamont">function cumulPctSuperficieForetAmont<a class="headerlink" href="#function-cumulpctsuperficieforetamont" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">cumulPctSuperficieForetAmont</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div>
+<p>Getter Cumul des pourcentages de superficie de foret en amont, calcule</p>
+<p>a la sortie du carreau partiel considere. </p>
+<hr>
+
+<h3 id="function-cumulpctsuperficielacsamont">function cumulPctSuperficieLacsAmont<a class="headerlink" href="#function-cumulpctsuperficielacsamont" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">cumulPctSuperficieLacsAmont</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div>
+<p>Getter Cumul des pourcentages de superficie des lacs en amont, calcule</p>
+<p>a la sortie du carreau partiel considere. </p>
+<hr>
+
+<h3 id="function-cumulpctsuperficiemaraisamont">function cumulPctSuperficieMaraisAmont<a class="headerlink" href="#function-cumulpctsuperficiemaraisamont" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">cumulPctSuperficieMaraisAmont</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div>
+<p>Getter Cumul des pourcentages de superficie des marais en amont, calcule</p>
+<p>a la sortie du carreau partiel considere. </p>
+<hr>
+
+<h3 id="function-custom_1">function custom_1<a class="headerlink" href="#function-custom_1" title="Permanent link">&para;</a></h3>
+<p><em>Getter Custom_1.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">custom_1</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-custom_2">function custom_2<a class="headerlink" href="#function-custom_2" title="Permanent link">&para;</a></h3>
+<p><em>Getter Custom_2.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">custom_2</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-hautmoyennearbre">function hautMoyenneArbre<a class="headerlink" href="#function-hautmoyennearbre" title="Permanent link">&para;</a></h3>
+<p><em>Getter hautMoy.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">hautMoyenneArbre</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-icarreauentier">function iCarreauEntier<a class="headerlink" href="#function-icarreauentier" title="Permanent link">&para;</a></h3>
+<p><em>Getter Abscisse I du carreau entier auquel appartient le carreau partiel.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">iCarreauEntier</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-id">function id<a class="headerlink" href="#function-id" title="Permanent link">&para;</a></h3>
+<p><em>Getter Id du carreau partiel.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">id</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-idcarreauentier">function idCarreauEntier<a class="headerlink" href="#function-idcarreauentier" title="Permanent link">&para;</a></h3>
+<p><em>Getter Id du carreau entier auquel il appartient.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">idCarreauEntier</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-idcarreaupartielaval">function idCarreauPartielAval<a class="headerlink" href="#function-idcarreaupartielaval" title="Permanent link">&para;</a></h3>
+<p><em>Getter Id du carreau partiel dans lequel il se jette.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">idCarreauPartielAval</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-idcarreauxpartielsamont">function idCarreauxPartielsAmont<a class="headerlink" href="#function-idcarreauxpartielsamont" title="Permanent link">&para;</a></h3>
+<p><em>Getter Liste des id des cinq carreaux affluents possible.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">idCarreauxPartielsAmont</span><span class="w"> </span><span class="p">()</span><span class="w"> </span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-indicefoliaire">function indiceFoliaire<a class="headerlink" href="#function-indicefoliaire" title="Permanent link">&para;</a></h3>
+<p><em>Getter Indice foliaire.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">indiceFoliaire</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-jcarreauentier">function jCarreauEntier<a class="headerlink" href="#function-jcarreauentier" title="Permanent link">&para;</a></h3>
+<p><em>Getter Ordonnï¿½e J du carreau entier auquel appartient le carreau partiel.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">jCarreauEntier</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-largeurcourseauprincipal">function largeurCoursEauPrincipal<a class="headerlink" href="#function-largeurcourseauprincipal" title="Permanent link">&para;</a></h3>
+<p><em>Getter Largeur du cours d'eau principal sur la parcelle (1/10 de metres).</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">largeurCoursEauPrincipal</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-latitude">function latitude<a class="headerlink" href="#function-latitude" title="Permanent link">&para;</a></h3>
+<p><em>Getter latitude.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">latitude</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-longitude">function longitude<a class="headerlink" href="#function-longitude" title="Permanent link">&para;</a></h3>
+<p><em>Getter longitude.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">longitude</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-longueurcourseauprincipal">function longueurCoursEauPrincipal<a class="headerlink" href="#function-longueurcourseauprincipal" title="Permanent link">&para;</a></h3>
+<p><em>Getter Longueur du cours d'eau principal sur la parcelle (1/10 de km).</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">longueurCoursEauPrincipal</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pctconifer">function pctConifer<a class="headerlink" href="#function-pctconifer" title="Permanent link">&para;</a></h3>
+<p><em>Getter pctConifer.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctConifer</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pcteau">function pctEau<a class="headerlink" href="#function-pcteau" title="Permanent link">&para;</a></h3>
+<p><em>Getter Poucentage d'eau sur le carreau partiel.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctEau</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pctfermeturefutaie">function pctFermetureFutaie<a class="headerlink" href="#function-pctfermeturefutaie" title="Permanent link">&para;</a></h3>
+<p><em>Getter Pourcentage fermeture futaie.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctFermetureFutaie</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pctfeuillu">function pctFeuillu<a class="headerlink" href="#function-pctfeuillu" title="Permanent link">&para;</a></h3>
+<p><em>Getter pctFeuillu.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctFeuillu</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pctforet">function pctForet<a class="headerlink" href="#function-pctforet" title="Permanent link">&para;</a></h3>
+<p><em>Getter Poucentage de foret sur le carreau partiel.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctForet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pctmarais">function pctMarais<a class="headerlink" href="#function-pctmarais" title="Permanent link">&para;</a></h3>
+<p><em>Getter Poucentage de marais sur le carreau partiel.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctMarais</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pctsolnu">function pctSolNu<a class="headerlink" href="#function-pctsolnu" title="Permanent link">&para;</a></h3>
+<p><em>Getter Poucentage de sol deboise sur le carreau partiel.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctSolNu</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-pctsurface">function pctSurface<a class="headerlink" href="#function-pctsurface" title="Permanent link">&para;</a></h3>
+<p><em>Getter Pourcentage du carreau partiel par rapport au carreau entier (0 a 1).</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">pctSurface</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-penteriviere">function penteRiviere<a class="headerlink" href="#function-penteriviere" title="Permanent link">&para;</a></h3>
+<p><em>Getter Pente de la riviere sur le carreau partiel (1/1000 de metres/km).</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">penteRiviere</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-profondeurminimum">function profondeurMinimum<a class="headerlink" href="#function-profondeurminimum" title="Permanent link">&para;</a></h3>
+<p><em>Getter Profondeur minimum (1/100 de metres).</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">profondeurMinimum</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-superficiecpamontcorrige">function superficieCPAmontCorrige<a class="headerlink" href="#function-superficiecpamontcorrige" title="Permanent link">&para;</a></h3>
+<p><em>Setter superficieCPAmontCorrige.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="kt">void</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">superficieCPAmontCorrige</span><span class="w"> </span><span class="p">(</span>
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a><span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">valeur</span>
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a><span class="p">)</span><span class="w"> </span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-volumeinitial-12">function volumeInitial [1/2]<a class="headerlink" href="#function-volumeinitial-12" title="Permanent link">&para;</a></h3>
+<p><em>Getter Volume d'eau initial.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="kt">float</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">volumeInitial</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="k">const</span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-volumeinitial-22">function volumeInitial [2/2]<a class="headerlink" href="#function-volumeinitial-22" title="Permanent link">&para;</a></h3>
+<p><em>Setter Volume d'eau initial.</em> 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="kt">void</span><span class="w"> </span><span class="n">CarreauPartiel</span><span class="o">::</span><span class="n">volumeInitial</span><span class="w"> </span><span class="p">(</span>
+<a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a><span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">valeur</span>
+<a id="__codelineno-37-3" name="__codelineno-37-3" href="#__codelineno-37-3"></a><span class="p">)</span><span class="w"> </span>
+</code></pre></div></p>
+<hr>
+
+<h3 id="function-carreaupartiel_1">function ~CarreauPartiel<a class="headerlink" href="#function-carreaupartiel_1" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="n">CarreauPartiel</span><span class="o">::~</span><span class="n">CarreauPartiel</span><span class="w"> </span><span class="p">()</span><span class="w"> </span>
+</code></pre></div>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>src/CarreauPartiel.h</code></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.indexes", "navigation.tabs", "content.code.copy"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

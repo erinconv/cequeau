@@ -1,0 +1,1320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classPositionSolaire" kind="class" language="C++" prot="public">
+    <compoundname>PositionSolaire</compoundname>
+    <includes refid="SimulationQualite_8h" local="no">SimulationQualite.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5b" prot="private" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <qualifiedname>PositionSolaire</qualifiedname>
+        <enumvalue id="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5bab62a0dbb7293f689091d0abb76305789" prot="private">
+          <name>TERM_A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5ba12bd0d14a7863b63df2edabf3ab5e3cf" prot="private">
+          <name>TERM_B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5ba493e6506288e013da84846c29e39d797" prot="private">
+          <name>TERM_C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5ba33186d428a8e4d169ee66595c4fdb755" prot="private">
+          <name>TERM_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="102" column="1" bodyfile="src/SimulationQualite.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="enum" id="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28" prot="private" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <qualifiedname>PositionSolaire</qualifiedname>
+        <enumvalue id="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a25b51a3150dba150dee7c48341f9ec84" prot="private">
+          <name>TERM_X0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a026c8ecd4fbeec5cf370fde1ea3cb85a" prot="private">
+          <name>TERM_X1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a56d70bc6cdc73ddc42e7f3352451e320" prot="private">
+          <name>TERM_X2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a46cefb6054d84c5f3c554318391ba28e" prot="private">
+          <name>TERM_X3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28aa014823d8c68cf38a819d2bb7888c38f" prot="private">
+          <name>TERM_X4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a688b82ead03b7b9f944fd639bb5df5be" prot="private">
+          <name>TERM_X_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="103" column="1" bodyfile="src/SimulationQualite.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="enum" id="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541" prot="private" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <qualifiedname>PositionSolaire</qualifiedname>
+        <enumvalue id="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541a5886cd920ddf404dcd7a8a827501ad58" prot="private">
+          <name>TERM_PSI_A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541ad729bc32b99a7aafd1596e2d470642d8" prot="private">
+          <name>TERM_PSI_B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541ad2ef43ed8e56d89f607a6c5b1be599af" prot="private">
+          <name>TERM_EPS_C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541a70feae6bb6220b376377c5683be686bb" prot="private">
+          <name>TERM_EPS_D</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541a197df418ca1d7018838e712a71c9ad0b" prot="private">
+          <name>TERM_PE_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="104" column="1" bodyfile="src/SimulationQualite.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="enum" id="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735" prot="private" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <qualifiedname>PositionSolaire</qualifiedname>
+        <enumvalue id="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735ad61ca8e4bd66b8e28472a96ee7c31f40" prot="private">
+          <name>JD_MINUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735afdcede2c9ba08b397723f73e613c1c9b" prot="private">
+          <name>JD_ZERO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735aca02bee7ca63a7c839894bfa751ba000" prot="private">
+          <name>JD_PLUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735afbc3ab3803a51dfb144c9763c9ca981a" prot="private">
+          <name>JD_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="105" column="1" bodyfile="src/SimulationQualite.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="enum" id="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77" prot="private" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <qualifiedname>PositionSolaire</qualifiedname>
+        <enumvalue id="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77af1fd8f38a44de6d79d59494e764f1c32" prot="private">
+          <name>SUN_TRANSIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77ac741b2619e63153a125e488a58fd4091" prot="private">
+          <name>SUN_RISE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77a47511786cbf80c78c293585861ec5e8d" prot="private">
+          <name>SUN_SET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77a1ee1f69d9f26ae8ea2a88ca7e3879e50" prot="private">
+          <name>SUN_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="106" column="1" bodyfile="src/SimulationQualite.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPositionSolaire_1a380e08005482f0a4a667feedf3a6cbb6" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int PositionSolaire::l_subcount[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>l_subcount</name>
+        <qualifiedname>PositionSolaire::l_subcount</qualifiedname>
+        <initializer>= { 64,34,20,7,3,1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="108" column="11" bodyfile="src/SimulationQualite.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1a22c1f9c3b7fffca69f46a3d33ef8562d" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int PositionSolaire::b_subcount[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>b_subcount</name>
+        <qualifiedname>PositionSolaire::b_subcount</qualifiedname>
+        <initializer>= { 5,2 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="109" column="11" bodyfile="src/SimulationQualite.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1a17eb708233d42099558177c349edeae5" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int PositionSolaire::r_subcount[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>r_subcount</name>
+        <qualifiedname>PositionSolaire::r_subcount</qualifiedname>
+        <initializer>= { 40,10,6,2,1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="110" column="11" bodyfile="src/SimulationQualite.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1adc81e95d5414d216763d3e783e62ca3d" prot="private" static="no" mutable="no">
+        <type>const long double</type>
+        <definition>const long double PositionSolaire::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>PositionSolaire::PI</qualifiedname>
+        <initializer>= 3.141592653589793</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="112" column="19" bodyfile="src/SimulationQualite.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1af7419e233fb18f3d52c8aef10770cca9" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double PositionSolaire::L_TERMS[6][64][TERM_COUNT]</definition>
+        <argsstring>[6][64][TERM_COUNT]</argsstring>
+        <name>L_TERMS</name>
+        <qualifiedname>PositionSolaire::L_TERMS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="113" column="14" bodyfile="src/SimulationQualite.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1af468de3e8910edc54597cacef6ab1b46" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double PositionSolaire::B_TERMS[2][5][TERM_COUNT]</definition>
+        <argsstring>[2][5][TERM_COUNT]</argsstring>
+        <name>B_TERMS</name>
+        <qualifiedname>PositionSolaire::B_TERMS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="115" column="14" bodyfile="src/SimulationQualite.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1aead09ae55a1deac69bbbb772de38b045" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double PositionSolaire::R_TERMS[5][40][TERM_COUNT]</definition>
+        <argsstring>[5][40][TERM_COUNT]</argsstring>
+        <name>R_TERMS</name>
+        <qualifiedname>PositionSolaire::R_TERMS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="117" column="14" bodyfile="src/SimulationQualite.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1aa02f51b394dab2dc71a56747208f9915" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int PositionSolaire::Y_TERMS[63][TERM_X_COUNT]</definition>
+        <argsstring>[63][TERM_X_COUNT]</argsstring>
+        <name>Y_TERMS</name>
+        <qualifiedname>PositionSolaire::Y_TERMS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="120" column="11" bodyfile="src/SimulationQualite.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPositionSolaire_1a10bc3d37cc4444d03c86e03129e5b481" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double PositionSolaire::PE_TERMS[63][TERM_PE_COUNT]</definition>
+        <argsstring>[63][TERM_PE_COUNT]</argsstring>
+        <name>PE_TERMS</name>
+        <qualifiedname>PositionSolaire::PE_TERMS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="121" column="14" bodyfile="src/SimulationQualite.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPositionSolaire_1af3860c1ef5fe54132ffc9ca7df9bf677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PositionSolaire::PositionSolaire</definition>
+        <argsstring>()</argsstring>
+        <name>PositionSolaire</name>
+        <qualifiedname>PositionSolaire::PositionSolaire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="96" column="1" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="5" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1af9abd39b55cca358e6e975cd7596ce55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PositionSolaire::~PositionSolaire</definition>
+        <argsstring>()</argsstring>
+        <name>~PositionSolaire</name>
+        <qualifiedname>PositionSolaire::~PositionSolaire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="97" column="1" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="367" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1ac056e04d7f4b9f219c62c8b992e69622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PositionSolaire::calcul_altitude_et_azimut_du_soleil</definition>
+        <argsstring>(double jd, double lat, double lon, double *azimut, double *altitude, double elevation=0)</argsstring>
+        <name>calcul_altitude_et_azimut_du_soleil</name>
+        <qualifiedname>PositionSolaire::calcul_altitude_et_azimut_du_soleil</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jd</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>azimut</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>altitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>elevation</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>fuseau horaire avancé de l&apos;est (EDT)</para>
+<para>valeur pour l&apos;heure</para>
+<para>jour julien ajusté avec l&apos;heure greenwich</para>
+<para>siecle julien</para>
+<para>millenaire julien</para>
+<para>ascension droite du soleil</para>
+<para>angle d&apos;heure local</para>
+<para>declinaison du soleil</para>
+<para>longitude, latitude et vecteur de rayon</para>
+<para>temps sideral greenwich</para>
+<para>parallaxe equatorial horizontale du soleil</para>
+<para>longitude apparente du soleil</para>
+<para>X_1 à X_4</para>
+<para><hruler/>
+</para>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="98" column="6" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="653" bodyend="734"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1ab16d530bde5fd4785ff4c84cab806d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PositionSolaire::calcul_altitude_et_azimut_du_soleil</definition>
+        <argsstring>(Qualite::spa_data &amp;spa)</argsstring>
+        <name>calcul_altitude_et_azimut_du_soleil</name>
+        <qualifiedname>PositionSolaire::calcul_altitude_et_azimut_du_soleil</qualifiedname>
+        <param>
+          <type><ref refid="structQualite_1_1spa__data" kindref="compound">Qualite::spa_data</ref> &amp;</type>
+          <declname>spa</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>ascension droite du soleil</para>
+<para>angle d&apos;heure local</para>
+<para>declinaison du soleil</para>
+<para>longitude, latitude et vecteur de rayon</para>
+<para>temps sideral greenwich</para>
+<para>parallaxe equatorial horizontale du soleil</para>
+<para>longitude apparente du soleil</para>
+<para>X_1 à X_4</para>
+<para><hruler/>
+</para>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="100" column="6" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="736" bodyend="803"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classPositionSolaire_1a4be1da507a1865de586fd5b976d3f54c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::limit_degrees</definition>
+        <argsstring>(double degrees)</argsstring>
+        <name>limit_degrees</name>
+        <qualifiedname>PositionSolaire::limit_degrees</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="123" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="372" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1acc775c82d08c44fb8e6080617d27bc94" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::deg2rad</definition>
+        <argsstring>(double degrees)</argsstring>
+        <name>deg2rad</name>
+        <qualifiedname>PositionSolaire::deg2rad</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="124" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="383" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a11f9d2a0c1a995e64b12d0e77e8facba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::rad2deg</definition>
+        <argsstring>(double radians)</argsstring>
+        <name>rad2deg</name>
+        <qualifiedname>PositionSolaire::rad2deg</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>radians</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="125" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="388" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a1995bce7e5a1054d01ea7ec06fddadf2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::third_order_polynomial</definition>
+        <argsstring>(double a, double b, double c, double d, double x)</argsstring>
+        <name>third_order_polynomial</name>
+        <qualifiedname>PositionSolaire::third_order_polynomial</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="126" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="393" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1aa0714214a8370fd58d2ef7f23d19c01a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::earth_periodic_term_summation</definition>
+        <argsstring>(const double terms[][TERM_COUNT], int count, double jme)</argsstring>
+        <name>earth_periodic_term_summation</name>
+        <qualifiedname>PositionSolaire::earth_periodic_term_summation</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>terms</declname>
+          <array>[][TERM_COUNT]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="127" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="398" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1ad5aebd4433c47eb1ae89267e0ed4e210" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::earth_values</definition>
+        <argsstring>(double term_sum[], int count, double jme)</argsstring>
+        <name>earth_values</name>
+        <qualifiedname>PositionSolaire::earth_values</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>term_sum</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="128" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="409" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1af8008dd7caa3149547254927108db352" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::earth_heliocentric_longitude</definition>
+        <argsstring>(double jme)</argsstring>
+        <name>earth_heliocentric_longitude</name>
+        <qualifiedname>PositionSolaire::earth_heliocentric_longitude</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="129" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="422" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1afb6f8af8ef2f0222eaddc6302c62db20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::earth_heliocentric_latitude</definition>
+        <argsstring>(double jme)</argsstring>
+        <name>earth_heliocentric_latitude</name>
+        <qualifiedname>PositionSolaire::earth_heliocentric_latitude</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="130" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="434" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a2888d5dbd0396b0c66d2e4cfcf2f3092" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::earth_radius_vector</definition>
+        <argsstring>(double jme)</argsstring>
+        <name>earth_radius_vector</name>
+        <qualifiedname>PositionSolaire::earth_radius_vector</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="131" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="447" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a460032cfbd6fa40291e6473065522ec6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::mean_elongation_moon_sun</definition>
+        <argsstring>(double jce)</argsstring>
+        <name>mean_elongation_moon_sun</name>
+        <qualifiedname>PositionSolaire::mean_elongation_moon_sun</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jce</declname>
+        </param>
+        <briefdescription>
+<para>X_0. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="132" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="460" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a1da2a16e41731e411e72de97fb4cf0ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::anomalie_moyenne_du_soleil</definition>
+        <argsstring>(int jd)</argsstring>
+        <name>anomalie_moyenne_du_soleil</name>
+        <qualifiedname>PositionSolaire::anomalie_moyenne_du_soleil</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>jd</declname>
+        </param>
+        <briefdescription>
+<para>X_1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="133" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="466" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1ad6cd49cb33fb403a88f3eb717ee4af22" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::mean_anomaly_sun</definition>
+        <argsstring>(double jce)</argsstring>
+        <name>mean_anomaly_sun</name>
+        <qualifiedname>PositionSolaire::mean_anomaly_sun</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jce</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="134" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="474" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a2e6173d970b710e122b805df3fdca182" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::mean_anomaly_moon</definition>
+        <argsstring>(double jce)</argsstring>
+        <name>mean_anomaly_moon</name>
+        <qualifiedname>PositionSolaire::mean_anomaly_moon</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jce</declname>
+        </param>
+        <briefdescription>
+<para>X_2. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="135" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="480" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a229ad2c932534becc14785ea42dd0275" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::argument_latitude_moon</definition>
+        <argsstring>(double jce)</argsstring>
+        <name>argument_latitude_moon</name>
+        <qualifiedname>PositionSolaire::argument_latitude_moon</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jce</declname>
+        </param>
+        <briefdescription>
+<para>X_3. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="136" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="486" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a764b7e4187c972da1d2cbf9945ba63a3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::ascending_longitude_moon</definition>
+        <argsstring>(double jce)</argsstring>
+        <name>ascending_longitude_moon</name>
+        <qualifiedname>PositionSolaire::ascending_longitude_moon</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jce</declname>
+        </param>
+        <briefdescription>
+<para>X_4. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="137" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="492" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a3109e7948e4663e7f5c3e1169934c958" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::xy_term_summation</definition>
+        <argsstring>(int i, double x[TERM_X_COUNT])</argsstring>
+        <name>xy_term_summation</name>
+        <qualifiedname>PositionSolaire::xy_term_summation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+          <array>[TERM_X_COUNT]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="138" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="497" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a175d6cd67b4e2d96fb0b647e36458b1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PositionSolaire::nutation_longitude_and_obliquity</definition>
+        <argsstring>(double jce, double x[TERM_X_COUNT], double *del_psi, double *del_epsilon)</argsstring>
+        <name>nutation_longitude_and_obliquity</name>
+        <qualifiedname>PositionSolaire::nutation_longitude_and_obliquity</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jce</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+          <array>[TERM_X_COUNT]</array>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>del_psi</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>del_epsilon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="139" column="6" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="508" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1ac7c3930d1022ab800d9f0182399836af" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::ecliptic_mean_obliquity</definition>
+        <argsstring>(double jme)</argsstring>
+        <name>ecliptic_mean_obliquity</name>
+        <qualifiedname>PositionSolaire::ecliptic_mean_obliquity</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="141" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="524" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a09635c214b9e95d5ae9bf6bddfc90449" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::ecliptic_true_obliquity</definition>
+        <argsstring>(double delta_epsilon, double epsilon0)</argsstring>
+        <name>ecliptic_true_obliquity</name>
+        <qualifiedname>PositionSolaire::ecliptic_true_obliquity</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>delta_epsilon</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>epsilon0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="142" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="532" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a499c5d8576e1a55bde3236ec5ad4a574" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::aberration_correction</definition>
+        <argsstring>(double r)</argsstring>
+        <name>aberration_correction</name>
+        <qualifiedname>PositionSolaire::aberration_correction</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="143" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="537" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a789fc32a1b9e39b8d6377b5e143dad85" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::apparent_sun_longitude</definition>
+        <argsstring>(double theta, double delta_psi, double delta_tau)</argsstring>
+        <name>apparent_sun_longitude</name>
+        <qualifiedname>PositionSolaire::apparent_sun_longitude</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>theta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta_psi</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta_tau</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="144" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="542" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1afe73246da7b30ae20bf77bf4f154192f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::greenwich_mean_sidereal_time</definition>
+        <argsstring>(double jd)</argsstring>
+        <name>greenwich_mean_sidereal_time</name>
+        <qualifiedname>PositionSolaire::greenwich_mean_sidereal_time</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="145" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="547" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a2c462bff287fc6fea947669316297ecf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::greenwich_sidereal_time</definition>
+        <argsstring>(double nu0, double delta_psi, double epsilon)</argsstring>
+        <name>greenwich_sidereal_time</name>
+        <qualifiedname>PositionSolaire::greenwich_sidereal_time</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>nu0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta_psi</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="146" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="552" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1adb881330603056a00abd59e388dd7f55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::geocentric_right_ascension</definition>
+        <argsstring>(double lamda, double epsilon, double beta)</argsstring>
+        <name>geocentric_right_ascension</name>
+        <qualifiedname>PositionSolaire::geocentric_right_ascension</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>lamda</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>lamda: sun longitutde beta : sun latitude </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="147" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="559" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1add0db150c1109435944599ddde8479c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::geocentric_declination</definition>
+        <argsstring>(double beta, double epsilon, double lamda)</argsstring>
+        <name>geocentric_declination</name>
+        <qualifiedname>PositionSolaire::geocentric_declination</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lamda</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>lamda: sun longitutde beta : sun latitude </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="148" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="570" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a738fd0bc1fcdd06f52fd17ba73dd1154" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::observer_hour_angle</definition>
+        <argsstring>(double nu, double longitude, double alpha_deg)</argsstring>
+        <name>observer_hour_angle</name>
+        <qualifiedname>PositionSolaire::observer_hour_angle</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>nu</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>longitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha_deg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="149" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="579" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a727eac285ad59d5cc55553c428ee0e2b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::sun_equatorial_horizontal_parallax</definition>
+        <argsstring>(double r)</argsstring>
+        <name>sun_equatorial_horizontal_parallax</name>
+        <qualifiedname>PositionSolaire::sun_equatorial_horizontal_parallax</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="150" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="584" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a7432f48a1adcd649073756c87e85e9ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PositionSolaire::right_ascension_parallax_and_topocentric_dec</definition>
+        <argsstring>(double latitude, double elevation, double xi, double h, double delta, double *delta_alpha, double *delta_prime)</argsstring>
+        <name>right_ascension_parallax_and_topocentric_dec</name>
+        <qualifiedname>PositionSolaire::right_ascension_parallax_and_topocentric_dec</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>elevation</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xi</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>delta_alpha</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>delta_prime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xi: sun_equatorial_horizontal_parallax delta: declinaison delta_alpha: ptr dela_prime: ptr h: angle d&apos;heure local </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="151" column="6" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="594" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1aa1ba316b3d4e616c85fdab7d5a3495a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::topocentric_right_ascension</definition>
+        <argsstring>(double alpha_deg, double delta_alpha)</argsstring>
+        <name>topocentric_right_ascension</name>
+        <qualifiedname>PositionSolaire::topocentric_right_ascension</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>alpha_deg</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta_alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="153" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="615" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1ad2f8c1435372d65e3ec16d190b170b60" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::topocentric_local_hour_angle</definition>
+        <argsstring>(double h, double delta_alpha)</argsstring>
+        <name>topocentric_local_hour_angle</name>
+        <qualifiedname>PositionSolaire::topocentric_local_hour_angle</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta_alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="154" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="620" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a9a0a0d4c44e9e16ea6ff1d95f508a053" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::topocentric_elevation_angle</definition>
+        <argsstring>(double latitude, double delta_prime, double h_prime)</argsstring>
+        <name>topocentric_elevation_angle</name>
+        <qualifiedname>PositionSolaire::topocentric_elevation_angle</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta_prime</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>h_prime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="155" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="625" bodyend="632"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a90f084800303931898c53a191d836e08" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::topocentric_zenith_angle</definition>
+        <argsstring>(double e)</argsstring>
+        <name>topocentric_zenith_angle</name>
+        <qualifiedname>PositionSolaire::topocentric_zenith_angle</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="156" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="634" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1a64b05d6a70974689854121010ca099ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::topocentric_azimuth_angle_astro</definition>
+        <argsstring>(double h_prime, double latitude, double delta_prime)</argsstring>
+        <name>topocentric_azimuth_angle_astro</name>
+        <qualifiedname>PositionSolaire::topocentric_azimuth_angle_astro</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>h_prime</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>delta_prime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="157" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="639" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classPositionSolaire_1afe2b2d516d4bef9cc788c1c99adc14bc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PositionSolaire::topocentric_azimuth_angle</definition>
+        <argsstring>(double azimuth_astro)</argsstring>
+        <name>topocentric_azimuth_angle</name>
+        <qualifiedname>PositionSolaire::topocentric_azimuth_angle</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>azimuth_astro</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="158" column="8" bodyfile="src/SimulationQualite_Ombrage.cpp" bodystart="648" bodyend="651"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class pour calcul des positions solaires. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SimulationQualite.h" line="94" column="1" bodyfile="src/SimulationQualite.h" bodystart="94" bodyend="159"/>
+    <listofallmembers>
+      <member refid="classPositionSolaire_1a499c5d8576e1a55bde3236ec5ad4a574" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>aberration_correction</name></member>
+      <member refid="classPositionSolaire_1a1da2a16e41731e411e72de97fb4cf0ab" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>anomalie_moyenne_du_soleil</name></member>
+      <member refid="classPositionSolaire_1a789fc32a1b9e39b8d6377b5e143dad85" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>apparent_sun_longitude</name></member>
+      <member refid="classPositionSolaire_1a229ad2c932534becc14785ea42dd0275" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>argument_latitude_moon</name></member>
+      <member refid="classPositionSolaire_1a764b7e4187c972da1d2cbf9945ba63a3" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>ascending_longitude_moon</name></member>
+      <member refid="classPositionSolaire_1a22c1f9c3b7fffca69f46a3d33ef8562d" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>b_subcount</name></member>
+      <member refid="classPositionSolaire_1af468de3e8910edc54597cacef6ab1b46" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>B_TERMS</name></member>
+      <member refid="classPositionSolaire_1ac056e04d7f4b9f219c62c8b992e69622" prot="public" virt="non-virtual"><scope>PositionSolaire</scope><name>calcul_altitude_et_azimut_du_soleil</name></member>
+      <member refid="classPositionSolaire_1ab16d530bde5fd4785ff4c84cab806d5f" prot="public" virt="non-virtual"><scope>PositionSolaire</scope><name>calcul_altitude_et_azimut_du_soleil</name></member>
+      <member refid="classPositionSolaire_1acc775c82d08c44fb8e6080617d27bc94" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>deg2rad</name></member>
+      <member refid="classPositionSolaire_1afb6f8af8ef2f0222eaddc6302c62db20" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>earth_heliocentric_latitude</name></member>
+      <member refid="classPositionSolaire_1af8008dd7caa3149547254927108db352" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>earth_heliocentric_longitude</name></member>
+      <member refid="classPositionSolaire_1aa0714214a8370fd58d2ef7f23d19c01a" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>earth_periodic_term_summation</name></member>
+      <member refid="classPositionSolaire_1a2888d5dbd0396b0c66d2e4cfcf2f3092" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>earth_radius_vector</name></member>
+      <member refid="classPositionSolaire_1ad5aebd4433c47eb1ae89267e0ed4e210" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>earth_values</name></member>
+      <member refid="classPositionSolaire_1ac7c3930d1022ab800d9f0182399836af" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>ecliptic_mean_obliquity</name></member>
+      <member refid="classPositionSolaire_1a09635c214b9e95d5ae9bf6bddfc90449" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>ecliptic_true_obliquity</name></member>
+      <member refid="classPositionSolaire_1add0db150c1109435944599ddde8479c7" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>geocentric_declination</name></member>
+      <member refid="classPositionSolaire_1adb881330603056a00abd59e388dd7f55" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>geocentric_right_ascension</name></member>
+      <member refid="classPositionSolaire_1afe73246da7b30ae20bf77bf4f154192f" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>greenwich_mean_sidereal_time</name></member>
+      <member refid="classPositionSolaire_1a2c462bff287fc6fea947669316297ecf" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>greenwich_sidereal_time</name></member>
+      <member refid="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735afbc3ab3803a51dfb144c9763c9ca981a" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>JD_COUNT</name></member>
+      <member refid="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735ad61ca8e4bd66b8e28472a96ee7c31f40" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>JD_MINUS</name></member>
+      <member refid="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735aca02bee7ca63a7c839894bfa751ba000" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>JD_PLUS</name></member>
+      <member refid="classPositionSolaire_1ace80f1169a6bb87cc9871b17139b2735afdcede2c9ba08b397723f73e613c1c9b" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>JD_ZERO</name></member>
+      <member refid="classPositionSolaire_1a380e08005482f0a4a667feedf3a6cbb6" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>l_subcount</name></member>
+      <member refid="classPositionSolaire_1af7419e233fb18f3d52c8aef10770cca9" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>L_TERMS</name></member>
+      <member refid="classPositionSolaire_1a4be1da507a1865de586fd5b976d3f54c" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>limit_degrees</name></member>
+      <member refid="classPositionSolaire_1a2e6173d970b710e122b805df3fdca182" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>mean_anomaly_moon</name></member>
+      <member refid="classPositionSolaire_1ad6cd49cb33fb403a88f3eb717ee4af22" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>mean_anomaly_sun</name></member>
+      <member refid="classPositionSolaire_1a460032cfbd6fa40291e6473065522ec6" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>mean_elongation_moon_sun</name></member>
+      <member refid="classPositionSolaire_1a175d6cd67b4e2d96fb0b647e36458b1d" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>nutation_longitude_and_obliquity</name></member>
+      <member refid="classPositionSolaire_1a738fd0bc1fcdd06f52fd17ba73dd1154" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>observer_hour_angle</name></member>
+      <member refid="classPositionSolaire_1a10bc3d37cc4444d03c86e03129e5b481" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>PE_TERMS</name></member>
+      <member refid="classPositionSolaire_1adc81e95d5414d216763d3e783e62ca3d" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>PI</name></member>
+      <member refid="classPositionSolaire_1af3860c1ef5fe54132ffc9ca7df9bf677" prot="public" virt="non-virtual"><scope>PositionSolaire</scope><name>PositionSolaire</name></member>
+      <member refid="classPositionSolaire_1a17eb708233d42099558177c349edeae5" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>r_subcount</name></member>
+      <member refid="classPositionSolaire_1aead09ae55a1deac69bbbb772de38b045" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>R_TERMS</name></member>
+      <member refid="classPositionSolaire_1a11f9d2a0c1a995e64b12d0e77e8facba" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>rad2deg</name></member>
+      <member refid="classPositionSolaire_1a7432f48a1adcd649073756c87e85e9ee" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>right_ascension_parallax_and_topocentric_dec</name></member>
+      <member refid="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77a1ee1f69d9f26ae8ea2a88ca7e3879e50" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>SUN_COUNT</name></member>
+      <member refid="classPositionSolaire_1a727eac285ad59d5cc55553c428ee0e2b" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>sun_equatorial_horizontal_parallax</name></member>
+      <member refid="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77ac741b2619e63153a125e488a58fd4091" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>SUN_RISE</name></member>
+      <member refid="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77a47511786cbf80c78c293585861ec5e8d" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>SUN_SET</name></member>
+      <member refid="classPositionSolaire_1a77e7feab8061c25610f91b53d0c4be77af1fd8f38a44de6d79d59494e764f1c32" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>SUN_TRANSIT</name></member>
+      <member refid="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5bab62a0dbb7293f689091d0abb76305789" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_A</name></member>
+      <member refid="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5ba12bd0d14a7863b63df2edabf3ab5e3cf" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_B</name></member>
+      <member refid="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5ba493e6506288e013da84846c29e39d797" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_C</name></member>
+      <member refid="classPositionSolaire_1a5141426201410d58a47c48eb211d7f5ba33186d428a8e4d169ee66595c4fdb755" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_COUNT</name></member>
+      <member refid="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541ad2ef43ed8e56d89f607a6c5b1be599af" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_EPS_C</name></member>
+      <member refid="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541a70feae6bb6220b376377c5683be686bb" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_EPS_D</name></member>
+      <member refid="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541a197df418ca1d7018838e712a71c9ad0b" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_PE_COUNT</name></member>
+      <member refid="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541a5886cd920ddf404dcd7a8a827501ad58" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_PSI_A</name></member>
+      <member refid="classPositionSolaire_1ab0ee0c078d8851a6356665a84e109541ad729bc32b99a7aafd1596e2d470642d8" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_PSI_B</name></member>
+      <member refid="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a25b51a3150dba150dee7c48341f9ec84" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_X0</name></member>
+      <member refid="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a026c8ecd4fbeec5cf370fde1ea3cb85a" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_X1</name></member>
+      <member refid="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a56d70bc6cdc73ddc42e7f3352451e320" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_X2</name></member>
+      <member refid="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a46cefb6054d84c5f3c554318391ba28e" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_X3</name></member>
+      <member refid="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28aa014823d8c68cf38a819d2bb7888c38f" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_X4</name></member>
+      <member refid="classPositionSolaire_1a4776e62ae2874b9616a238396542fc28a688b82ead03b7b9f944fd639bb5df5be" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>TERM_X_COUNT</name></member>
+      <member refid="classPositionSolaire_1a1995bce7e5a1054d01ea7ec06fddadf2" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>third_order_polynomial</name></member>
+      <member refid="classPositionSolaire_1afe2b2d516d4bef9cc788c1c99adc14bc" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>topocentric_azimuth_angle</name></member>
+      <member refid="classPositionSolaire_1a64b05d6a70974689854121010ca099ed" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>topocentric_azimuth_angle_astro</name></member>
+      <member refid="classPositionSolaire_1a9a0a0d4c44e9e16ea6ff1d95f508a053" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>topocentric_elevation_angle</name></member>
+      <member refid="classPositionSolaire_1ad2f8c1435372d65e3ec16d190b170b60" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>topocentric_local_hour_angle</name></member>
+      <member refid="classPositionSolaire_1aa1ba316b3d4e616c85fdab7d5a3495a9" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>topocentric_right_ascension</name></member>
+      <member refid="classPositionSolaire_1a90f084800303931898c53a191d836e08" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>topocentric_zenith_angle</name></member>
+      <member refid="classPositionSolaire_1a3109e7948e4663e7f5c3e1169934c958" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>xy_term_summation</name></member>
+      <member refid="classPositionSolaire_1aa02f51b394dab2dc71a56747208f9915" prot="private" virt="non-virtual"><scope>PositionSolaire</scope><name>Y_TERMS</name></member>
+      <member refid="classPositionSolaire_1af9abd39b55cca358e6e975cd7596ce55" prot="public" virt="non-virtual"><scope>PositionSolaire</scope><name>~PositionSolaire</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

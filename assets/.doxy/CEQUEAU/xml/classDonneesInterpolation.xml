@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classDonneesInterpolation" kind="class" language="C++" prot="public">
+    <compoundname>DonneesInterpolation</compoundname>
+    <includes refid="Interpolateur_8h" local="no">Interpolateur.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDonneesInterpolation_1a4b68002d443d798dd3f2bfc173b45d00" prot="public" static="no" mutable="no">
+        <type>CarreauEntierPtr</type>
+        <definition>CarreauEntierPtr DonneesInterpolation::CE</definition>
+        <argsstring></argsstring>
+        <name>CE</name>
+        <qualifiedname>DonneesInterpolation::CE</qualifiedname>
+        <briefdescription>
+<para>Un carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="28" column="20" bodyfile="src/Interpolateur.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDonneesInterpolation_1a08fffcc695f7150eb9366c70a5a96b1f" prot="public" static="no" mutable="no">
+        <type>Stations</type>
+        <definition>Stations DonneesInterpolation::stations</definition>
+        <argsstring></argsstring>
+        <name>stations</name>
+        <qualifiedname>DonneesInterpolation::stations</qualifiedname>
+        <briefdescription>
+<para>Stations attribuees au CE selon la methode d&apos;interpolation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="30" column="12" bodyfile="src/Interpolateur.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDonneesInterpolation_1a855a897642da082d7ff7f44b690ff4a2" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; DonneesInterpolation::distancesCE</definition>
+        <argsstring></argsstring>
+        <name>distancesCE</name>
+        <qualifiedname>DonneesInterpolation::distancesCE</qualifiedname>
+        <briefdescription>
+<para>Distance des stations par rapport au CE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="32" column="15" bodyfile="src/Interpolateur.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDonneesInterpolation_1ae20dde0e2eec0cc271fa4e1ed0fde658" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; DonneesInterpolation::facteurPonderationCE</definition>
+        <argsstring></argsstring>
+        <name>facteurPonderationCE</name>
+        <qualifiedname>DonneesInterpolation::facteurPonderationCE</qualifiedname>
+        <briefdescription>
+<para>Facteur de ponderation des stations par rapport au CE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="34" column="15" bodyfile="src/Interpolateur.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDonneesInterpolation_1a477267f3c7300b7ecddfab645f9b28b2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DonneesInterpolation::correction</definition>
+        <argsstring></argsstring>
+        <name>correction</name>
+        <qualifiedname>DonneesInterpolation::correction</qualifiedname>
+        <briefdescription>
+<para>Valeur calculee selon la methode d&apos;interpolation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="36" column="9" bodyfile="src/Interpolateur.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDonneesInterpolation_1aceca224004fca837fa194c68f6fdaf79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float DonneesInterpolation::calculerAltitudeMoyStation</definition>
+        <argsstring>()</argsstring>
+        <name>calculerAltitudeMoyStation</name>
+        <qualifiedname>DonneesInterpolation::calculerAltitudeMoyStation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="38" column="9" bodyfile="src/Interpolateur.cpp" bodystart="17" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classDonneesInterpolation_1a2ec7f866b3470131629e7eb012daed24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float DonneesInterpolation::calculerSommePrecipitaionStation</definition>
+        <argsstring>()</argsstring>
+        <name>calculerSommePrecipitaionStation</name>
+        <qualifiedname>DonneesInterpolation::calculerSommePrecipitaionStation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Interpolateur.h" line="39" column="9" bodyfile="src/Interpolateur.cpp" bodystart="33" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Donnees necessaires pour interpoler la meteo a chaque CE. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>CarreauEntier</label>
+        <link refid="classCarreauEntier"/>
+      </node>
+      <node id="1">
+        <label>DonneesInterpolation</label>
+        <link refid="classDonneesInterpolation"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CE</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>stations</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>distancesCE</edgelabel>
+          <edgelabel>facteurPonderationCE</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>T</label>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; CarreauEntier &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; StationPtr &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/Interpolateur.h" line="24" column="1" bodyfile="src/Interpolateur.h" bodystart="25" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classDonneesInterpolation_1aceca224004fca837fa194c68f6fdaf79" prot="public" virt="non-virtual"><scope>DonneesInterpolation</scope><name>calculerAltitudeMoyStation</name></member>
+      <member refid="classDonneesInterpolation_1a2ec7f866b3470131629e7eb012daed24" prot="public" virt="non-virtual"><scope>DonneesInterpolation</scope><name>calculerSommePrecipitaionStation</name></member>
+      <member refid="classDonneesInterpolation_1a4b68002d443d798dd3f2bfc173b45d00" prot="public" virt="non-virtual"><scope>DonneesInterpolation</scope><name>CE</name></member>
+      <member refid="classDonneesInterpolation_1a477267f3c7300b7ecddfab645f9b28b2" prot="public" virt="non-virtual"><scope>DonneesInterpolation</scope><name>correction</name></member>
+      <member refid="classDonneesInterpolation_1a855a897642da082d7ff7f44b690ff4a2" prot="public" virt="non-virtual"><scope>DonneesInterpolation</scope><name>distancesCE</name></member>
+      <member refid="classDonneesInterpolation_1ae20dde0e2eec0cc271fa4e1ed0fde658" prot="public" virt="non-virtual"><scope>DonneesInterpolation</scope><name>facteurPonderationCE</name></member>
+      <member refid="classDonneesInterpolation_1a08fffcc695f7150eb9366c70a5a96b1f" prot="public" virt="non-virtual"><scope>DonneesInterpolation</scope><name>stations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoCequeau" kind="class" language="C++" prot="public">
+    <compoundname>EvapoCequeau</compoundname>
+    <basecompoundref refid="classEvapo" prot="public" virt="non-virtual">Evapo</basecompoundref>
+    <innerclass refid="classEvapoCequeau_1_1EtatEvapoAssimCE" prot="private">EvapoCequeau::EtatEvapoAssimCE</innerclass>
+    <innerclass refid="classEvapoCequeau_1_1EtatEvapoCE" prot="public">EvapoCequeau::EtatEvapoCE</innerclass>
+    <innerclass refid="classEvapoCequeau_1_1Params" prot="private">EvapoCequeau::Params</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEvapoCequeau_1a8db59331b40e6826844c4b3e0ea1c867" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoCequeau::constModulationSoleil_</definition>
+        <argsstring></argsstring>
+        <name>constModulationSoleil_</name>
+        <qualifiedname>EvapoCequeau::constModulationSoleil_</qualifiedname>
+        <briefdescription>
+<para>Constante de modulation solaire (TAPHI). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialisee par le constructeur. Varie en fonction de la latitude moyenne du basin versant. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="84" column="7" bodyfile="src/EvapoCequeau.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1a2839f433642fa3323c89d1342cd6e31a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EvapoCequeau::pasParJour_</definition>
+        <argsstring></argsstring>
+        <name>pasParJour_</name>
+        <qualifiedname>EvapoCequeau::pasParJour_</qualifiedname>
+        <briefdescription>
+<para>Nombre de pas de temps par jour. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="86" column="5" bodyfile="src/EvapoCequeau.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1ab572940eee7b9c2f14dbdf157c4ffe17" prot="private" static="no" mutable="no">
+        <type>class EvapoCequeau::Params</type>
+        <definition>class EvapoCequeau::Params EvapoCequeau::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>EvapoCequeau::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="108" column="9"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1a736ac3718cb740a96fc4a3c88dc7b9d6" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; EvapoCequeau::nomChamps_</definition>
+        <argsstring></argsstring>
+        <name>nomChamps_</name>
+        <qualifiedname>EvapoCequeau::nomChamps_</qualifiedname>
+        <briefdescription>
+<para>Noms des variable d&apos;etat dans les intrants. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="125" column="13" bodyfile="src/EvapoCequeau.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1a2bb0e8a8651dd8ddeb39eeaf2276834f" prot="private" static="no" mutable="no">
+        <type><ref refid="classEvapoCequeau_1_1EtatEvapoCE" kindref="compound">EtatEvapoCE</ref></type>
+        <definition>EtatEvapoCE EvapoCequeau::etatEvapoCE_</definition>
+        <argsstring></argsstring>
+        <name>etatEvapoCE_</name>
+        <qualifiedname>EvapoCequeau::etatEvapoCE_</qualifiedname>
+        <briefdescription>
+<para>Etat pour un carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="127" column="13" bodyfile="src/EvapoCequeau.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1af407e303d81028d7617771dd7cafd617" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classEvapoCequeau_1_1EtatEvapoCE" kindref="compound">EtatEvapoCE</ref> &gt;</type>
+        <definition>std::vector&lt;EtatEvapoCE&gt; EvapoCequeau::etatsEvapoCE_</definition>
+        <argsstring></argsstring>
+        <name>etatsEvapoCE_</name>
+        <qualifiedname>EvapoCequeau::etatsEvapoCE_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour un pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="129" column="13" bodyfile="src/EvapoCequeau.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1ab71d25e15f1b3420058192ef3e62b7ca" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="classEvapoCequeau_1_1EtatEvapoCE" kindref="compound">EtatEvapoCE</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;EtatEvapoCE&gt; &gt; EvapoCequeau::etatsEvapo_</definition>
+        <argsstring></argsstring>
+        <name>etatsEvapo_</name>
+        <qualifiedname>EvapoCequeau::etatsEvapo_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour tous les pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="131" column="13" bodyfile="src/EvapoCequeau.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1a9cdfa9ca3b7d7e3fbb84513f6e50fdbc" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; EtatEvapoAssimCE &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatEvapoAssimCE&gt; &gt; EvapoCequeau::assimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsCE_</name>
+        <qualifiedname>EvapoCequeau::assimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="134" column="10" bodyfile="src/EvapoCequeau.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoCequeau_1a60014e5fe81bb6befef35b1d42056f2a" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; <ref refid="classEvapoCequeau_1_1EtatEvapoCE" kindref="compound">EtatEvapoCE</ref> &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatEvapoCE&gt; &gt; EvapoCequeau::avantAssimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsCE_</name>
+        <qualifiedname>EvapoCequeau::avantAssimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="136" column="10" bodyfile="src/EvapoCequeau.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEvapoCequeau_1a75c2ffdf4da142d4c8743345ae9d8e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EvapoCequeau::EvapoCequeau</definition>
+        <argsstring>()</argsstring>
+        <name>EvapoCequeau</name>
+        <qualifiedname>EvapoCequeau::EvapoCequeau</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="27" column="1" bodyfile="src/EvapoCequeau.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a629f6c6b030c18431d42273dc1f68c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EvapoCequeau::EvapoCequeau</definition>
+        <argsstring>(int latitudeMoyenneBV, int nbCE, int pasParJour)</argsstring>
+        <name>EvapoCequeau</name>
+        <qualifiedname>EvapoCequeau::EvapoCequeau</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>latitudeMoyenneBV</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCE</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pasParJour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="28" column="1" bodyfile="src/EvapoCequeau.cpp" bodystart="28" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1aa1d13d72f9bf65e188df2ce6254f129d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EvapoCequeau::~EvapoCequeau</definition>
+        <argsstring>()</argsstring>
+        <name>~EvapoCequeau</name>
+        <qualifiedname>EvapoCequeau::~EvapoCequeau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="29" column="1" bodyfile="src/EvapoCequeau.cpp" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a2281a733b4a50ffd0c7026fc0192974d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int EvapoCequeau::calculerEvapo</definition>
+        <argsstring>(const int &amp;noJour, const Meteo &amp;meteo, const CarreauEntier &amp;carreauEntier, const float niveauEauNappe, float &amp;evapotranspirationSol, float &amp;evapotranspirationNappe, float &amp;evaporationLac, float &amp;evapotranspirationPotentielle)</argsstring>
+        <name>calculerEvapo</name>
+        <qualifiedname>EvapoCequeau::calculerEvapo</qualifiedname>
+        <reimplements refid="classEvapo_1a782f031b3c6d4138b6418ae3ae026129">calculerEvapo</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noJour</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMeteo" kindref="compound">Meteo</ref> &amp;</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classCarreauEntier" kindref="compound">CarreauEntier</ref> &amp;</type>
+          <declname>carreauEntier</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>niveauEauNappe</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>evapotranspirationSol</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>evapotranspirationNappe</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>evaporationLac</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>evapotranspirationPotentielle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="31" column="5" bodyfile="src/EvapoCequeau.cpp" bodystart="50" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1ad7b7e17250ee9c83ab8ba1b33eb76d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int EvapoCequeau::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>EvapoCequeau::assimiler</qualifiedname>
+        <reimplements refid="classEvapo_1a991c7025c3e74daf94df2dc7a86f6c17">assimiler</reimplements>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="44" column="5" bodyfile="src/EvapoCequeau.cpp" bodystart="127" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a703e657db29431bcf8ac970d0c37ca13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int EvapoCequeau::initialiserAssimilations</definition>
+        <argsstring>(const mxArray *assimilations)</argsstring>
+        <name>initialiserAssimilations</name>
+        <qualifiedname>EvapoCequeau::initialiserAssimilations</qualifiedname>
+        <reimplements refid="classEvapo_1ac8852d630e0e9adc3f4b9237e3ca05a6">initialiserAssimilations</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="46" column="5" bodyfile="src/EvapoCequeau.cpp" bodystart="175" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a3012bb92b84754daf121045c8c0697b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EvapoCequeau::initialiserEtats</definition>
+        <argsstring>(const mxArray *etatsInitiaux)</argsstring>
+        <name>initialiserEtats</name>
+        <qualifiedname>EvapoCequeau::initialiserEtats</qualifiedname>
+        <reimplements refid="classEvapo_1a6926e4e81860f58e5d9b23adfd3028ff">initialiserEtats</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>etatsInitiaux</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="48" column="6" bodyfile="src/EvapoCequeau.cpp" bodystart="252" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a9e1bf0c5b72e42977327326dc5d16c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EvapoCequeau::lireParametres</definition>
+        <argsstring>(const mxArray *paramSimul)</argsstring>
+        <name>lireParametres</name>
+        <qualifiedname>EvapoCequeau::lireParametres</qualifiedname>
+        <reimplements refid="classEvapo_1a1663b2878ba39699baf2cf5aef4172cd">lireParametres</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramSimul</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="50" column="6" bodyfile="src/EvapoCequeau.cpp" bodystart="295" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a32e3e14879d6a728ca3d6ebc0be149a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * EvapoCequeau::obtenirEtats</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtats</name>
+        <qualifiedname>EvapoCequeau::obtenirEtats</qualifiedname>
+        <reimplements refid="classEvapo_1aec3b3fdadd673802c7b8550facec8cb4">obtenirEtats</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="52" column="9" bodyfile="src/EvapoCequeau.cpp" bodystart="314" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a6ec3964686f2aa28a2dc5b6de2e8c81e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * EvapoCequeau::obtenirEtatsAvantAssimilations</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtatsAvantAssimilations</name>
+        <qualifiedname>EvapoCequeau::obtenirEtatsAvantAssimilations</qualifiedname>
+        <reimplements refid="classEvapo_1a9489a0a973cf0cefe4fd05fb9b6e5bb9">obtenirEtatsAvantAssimilations</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="54" column="9" bodyfile="src/EvapoCequeau.cpp" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1af437035adf059748442583726b650361" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EvapoCequeau::preserverEtatsPasDeTemps</definition>
+        <argsstring>()</argsstring>
+        <name>preserverEtatsPasDeTemps</name>
+        <qualifiedname>EvapoCequeau::preserverEtatsPasDeTemps</qualifiedname>
+        <reimplements refid="classEvapo_1a9b8807d32d0713ecaf7bffb56b1b328b">preserverEtatsPasDeTemps</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="56" column="6" bodyfile="src/EvapoCequeau.cpp" bodystart="320" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1aa3f7d1a9b4acaf82dde5cd9121925d5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; std::vector&lt; <ref refid="classEvapoCequeau_1_1EtatEvapoCE" kindref="compound">EtatEvapoCE</ref> &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt; std::vector&lt; EtatEvapoCE &gt; &gt; &amp; EvapoCequeau::etatsEvapo</definition>
+        <argsstring>() const</argsstring>
+        <name>etatsEvapo</name>
+        <qualifiedname>EvapoCequeau::etatsEvapo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="76" column="19" bodyfile="src/EvapoCequeau.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classEvapoCequeau_1a15a6f17540780da44ce787c5311e8fa8" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double EvapoCequeau::calculerFacteurModulationSoleil</definition>
+        <argsstring>(int noJour) const</argsstring>
+        <name>calculerFacteurModulationSoleil</name>
+        <qualifiedname>EvapoCequeau::calculerFacteurModulationSoleil</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noJour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="138" column="8" bodyfile="src/EvapoCequeau.cpp" bodystart="325" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classEvapoCequeau_1a79d35d7fc66da4fb60cb2892654a462d" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double EvapoCequeau::calculerEthorn</definition>
+        <argsstring>(int noJour, float tempMoy) const</argsstring>
+        <name>calculerEthorn</name>
+        <qualifiedname>EvapoCequeau::calculerEthorn</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noJour</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tempMoy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="139" column="8" bodyfile="src/EvapoCequeau.cpp" bodystart="335" bodyend="348"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Evapo</label>
+        <link refid="classEvapo"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EvapoCequeau</label>
+        <link refid="classEvapoCequeau"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Evapo</label>
+        <link refid="classEvapo"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>EvapoCequeau</label>
+        <link refid="classEvapoCequeau"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/EvapoCequeau.h" line="23" column="1" bodyfile="src/EvapoCequeau.h" bodystart="24" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classEvapoCequeau_1a9cdfa9ca3b7d7e3fbb84513f6e50fdbc" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>assimilationsCE_</name></member>
+      <member refid="classEvapoCequeau_1ad7b7e17250ee9c83ab8ba1b33eb76d7a" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>assimiler</name></member>
+      <member refid="classEvapoCequeau_1a60014e5fe81bb6befef35b1d42056f2a" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>avantAssimilationsCE_</name></member>
+      <member refid="classEvapoCequeau_1a79d35d7fc66da4fb60cb2892654a462d" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>calculerEthorn</name></member>
+      <member refid="classEvapoCequeau_1a2281a733b4a50ffd0c7026fc0192974d" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>calculerEvapo</name></member>
+      <member refid="classEvapoCequeau_1a15a6f17540780da44ce787c5311e8fa8" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>calculerFacteurModulationSoleil</name></member>
+      <member refid="classEvapoCequeau_1a8db59331b40e6826844c4b3e0ea1c867" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>constModulationSoleil_</name></member>
+      <member refid="classEvapoCequeau_1a2bb0e8a8651dd8ddeb39eeaf2276834f" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>etatEvapoCE_</name></member>
+      <member refid="classEvapoCequeau_1aa3f7d1a9b4acaf82dde5cd9121925d5c" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>etatsEvapo</name></member>
+      <member refid="classEvapoCequeau_1ab71d25e15f1b3420058192ef3e62b7ca" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>etatsEvapo_</name></member>
+      <member refid="classEvapoCequeau_1af407e303d81028d7617771dd7cafd617" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>etatsEvapoCE_</name></member>
+      <member refid="classEvapo_1af0259c51c9ef3b3591cb3913a7cd5eb0" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>Evapo</name></member>
+      <member refid="classEvapo_1af044447552ca173a62bc171a2e472764" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>Evapo</name></member>
+      <member refid="classEvapoCequeau_1a75c2ffdf4da142d4c8743345ae9d8e0b" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>EvapoCequeau</name></member>
+      <member refid="classEvapoCequeau_1a629f6c6b030c18431d42273dc1f68c30" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>EvapoCequeau</name></member>
+      <member refid="classEvapoCequeau_1a703e657db29431bcf8ac970d0c37ca13" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>initialiserAssimilations</name></member>
+      <member refid="classEvapoCequeau_1a3012bb92b84754daf121045c8c0697b8" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>initialiserEtats</name></member>
+      <member refid="classModuleBase_1a3c3d7ab65439a094044950cd1c3a2312" prot="protected" virt="non-virtual"><scope>EvapoCequeau</scope><name>initialiserEtatsHelper</name></member>
+      <member refid="classEvapoCequeau_1a9e1bf0c5b72e42977327326dc5d16c14" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>lireParametres</name></member>
+      <member refid="classModuleBase_1a4cffe012ccefb97ad6bf4682ed00505b" prot="protected" virt="non-virtual"><scope>EvapoCequeau</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1a875fb504bc8f14ca91bbe9df11afb7b6" prot="protected" virt="non-virtual"><scope>EvapoCequeau</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1aa8ae84ac06d564c430330814bc2bb87a" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1a62c9211ac18959dcbd73139a570775de" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1aa62c61597fe7950d6180dc24965051a7" prot="protected" virt="non-virtual"><scope>EvapoCequeau</scope><name>nbCE_</name></member>
+      <member refid="classEvapoCequeau_1a736ac3718cb740a96fc4a3c88dc7b9d6" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>nomChamps_</name></member>
+      <member refid="classModuleBase_1aedc9ff9160a84a9b033b78a91cc7a775" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>nomModele</name></member>
+      <member refid="classModuleBase_1af6dc293923c42f9a4426fb9cf10cba97" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>nomsChampsMeteo</name></member>
+      <member refid="classEvapoCequeau_1a32e3e14879d6a728ca3d6ebc0be149a6" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>obtenirEtats</name></member>
+      <member refid="classModuleBase_1acb5b7967590954504cb9858ba0e30fda" prot="protected" virt="non-virtual"><scope>EvapoCequeau</scope><name>obtenirEtatsAvantAssimHelper</name></member>
+      <member refid="classEvapoCequeau_1a6ec3964686f2aa28a2dc5b6de2e8c81e" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>obtenirEtatsAvantAssimilations</name></member>
+      <member refid="classModuleBase_1a4c987a973c6c983ad77e01b9471e50b2" prot="protected" virt="non-virtual"><scope>EvapoCequeau</scope><name>obtenirEtatsHelper</name></member>
+      <member refid="classEvapoCequeau_1ab572940eee7b9c2f14dbdf157c4ffe17" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>params_</name></member>
+      <member refid="classEvapoCequeau_1a2839f433642fa3323c89d1342cd6e31a" prot="private" virt="non-virtual"><scope>EvapoCequeau</scope><name>pasParJour_</name></member>
+      <member refid="classEvapoCequeau_1af437035adf059748442583726b650361" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>preserverEtatsPasDeTemps</name></member>
+      <member refid="classEvapo_1a6c3802dc4b8b5df7e71f276a83621f30" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>~Evapo</name></member>
+      <member refid="classEvapoCequeau_1aa1d13d72f9bf65e188df2ce6254f129d" prot="public" virt="non-virtual"><scope>EvapoCequeau</scope><name>~EvapoCequeau</name></member>
+      <member refid="classModuleBase_1a2f9388584ac2c9f845d0a38678abb852" prot="public" virt="virtual"><scope>EvapoCequeau</scope><name>~ModuleBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

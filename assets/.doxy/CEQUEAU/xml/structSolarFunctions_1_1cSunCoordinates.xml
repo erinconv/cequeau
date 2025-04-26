@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structSolarFunctions_1_1cSunCoordinates" kind="struct" language="C++" prot="private">
+    <compoundname>SolarFunctions::cSunCoordinates</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSolarFunctions_1_1cSunCoordinates_1a899969a6421ca5afb5d1890b7f3a5160" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::cSunCoordinates::dZenithAngle</definition>
+        <argsstring></argsstring>
+        <name>dZenithAngle</name>
+        <qualifiedname>SolarFunctions::cSunCoordinates::dZenithAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="45" column="15" bodyfile="src/SolarFunctions.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSolarFunctions_1_1cSunCoordinates_1a7efaa78f1f6a718b78d1596217aa08c0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::cSunCoordinates::dAzimuth</definition>
+        <argsstring></argsstring>
+        <name>dAzimuth</name>
+        <qualifiedname>SolarFunctions::cSunCoordinates::dAzimuth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="46" column="15" bodyfile="src/SolarFunctions.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SolarFunctions.h" line="43" column="5" bodyfile="src/SolarFunctions.h" bodystart="44" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structSolarFunctions_1_1cSunCoordinates_1a7efaa78f1f6a718b78d1596217aa08c0" prot="public" virt="non-virtual"><scope>SolarFunctions::cSunCoordinates</scope><name>dAzimuth</name></member>
+      <member refid="structSolarFunctions_1_1cSunCoordinates_1a899969a6421ca5afb5d1890b7f3a5160" prot="public" virt="non-virtual"><scope>SolarFunctions::cSunCoordinates</scope><name>dZenithAngle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

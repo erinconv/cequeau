@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classDLI_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>DLI::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classDLI_1_1Params_1a602fbe96f0c243f3f1da26428b77602f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DLI::Params::u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <qualifiedname>DLI::Params::u</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="83" column="8" bodyfile="src/DLI.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDLI_1_1Params_1abf2dc4611c586eb6b572a42c78c4c2a1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DLI::Params::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>DLI::Params::v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="85" column="8" bodyfile="src/DLI.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDLI_1_1Params_1a4b4b26c6b0c2e523dc1c2400cc4e6b92" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DLI::Params::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>DLI::Params::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="87" column="8" bodyfile="src/DLI.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDLI_1_1Params_1a7fd86daa3a33b5ac7cd9c2b16c821bbd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DLI::Params::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>DLI::Params::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="89" column="8" bodyfile="src/DLI.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDLI_1_1Params_1a6805e0e86defc02fcf254b86d2d75221" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DLI::Params::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>DLI::Params::c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="91" column="8" bodyfile="src/DLI.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDLI_1_1Params_1aab4650e3fd81b7f57b36c9527bd6de1c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DLI::Params::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>DLI::Params::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="93" column="8" bodyfile="src/DLI.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/DLI.h" line="79" column="1" bodyfile="src/DLI.h" bodystart="79" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classDLI_1_1Params_1a4b4b26c6b0c2e523dc1c2400cc4e6b92" prot="public" virt="non-virtual"><scope>DLI::Params</scope><name>a</name></member>
+      <member refid="classDLI_1_1Params_1a7fd86daa3a33b5ac7cd9c2b16c821bbd" prot="public" virt="non-virtual"><scope>DLI::Params</scope><name>b</name></member>
+      <member refid="classDLI_1_1Params_1a6805e0e86defc02fcf254b86d2d75221" prot="public" virt="non-virtual"><scope>DLI::Params</scope><name>c</name></member>
+      <member refid="classDLI_1_1Params_1aab4650e3fd81b7f57b36c9527bd6de1c" prot="public" virt="non-virtual"><scope>DLI::Params</scope><name>d</name></member>
+      <member refid="classDLI_1_1Params_1a602fbe96f0c243f3f1da26428b77602f" prot="public" virt="non-virtual"><scope>DLI::Params</scope><name>u</name></member>
+      <member refid="classDLI_1_1Params_1abf2dc4611c586eb6b572a42c78c4c2a1" prot="public" virt="non-virtual"><scope>DLI::Params</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1892 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the CEQUEAU hydrological model">
+      
+      
+        <meta name="author" content="CEQUEAU Team">
+      
+      
+        <link rel="canonical" href="https://erinconv.github.io/CEQUEAU/inputs_outputs/">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>CEQUEAU MEX Function Inputs and Outputs - CEQUEAU Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cequeau-mex-function-inputs-and-outputs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CEQUEAU Documentation" class="md-header__button md-logo" aria-label="CEQUEAU Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CEQUEAU Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CEQUEAU MEX Function Inputs and Outputs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/erinconv/CEQUEAU" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CEQUEAU Model
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../api/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  API Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../CEQUEAU/annotated/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  API Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CEQUEAU Documentation" class="md-nav__button md-logo" aria-label="CEQUEAU Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CEQUEAU Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/erinconv/CEQUEAU" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CEQUEAU Model
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing to CEQUEAU
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code_of_conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct for CEQUEAU Development
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API Documentation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            API Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API Documentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/simulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Simulation Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/bassin_versant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BassinVersant Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/carreau_entier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CarreauEntier Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/carreau_partiel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CarreauPartiel Class
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            API Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CEQUEAU/annotated/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class List
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cequeauquantitemex" class="md-nav__link">
+    <span class="md-ellipsis">
+      CequeauQuantiteMex
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CequeauQuantiteMex">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-intrants" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inputs (Intrants)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inputs (Intrants)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-execution-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. execution (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-parametres-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. parametres (struct)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. parametres (struct)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametresoption-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.option (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametressol-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.sol (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametressolinitial-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.solInitial (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametrestransfert-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.transfert (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametresctp-parametreslac-parametressurface" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.ctp, parametres.lac, parametres.surface
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametresfonte-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.fonte (struct)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="parametres.fonte (struct)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametresfontecequeau-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.fonte.cequeau (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametresevapo-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.evapo (struct)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="parametres.evapo (struct)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametresevapocequeau-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.evapo.cequeau (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametresqualite-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.qualite (struct)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="parametres.qualite (struct)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametresqualitecequeau-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.qualite.cequeau (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametresqualitecequeautemperat-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.qualite.cequeau.temperat (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametresdli-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.dli (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametrespompage-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.pompage (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-bassinversant-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. bassinVersant (struct)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. bassinVersant (struct)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bassinversantcarreauxentiers-struct-array-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      bassinVersant.carreauxEntiers (struct array field)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bassinversantcarreauxpartiels-struct-array-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      bassinVersant.carreauxPartiels (struct array field)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bassinversantbarrage-struct-array-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      bassinVersant.barrage (struct array field)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bassinversantpuits-struct-array-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      bassinVersant.puits (struct array field)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-meteo-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. meteo (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-etatsprecedents-struct-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. etatsPrecedents (struct, Optional)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-assimilations-struct-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. assimilations (struct, Optional)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. assimilations (struct, Optional)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assimilation-state-structures-assimilationsquantiteetats-assimilationsqualiteetatscp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assimilation State Structures (assimilations.quantite.etats*, assimilations.qualite.etatsCP)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-stations-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. stations (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outputs-extrants" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outputs (Extrants)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Outputs (Extrants)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-etatsce-1-x-nbpasdetemps-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. etatsCE [1 x nbPasDeTemps struct]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-etatscp-1-x-nbpasdetemps-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. etatsCP [1 x nbPasDeTemps struct]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-etatsfonte-1-x-nbpasdetemps-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. etatsFonte [1 x nbPasDeTemps struct]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-etatsevapo-1-x-nbpasdetemps-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. etatsEvapo [1 x nbPasDeTemps struct]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-etatsbarrage-1-x-nbpasdetemps-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. etatsBarrage [1 x nbPasDeTemps struct]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-pasdetemps-nbpasdetemps-x-1-double" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. pasDeTemps [nbPasDeTemps x 1 double]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-etatsqualitecp-1-x-nbpasdetemps-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. etatsQualiteCP [1 x nbPasDeTemps struct]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-avantassimilations-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. avantAssimilations* (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cequeauinterpolationmex" class="md-nav__link">
+    <span class="md-ellipsis">
+      CequeauInterpolationMex
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CequeauInterpolationMex">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-intrants_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inputs (Intrants)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inputs (Intrants)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-execution-struct_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. execution (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-parametres-struct_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. parametres (struct)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. parametres (struct)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametresinterpolation-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      parametres.interpolation (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-bassinversant-struct_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. bassinVersant (struct)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-stations-1-x-nbstations-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. stations [1 x nbStations struct]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-meteostations-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. meteoStations (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outputs-extrants_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outputs (Extrants)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Outputs (Extrants)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-meteointerpolee-struct" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. meteoInterpolee (struct)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="cequeau-mex-function-inputs-and-outputs">CEQUEAU MEX Function Inputs and Outputs<a class="headerlink" href="#cequeau-mex-function-inputs-and-outputs" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>THIS DOCUMENTATION IS OUTDATED AND NEEDS CAREFUL REVISION</p>
+</div>
+<hr />
+<h2 id="cequeauquantitemex"><code>CequeauQuantiteMex</code><a class="headerlink" href="#cequeauquantitemex" title="Permanent link">&para;</a></h2>
+<p>This is the main function for running CEQUEAU streamflow and river temperature simulations.</p>
+<div class="admonition warning">
+<p class="admonition-title">Version Note</p>
+<p>Starting from version 4.x.x, the <code>cequeauQuantiteMex</code> mexfile is used for both streamflow (<strong>quantity</strong>) and river temperature (<strong>quality</strong>) simulations.
+- If <code>parametres.option.calculQualite = 0</code>, only the streamflow simulation is executed.
+- If <code>parametres.option.calculQualite = 1</code>, the streamflow simulation is executed first, followed by the river temperature simulation.</p>
+</div>
+<h3 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">[</span><span class="n">etatsCE</span><span class="p">,</span><span class="w"> </span><span class="n">etatsCP</span><span class="p">,</span><span class="w"> </span><span class="n">etatsFonte</span><span class="p">,</span><span class="w"> </span><span class="n">etatsEvapo</span><span class="p">,</span><span class="w"> </span><span class="n">etatsBarrage</span><span class="p">,</span><span class="w"> </span><span class="n">pasDeTemps</span><span class="p">,</span><span class="w"> </span><span class="k">...</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w"> </span><span class="n">avantAssimilationsCE</span><span class="p">,</span><span class="w"> </span><span class="n">avantAssimilationsFonte</span><span class="p">,</span><span class="w"> </span><span class="n">avantAssimilationsEvapo</span><span class="p">,</span><span class="w"> </span><span class="k">...</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w"> </span><span class="n">etatsQualCP</span><span class="p">,</span><span class="w"> </span><span class="n">avAssimQual</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">...</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="n">CequeauQuantiteMex</span><span class="p">(</span><span class="n">execution</span><span class="p">,</span><span class="w"> </span><span class="n">parametres</span><span class="p">,</span><span class="w"> </span><span class="n">bassinVersant</span><span class="p">,</span><span class="w"> </span><span class="n">meteo</span><span class="p">,</span><span class="w"> </span><span class="k">...</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">                       </span><span class="n">etatsPrecedents</span><span class="p">,</span><span class="w"> </span><span class="n">assimilations</span><span class="p">,</span><span class="w"> </span><span class="n">stations</span><span class="p">);</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>The <code>stations</code> input was added in v5.0.0.</li>
+<li>If you do not wish to use <code>etatsPrecedents</code>, <code>assimilations</code>, or <code>stations</code>, provide an empty array (<code>[]</code>) for that input.</li>
+</ul>
+</div>
+<h3 id="inputs-intrants">Inputs (<code>Intrants</code>)<a class="headerlink" href="#inputs-intrants" title="Permanent link">&para;</a></h3>
+<p>The required input variables are detailed below.</p>
+<h4 id="1-execution-struct">1. <code>execution</code> (<code>struct</code>)<a class="headerlink" href="#1-execution-struct" title="Permanent link">&para;</a></h4>
+<p>Defines the simulation period and optional output filtering.</p>
+<ul>
+<li><code>dateDebut</code>: <code>double</code> - Start date of the simulation (Matlab <code>datenum</code> format).</li>
+<li><code>dateFin</code>: <code>double</code> - End date of the simulation (Matlab <code>datenum</code> format).</li>
+<li><code>resultatsIdCE</code> (Optional): <code>[1 x N double]</code> - List of Whole Cell (CE) IDs for which outputs are desired in the <code>etatsCE</code> variable. If omitted, all CEs are output.</li>
+<li><code>resultatsIdCP</code> (Optional): <code>[1 x M double]</code> - List of Partial Cell (CP) IDs for which outputs are desired in the <code>etatsCP</code> variable. If omitted, all CPs are output.</li>
+</ul>
+<h4 id="2-parametres-struct">2. <code>parametres</code> (<code>struct</code>)<a class="headerlink" href="#2-parametres-struct" title="Permanent link">&para;</a></h4>
+<p>Contains all model parameters. <strong>All fields are mandatory.</strong> Refer to the main Cequeau User Guide for the physical meaning of these parameters.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">parametres</span><span class="p">:</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="p">.</span><span class="n">option</span><span class="w">      </span><span class="c">% [1x1 struct] General simulation options</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="p">.</span><span class="n">sol</span><span class="w">         </span><span class="c">% [1x1 struct] Soil parameters</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="p">.</span><span class="n">solInitial</span><span class="w">  </span><span class="c">% [1x1 struct] Initial soil states</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="p">.</span><span class="n">transfert</span><span class="w">   </span><span class="c">% [1x1 struct] Transfer parameters</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="p">.</span><span class="n">ctp</span><span class="w">         </span><span class="c">% [1 x nbCP double] or 0 - CTP parameters (?)</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="p">.</span><span class="n">lac</span><span class="w">         </span><span class="c">% [1 x nbCP double] or 0 - Lake parameters (?)</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">  </span><span class="p">.</span><span class="n">surface</span><span class="w">     </span><span class="c">% [1 x nbCP double] or 0 - Surface parameters (?)</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">  </span><span class="p">.</span><span class="n">fonte</span><span class="w">       </span><span class="c">% [1x1 struct] Snowmelt module parameters</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">  </span><span class="p">.</span><span class="n">evapo</span><span class="w">       </span><span class="c">% [1x1 struct] Evapotranspiration module parameters</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">  </span><span class="p">.</span><span class="n">qualite</span><span class="w">     </span><span class="c">% [1x1 struct] Water quality (temperature) module parameters</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">  </span><span class="p">.</span><span class="n">pompage</span><span class="w">     </span><span class="c">% [1x1 struct] Pumping module parameters</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">  </span><span class="p">.</span><span class="n">dli</span><span class="w">         </span><span class="c">% [1x1 struct] Downwelling Longwave Irradiation (DLI) parameters</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">CTP, Lac, Surface Parameters</p>
+<p>The original documentation for <code>parametres.ctp</code>, <code>parametres.lac</code>, and <code>parametres.surface</code> does not explicitly define CTP or how these parameters are used. They can be set to <code>0</code> if not used, otherwise, values must be provided for all Partial Cells (CPs).</p>
+</div>
+<h5 id="parametresoption-struct"><code>parametres.option</code> (<code>struct</code>)<a class="headerlink" href="#parametresoption-struct" title="Permanent link">&para;</a></h5>
+<ul>
+<li><code>ipassim</code>: <code>double</code> - Assimilation time step divisor (e.g., 1 for daily, 12 for 12-hourly). See <a href="#qualite-time-steps">Quality Time Steps</a> in the User Guide.</li>
+<li><code>moduleFonte</code>: <code>double</code> - Snowmelt model selection (1 = <code>cequeau</code>, 2 = <code>cemaNeige</code>, 3 = <code>ueb</code>, etc.).</li>
+<li><code>moduleEvapo</code>: <code>double</code> - Evapotranspiration model selection (1 = <code>cequeau</code>, others...). Needs clarification.</li>
+<li><code>calculQualite</code>: <code>double</code> - Enable water quality simulation (0 = quantity only, 1 = quantity and quality).</li>
+<li><code>modulePompage</code>: <code>double</code> - Enable pumping module (0 = off, 1 = on).</li>
+<li><code>moduleDLI</code>: <code>double</code> - Downwelling Longwave Irradiation model selection (0 to 10).</li>
+<li><code>moduleOmbrage</code>: <code>double</code> - Shading model selection (0 = no shading, 1 = tree height based, 2 = LAI based).</li>
+</ul>
+<h5 id="parametressol-struct"><code>parametres.sol</code> (<code>struct</code>)<a class="headerlink" href="#parametressol-struct" title="Permanent link">&para;</a></h5>
+<div class="admonition info">
+<p class="admonition-title">Spatially Variable Parameters (<code>_s</code> suffix)</p>
+<p>Parameters ending with <code>_s</code> can be spatially variable. You can provide either:
+1.  A single <code>double</code> value: Applied uniformly to all Whole Cells (CEs).
+2.  A <code>[1 x nbCE double]</code> array: A specific value for each Whole Cell.
+If an array is provided but its size does not match <code>nbCE</code>, only the <em>first</em> value is used and applied uniformly.</p>
+</div>
+<ul>
+<li><code>cin_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>cvmar</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>cvnb_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>cvnh_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>cvsb</code>: <code>double</code></li>
+<li><code>cvsi_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>xinfma</code>: <code>double</code></li>
+<li><code>hinf_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>hint_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>hmar</code>: <code>double</code></li>
+<li><code>hnap_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>hpot_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>hsol_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>hrimp_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>tri_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>xla</code>: <code>double</code></li>
+</ul>
+<h5 id="parametressolinitial-struct"><code>parametres.solInitial</code> (<code>struct</code>)<a class="headerlink" href="#parametressolinitial-struct" title="Permanent link">&para;</a></h5>
+<p>Note: These values are <strong>not</strong> used if initial states are loaded via the <code>etatsPrecedents</code> input.</p>
+<ul>
+<li><code>hsini</code>: <code>double</code></li>
+<li><code>hnini</code>: <code>double</code></li>
+<li><code>hmini</code>: <code>double</code></li>
+<li><code>q0</code>: <code>double</code></li>
+</ul>
+<h5 id="parametrestransfert-struct"><code>parametres.transfert</code> (<code>struct</code>)<a class="headerlink" href="#parametrestransfert-struct" title="Permanent link">&para;</a></h5>
+<ul>
+<li><code>exxkt</code>: <code>double</code></li>
+<li><code>zn</code>: <code>double</code></li>
+</ul>
+<h5 id="parametresctp-parametreslac-parametressurface"><code>parametres.ctp</code>, <code>parametres.lac</code>, <code>parametres.surface</code><a class="headerlink" href="#parametresctp-parametreslac-parametressurface" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Each is <code>0</code> or <code>[1 x nbCP double]</code>. (See note above regarding their definition).</li>
+<li>If set to <code>0</code>, the feature is not used. If an array is provided, values must be specified for all Partial Cells (use 0 for CPs where the parameter is not applicable or should be ignored).</li>
+</ul>
+<h5 id="parametresfonte-struct"><code>parametres.fonte</code> (<code>struct</code>)<a class="headerlink" href="#parametresfonte-struct" title="Permanent link">&para;</a></h5>
+<p>Contains parameters specific to the selected snowmelt model (<code>moduleFonte</code>). Parameters for each model are nested under a field matching the model name (e.g., <code>parametres.fonte.cequeau</code>).</p>
+<h6 id="parametresfontecequeau-struct"><code>parametres.fonte.cequeau</code> (<code>struct</code>)<a class="headerlink" href="#parametresfontecequeau-struct" title="Permanent link">&para;</a></h6>
+<p>(Spatially variable parameters (<code>_s</code>) follow the same rules as in <code>parametres.sol</code>)</p>
+<ul>
+<li><code>strne_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>tfc_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>tfd_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>tsc_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>tsd_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>ttd</code>: <code>double</code></li>
+<li><code>tts_s</code>: <code>double</code> or <code>[1 x nbCE double]</code></li>
+<li><code>jonei</code>: <code>double</code></li>
+<li><code>tmur</code>: <code>double</code></li>
+<li><code>tstock</code>: <code>double</code></li>
+</ul>
+<h5 id="parametresevapo-struct"><code>parametres.evapo</code> (<code>struct</code>)<a class="headerlink" href="#parametresevapo-struct" title="Permanent link">&para;</a></h5>
+<p>Contains parameters specific to the selected evapotranspiration model (<code>moduleEvapo</code>). Parameters are nested (e.g., <code>parametres.evapo.cequeau</code>).</p>
+<h6 id="parametresevapocequeau-struct"><code>parametres.evapo.cequeau</code> (<code>struct</code>)<a class="headerlink" href="#parametresevapocequeau-struct" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>joeva</code>: <code>double</code></li>
+<li><code>evnap</code>: <code>double</code></li>
+<li><code>xaa</code>: <code>double</code></li>
+<li><code>xit</code>: <code>double</code></li>
+</ul>
+<h5 id="parametresqualite-struct"><code>parametres.qualite</code> (<code>struct</code>)<a class="headerlink" href="#parametresqualite-struct" title="Permanent link">&para;</a></h5>
+<p>Parameters specific to the water quality (temperature) simulation.</p>
+<h6 id="parametresqualitecequeau-struct"><code>parametres.qualite.cequeau</code> (<code>struct</code>)<a class="headerlink" href="#parametresqualitecequeau-struct" title="Permanent link">&para;</a></h6>
+<div class="admonition note">
+<p class="admonition-title">See Cequeau Guide</p>
+<p>Refer to the main Cequeau guide for the physical meaning of quality parameters.</p>
+</div>
+<ul>
+<li><code>paramode</code>: <code>[1 x 1 struct]</code> - Used to determine desired quality simulation types. <strong>Currently unused</strong> as only temperature is simulated.</li>
+<li><code>coprom</code>: <code>double</code></li>
+<li><code>colarg</code>: <code>double</code></li>
+<li><code>temperat</code>: <code>[1 x 1 struct]</code></li>
+</ul>
+<h6 id="parametresqualitecequeautemperat-struct"><code>parametres.qualite.cequeau.temperat</code> (<code>struct</code>)<a class="headerlink" href="#parametresqualitecequeautemperat-struct" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>crayso</code>: <code>double</code></li>
+<li><code>crayin</code>: <code>double</code></li>
+<li><code>cevapo</code>: <code>double</code></li>
+<li><code>cconve</code>: <code>double</code></li>
+<li><code>crigel</code>: <code>double</code></li>
+<li><code>tnap</code>: <code>double</code></li>
+<li><code>panap</code>: <code>double</code></li>
+<li><code>tinit</code>: <code>double</code></li>
+<li><code>bassol</code>: <code>double</code></li>
+<li><code>corsol</code>: <code>double</code></li>
+<li><code>radiasol</code>: <code>[1 x 12 double]</code></li>
+<li><code>nebulosi</code>: <code>[1 x 12 double]</code></li>
+<li><code>pressvap</code>: <code>[1 x 12 double]</code></li>
+<li><code>vitesven</code>: <code>[1 x 12 double]</code></li>
+</ul>
+<h5 id="parametresdli-struct"><code>parametres.dli</code> (<code>struct</code>)<a class="headerlink" href="#parametresdli-struct" title="Permanent link">&para;</a></h5>
+<p>Contains parameters for calculating Downwelling Longwave Irradiation (DLI) based on the selected <code>moduleDLI</code>.</p>
+<ul>
+<li><code>m1</code>: <code>[1 x 1 struct]</code> (Parameters for model 1)</li>
+<li><code>m2</code>: <code>[1 x 1 struct]</code> (Parameters for model 2)</li>
+<li>... (up to <code>m9</code>)</li>
+</ul>
+<h5 id="parametrespompage-struct"><code>parametres.pompage</code> (<code>struct</code>)<a class="headerlink" href="#parametrespompage-struct" title="Permanent link">&para;</a></h5>
+<p>Parameters for the groundwater pumping module.</p>
+<ul>
+<li><code>delai</code>: <code>double</code> - Delay (in time steps) for the pumping effect.</li>
+<li><code>conductiviteHydraulique_s</code>: <code>double</code> or <code>[1 x nbCE double]</code> - Hydraulic conductivity (K). Spatially variable (<code>_s</code>).</li>
+<li><code>coeffPompage</code>: <code>double</code> - Pumping coefficient used to adjust extracted water (for calibration).</li>
+</ul>
+<h4 id="3-bassinversant-struct">3. <code>bassinVersant</code> (<code>struct</code>)<a class="headerlink" href="#3-bassinversant-struct" title="Permanent link">&para;</a></h4>
+<p>Contains the watershed definition based on prepared physiographic data.</p>
+<ul>
+<li><code>nbCpCheminLong</code>: <code>double</code> - Number of CPs in the longest path (? - <em>Needs clarification</em>).</li>
+<li><code>superficieCE</code>: <code>double</code> - Area of a Whole Cell.</li>
+<li><code>nomBassinVersant</code>: <code>string</code> - Name of the watershed.</li>
+<li><code>carreauxEntiers</code>: <code>[1 x nbCE struct]</code> - Structure array for Whole Cells.</li>
+<li><code>carreauxPartiels</code>: <code>[1 x nbCP struct]</code> - Structure array for Partial Cells.</li>
+<li><code>barrage</code> (Optional): <code>[1 x nbBarrages struct]</code> - Structure array for dams/reservoirs.</li>
+<li><code>puits</code>: <code>[1 x nbPuits struct]</code> - Structure array for wells.</li>
+</ul>
+<h5 id="bassinversantcarreauxentiers-struct-array-field"><code>bassinVersant.carreauxEntiers</code> (<code>struct</code> array field)<a class="headerlink" href="#bassinversantcarreauxentiers-struct-array-field" title="Permanent link">&para;</a></h5>
+<ul>
+<li><code>i</code>: <code>double</code> - Grid column index.</li>
+<li><code>j</code>: <code>double</code> - Grid row index.</li>
+<li><code>pctLacRiviere</code>: <code>double</code> - Percentage of lakes/rivers.</li>
+<li><code>pctForet</code>: <code>double</code> - Percentage of forest.</li>
+<li><code>pctMarais</code>: <code>double</code> - Percentage of marshland.</li>
+<li><code>altitude</code>: <code>double</code> - Altitude.</li>
+<li><code>Latitude</code>: <code>double</code> - Latitude.</li>
+<li><code>Longitude</code>: <code>double</code> - Longitude.</li>
+<li><code>meanSlope</code>: <code>double</code> - Mean slope.</li>
+</ul>
+<h5 id="bassinversantcarreauxpartiels-struct-array-field"><code>bassinVersant.carreauxPartiels</code> (<code>struct</code> array field)<a class="headerlink" href="#bassinversantcarreauxpartiels-struct-array-field" title="Permanent link">&para;</a></h5>
+<ul>
+<li><code>i</code>: <code>double</code> - Grid column index.</li>
+<li><code>j</code>: <code>double</code> - Grid row index.</li>
+<li><code>code</code>: <code>double</code> - ASCII code (A, B, C, or D).</li>
+<li><code>pctSurface</code>: <code>double</code> - Percentage of surface area.</li>
+<li><code>idCPAval</code>: <code>double</code> - ID of the downstream Partial Cell.</li>
+<li><code>idCPsAmont</code>: <code>[1 x 5 double]</code> - IDs of upstream Partial Cells.</li>
+<li><code>idCE</code>: <code>double</code> - ID of the corresponding Whole Cell.</li>
+<li><code>pctEau</code>: <code>double</code> - Percentage of water.</li>
+<li><code>pctForet</code>: <code>double</code> - Percentage of forest.</li>
+<li><code>pctMarais</code>: <code>double</code> - Percentage of marshland.</li>
+<li><code>pctSolNu</code>: <code>double</code> - Percentage of bare soil.</li>
+<li><code>altitudeMoy</code>: <code>double</code> - Mean altitude.</li>
+<li><code>profondeurMin</code>: <code>double</code> - Minimum depth (? - <em>Needs clarification</em>).</li>
+<li><code>longueurCoursEauPrincipal</code>: <code>double</code> - Length of the main watercourse.</li>
+<li><code>largeurCoursEauPrincipal</code>: <code>double</code> - Width of the main watercourse.</li>
+<li><code>penteRiviere</code>: <code>double</code> - River slope.</li>
+<li><code>cumulPctSuperficieCPAmont</code>: <code>double</code> - Cumulative upstream CP area percentage.</li>
+<li><code>cumulPctSuperficieLacsAmont</code>: <code>double</code> - Cumulative upstream lake area percentage.</li>
+<li><code>cumulPctSuperficieMaraisAmont</code>: <code>double</code> - Cumulative upstream marsh area percentage.</li>
+<li><code>cumulPctSuperficieForetAmont</code>: <code>double</code> - Cumulative upstream forest area percentage.</li>
+<li><code>lat</code>: <code>double</code> - Latitude.</li>
+<li><code>lon</code>: <code>double</code> - Longitude.</li>
+<li><code>hautMoyenneArbre</code>: <code>double</code> - Average tree height (used for shading module 1).</li>
+<li><code>azimutCoursEau</code>: <code>double</code> - Azimuth of the watercourse.</li>
+</ul>
+<h5 id="bassinversantbarrage-struct-array-field"><code>bassinVersant.barrage</code> (<code>struct</code> array field)<a class="headerlink" href="#bassinversantbarrage-struct-array-field" title="Permanent link">&para;</a></h5>
+<p>Structure varies by dam type.</p>
+<ul>
+<li><strong>Type 2</strong>:<ul>
+<li><code>idCP</code>: <code>double</code></li>
+<li><code>idCPAval</code>: <code>double</code></li>
+<li><code>type</code>: 2</li>
+<li><code>volumeInitial</code>: <code>double</code></li>
+<li><code>niveau</code>: <code>[1 x 7 double]</code></li>
+<li><code>debit</code>: <code>[1 x 7 double]</code></li>
+</ul>
+</li>
+<li><strong>Type 3</strong>:<ul>
+<li>External dam whose outflows enter a CP within the watershed; outflows are known.</li>
+<li>Uses the same structure as Type 2, but only the <strong>bold</strong> fields are required. Other fields can be set to 0.</li>
+<li><code>idCP</code>: <code>double</code></li>
+<li><strong><code>idCPAval</code></strong>: <code>double</code></li>
+<li><strong><code>type</code></strong>: 3</li>
+<li><code>volumeInitial</code>: <code>double</code></li>
+<li><code>niveau</code>: <code>[1 x 7 double]</code></li>
+<li><strong><code>debit</code></strong>: <code>[1 x nbPasDeTemps double]</code> - Known outflow for each time step.</li>
+</ul>
+</li>
+<li><strong>Type 5</strong>:<ul>
+<li><code>idCP</code>: <code>double</code></li>
+<li><code>idCPAval</code>: <code>double</code></li>
+<li><code>type</code>: 5</li>
+<li><code>volumeInitial</code>: <code>double</code></li>
+<li><code>niveau</code>: <code>[1 x 7 double]</code></li>
+<li><code>volume</code>: <code>[1 x 7 double]</code></li>
+<li><code>debitsInterne</code>: <code>[nb internal rules x 7 double]</code></li>
+<li><code>debitsExterne</code>: <code>[1 x nb external rules struct]</code><ul>
+<li><code>dateDebut</code>: <code>double</code> (YYYYMMDD format)</li>
+<li><code>dateFin</code>: <code>double</code> (YYYYMMDD format)</li>
+<li><code>parametres</code>: <code>[1 x 7 double]</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Type 10</strong>:<ul>
+<li><em>New type (not in original Cequeau) where outflow depends on gate opening and level.</em></li>
+<li><em>Note: Calculations are specific to RTA structures. Use only in an RTA context.</em></li>
+<li><em><code>idCP</code></em>: <code>double</code></li>
+<li><em><code>idCPAval</code></em>: <code>double</code></li>
+<li><em><code>type</code></em>: 10</li>
+<li><em><code>volumeInitial</code></em>: <code>double</code></li>
+<li><em><code>ouverture</code></em>: <code>[1 x nbPasDeTemps double]</code> - Gate opening at each time step.</li>
+</ul>
+</li>
+</ul>
+<h5 id="bassinversantpuits-struct-array-field"><code>bassinVersant.puits</code> (<code>struct</code> array field)<a class="headerlink" href="#bassinversantpuits-struct-array-field" title="Permanent link">&para;</a></h5>
+<ul>
+<li><code>idCE</code>: <code>double</code> - ID of the corresponding Whole Cell.</li>
+<li><code>distanceRiviere</code>: <code>double</code> - Distance from the well to the river (m).</li>
+<li><code>debitPompage</code>: <code>[nbPasDeTemps x 1 double]</code> - Pumping rate (m³/day) for each time step.</li>
+<li><code>niveauxPuits</code>: <code>[nbPasDeTemps x 1 double]</code> - Water level in the well (m) for each time step.</li>
+<li><code>h0</code>: <code>double</code> - Initial water level in the well (m).</li>
+<li><code>active</code>: <code>double</code> - Well status (0 = inactive, 1 = active).</li>
+</ul>
+<h4 id="4-meteo-struct">4. <code>meteo</code> (<code>struct</code>)<a class="headerlink" href="#4-meteo-struct" title="Permanent link">&para;</a></h4>
+<p>Meteorological data for the simulation period. Data for each time step must be ordered consistently with the Whole Cells (<code>carreauxEntiers</code>).</p>
+<ul>
+<li><code>tMin</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Minimum temperature.</li>
+<li><code>tMax</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Maximum temperature.</li>
+<li><code>pTot</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Total precipitation.</li>
+<li><code>pluie</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Rainfall.</li>
+<li><code>neige</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Snowfall.</li>
+<li><code>rayonnement</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Radiation.</li>
+<li><code>nebulosite</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Cloud cover.</li>
+<li><code>pression</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Pressure.</li>
+<li><code>vitesseVent</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Wind speed.</li>
+<li><code>t</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Temperature (average?).</li>
+<li><code>lai</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Leaf Area Index.</li>
+<li><code>lai_norm</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Normalized LAI.</li>
+<li><code>dli</code>: <code>[nbPasDeTemps x nbCE double or single]</code> - Downwelling Longwave Irradiation.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Data Types</p>
+<p>Meteorological data can be provided as <code>double</code> or <code>single</code>, but all fields must use the same type.</p>
+</div>
+<h4 id="5-etatsprecedents-struct-optional">5. <code>etatsPrecedents</code> (<code>struct</code>, Optional)<a class="headerlink" href="#5-etatsprecedents-struct-optional" title="Permanent link">&para;</a></h4>
+<p>Allows initializing a simulation with the final states from a previous run. If provided, <code>parametres.solInitial</code> values are ignored.</p>
+<ul>
+<li><code>quantite</code>: (<code>struct</code>)<ul>
+<li><code>etatsCE</code>: State structure for Whole Cells (typically <code>etatsCE(end)</code> from previous run).</li>
+<li><code>etatsCP</code>: State structure for Partial Cells (typically <code>etatsCP(end)</code> from previous run).</li>
+<li><code>etatsFonte</code>: Snowmelt states for Whole Cells (typically <code>etatsFonte(end)</code> from previous run).</li>
+<li><code>etatsEvapo</code>: Evapotranspiration states for Whole Cells (typically <code>etatsEvapo(end)</code> from previous run).</li>
+<li><code>etatsBarrage</code> (Optional): Dam states (typically <code>etatsBarrage(end)</code> from previous run).</li>
+</ul>
+</li>
+<li><code>qualite</code>: (<code>struct</code>)<ul>
+<li><code>etatsCP</code>: Water quality states for Partial Cells (typically <code>etatsQualCP(end)</code> from previous run).</li>
+</ul>
+</li>
+</ul>
+<p>Example initialization:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">etatsPrecedents</span><span class="p">.</span><span class="n">quantite</span><span class="p">.</span><span class="n">etatsCE</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">previous_etatsCE</span><span class="p">(</span><span class="k">end</span><span class="p">);</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">etatsPrecedents</span><span class="p">.</span><span class="n">quantite</span><span class="p">.</span><span class="n">etatsCP</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">previous_etatsCP</span><span class="p">(</span><span class="k">end</span><span class="p">);</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">etatsPrecedents</span><span class="p">.</span><span class="n">quantite</span><span class="p">.</span><span class="n">etatsFonte</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">previous_etatsFonte</span><span class="p">(</span><span class="k">end</span><span class="p">);</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="n">etatsPrecedents</span><span class="p">.</span><span class="n">quantite</span><span class="p">.</span><span class="n">etatsEvapo</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">previous_etatsEvapo</span><span class="p">(</span><span class="k">end</span><span class="p">);</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c">% if previous_etatsBarrage exists:</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="n">etatsPrecedents</span><span class="p">.</span><span class="n">quantite</span><span class="p">.</span><span class="n">etatsBarrage</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">previous_etatsBarrage</span><span class="p">(</span><span class="k">end</span><span class="p">);</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c">% if previous_etatsQualCP exists:</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="n">etatsPrecedents</span><span class="p">.</span><span class="n">qualite</span><span class="p">.</span><span class="n">etatsCP</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">previous_etatsQualCP</span><span class="p">(</span><span class="k">end</span><span class="p">);</span>
+</code></pre></div></p>
+<h4 id="6-assimilations-struct-optional">6. <code>assimilations</code> (<code>struct</code>, Optional)<a class="headerlink" href="#6-assimilations-struct-optional" title="Permanent link">&para;</a></h4>
+<p>Structure for applying data assimilation at specific time steps.</p>
+<ul>
+<li><code>quantite</code>: <code>[1 x nAssimSteps struct]</code> - Assimilation data for streamflow variables.<ul>
+<li><code>pasDeTemps</code>: <code>double</code> - Time step for this assimilation record (<code>datenum</code> format).</li>
+<li><code>etatsCE</code>: (<code>struct</code>, Optional) - Assimilation values for Whole Cell states. Provide <code>[]</code> if not assimilating CE states at this time step.</li>
+<li><code>etatsCP</code>: (<code>struct</code>, Optional) - Assimilation values for Partial Cell states. Provide <code>[]</code> if not assimilating CP states at this time step.</li>
+<li><code>etatsFonte</code>: (<code>struct</code>, Optional) - Assimilation values for snowmelt states. Provide <code>[]</code> if not assimilating snowmelt states at this time step.</li>
+<li><code>etatsEvapo</code>: (<code>struct</code>, Optional) - Assimilation values for evapotranspiration states. Provide <code>[]</code> if not assimilating ET states at this time step.</li>
+<li><code>etatsBarrage</code>: (<code>struct</code>, Optional) - Assimilation values for dam states. Provide <code>[]</code> if not assimilating dam states at this time step.</li>
+</ul>
+</li>
+<li><code>qualite</code>: <code>[1 x nAssimStepsQual struct]</code> - Assimilation data for quality variables.<ul>
+<li><code>pasDeTemps</code>: <code>double</code> - Time step for this assimilation record (<code>datenum</code> format).</li>
+<li><code>etatsCP</code>: (<code>struct</code>, Optional) - Assimilation values for Partial Cell quality states. Provide <code>[]</code> if not assimilating quality states at this time step.</li>
+</ul>
+</li>
+</ul>
+<h5 id="assimilation-state-structures-assimilationsquantiteetats-assimilationsqualiteetatscp">Assimilation State Structures (<code>assimilations.quantite.etats*</code>, <code>assimilations.qualite.etatsCP</code>)<a class="headerlink" href="#assimilation-state-structures-assimilationsquantiteetats-assimilationsqualiteetatscp" title="Permanent link">&para;</a></h5>
+<p>Each state structure (e.g., <code>etatsCE</code>, <code>etatsCP</code>) follows a pattern:</p>
+<ul>
+<li><code>id</code>: <code>[1 x nbAssimilations double]</code> - Array of cell/dam IDs to assimilate.</li>
+<li><em><code>variableName1</code></em>: <code>[1 x nbAssimilations double]</code> OR <code>[2 x nbAssimilations double]</code> - Values or factors for the first variable.</li>
+<li><em><code>variableName2</code></em>: <code>[1 x nbAssimilations double]</code> OR <code>[2 x nbAssimilations double]</code> - Values or factors for the second variable.</li>
+<li>... and so on for other variables within that state category (CE, CP, Fonte, Barrage, QualiteCP).</li>
+</ul>
+<p><strong>Assimilation Value Formats:</strong></p>
+<ol>
+<li><strong>Direct Value:</strong> Provide a <code>[1 x nbAssimilations double]</code> array containing the absolute value to assimilate for each ID. Use <code>NaN</code> for specific IDs if no assimilation is desired for that variable/ID combination.</li>
+<li><strong>Factor Format:</strong> Provide a <code>[2 x nbAssimilations double]</code> array:<ul>
+<li>Row 1: Multiplicative factors.</li>
+<li>Row 2: Additive factors.
+The assimilated value is calculated as: $Assimilated = Calculated   imes Factor_{mult} + Factor_{add}$.</li>
+<li>Both factors (rows) must be present for this format to be used for a variable.</li>
+<li>Use <code>NaN</code> in the first row (multiplicative factor) to skip assimilation for specific IDs.</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Mixing Formats</p>
+<p>You can use the Direct Value format for some variables and the Factor Format for others within the <em>same</em> assimilation time step structure (e.g., use direct values for <code>niveauEauSol</code> and factors for <code>niveauEauNappe</code> in <code>etatsCE</code>), but you cannot mix formats <em>within the same variable</em> array.</p>
+</div>
+<p><strong>Specific Assimilation Variables:</strong></p>
+<ul>
+<li><code>assimilations.quantite.etatsCE</code>:<ul>
+<li><code>id</code>: CE IDs.</li>
+<li><code>niveauEauSol</code>, <code>niveauEauNappe</code>, <code>niveauEauLacsMarais</code>, <code>evapoPotJour</code>, <code>production</code>.</li>
+</ul>
+</li>
+<li><code>assimilations.quantite.etatsCP</code>:<ul>
+<li><code>id</code>: CP IDs.</li>
+<li><code>apport</code>, <code>volume</code>, <code>debit</code>.</li>
+</ul>
+</li>
+<li><code>assimilations.quantite.etatsFonte</code> (Depends on <code>moduleFonte</code>, example for Cequeau):<ul>
+<li><code>id</code>: CE IDs.</li>
+<li><code>stockNeigeForet</code>, <code>stockNeigeClairiere</code>, <code>indexMurissementNeige</code>, <code>indexTempNeige</code>.</li>
+</ul>
+</li>
+<li><code>assimilations.quantite.etatsEvapo</code>:<ul>
+<li>Depends on <code>moduleEvapo</code>. (No states for Cequeau model).</li>
+</ul>
+</li>
+<li><code>assimilations.quantite.etatsBarrage</code>:<ul>
+<li><code>idCarreauPartiel</code>: CP IDs associated with dams.</li>
+<li><code>volume</code>, <code>niveau</code>.</li>
+</ul>
+</li>
+<li><code>assimilations.qualite.etatsCP</code>:<ul>
+<li><code>id</code>: CP IDs.</li>
+<li><code>temperature</code>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="7-stations-struct">7. <code>stations</code> (<code>struct</code>)<a class="headerlink" href="#7-stations-struct" title="Permanent link">&para;</a></h4>
+<p>Information about meteorological stations, used for interpolation if applicable (though interpolation is typically done via <code>CequeauInterpolationMex</code>). Structure details likely match the <code>stations</code> input for the interpolation function (see below).</p>
+<hr />
+<h3 id="outputs-extrants">Outputs (<code>Extrants</code>)<a class="headerlink" href="#outputs-extrants" title="Permanent link">&para;</a></h3>
+<p>The function returns multiple structures containing simulation results for each time step.</p>
+<div class="admonition note">
+<p class="admonition-title">Log File</p>
+<p>An execution log file named <code>CequeauQuantite.log</code> may also be produced in the execution directory, depending on compilation options.</p>
+</div>
+<h4 id="1-etatsce-1-x-nbpasdetemps-struct">1. <code>etatsCE</code> <code>[1 x nbPasDeTemps struct]</code><a class="headerlink" href="#1-etatsce-1-x-nbpasdetemps-struct" title="Permanent link">&para;</a></h4>
+<p>States for Whole Cells (or subset defined by <code>execution.resultatsIdCE</code>).</p>
+<ul>
+<li><code>id</code>: <code>[1 x nbCE double]</code></li>
+<li><code>iCarreauEntier</code>: <code>[1 x nbCE double]</code></li>
+<li><code>jCarreauEntier</code>: <code>[1 x nbCE double]</code></li>
+<li><code>niveauEauSol</code>: <code>[1 x nbCE double]</code> - Soil water level.</li>
+<li><code>niveauEauNappe</code>: <code>[1 x nbCE double]</code> - Groundwater level.</li>
+<li><code>niveauEauLacsMarais</code>: <code>[1 x nbCE double]</code> - Lake/marsh water level.</li>
+<li><code>evapoPotJour</code>: <code>[1 x nbCE double]</code> - Daily potential evapotranspiration.</li>
+<li><code>production</code>: <code>[1 x nbCE double]</code> - Water production.</li>
+</ul>
+<h4 id="2-etatscp-1-x-nbpasdetemps-struct">2. <code>etatsCP</code> <code>[1 x nbPasDeTemps struct]</code><a class="headerlink" href="#2-etatscp-1-x-nbpasdetemps-struct" title="Permanent link">&para;</a></h4>
+<p>States for Partial Cells (or subset defined by <code>execution.resultatsIdCP</code>).</p>
+<ul>
+<li><code>id</code>: <code>[1 x nbCP double]</code></li>
+<li><code>apport</code>: <code>[1 x nbCP double]</code> - Inflow.</li>
+<li><code>volume</code>: <code>[1 x nbCP double]</code> - Water volume.</li>
+<li><code>debit</code>: <code>[1 x nbCP double]</code> - Outflow discharge.</li>
+</ul>
+<h4 id="3-etatsfonte-1-x-nbpasdetemps-struct">3. <code>etatsFonte</code> <code>[1 x nbPasDeTemps struct]</code><a class="headerlink" href="#3-etatsfonte-1-x-nbpasdetemps-struct" title="Permanent link">&para;</a></h4>
+<p>Snowmelt states for Whole Cells. Structure depends on the selected <code>moduleFonte</code>.</p>
+<ul>
+<li><strong>(For Cequeau model):</strong><ul>
+<li><code>stockNeigeForet</code>: <code>[1 x nbCE double]</code> - Snowpack in forest.</li>
+<li><code>stockNeigeClairiere</code>: <code>[1 x nbCE double]</code> - Snowpack in open area.</li>
+<li><code>indexMurissementNeige</code>: <code>[1 x nbCE double]</code> - Snow ripening index.</li>
+<li><code>indexTempNeige</code>: <code>[1 x nbCE double]</code> - Snow temperature index.</li>
+</ul>
+</li>
+</ul>
+<h4 id="4-etatsevapo-1-x-nbpasdetemps-struct">4. <code>etatsEvapo</code> <code>[1 x nbPasDeTemps struct]</code><a class="headerlink" href="#4-etatsevapo-1-x-nbpasdetemps-struct" title="Permanent link">&para;</a></h4>
+<p>Evapotranspiration states for Whole Cells. Structure depends on the selected <code>moduleEvapo</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For the Cequeau ET model, the only state variable is <code>evapoPotJour</code>, which is already included in <code>etatsCE</code> for use by the quality module. This output structure might be empty or contain states for other ET models.</p>
+</div>
+<h4 id="5-etatsbarrage-1-x-nbpasdetemps-struct">5. <code>etatsBarrage</code> <code>[1 x nbPasDeTemps struct]</code><a class="headerlink" href="#5-etatsbarrage-1-x-nbpasdetemps-struct" title="Permanent link">&para;</a></h4>
+<p>States for dams/reservoirs.</p>
+<ul>
+<li><code>idCarreauPartiel</code>: <code>double</code></li>
+<li><code>volume</code>: <code>double</code></li>
+<li><code>niveau</code>: <code>double</code> - Water level.</li>
+<li><code>debitEntrant</code>: <code>double</code> - Inflow.</li>
+<li><code>debitsSortants</code>: <code>[1 x nbReglesEvacuation double]</code> - Outflows according to evacuation rules.</li>
+</ul>
+<h4 id="6-pasdetemps-nbpasdetemps-x-1-double">6. <code>pasDeTemps</code> <code>[nbPasDeTemps x 1 double]</code><a class="headerlink" href="#6-pasdetemps-nbpasdetemps-x-1-double" title="Permanent link">&para;</a></h4>
+<p>Array containing the date/time at the <em>end</em> of each simulation time step (Matlab <code>datenum</code> format).</p>
+<h4 id="7-etatsqualitecp-1-x-nbpasdetemps-struct">7. <code>etatsQualiteCP</code> <code>[1 x nbPasDeTemps struct]</code><a class="headerlink" href="#7-etatsqualitecp-1-x-nbpasdetemps-struct" title="Permanent link">&para;</a></h4>
+<p>Water quality (temperature) states for Partial Cells. Contains an empty structure if quality simulation was not run (<code>parametres.option.calculQualite = 0</code>).</p>
+<ul>
+<li><code>id</code>: <code>[1 x nbCP double]</code> - Partial Cell ID.</li>
+<li><code>temperature</code>: <code>[1 x nbCP double]</code> - Water temperature in the CP.</li>
+<li><code>qruiss</code>: <code>[1 x nbCP double]</code></li>
+<li><code>qnappe</code>: <code>[1 x nbCP double]</code></li>
+<li><code>qhypo</code>: <code>[1 x nbCP double]</code></li>
+<li><code>qlacma</code>: <code>[1 x nbCP double]</code></li>
+<li><code>qradso</code>: <code>[1 x nbCP double]</code></li>
+<li><code>qradin</code>: <code>[1 x nbCP double]</code></li>
+<li><code>qevap</code>: <code>[1 x nbCP double]</code></li>
+<li><code>qconv</code>: <code>[1 x nbCP double]</code></li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Quality Energy Fluxes</p>
+<p>The fields following <code>temperature</code> represent calculated values participating in the thermal balance:
+*   <strong>Advective Energy Inputs:</strong>
+    *   <code>qruiss</code>: Surface runoff.
+    *   <code>qnappe</code>: Groundwater inflow.
+    *   <code>qhypo</code>: Hypodermic (subsurface) runoff.
+    *   <code>qlacma</code>: Lake/marsh overflow.
+*   <strong>Surface Energy Exchanges:</strong>
+    *   <code>qradso</code>: Solar radiation.
+    *   <code>qradin</code>: Infrared radiation.
+    *   <code>qevap</code>: Evaporation.
+    *   <code>qconv</code>: Convection.</p>
+</div>
+<h4 id="8-avantassimilations-struct">8. <code>avantAssimilations*</code> (<code>struct</code>)<a class="headerlink" href="#8-avantassimilations-struct" title="Permanent link">&para;</a></h4>
+<p>These outputs store the model states <em>before</em> assimilation was applied, but only for the time steps where assimilation occurred. They have the same structure as the corresponding <code>assimilations.*</code> input structures.</p>
+<ul>
+<li><code>avantAssimilationsCE</code>: Corresponds to <code>assimilations.quantite.etatsCE</code>.</li>
+<li><code>avantAssimilationsFonte</code>: Corresponds to <code>assimilations.quantite.etatsFonte</code>.</li>
+<li><code>avantAssimilationsEvapo</code>: Corresponds to <code>assimilations.quantite.etatsEvapo</code>.</li>
+<li><code>avAssimQual</code> (<em>Note: Name differs slightly</em>): Corresponds to <code>assimilations.qualite.etatsCP</code>.</li>
+</ul>
+<hr />
+<h2 id="cequeauinterpolationmex"><code>CequeauInterpolationMex</code><a class="headerlink" href="#cequeauinterpolationmex" title="Permanent link">&para;</a></h2>
+<p>This function performs spatial interpolation of meteorological data from stations to the CEQUEAU grid cells.</p>
+<h3 id="usage_1">Usage<a class="headerlink" href="#usage_1" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">meteoInterpolee</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">CequeauInterpolationMex</span><span class="p">(</span><span class="n">execution</span><span class="p">,</span><span class="w"> </span><span class="n">parametres</span><span class="p">,</span><span class="w"> </span><span class="k">...</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">                                        </span><span class="n">bassinVersant</span><span class="p">,</span><span class="w"> </span><span class="n">stations</span><span class="p">,</span><span class="w"> </span><span class="n">meteoStations</span><span class="p">);</span>
+</code></pre></div>
+<h3 id="inputs-intrants_1">Inputs (<code>Intrants</code>)<a class="headerlink" href="#inputs-intrants_1" title="Permanent link">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Reused Input Structures</p>
+<p>Some input structures from the quantity simulation (<code>parametres</code>, <code>bassinVersant</code>) are reused here for convenience in this initial version of the interpolator. Although the full structures must be provided, only specific fields (detailed below) are actually used by the interpolation function.</p>
+</div>
+<h4 id="1-execution-struct_1">1. <code>execution</code> (<code>struct</code>)<a class="headerlink" href="#1-execution-struct_1" title="Permanent link">&para;</a></h4>
+<p>Specifies the period for which data should be interpolated.</p>
+<ul>
+<li><code>dateDebut</code>: <code>double</code> - Start date for interpolation (<code>datenum</code> format).</li>
+<li><code>dateFin</code>: <code>double</code> - End date for interpolation (<code>datenum</code> format).</li>
+</ul>
+<h4 id="2-parametres-struct_1">2. <code>parametres</code> (<code>struct</code>)<a class="headerlink" href="#2-parametres-struct_1" title="Permanent link">&para;</a></h4>
+<p>Contains interpolation parameters. <strong>All fields shown in the <code>CequeauQuantiteMex</code> section must be present</strong>, but only the <code>.interpolation</code> sub-structure is used.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">parametres</span><span class="p">:</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="c">% --- Fields required but NOT USED by interpolation --- %</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="p">.</span><span class="n">option</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">sol</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">solInitial</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">transfert</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">ctp</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">lac</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">surface</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">fonte</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">evapo</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">qualite</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">pompage</span><span class="p">,</span><span class="w"> </span><span class="p">.</span><span class="n">dli</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="c">% ---------------------------------------------------- %</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">  </span><span class="p">.</span><span class="n">interpolation</span><span class="w"> </span><span class="c">% [1x1 struct] Interpolation parameters (USED)</span>
+</code></pre></div>
+<h5 id="parametresinterpolation-struct"><code>parametres.interpolation</code> (<code>struct</code>)<a class="headerlink" href="#parametresinterpolation-struct" title="Permanent link">&para;</a></h5>
+<ul>
+<li><code>type</code>: <code>double</code> - Interpolation method selection:<ul>
+<li>1: Thiessen polygons.</li>
+<li>3: Inverse distance weighting using the 3 nearest stations.</li>
+</ul>
+</li>
+<li><code>coep</code>: <code>double</code> - Annual precipitation correction coefficient based on altitude (mm/meter/year).</li>
+<li><code>coet</code>: <code>double</code> - Temperature correction coefficient based on altitude (°C / 1000 m).</li>
+</ul>
+<h4 id="3-bassinversant-struct_1">3. <code>bassinVersant</code> (<code>struct</code>)<a class="headerlink" href="#3-bassinversant-struct_1" title="Permanent link">&para;</a></h4>
+<p>Watershed definition. Must contain the <code>carreauxEntiers</code> structure, which requires the <code>altitude</code> field for interpolation.</p>
+<ul>
+<li>See <code>bassinVersant</code> structure under <code>CequeauQuantiteMex</code> inputs.</li>
+<li>The essential field used here is <code>bassinVersant.carreauxEntiers.altitude</code>.</li>
+</ul>
+<h4 id="4-stations-1-x-nbstations-struct">4. <code>stations</code> <code>[1 x nbStations struct]</code><a class="headerlink" href="#4-stations-1-x-nbstations-struct" title="Permanent link">&para;</a></h4>
+<p>Information about the meteorological stations.</p>
+<ul>
+<li><code>id</code>: <code>char</code> - Station identifier.</li>
+<li><code>nom</code>: <code>char</code> - Station name (not used by the interpolator).</li>
+<li><code>i</code>: <code>double</code> - Station's x-coordinate (abscissa) in the watershed's "I, J" grid system.</li>
+<li><code>j</code>: <code>double</code> - Station's y-coordinate (ordinate) in the watershed's "I, J" grid system.</li>
+<li><code>tp</code>: <code>double</code> - Mean interannual precipitation at the station (mm).</li>
+<li><code>altitude</code>: <code>double</code> - Station altitude.</li>
+</ul>
+<h4 id="5-meteostations-struct">5. <code>meteoStations</code> (<code>struct</code>)<a class="headerlink" href="#5-meteostations-struct" title="Permanent link">&para;</a></h4>
+<p>Meteorological data recorded at the stations. Must contain fields corresponding to the variables being interpolated (e.g., <code>tMin</code>, <code>tMax</code>, <code>pTot</code>).</p>
+<ul>
+<li>Structure is the same as the <code>meteo</code> input for <code>CequeauQuantiteMex</code>, but dimensions are <code>[nbPasDeTemps x nbStations]</code> instead of <code>[nbPasDeTemps x nbCE]</code>.
+    Example: <code>tMin: [nbPasDeTemps x nbStations double or single]</code></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Station Order</p>
+<p>The order of stations in the <code>meteoStations</code> data arrays <strong>must</strong> match the order of stations in the <code>stations</code> input structure.</p>
+</div>
+<h3 id="outputs-extrants_1">Outputs (<code>Extrants</code>)<a class="headerlink" href="#outputs-extrants_1" title="Permanent link">&para;</a></h3>
+<h4 id="1-meteointerpolee-struct">1. <code>meteoInterpolee</code> (<code>struct</code>)<a class="headerlink" href="#1-meteointerpolee-struct" title="Permanent link">&para;</a></h4>
+<p>The interpolated meteorological data on the CEQUEAU Whole Cell (CE) grid.</p>
+<ul>
+<li>This output structure has the same format as the <code>meteo</code> input for <code>CequeauQuantiteMex</code> (e.g., <code>tMin: [nbPasDeTemps x nbCE double]</code>).</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.indexes", "navigation.tabs", "content.code.copy"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

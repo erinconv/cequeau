@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="AssimilationHelper_8hpp" kind="file" language="C++">
+    <compoundname>AssimilationHelper.hpp</compoundname>
+    <includedby refid="ModuleBase_8hpp" local="yes">src/ModuleBase.hpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>src/AssimilationHelper.hpp</label>
+        <link refid="AssimilationHelper_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/DLI.h</label>
+        <link refid="DLI_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>src/Evapo.h</label>
+        <link refid="Evapo_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/EvapoCequeau.h</label>
+        <link refid="EvapoCequeau_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/EvapoKPenman.h</label>
+        <link refid="EvapoKPenman_8h_source"/>
+      </node>
+      <node id="8">
+        <label>src/EvapoMcGuinness.h</label>
+        <link refid="EvapoMcGuinness_8h_source"/>
+      </node>
+      <node id="9">
+        <label>src/EvapoMorton.h</label>
+        <link refid="EvapoMorton_8h_source"/>
+      </node>
+      <node id="10">
+        <label>src/EvapoPenmanMont.h</label>
+        <link refid="EvapoPenmanMont_8h_source"/>
+      </node>
+      <node id="11">
+        <label>src/EvapoPriestleyTaylor.h</label>
+        <link refid="EvapoPriestleyTaylor_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>src/EvapoTemplate.h</label>
+        <link refid="EvapoTemplate_8h_source"/>
+      </node>
+      <node id="14">
+        <label>src/Fonte.h</label>
+        <link refid="Fonte_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>src/FonteCemaNeige.h</label>
+        <link refid="FonteCemaNeige_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>src/FonteCequeau.h</label>
+        <link refid="FonteCequeau_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>src/FonteTemplate.h</label>
+        <link refid="FonteTemplate_8h_source"/>
+      </node>
+      <node id="18">
+        <label>src/FonteUEB.h</label>
+        <link refid="FonteUEB_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/ModuleBase.hpp</label>
+        <link refid="ModuleBase_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>src/Simulation.h</label>
+        <link refid="Simulation_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/SimulationQualite.h</label>
+        <link refid="SimulationQualite_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceAssimilationHelper">AssimilationHelper</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="AssimilationHelper_8hpp_1a1453ab0a8a75b9ac380b09f39bddf464" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TypeAssim</name>
+        <enumvalue id="AssimilationHelper_8hpp_1a1453ab0a8a75b9ac380b09f39bddf464ada12fe19f4d0f33e8b72265183214f36" prot="public">
+          <name>AUCUNE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="AssimilationHelper_8hpp_1a1453ab0a8a75b9ac380b09f39bddf464a26baaa7dd885b9d7add2e9d85ef467d8" prot="public">
+          <name>VALEUR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="AssimilationHelper_8hpp_1a1453ab0a8a75b9ac380b09f39bddf464a4fec6d7b980eec4f0c7b80114d62238e" prot="public">
+          <name>FACTEURS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/AssimilationHelper.hpp" line="14" column="1" bodyfile="src/AssimilationHelper.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="AssimilationHelper_8hpp_1ac784f2046183db6ab10e778b5a8f3e72" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float ASSIMILATION_NO_DATA</definition>
+        <argsstring></argsstring>
+        <name>ASSIMILATION_NO_DATA</name>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/AssimilationHelper.hpp" line="15" column="13" bodyfile="src/AssimilationHelper.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/AssimilationHelper.hpp"/>
+  </compounddef>
+</doxygen>

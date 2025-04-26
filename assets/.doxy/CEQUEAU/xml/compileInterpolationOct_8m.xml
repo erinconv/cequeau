@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="compileInterpolationOct_8m" kind="file" language="Objective-C">
+    <compoundname>compileInterpolationOct.m</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1a112017a372938a1d17f2a69964d5cfe5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SOURCES</definition>
+        <argsstring></argsstring>
+        <name>SOURCES</name>
+        <initializer>= [SOURCES &apos;Interpolateur.cpp &apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="4" column="5" bodyfile="src/compileInterpolationOct.m" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1a93e4d28bece1e94b46c2216145b0a6b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>CXXFLAGS</definition>
+        <argsstring></argsstring>
+        <name>CXXFLAGS</name>
+        <initializer>=&quot; -std=c++14 &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="21" column="5" bodyfile="src/compileInterpolationOct.m" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1ab09a63eb35b270b5cdbead1983ebdccb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="24" column="5" bodyfile="src/compileInterpolationOct.m" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1ad8cde97a833235351874584023c3c1ba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>if ~log COMPFLAGS</definition>
+        <argsstring></argsstring>
+        <name>COMPFLAGS</name>
+        <initializer>=&quot; &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="25" column="5" bodyfile="src/compileInterpolationOct.m" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1a1524bc007c79587db3cabf19cd0783ec" prot="public" static="no" mutable="no">
+        <type>end</type>
+        <definition>end debug</definition>
+        <argsstring></argsstring>
+        <name>debug</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="32" column="5" bodyfile="src/compileInterpolationOct.m" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1a1542f00128e2d68a843a41767311d41c" prot="public" static="no" mutable="no">
+        <type>if debug</type>
+        <definition>else DBG_FLAG</definition>
+        <argsstring></argsstring>
+        <name>DBG_FLAG</name>
+        <initializer>= &quot; -g &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="34" column="9" bodyfile="src/compileInterpolationOct.m" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1a132297c6b815811065f837d58c997aaf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>dbg</definition>
+        <argsstring></argsstring>
+        <name>dbg</name>
+        <initializer>= &quot;_DBG &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="35" column="9" bodyfile="src/compileInterpolationOct.m" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1afd2a3e1f988b8f765da51bf29b250ff0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>FLAGS</definition>
+        <argsstring></argsstring>
+        <name>FLAGS</name>
+        <initializer>= &quot; -DENV_OCTAVE &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="36" column="9" bodyfile="src/compileInterpolationOct.m" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1a810948b71082670d5e3c80a5c7dc37a7" prot="public" static="no" mutable="no">
+        <type>end</type>
+        <definition>OUTFILE</definition>
+        <argsstring></argsstring>
+        <name>OUTFILE</name>
+        <initializer>= &quot; ../mex/cequeauInterpolationOct&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="43" column="5" bodyfile="src/compileInterpolationOct.m" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compileInterpolationOct_8m_1a9e0992eae3950adccaf4847fbff4231d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>command</definition>
+        <argsstring></argsstring>
+        <name>command</name>
+        <initializer>= strcat(&quot;mkoctfile --mex &quot;, FLAGS, CXXFLAGS, DBG_FLAG, COMPFLAGS, &quot; -o &quot;, OUTFILE, &quot; &quot;, SOURCES)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="49" column="5" bodyfile="src/compileInterpolationOct.m" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="compileInterpolationOct_8m_1af5126471de9d07ef9f482237cb07d27b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>function</type>
+        <definition>function compileInterpolationOct</definition>
+        <argsstring>() SOURCES</argsstring>
+        <name>compileInterpolationOct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="1" column="10" declfile="src/compileInterpolationOct.m" declline="1" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="compileInterpolationOct_8m_1ac179094fb0f44b8b1c4c1601a23454cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>disp</definition>
+        <argsstring>(command)</argsstring>
+        <name>disp</name>
+        <param>
+          <type>command</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="51" column="5" declfile="src/compileInterpolationOct.m" declline="51" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="compileInterpolationOct_8m_1a8fe22a6e9d0e698497a018d24b19f6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eval</definition>
+        <argsstring>(command)</argsstring>
+        <name>eval</name>
+        <param>
+          <type>command</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/compileInterpolationOct.m" line="52" column="5" declfile="src/compileInterpolationOct.m" declline="52" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/compileInterpolationOct.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structSolarFunctions_1_1cTime" kind="struct" language="C++" prot="private">
+    <compoundname>SolarFunctions::cTime</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSolarFunctions_1_1cTime_1aefffbaa1cc8d748f48007f2c55c61bb5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SolarFunctions::cTime::iYear</definition>
+        <argsstring></argsstring>
+        <name>iYear</name>
+        <qualifiedname>SolarFunctions::cTime::iYear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="29" column="13" bodyfile="src/SolarFunctions.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSolarFunctions_1_1cTime_1a1b7ccfafac0ba1c3e08b1c57577ac945" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SolarFunctions::cTime::iMonth</definition>
+        <argsstring></argsstring>
+        <name>iMonth</name>
+        <qualifiedname>SolarFunctions::cTime::iMonth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="30" column="13" bodyfile="src/SolarFunctions.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSolarFunctions_1_1cTime_1af7415fc35fdb73e021a96328ca18471b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SolarFunctions::cTime::iDay</definition>
+        <argsstring></argsstring>
+        <name>iDay</name>
+        <qualifiedname>SolarFunctions::cTime::iDay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="31" column="13" bodyfile="src/SolarFunctions.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSolarFunctions_1_1cTime_1a3a3bd6434e170355fabceafb430981db" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::cTime::dHours</definition>
+        <argsstring></argsstring>
+        <name>dHours</name>
+        <qualifiedname>SolarFunctions::cTime::dHours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="32" column="15" bodyfile="src/SolarFunctions.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSolarFunctions_1_1cTime_1a7641ec781d16a0482e6ef2557019354f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::cTime::dMinutes</definition>
+        <argsstring></argsstring>
+        <name>dMinutes</name>
+        <qualifiedname>SolarFunctions::cTime::dMinutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="33" column="15" bodyfile="src/SolarFunctions.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSolarFunctions_1_1cTime_1aeabc94865c98b5bdf2942ebe789a42ba" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::cTime::dSeconds</definition>
+        <argsstring></argsstring>
+        <name>dSeconds</name>
+        <qualifiedname>SolarFunctions::cTime::dSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="34" column="15" bodyfile="src/SolarFunctions.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SolarFunctions.h" line="27" column="5" bodyfile="src/SolarFunctions.h" bodystart="28" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structSolarFunctions_1_1cTime_1a3a3bd6434e170355fabceafb430981db" prot="public" virt="non-virtual"><scope>SolarFunctions::cTime</scope><name>dHours</name></member>
+      <member refid="structSolarFunctions_1_1cTime_1a7641ec781d16a0482e6ef2557019354f" prot="public" virt="non-virtual"><scope>SolarFunctions::cTime</scope><name>dMinutes</name></member>
+      <member refid="structSolarFunctions_1_1cTime_1aeabc94865c98b5bdf2942ebe789a42ba" prot="public" virt="non-virtual"><scope>SolarFunctions::cTime</scope><name>dSeconds</name></member>
+      <member refid="structSolarFunctions_1_1cTime_1af7415fc35fdb73e021a96328ca18471b" prot="public" virt="non-virtual"><scope>SolarFunctions::cTime</scope><name>iDay</name></member>
+      <member refid="structSolarFunctions_1_1cTime_1a1b7ccfafac0ba1c3e08b1c57577ac945" prot="public" virt="non-virtual"><scope>SolarFunctions::cTime</scope><name>iMonth</name></member>
+      <member refid="structSolarFunctions_1_1cTime_1aefffbaa1cc8d748f48007f2c55c61bb5" prot="public" virt="non-virtual"><scope>SolarFunctions::cTime</scope><name>iYear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

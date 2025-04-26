@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classSolarFunctions" kind="class" language="C++" prot="public">
+    <compoundname>SolarFunctions</compoundname>
+    <innerclass refid="structSolarFunctions_1_1cLocation" prot="private">SolarFunctions::cLocation</innerclass>
+    <innerclass refid="structSolarFunctions_1_1cSunCoordinates" prot="private">SolarFunctions::cSunCoordinates</innerclass>
+    <innerclass refid="structSolarFunctions_1_1cTime" prot="private">SolarFunctions::cTime</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSolarFunctions_1ad6ede07b00d2c52d6fcd9f5874339b8a" prot="private" static="no" mutable="no">
+        <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+        <definition>DateChrono SolarFunctions::pasTemp_</definition>
+        <argsstring></argsstring>
+        <name>pasTemp_</name>
+        <qualifiedname>SolarFunctions::pasTemp_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="22" column="16" bodyfile="src/SolarFunctions.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSolarFunctions_1a7e85fa59b31943fa75deb5ae3afe623d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::latitute_</definition>
+        <argsstring></argsstring>
+        <name>latitute_</name>
+        <qualifiedname>SolarFunctions::latitute_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="23" column="11" bodyfile="src/SolarFunctions.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSolarFunctions_1a1efc59e15669547d09f573d09336beda" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::longitude_</definition>
+        <argsstring></argsstring>
+        <name>longitude_</name>
+        <qualifiedname>SolarFunctions::longitude_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="24" column="11" bodyfile="src/SolarFunctions.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSolarFunctions_1af5cb24ee7275c4f7ae5e4f5cd24d862c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SolarFunctions::zenithAngle_</definition>
+        <argsstring></argsstring>
+        <name>zenithAngle_</name>
+        <qualifiedname>SolarFunctions::zenithAngle_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="25" column="11" bodyfile="src/SolarFunctions.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSolarFunctions_1a86783fa9540e0b5c5d0fea1b3ebf6938" prot="private" static="no" mutable="no">
+        <type>struct SolarFunctions::cTime</type>
+        <definition>struct SolarFunctions::cTime SolarFunctions::udtTime_</definition>
+        <argsstring></argsstring>
+        <name>udtTime_</name>
+        <qualifiedname>SolarFunctions::udtTime_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="35" column="14"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSolarFunctions_1a13c2ea338084e41e6e0582f5408ceba1" prot="private" static="no" mutable="no">
+        <type>struct SolarFunctions::cLocation</type>
+        <definition>struct SolarFunctions::cLocation SolarFunctions::udtLocation_</definition>
+        <argsstring></argsstring>
+        <name>udtLocation_</name>
+        <qualifiedname>SolarFunctions::udtLocation_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="41" column="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSolarFunctions_1a744ed0e8e702b338ac3885bc7c553d5e" prot="private" static="no" mutable="no">
+        <type>struct SolarFunctions::cSunCoordinates</type>
+        <definition>struct SolarFunctions::cSunCoordinates SolarFunctions::udtSunCoordinates_</definition>
+        <argsstring></argsstring>
+        <name>udtSunCoordinates_</name>
+        <qualifiedname>SolarFunctions::udtSunCoordinates_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="47" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSolarFunctions_1a5745a72c177a30f9a497f8e13fa4a091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SolarFunctions::SolarFunctions</definition>
+        <argsstring>()</argsstring>
+        <name>SolarFunctions</name>
+        <qualifiedname>SolarFunctions::SolarFunctions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="15" column="5" bodyfile="src/SolarFunctions.cpp" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classSolarFunctions_1a43baa3dc207ce74c7580053d0d0dc9bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SolarFunctions::SolarFunctions</definition>
+        <argsstring>(DateChrono pasTemp, const CarreauEntier &amp;carreauEntier)</argsstring>
+        <name>SolarFunctions</name>
+        <qualifiedname>SolarFunctions::SolarFunctions</qualifiedname>
+        <param>
+          <type><ref refid="classDateChrono" kindref="compound">DateChrono</ref></type>
+          <declname>pasTemp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classCarreauEntier" kindref="compound">CarreauEntier</ref> &amp;</type>
+          <declname>carreauEntier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="16" column="5" bodyfile="src/SolarFunctions.cpp" bodystart="8" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classSolarFunctions_1a2208c031022f263002c4e1b98d307afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SolarFunctions::~SolarFunctions</definition>
+        <argsstring>()</argsstring>
+        <name>~SolarFunctions</name>
+        <qualifiedname>SolarFunctions::~SolarFunctions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="17" column="5" bodyfile="src/SolarFunctions.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classSolarFunctions_1aaba7413ca555afc04a443271e0748d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SolarFunctions::computeZenithAngle</definition>
+        <argsstring>(float hours)</argsstring>
+        <name>computeZenithAngle</name>
+        <qualifiedname>SolarFunctions::computeZenithAngle</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>hours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="18" column="10" bodyfile="src/SolarFunctions.cpp" bodystart="19" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classSolarFunctions_1a49222530e61e80b70a0374676cdb74dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SolarFunctions::getZenithAngle</definition>
+        <argsstring>()</argsstring>
+        <name>getZenithAngle</name>
+        <qualifiedname>SolarFunctions::getZenithAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="19" column="11" bodyfile="src/SolarFunctions.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSolarFunctions_1a5973cfdd1e8b67236f47823920d240d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SolarFunctions::sunpos_1950</definition>
+        <argsstring>(cTime udtTime, cLocation udtLocation, cSunCoordinates *udtSunCoordinates)</argsstring>
+        <name>sunpos_1950</name>
+        <qualifiedname>SolarFunctions::sunpos_1950</qualifiedname>
+        <param>
+          <type>cTime</type>
+          <declname>udtTime</declname>
+        </param>
+        <param>
+          <type>cLocation</type>
+          <declname>udtLocation</declname>
+        </param>
+        <param>
+          <type>cSunCoordinates *</type>
+          <declname>udtSunCoordinates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="49" column="10" bodyfile="src/SolarFunctions.cpp" bodystart="130" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classSolarFunctions_1aee778fc42959507fdf6f0e201f557873" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SolarFunctions::sunpos_2010</definition>
+        <argsstring>(cTime udtTime, cLocation udtLocation, cSunCoordinates *udtSunCoordinates)</argsstring>
+        <name>sunpos_2010</name>
+        <qualifiedname>SolarFunctions::sunpos_2010</qualifiedname>
+        <param>
+          <type>cTime</type>
+          <declname>udtTime</declname>
+        </param>
+        <param>
+          <type>cLocation</type>
+          <declname>udtLocation</declname>
+        </param>
+        <param>
+          <type>cSunCoordinates *</type>
+          <declname>udtSunCoordinates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="50" column="10" bodyfile="src/SolarFunctions.cpp" bodystart="57" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classSolarFunctions_1a5c885d262423e04a107083b25e3348be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SolarFunctions::deg2rad</definition>
+        <argsstring>(float valInDegrees)</argsstring>
+        <name>deg2rad</name>
+        <qualifiedname>SolarFunctions::deg2rad</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>valInDegrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="51" column="11" bodyfile="src/SolarFunctions.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classSolarFunctions_1a4f19d6fa2ea21d51564698963dd8304e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SolarFunctions::rad2deg</definition>
+        <argsstring>(float valInDegrees)</argsstring>
+        <name>rad2deg</name>
+        <qualifiedname>SolarFunctions::rad2deg</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>valInDegrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="52" column="11" bodyfile="src/SolarFunctions.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SolarFunctions.h" line="12" column="1" bodyfile="src/SolarFunctions.h" bodystart="13" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classSolarFunctions_1aaba7413ca555afc04a443271e0748d20" prot="public" virt="non-virtual"><scope>SolarFunctions</scope><name>computeZenithAngle</name></member>
+      <member refid="classSolarFunctions_1a5c885d262423e04a107083b25e3348be" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>deg2rad</name></member>
+      <member refid="classSolarFunctions_1a49222530e61e80b70a0374676cdb74dd" prot="public" virt="non-virtual"><scope>SolarFunctions</scope><name>getZenithAngle</name></member>
+      <member refid="classSolarFunctions_1a7e85fa59b31943fa75deb5ae3afe623d" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>latitute_</name></member>
+      <member refid="classSolarFunctions_1a1efc59e15669547d09f573d09336beda" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>longitude_</name></member>
+      <member refid="classSolarFunctions_1ad6ede07b00d2c52d6fcd9f5874339b8a" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>pasTemp_</name></member>
+      <member refid="classSolarFunctions_1a4f19d6fa2ea21d51564698963dd8304e" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>rad2deg</name></member>
+      <member refid="classSolarFunctions_1a5745a72c177a30f9a497f8e13fa4a091" prot="public" virt="non-virtual"><scope>SolarFunctions</scope><name>SolarFunctions</name></member>
+      <member refid="classSolarFunctions_1a43baa3dc207ce74c7580053d0d0dc9bb" prot="public" virt="non-virtual"><scope>SolarFunctions</scope><name>SolarFunctions</name></member>
+      <member refid="classSolarFunctions_1a5973cfdd1e8b67236f47823920d240d8" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>sunpos_1950</name></member>
+      <member refid="classSolarFunctions_1aee778fc42959507fdf6f0e201f557873" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>sunpos_2010</name></member>
+      <member refid="classSolarFunctions_1a13c2ea338084e41e6e0582f5408ceba1" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>udtLocation_</name></member>
+      <member refid="classSolarFunctions_1a744ed0e8e702b338ac3885bc7c553d5e" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>udtSunCoordinates_</name></member>
+      <member refid="classSolarFunctions_1a86783fa9540e0b5c5d0fea1b3ebf6938" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>udtTime_</name></member>
+      <member refid="classSolarFunctions_1af5cb24ee7275c4f7ae5e4f5cd24d862c" prot="private" virt="non-virtual"><scope>SolarFunctions</scope><name>zenithAngle_</name></member>
+      <member refid="classSolarFunctions_1a2208c031022f263002c4e1b98d307afd" prot="public" virt="non-virtual"><scope>SolarFunctions</scope><name>~SolarFunctions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

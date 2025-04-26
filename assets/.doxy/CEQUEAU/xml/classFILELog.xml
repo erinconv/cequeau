@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFILELog" kind="class" language="C++" prot="public">
+    <compoundname>FILELog</compoundname>
+    <basecompoundref refid="classLog" prot="public" virt="non-virtual">Log&lt; Output2FILE &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FILELog</label>
+        <link refid="classFILELog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Log&lt; Output2FILE &gt;</label>
+        <link refid="classLog"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FILELog</label>
+        <link refid="classFILELog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Log&lt; Output2FILE &gt;</label>
+        <link refid="classLog"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>os</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::basic_ostream&lt; Char &gt;</label>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::basic_ostringstream&lt; Char &gt;</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::ios_base</label>
+      </node>
+      <node id="3">
+        <label>std::ostringstream</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/log.h" line="122" column="1" bodyfile="src/log.h" bodystart="122" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classLog_1a684966272ade00c32c6e9744eb6b3e9c" prot="public" virt="non-virtual"><scope>FILELog</scope><name>FromString</name></member>
+      <member refid="classLog_1af1e91af54d9f85caaa661f794b37bffb" prot="public" virt="non-virtual"><scope>FILELog</scope><name>Get</name></member>
+      <member refid="classLog_1ad55df14b1034b676de6e71de64c1a04c" prot="public" virt="non-virtual"><scope>FILELog</scope><name>Log</name></member>
+      <member refid="classLog_1a01de1c92999fe0c55e5b4a50ffe02336" prot="protected" virt="non-virtual"><scope>FILELog</scope><name>os</name></member>
+      <member refid="classLog_1a7e74a1454fd3d52a408eaa1c04ab4d23" prot="public" virt="non-virtual"><scope>FILELog</scope><name>ReportingLevel</name></member>
+      <member refid="classLog_1aa889a30fd8ee83904e193ec5e9446216" prot="public" virt="non-virtual"><scope>FILELog</scope><name>ToString</name></member>
+      <member refid="classLog_1a63b4053be167c0215c0968a49f4edf39" prot="public" virt="virtual"><scope>FILELog</scope><name>~Log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

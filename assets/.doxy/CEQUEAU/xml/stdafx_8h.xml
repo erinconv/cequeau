@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="stdafx_8h" kind="file" language="C++">
+    <compoundname>stdafx.h</compoundname>
+    <includes refid="targetver_8h" local="yes">targetver.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">cstring</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">climits</includes>
+    <includes local="no">map</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">ctime</includes>
+    <includes local="no">chrono</includes>
+    <includes local="no">array</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes refid="DateChrono_8h" local="yes">DateChrono.h</includes>
+    <includes refid="log_8h" local="yes">log.h</includes>
+    <includes refid="MexHelper_8hpp" local="yes">MexHelper.hpp</includes>
+    <includedby refid="Barrage_8cpp" local="yes">src/Barrage.cpp</includedby>
+    <includedby refid="Barrage_8h" local="yes">src/Barrage.h</includedby>
+    <includedby refid="BassinVersant_8cpp" local="yes">src/BassinVersant.cpp</includedby>
+    <includedby refid="CarreauEntier_8cpp" local="yes">src/CarreauEntier.cpp</includedby>
+    <includedby refid="CarreauPartiel_8cpp" local="yes">src/CarreauPartiel.cpp</includedby>
+    <includedby refid="CequeauQuantiteMex_8cpp" local="yes">src/CequeauQuantiteMex.cpp</includedby>
+    <includedby refid="DLI_8cpp" local="yes">src/DLI.cpp</includedby>
+    <includedby refid="DonneesMeteo_8cpp" local="yes">src/DonneesMeteo.cpp</includedby>
+    <includedby refid="EvapoCequeau_8cpp" local="yes">src/EvapoCequeau.cpp</includedby>
+    <includedby refid="EvapoKPenman_8cpp" local="yes">src/EvapoKPenman.cpp</includedby>
+    <includedby refid="EvapoMcGuinness_8cpp" local="yes">src/EvapoMcGuinness.cpp</includedby>
+    <includedby refid="EvapoMorton_8cpp" local="yes">src/EvapoMorton.cpp</includedby>
+    <includedby refid="EvapoPenmanMont_8cpp" local="yes">src/EvapoPenmanMont.cpp</includedby>
+    <includedby refid="EvapoPriestleyTaylor_8cpp" local="yes">src/EvapoPriestleyTaylor.cpp</includedby>
+    <includedby refid="EvapoTemplate_8cpp" local="yes">src/EvapoTemplate.cpp</includedby>
+    <includedby refid="FonteCemaNeige_8cpp" local="yes">src/FonteCemaNeige.cpp</includedby>
+    <includedby refid="FonteCequeau_8cpp" local="yes">src/FonteCequeau.cpp</includedby>
+    <includedby refid="FonteTemplate_8cpp" local="yes">src/FonteTemplate.cpp</includedby>
+    <includedby refid="FonteUEB_8cpp" local="yes">src/FonteUEB.cpp</includedby>
+    <includedby refid="Interpolateur_8cpp" local="yes">src/Interpolateur.cpp</includedby>
+    <includedby refid="InterpolateurPolygoneThiessen_8cpp" local="yes">src/InterpolateurPolygoneThiessen.cpp</includedby>
+    <includedby refid="InterpolateurPonderationStations_8cpp" local="yes">src/InterpolateurPonderationStations.cpp</includedby>
+    <includedby refid="InterpolationMex_8cpp" local="yes">src/InterpolationMex.cpp</includedby>
+    <includedby refid="ListeStation_8cpp" local="yes">src/ListeStation.cpp</includedby>
+    <includedby refid="Meteo_8cpp" local="yes">src/Meteo.cpp</includedby>
+    <includedby refid="Parametres_8cpp" local="yes">src/Parametres.cpp</includedby>
+    <includedby refid="ParametresInterpolation_8cpp" local="yes">src/ParametresInterpolation.cpp</includedby>
+    <includedby refid="ParametresQualite_8cpp" local="yes">src/ParametresQualite.cpp</includedby>
+    <includedby refid="Puits_8h" local="yes">src/Puits.h</includedby>
+    <includedby refid="Simulation_8cpp" local="yes">src/Simulation.cpp</includedby>
+    <includedby refid="SimulationQualite_8cpp" local="yes">src/SimulationQualite.cpp</includedby>
+    <includedby refid="SimulationQualite__IO_8cpp" local="yes">src/SimulationQualite_IO.cpp</includedby>
+    <includedby refid="SimulationQualite__Ombrage_8cpp" local="yes">src/SimulationQualite_Ombrage.cpp</includedby>
+    <includedby refid="Simulation__Assimilation_8cpp" local="yes">src/Simulation_Assimilation.cpp</includedby>
+    <includedby refid="Simulation__IO_8cpp" local="yes">src/Simulation_IO.cpp</includedby>
+    <includedby refid="Simulation__Production_8cpp" local="yes">src/Simulation_Production.cpp</includedby>
+    <includedby refid="Simulation__Transfert_8cpp" local="yes">src/Simulation_Transfert.cpp</includedby>
+    <includedby refid="SolarFunctions_8h" local="yes">src/SolarFunctions.h</includedby>
+    <includedby refid="Station_8cpp" local="yes">src/Station.cpp</includedby>
+    <includedby refid="stdafx_8cpp" local="yes">src/stdafx.cpp</includedby>
+    <incdepgraph>
+      <node id="20">
+        <label>DateChrono.h</label>
+        <link refid="DateChrono_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Defs.h</label>
+        <link refid="Defs_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MexHelper.hpp</label>
+        <link refid="MexHelper_8hpp_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>log.h</label>
+        <link refid="log_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>targetver.h</label>
+        <link refid="targetver_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="5">
+        <label>algorithm</label>
+      </node>
+      <node id="17">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>chrono</label>
+      </node>
+      <node id="11">
+        <label>climits</label>
+      </node>
+      <node id="7">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstring</label>
+      </node>
+      <node id="15">
+        <label>ctime</label>
+      </node>
+      <node id="8">
+        <label>fstream</label>
+      </node>
+      <node id="9">
+        <label>iomanip</label>
+      </node>
+      <node id="10">
+        <label>iostream</label>
+      </node>
+      <node id="12">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>memory</label>
+      </node>
+      <node id="25">
+        <label>mex.h</label>
+      </node>
+      <node id="13">
+        <label>sstream</label>
+      </node>
+      <node id="22">
+        <label>stdio.h</label>
+      </node>
+      <node id="19">
+        <label>string</label>
+      </node>
+      <node id="23">
+        <label>sys/time.h</label>
+      </node>
+      <node id="27">
+        <label>typeinfo</label>
+      </node>
+      <node id="4">
+        <label>unistd.h</label>
+      </node>
+      <node id="14">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/Barrage.h</label>
+        <link refid="Barrage_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/BassinVersant.h</label>
+        <link refid="BassinVersant_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/DonneesMeteo.h</label>
+        <link refid="DonneesMeteo_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>src/Interpolateur.h</label>
+        <link refid="Interpolateur_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/InterpolateurPolygoneThiessen.h</label>
+        <link refid="InterpolateurPolygoneThiessen_8h_source"/>
+      </node>
+      <node id="7">
+        <label>src/InterpolateurPonderationStations.h</label>
+        <link refid="InterpolateurPonderationStations_8h_source"/>
+      </node>
+      <node id="10">
+        <label>src/Puits.h</label>
+        <link refid="Puits_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>src/Simulation.h</label>
+        <link refid="Simulation_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>src/SimulationQualite.h</label>
+        <link refid="SimulationQualite_8h_source"/>
+      </node>
+      <node id="11">
+        <label>src/SolarFunctions.h</label>
+        <link refid="SolarFunctions_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="stdafx_8h_1af0c0d1034a71f8aa3a08cda83c9d4e7a" prot="public" static="no">
+        <name>GetCurrentDir</name>
+        <initializer>getcwd</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/stdafx.h" line="17" column="11" bodyfile="src/stdafx.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="stdafx_8h_1a00e34031629e5459272b17a2b48706ec" prot="public" static="no">
+        <name>minf</name>
+        <param><defname>float_a</defname></param>
+        <param><defname>float_b</defname></param>
+        <initializer>std::min&lt;float&gt;(float_a,float_b)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/stdafx.h" line="57" column="9" bodyfile="src/stdafx.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="stdafx_8h_1a310add1f6c0ce5d3eed558f7d6ea08f8" prot="public" static="no">
+        <name>maxf</name>
+        <param><defname>float_a</defname></param>
+        <param><defname>float_b</defname></param>
+        <initializer>std::max&lt;float&gt;(float_a,float_b)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/stdafx.h" line="58" column="9" bodyfile="src/stdafx.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="stdafx_8h_1aa7d780e63fdb4749332ec475b4367963" prot="public" static="no">
+        <name>absf</name>
+        <param><defname>float_a</defname></param>
+        <initializer>std::abs&lt;float&gt;(float_a)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/stdafx.h" line="59" column="9" bodyfile="src/stdafx.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="stdafx_8h_1aee862bca064544b8255dcc8039789a83" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int matError</definition>
+        <argsstring></argsstring>
+        <name>matError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/stdafx.h" line="55" column="13" bodyfile="src/stdafx.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="stdafx_8h_1aa08a577393243b86dfd2a97e61443673" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <initializer>= 3.1416f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/stdafx.h" line="61" column="13" bodyfile="src/stdafx.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="stdafx_8h_1a174215db01924b92f46a3d1f4da777cd" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float FUSEAU_HORAIRE</definition>
+        <argsstring></argsstring>
+        <name>FUSEAU_HORAIRE</name>
+        <initializer>= -4.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/stdafx.h" line="62" column="13" bodyfile="src/stdafx.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/stdafx.h"/>
+  </compounddef>
+</doxygen>

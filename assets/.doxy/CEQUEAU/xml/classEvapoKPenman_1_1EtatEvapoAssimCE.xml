@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoKPenman_1_1EtatEvapoAssimCE" kind="class" language="C++" prot="private">
+    <compoundname>EvapoKPenman::EtatEvapoAssimCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoKPenman_1_1EtatEvapoAssimCE_1a05c1f4eb42d3d44ef10943170f59d4bf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EvapoKPenman::EtatEvapoAssimCE::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>EvapoKPenman::EtatEvapoAssimCE::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoKPenman.h" line="91" column="9" bodyfile="src/EvapoKPenman.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoKPenman.h" line="88" column="3" bodyfile="src/EvapoKPenman.h" bodystart="89" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classEvapoKPenman_1_1EtatEvapoAssimCE_1a05c1f4eb42d3d44ef10943170f59d4bf" prot="public" virt="non-virtual"><scope>EvapoKPenman::EtatEvapoAssimCE</scope><name>idCarreauEntier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

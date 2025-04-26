@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classListeStation" kind="class" language="C++" prot="public">
+    <compoundname>ListeStation</compoundname>
+    <includes refid="ListeStation_8h" local="no">ListeStation.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classListeStation_1a1c852d436292b75c9dc752cf5264b736" prot="private" static="no" mutable="no">
+        <type>Stations</type>
+        <definition>Stations ListeStation::stations_</definition>
+        <argsstring></argsstring>
+        <name>stations_</name>
+        <qualifiedname>ListeStation::stations_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="40" column="12" bodyfile="src/ListeStation.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classListeStation_1ac0453d3b51c3b5324a8ffe91bea27eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ListeStation::ListeStation</definition>
+        <argsstring>()</argsstring>
+        <name>ListeStation</name>
+        <qualifiedname>ListeStation::ListeStation</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="26" column="3" bodyfile="src/ListeStation.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classListeStation_1aa3f51b1bee074f527402f737890b2613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ListeStation::~ListeStation</definition>
+        <argsstring>()</argsstring>
+        <name>~ListeStation</name>
+        <qualifiedname>ListeStation::~ListeStation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="27" column="3" bodyfile="src/ListeStation.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classListeStation_1a038be2a0bbf69019b85365e79614a41e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const Stations &amp;</type>
+        <definition>const Stations &amp; ListeStation::stations</definition>
+        <argsstring>() const</argsstring>
+        <name>stations</name>
+        <qualifiedname>ListeStation::stations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="29" column="18" bodyfile="src/ListeStation.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classListeStation_1a4c111b19064fc71b9dfde6f581f5ef90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const StationPtr</type>
+        <definition>const StationPtr ListeStation::trouverStation</definition>
+        <argsstring>(int id) const</argsstring>
+        <name>trouverStation</name>
+        <qualifiedname>ListeStation::trouverStation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="31" column="20" bodyfile="src/ListeStation.cpp" bodystart="25" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classListeStation_1a3189835a6afd22fde99098a91f42ab65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListeStation::initialiser</definition>
+        <argsstring>()</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>ListeStation::initialiser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="33" column="8" bodyfile="src/ListeStation.cpp" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classListeStation_1a2dd1f90f10420f788406e283df746519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListeStation::initialiser</definition>
+        <argsstring>(const mxArray *stations)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>ListeStation::initialiser</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>stations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="35" column="8" bodyfile="src/ListeStation.cpp" bodystart="59" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classListeStation_1af116b8c634e89e73a6d80301c9f2f31e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ListeStation::quantiteStations</definition>
+        <argsstring>() const</argsstring>
+        <name>quantiteStations</name>
+        <qualifiedname>ListeStation::quantiteStations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="37" column="7" bodyfile="src/ListeStation.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition d&apos;une liste de stations meteo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/ListeStation.h" line="22" column="1" bodyfile="src/ListeStation.h" bodystart="23" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classListeStation_1a3189835a6afd22fde99098a91f42ab65" prot="public" virt="non-virtual"><scope>ListeStation</scope><name>initialiser</name></member>
+      <member refid="classListeStation_1a2dd1f90f10420f788406e283df746519" prot="public" virt="non-virtual"><scope>ListeStation</scope><name>initialiser</name></member>
+      <member refid="classListeStation_1ac0453d3b51c3b5324a8ffe91bea27eb5" prot="public" virt="non-virtual"><scope>ListeStation</scope><name>ListeStation</name></member>
+      <member refid="classListeStation_1af116b8c634e89e73a6d80301c9f2f31e" prot="public" virt="non-virtual"><scope>ListeStation</scope><name>quantiteStations</name></member>
+      <member refid="classListeStation_1a038be2a0bbf69019b85365e79614a41e" prot="public" virt="non-virtual"><scope>ListeStation</scope><name>stations</name></member>
+      <member refid="classListeStation_1a1c852d436292b75c9dc752cf5264b736" prot="private" virt="non-virtual"><scope>ListeStation</scope><name>stations_</name></member>
+      <member refid="classListeStation_1a4c111b19064fc71b9dfde6f581f5ef90" prot="public" virt="non-virtual"><scope>ListeStation</scope><name>trouverStation</name></member>
+      <member refid="classListeStation_1aa3f51b1bee074f527402f737890b2613" prot="public" virt="non-virtual"><scope>ListeStation</scope><name>~ListeStation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

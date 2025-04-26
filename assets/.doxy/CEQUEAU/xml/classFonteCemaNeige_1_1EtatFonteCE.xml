@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteCemaNeige_1_1EtatFonteCE" kind="class" language="C++" prot="public">
+    <compoundname>FonteCemaNeige::EtatFonteCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteCE_1a034f54b0d35b0cbbd44e0231adfd2a12" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::EtatFonteCE::eTg</definition>
+        <argsstring></argsstring>
+        <name>eTg</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteCE::eTg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="52" column="13" bodyfile="src/FonteCemaNeige.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteCE_1a43265dc8158ea890d4a8fdd536ebe3c0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::EtatFonteCE::G</definition>
+        <argsstring></argsstring>
+        <name>G</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteCE::G</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="53" column="13" bodyfile="src/FonteCemaNeige.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteCE_1ad98fd806ee69b73d81dd05ec676f9cf0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::EtatFonteCE::fonte_reel</definition>
+        <argsstring></argsstring>
+        <name>fonte_reel</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteCE::fonte_reel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="54" column="13" bodyfile="src/FonteCemaNeige.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteCE_1a797a1990e9d679c6709b693a5e57b519" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::EtatFonteCE::SNC_stockNeigeForet</definition>
+        <argsstring></argsstring>
+        <name>SNC_stockNeigeForet</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteCE::SNC_stockNeigeForet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="55" column="13" bodyfile="src/FonteCemaNeige.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1EtatFonteCE_1a1c72b853f38e1265adfe4be5cd42e613" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::EtatFonteCE::SND_stockNeigeClairiere</definition>
+        <argsstring></argsstring>
+        <name>SND_stockNeigeClairiere</name>
+        <qualifiedname>FonteCemaNeige::EtatFonteCE::SND_stockNeigeClairiere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="56" column="13" bodyfile="src/FonteCemaNeige.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteCemaNeige.h" line="49" column="3" bodyfile="src/FonteCemaNeige.h" bodystart="50" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classFonteCemaNeige_1_1EtatFonteCE_1a034f54b0d35b0cbbd44e0231adfd2a12" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteCE</scope><name>eTg</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteCE_1ad98fd806ee69b73d81dd05ec676f9cf0" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteCE</scope><name>fonte_reel</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteCE_1a43265dc8158ea890d4a8fdd536ebe3c0" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteCE</scope><name>G</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteCE_1a797a1990e9d679c6709b693a5e57b519" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteCE</scope><name>SNC_stockNeigeForet</name></member>
+      <member refid="classFonteCemaNeige_1_1EtatFonteCE_1a1c72b853f38e1265adfe4be5cd42e613" prot="public" virt="non-virtual"><scope>FonteCemaNeige::EtatFonteCE</scope><name>SND_stockNeigeClairiere</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

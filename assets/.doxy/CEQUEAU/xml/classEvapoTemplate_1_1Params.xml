@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoTemplate_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>EvapoTemplate::Params</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoTemplate.h" line="62" column="3" bodyfile="src/EvapoTemplate.h" bodystart="63" bodyend="71"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

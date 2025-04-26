@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoPriestleyTaylor_1_1EtatEvapoCE" kind="class" language="C++" prot="public">
+    <compoundname>EvapoPriestleyTaylor::EtatEvapoCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a10a53c3251cd0b031c278475165e862b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPriestleyTaylor::EtatEvapoCE::stateSol</definition>
+        <argsstring></argsstring>
+        <name>stateSol</name>
+        <qualifiedname>EvapoPriestleyTaylor::EtatEvapoCE::stateSol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPriestleyTaylor.h" line="68" column="13" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a2575ffbbe112e006c19c9d94926098b0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPriestleyTaylor::EtatEvapoCE::stateNappe</definition>
+        <argsstring></argsstring>
+        <name>stateNappe</name>
+        <qualifiedname>EvapoPriestleyTaylor::EtatEvapoCE::stateNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPriestleyTaylor.h" line="69" column="13" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a112d991394f81425dd7dd390e013538b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPriestleyTaylor::EtatEvapoCE::stateEauLibre</definition>
+        <argsstring></argsstring>
+        <name>stateEauLibre</name>
+        <qualifiedname>EvapoPriestleyTaylor::EtatEvapoCE::stateEauLibre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPriestleyTaylor.h" line="70" column="13" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a484694342ab36f21d80ec5d16fbd4a8d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EvapoPriestleyTaylor::EtatEvapoCE::statePot</definition>
+        <argsstring></argsstring>
+        <name>statePot</name>
+        <qualifiedname>EvapoPriestleyTaylor::EtatEvapoCE::statePot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPriestleyTaylor.h" line="71" column="13" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoPriestleyTaylor.h" line="62" column="3" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="63" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a112d991394f81425dd7dd390e013538b" prot="public" virt="non-virtual"><scope>EvapoPriestleyTaylor::EtatEvapoCE</scope><name>stateEauLibre</name></member>
+      <member refid="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a2575ffbbe112e006c19c9d94926098b0" prot="public" virt="non-virtual"><scope>EvapoPriestleyTaylor::EtatEvapoCE</scope><name>stateNappe</name></member>
+      <member refid="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a484694342ab36f21d80ec5d16fbd4a8d" prot="public" virt="non-virtual"><scope>EvapoPriestleyTaylor::EtatEvapoCE</scope><name>statePot</name></member>
+      <member refid="classEvapoPriestleyTaylor_1_1EtatEvapoCE_1a10a53c3251cd0b031c278475165e862b" prot="public" virt="non-virtual"><scope>EvapoPriestleyTaylor::EtatEvapoCE</scope><name>stateSol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

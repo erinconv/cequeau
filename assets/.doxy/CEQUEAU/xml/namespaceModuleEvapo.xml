@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceModuleEvapo" kind="namespace" language="C++">
+    <compoundname>ModuleEvapo</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="Simulation_8h_1a328dfa3655eea36d97a7e7536842ecc7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ModuleEvapo</name>
+        <qualifiedname>ModuleEvapo::ModuleEvapo</qualifiedname>
+        <enumvalue id="Simulation_8h_1a328dfa3655eea36d97a7e7536842ecc7a47fcab141ed8973ab751760fe0999fa1" prot="public">
+          <name>CEQUEAU</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Simulation_8h_1a328dfa3655eea36d97a7e7536842ecc7a8598adcea6e4aeff766eb976c959e655" prot="public">
+          <name>KPENMAN</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Simulation_8h_1a328dfa3655eea36d97a7e7536842ecc7a27fbda9be20e720652f48664c9861b4f" prot="public">
+          <name>PRIESTLEYTAYLOR</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Simulation_8h_1a328dfa3655eea36d97a7e7536842ecc7a7d231e78dbf5193f3cc8aa8ab3271e90" prot="public">
+          <name>MCGUINNESS</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Simulation_8h_1a328dfa3655eea36d97a7e7536842ecc7ab48044e6c846f69b80fd2e1b3ddc2d4f" prot="public">
+          <name>PENMONT</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Simulation_8h_1a328dfa3655eea36d97a7e7536842ecc7aad66de7c1ac1402d7f4eab75df47e3f6" prot="public">
+          <name>MORTON</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="31" column="3" bodyfile="src/Simulation.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Simulation.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>

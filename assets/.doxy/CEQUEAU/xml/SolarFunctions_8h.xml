@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="SolarFunctions_8h" kind="file" language="C++">
+    <compoundname>SolarFunctions.h</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="CarreauEntier_8h" local="yes">CarreauEntier.h</includes>
+    <includedby refid="FonteUEB_8cpp" local="yes">src/FonteUEB.cpp</includedby>
+    <includedby refid="SolarFunctions_8cpp" local="yes">src/SolarFunctions.cpp</includedby>
+    <incdepgraph>
+      <node id="29">
+        <label>CarreauEntier.h</label>
+        <link refid="CarreauEntier_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>DateChrono.h</label>
+        <link refid="DateChrono_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>Defs.h</label>
+        <link refid="Defs_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MexHelper.hpp</label>
+        <link refid="MexHelper_8hpp_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Parametres.h</label>
+        <link refid="Parametres_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/SolarFunctions.h</label>
+        <link refid="SolarFunctions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>log.h</label>
+        <link refid="log_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>targetver.h</label>
+        <link refid="targetver_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="6">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>array</label>
+      </node>
+      <node id="17">
+        <label>chrono</label>
+      </node>
+      <node id="12">
+        <label>climits</label>
+      </node>
+      <node id="8">
+        <label>cmath</label>
+      </node>
+      <node id="7">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>ctime</label>
+      </node>
+      <node id="9">
+        <label>fstream</label>
+      </node>
+      <node id="10">
+        <label>iomanip</label>
+      </node>
+      <node id="11">
+        <label>iostream</label>
+      </node>
+      <node id="13">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>memory</label>
+      </node>
+      <node id="26">
+        <label>mex.h</label>
+      </node>
+      <node id="14">
+        <label>sstream</label>
+      </node>
+      <node id="23">
+        <label>stdio.h</label>
+      </node>
+      <node id="20">
+        <label>string</label>
+      </node>
+      <node id="24">
+        <label>sys/time.h</label>
+      </node>
+      <node id="28">
+        <label>typeinfo</label>
+      </node>
+      <node id="5">
+        <label>unistd.h</label>
+      </node>
+      <node id="15">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classSolarFunctions" prot="public">SolarFunctions</innerclass>
+    <innerclass refid="structSolarFunctions_1_1cTime" prot="private">SolarFunctions::cTime</innerclass>
+    <innerclass refid="structSolarFunctions_1_1cLocation" prot="private">SolarFunctions::cLocation</innerclass>
+    <innerclass refid="structSolarFunctions_1_1cSunCoordinates" prot="private">SolarFunctions::cSunCoordinates</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="SolarFunctions_8h_1a1daf785e3f68d293c7caa1c756d5cb74" prot="public" static="no">
+        <name>pi</name>
+        <initializer>3.14159265358979323846f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="6" column="9" bodyfile="src/SolarFunctions.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SolarFunctions_8h_1a7ee9b0300024a84770cae07dab6c13de" prot="public" static="no">
+        <name>twopi</name>
+        <initializer>(2.0f * pi)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="7" column="9" bodyfile="src/SolarFunctions.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SolarFunctions_8h_1ac04e8abc9ccd00ddb8dda926801a9866" prot="public" static="no">
+        <name>rad</name>
+        <initializer>(pi / 180.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="8" column="9" bodyfile="src/SolarFunctions.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SolarFunctions_8h_1a2c7d3ed50a453f8362bc46b17724d227" prot="public" static="no">
+        <name>dEarthMeanRadius</name>
+        <initializer>6371.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="9" column="9" bodyfile="src/SolarFunctions.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="SolarFunctions_8h_1a02986d834a8d2669f8fd846708d8b9ec" prot="public" static="no">
+        <name>dAstronomicalUnit</name>
+        <initializer>149597890.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SolarFunctions.h" line="10" column="9" bodyfile="src/SolarFunctions.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SolarFunctions.h"/>
+  </compounddef>
+</doxygen>

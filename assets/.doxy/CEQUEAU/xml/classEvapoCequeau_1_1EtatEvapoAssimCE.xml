@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoCequeau_1_1EtatEvapoAssimCE" kind="class" language="C++" prot="private">
+    <compoundname>EvapoCequeau::EtatEvapoAssimCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoCequeau_1_1EtatEvapoAssimCE_1a46f7092c1f2044c815444b4b4a7d5554" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EvapoCequeau::EtatEvapoAssimCE::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>EvapoCequeau::EtatEvapoAssimCE::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoCequeau.h" line="114" column="5" bodyfile="src/EvapoCequeau.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoCequeau.h" line="111" column="1" bodyfile="src/EvapoCequeau.h" bodystart="112" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classEvapoCequeau_1_1EtatEvapoAssimCE_1a46f7092c1f2044c815444b4b4a7d5554" prot="public" virt="non-virtual"><scope>EvapoCequeau::EtatEvapoAssimCE</scope><name>idCarreauEntier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteUEB" kind="class" language="C++" prot="public">
+    <compoundname>FonteUEB</compoundname>
+    <basecompoundref refid="classFonte" prot="public" virt="non-virtual">Fonte</basecompoundref>
+    <includes refid="FonteUEB_8h" local="no">FonteUEB.h</includes>
+    <innerclass refid="classFonteUEB_1_1constants" prot="private">FonteUEB::constants</innerclass>
+    <innerclass refid="classFonteUEB_1_1EtatFonteAssimCE" prot="private">FonteUEB::EtatFonteAssimCE</innerclass>
+    <innerclass refid="classFonteUEB_1_1EtatFonteCE" prot="public">FonteUEB::EtatFonteCE</innerclass>
+    <innerclass refid="classFonteUEB_1_1parameters" prot="private">FonteUEB::parameters</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFonteUEB_1ae3e95ab0992fe8ea759157d71e2697fc" prot="private" static="no" mutable="no">
+        <type>class FonteUEB::parameters</type>
+        <definition>class FonteUEB::parameters FonteUEB::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>FonteUEB::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="158" column="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1a334545da9965a059846ace29ce303000" prot="private" static="no" mutable="no">
+        <type>class FonteUEB::constants</type>
+        <definition>class FonteUEB::constants FonteUEB::const_</definition>
+        <argsstring></argsstring>
+        <name>const_</name>
+        <qualifiedname>FonteUEB::const_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="220" column="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1a4523fc3264047892b23e0b437a39349b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; FonteUEB::nomChamps_</definition>
+        <argsstring></argsstring>
+        <name>nomChamps_</name>
+        <qualifiedname>FonteUEB::nomChamps_</qualifiedname>
+        <briefdescription>
+<para>Noms des variable d&apos;etat dans les intrants. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="246" column="17" bodyfile="src/FonteUEB.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1a1390d5b2c9ee02a47ae7b3e558d82c1e" prot="private" static="no" mutable="no">
+        <type><ref refid="classFonteUEB_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref></type>
+        <definition>EtatFonteCE FonteUEB::etatFonteCE_</definition>
+        <argsstring></argsstring>
+        <name>etatFonteCE_</name>
+        <qualifiedname>FonteUEB::etatFonteCE_</qualifiedname>
+        <briefdescription>
+<para>Etat pour un carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="248" column="17" bodyfile="src/FonteUEB.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1ad8e0348eb9f5d1ecca0e0310189bbe04" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classFonteUEB_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt;</type>
+        <definition>std::vector&lt;EtatFonteCE&gt; FonteUEB::etatsFonteCE_</definition>
+        <argsstring></argsstring>
+        <name>etatsFonteCE_</name>
+        <qualifiedname>FonteUEB::etatsFonteCE_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour un pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="250" column="17" bodyfile="src/FonteUEB.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1a9f3b89eb12ba55ddd5d752db2ff3854e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="classFonteUEB_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;EtatFonteCE&gt; &gt; FonteUEB::etatsFonte_</definition>
+        <argsstring></argsstring>
+        <name>etatsFonte_</name>
+        <qualifiedname>FonteUEB::etatsFonte_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers pour tous les pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="252" column="17" bodyfile="src/FonteUEB.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1ae0aac3b297361eaf793f3542c73b666e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteUEB::zenitAngle_</definition>
+        <argsstring></argsstring>
+        <name>zenitAngle_</name>
+        <qualifiedname>FonteUEB::zenitAngle_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="255" column="11" bodyfile="src/FonteUEB.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1ab5e9e516c89cd5a0f579fa5894228454" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; EtatFonteAssimCE &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatFonteAssimCE&gt; &gt; FonteUEB::assimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsCE_</name>
+        <qualifiedname>FonteUEB::assimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="272" column="14" bodyfile="src/FonteUEB.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteUEB_1a9b08bccb77cd0747684387a75afe8c5e" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; <ref refid="classFonteUEB_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt; &gt;</type>
+        <definition>std::map&lt;DateChrono, std::vector&lt;EtatFonteCE&gt; &gt; FonteUEB::avantAssimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsCE_</name>
+        <qualifiedname>FonteUEB::avantAssimilationsCE_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="274" column="14" bodyfile="src/FonteUEB.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFonteUEB_1ac3791c45dc0123f37a3536b8710a527e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteUEB::FonteUEB</definition>
+        <argsstring>()</argsstring>
+        <name>FonteUEB</name>
+        <qualifiedname>FonteUEB::FonteUEB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="22" column="5" bodyfile="src/FonteUEB.cpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1abebe630519282c66c99675b83c3d9bcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteUEB::FonteUEB</definition>
+        <argsstring>(int latitudeMoyenneBV, int nbCE)</argsstring>
+        <name>FonteUEB</name>
+        <qualifiedname>FonteUEB::FonteUEB</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>latitudeMoyenneBV</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="23" column="5" bodyfile="src/FonteUEB.cpp" bodystart="27" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a08d21523d3fc1ebe51c1146dcb417c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FonteUEB::~FonteUEB</definition>
+        <argsstring>()</argsstring>
+        <name>~FonteUEB</name>
+        <qualifiedname>FonteUEB::~FonteUEB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="24" column="5" bodyfile="src/FonteUEB.cpp" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a0603e67f900780246d1801663b92e987" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteUEB::calculerFonte</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const Meteo &amp;meteo, const CarreauEntier &amp;carreauEntier, float &amp;precipationsTotales, float &amp;eauDisponible)</argsstring>
+        <name>calculerFonte</name>
+        <qualifiedname>FonteUEB::calculerFonte</qualifiedname>
+        <reimplements refid="classFonte_1a3c6e8e0f14fd0e2184c2461c2e7a1b25">calculerFonte</reimplements>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMeteo" kindref="compound">Meteo</ref> &amp;</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classCarreauEntier" kindref="compound">CarreauEntier</ref> &amp;</type>
+          <declname>carreauEntier</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>precipationsTotales</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>eauDisponible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="26" column="9" bodyfile="src/FonteUEB.cpp" bodystart="121" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a05b02b37f2b58aa9e96037d471e3d7f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteUEB::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>FonteUEB::assimiler</qualifiedname>
+        <reimplements refid="classFonte_1a9344acd070ebf94c416b303077262a33">assimiler</reimplements>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="35" column="9" bodyfile="src/FonteUEB.cpp" bodystart="1763" bodyend="1861"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a0358026dddb771f0ec8e707ce9434c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int FonteUEB::initialiserAssimilations</definition>
+        <argsstring>(const mxArray *assimilations)</argsstring>
+        <name>initialiserAssimilations</name>
+        <qualifiedname>FonteUEB::initialiserAssimilations</qualifiedname>
+        <reimplements refid="classFonte_1a4aa80145ee5dc377094b0286b0007156">initialiserAssimilations</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="37" column="9" bodyfile="src/FonteUEB.cpp" bodystart="1605" bodyend="1757"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a9ee44c9dbd269aad90a11440883f2543" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteUEB::initialiserEtats</definition>
+        <argsstring>(const mxArray *etatsInitiaux)</argsstring>
+        <name>initialiserEtats</name>
+        <qualifiedname>FonteUEB::initialiserEtats</qualifiedname>
+        <reimplements refid="classFonte_1a423e51288cb0a57d6b71eb86daee66d0">initialiserEtats</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>etatsInitiaux</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="39" column="10" bodyfile="src/FonteUEB.cpp" bodystart="1867" bodyend="1963"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1aeff1f2112799c3896ec4de4b38da0024" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteUEB::lireParametres</definition>
+        <argsstring>(const mxArray *paramSimul)</argsstring>
+        <name>lireParametres</name>
+        <qualifiedname>FonteUEB::lireParametres</qualifiedname>
+        <reimplements refid="classFonte_1a8a1372c8a75fd2f8aa264514d11ad217">lireParametres</reimplements>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramSimul</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="41" column="10" bodyfile="src/FonteUEB.cpp" bodystart="1967" bodyend="2037"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a5794bc8716cea4e4925bc1906f06e054" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * FonteUEB::obtenirEtats</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtats</name>
+        <qualifiedname>FonteUEB::obtenirEtats</qualifiedname>
+        <reimplements refid="classFonte_1ad5a3db713b5465a192f722db05072cc8">obtenirEtats</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="43" column="13" bodyfile="src/FonteUEB.cpp" bodystart="2041" bodyend="2047"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1abcda4157bf344fde9483027f535af8c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * FonteUEB::obtenirEtatsAvantAssimilations</definition>
+        <argsstring>(const std::vector&lt; bool &gt; filtreCE)</argsstring>
+        <name>obtenirEtatsAvantAssimilations</name>
+        <qualifiedname>FonteUEB::obtenirEtatsAvantAssimilations</qualifiedname>
+        <reimplements refid="classFonte_1ae10c3d849cda37c71e798626c985396d">obtenirEtatsAvantAssimilations</reimplements>
+        <param>
+          <type>const std::vector&lt; bool &gt;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="45" column="13" bodyfile="src/FonteUEB.cpp" bodystart="2051" bodyend="2057"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1ac09480861cf90dc8bacb0891c8ebe186" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FonteUEB::preserverEtatsPasDeTemps</definition>
+        <argsstring>()</argsstring>
+        <name>preserverEtatsPasDeTemps</name>
+        <qualifiedname>FonteUEB::preserverEtatsPasDeTemps</qualifiedname>
+        <reimplements refid="classFonte_1a8006c05d531a2a5c40f29a158007bb83">preserverEtatsPasDeTemps</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="47" column="10" bodyfile="src/FonteUEB.cpp" bodystart="2061" bodyend="2067"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1ab33119b939304b54e38ab13dbae8121a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; std::vector&lt; <ref refid="classFonteUEB_1_1EtatFonteCE" kindref="compound">EtatFonteCE</ref> &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt; std::vector&lt; EtatFonteCE &gt; &gt; &amp; FonteUEB::etatsFonte</definition>
+        <argsstring>() const</argsstring>
+        <name>etatsFonte</name>
+        <qualifiedname>FonteUEB::etatsFonte</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="84" column="23" bodyfile="src/FonteUEB.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classFonteUEB_1a14a00dcdcd618a142089c4017dddd5ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::tuple&lt; float, float, float, float, float, float, float, float, float, float &gt;</type>
+        <definition>std::tuple&lt; float, float, float, float, float, float, float, float, float, float &gt; FonteUEB::PREDICORR</definition>
+        <argsstring>(float dt, float FC, float ub, float w, float a, float Ta, float prain, float ps, float Ws, float Ea, float Pr, float Qsi, float Qli, float rkn, float Fm, float tsurf)</argsstring>
+        <name>PREDICORR</name>
+        <qualifiedname>FonteUEB::PREDICORR</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>FC</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ub</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>prain</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Pr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qsi</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qli</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Fm</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tsurf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="223" column="16" bodyfile="src/FonteUEB.cpp" bodystart="359" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1accfc6d2430a37a299b06e2119b4180ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::tuple&lt; float, float, float, float, float, float, float, float, float &gt;</type>
+        <definition>std::tuple&lt; float, float, float, float, float, float, float, float, float &gt; FonteUEB::QFM</definition>
+        <argsstring>(float FC, float ub, float w, float A, float Ta, float prain, float ps, float ws, float Ea, float Pr, float Qsi, float Qli, float rkn, float Fm)</argsstring>
+        <name>QFM</name>
+        <qualifiedname>FonteUEB::QFM</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>FC</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ub</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>prain</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Pr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qsi</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qli</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Fm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="224" column="16" bodyfile="src/FonteUEB.cpp" bodystart="595" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a9b09d25422a227d9277540867bd03c07" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::tuple&lt; float, float, float &gt;</type>
+        <definition>std::tuple&lt; float, float, float &gt; FonteUEB::TURBFLUX</definition>
+        <argsstring>(float Pr, float Ta, float Ts, float rkn, float ws, float Ea)</argsstring>
+        <name>TURBFLUX</name>
+        <qualifiedname>FonteUEB::TURBFLUX</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Pr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ts</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="225" column="16" bodyfile="src/FonteUEB.cpp" bodystart="655" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1abf9e5a7e0d6a4edd2080395b0652fee1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::tuple&lt; float, float, float, float, float, float &gt;</type>
+        <definition>std::tuple&lt; float, float, float, float, float, float &gt; FonteUEB::PREHELP</definition>
+        <argsstring>(float w1, float w, float dt, float Fm1, float fac, float ps, float prain, float E, float Q, float Qm, float Mr, float Qe)</argsstring>
+        <name>PREHELP</name>
+        <qualifiedname>FonteUEB::PREHELP</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>w1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Fm1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fac</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>prain</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Q</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qm</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Mr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="226" column="16" bodyfile="src/FonteUEB.cpp" bodystart="571" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a7f182989e7770e1d81cdb26daf3ea033" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::QPF</definition>
+        <argsstring>(float prain, float ta, float ps)</argsstring>
+        <name>QPF</name>
+        <qualifiedname>FonteUEB::QPF</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>prain</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="228" column="11" bodyfile="src/FonteUEB.cpp" bodystart="683" bodyend="725"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a81607bb4235686dced47082701401dd7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::FMELT</definition>
+        <argsstring>(float ub, float w, float prain)</argsstring>
+        <name>FMELT</name>
+        <qualifiedname>FonteUEB::FMELT</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ub</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>prain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="229" column="11" bodyfile="src/FonteUEB.cpp" bodystart="729" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1acd47279c830f36d262d992f53e22c30a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::TAVG</definition>
+        <argsstring>(float ub, float w)</argsstring>
+        <name>TAVG</name>
+        <qualifiedname>FonteUEB::TAVG</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ub</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="230" column="11" bodyfile="src/FonteUEB.cpp" bodystart="869" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a8ea5416a10a9d970e129f233e562c9bc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::AGESN</definition>
+        <argsstring>(float tausn, float dt, float ps, float tsurf)</argsstring>
+        <name>AGESN</name>
+        <qualifiedname>FonteUEB::AGESN</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>tausn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tsurf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="231" column="11" bodyfile="src/FonteUEB.cpp" bodystart="827" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a68ffec3b4d5119004a0ce18b4040a638" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::SRFTMPO</definition>
+        <argsstring>(float Qsi, float A, float Qli, float Qpin, float Ea, float Ta, float Tave, float Pr, float w, float ws, float rkn, float FC)</argsstring>
+        <name>SRFTMPO</name>
+        <qualifiedname>FonteUEB::SRFTMPO</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Qsi</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qli</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qpin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tave</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Pr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>FC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="232" column="11" bodyfile="src/FonteUEB.cpp" bodystart="935" bodyend="1099"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a212294c9500af0a065f37354cc986ad0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::SNOTMP</definition>
+        <argsstring>(float Qsi, float A, float Qli, float Qpin, float Ea, float Ta, float Tave, float Pr, float w, float ws, float rkn, float FC, float Tstar)</argsstring>
+        <name>SNOTMP</name>
+        <qualifiedname>FonteUEB::SNOTMP</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Qsi</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qli</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qpin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tave</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Pr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>FC</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tstar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="233" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1103" bodyend="1157"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a9a0014c6aafc84265d74c6f1d472ab6e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::SRFTMP</definition>
+        <argsstring>(float Qsi, float A, float Qli, float Qpin, float Ea, float Ta, float Tave, float Pr, float w, float ws, float rkn, float FC)</argsstring>
+        <name>SRFTMP</name>
+        <qualifiedname>FonteUEB::SRFTMP</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Qsi</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qli</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qpin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tave</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Pr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>FC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="234" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1161" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1aa50b8e2c07acc25e46e4d9add1a439b4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::surfeb</definition>
+        <argsstring>(float Ts, float rkn, float ws, float Tak, float Qp, float densa, float Pr, float Ea, float Tavek, float Qsn, float Qli, float FC)</argsstring>
+        <name>surfeb</name>
+        <qualifiedname>FonteUEB::surfeb</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Ts</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tak</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>densa</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Pr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Ea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Tavek</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qsn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Qli</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>FC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="235" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1265" bodyend="1293"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a5907ec096c1903e0fb09182081a2ccdf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::RKINST</definition>
+        <argsstring>(float rkn, float ws, float ta, float ts)</argsstring>
+        <name>RKINST</name>
+        <qualifiedname>FonteUEB::RKINST</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>rkn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ws</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="236" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1297" bodyend="1339"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a2f8dfae16a4bd62738d1fe01b0c6f75e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::albedo</definition>
+        <argsstring>(float tausn, float coszen, float d)</argsstring>
+        <name>albedo</name>
+        <qualifiedname>FonteUEB::albedo</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>tausn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>coszen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="239" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1343" bodyend="1401"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a45a16716c8c678436fce59f0a3a8ee8f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::tuple&lt; float, float &gt;</type>
+        <definition>std::tuple&lt; float, float &gt; FonteUEB::split_precip_cequeau</definition>
+        <argsstring>(Meteo meteo)</argsstring>
+        <name>split_precip_cequeau</name>
+        <qualifiedname>FonteUEB::split_precip_cequeau</qualifiedname>
+        <param>
+          <type><ref refid="classMeteo" kindref="compound">Meteo</ref></type>
+          <declname>meteo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="240" column="16" bodyfile="src/FonteUEB.cpp" bodystart="1535" bodyend="1601"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1aaa3da46452afc9a83bc805d263289487" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::svpw</definition>
+        <argsstring>(float T)</argsstring>
+        <name>svpw</name>
+        <qualifiedname>FonteUEB::svpw</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="241" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1465" bodyend="1495"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a991517b7e95218c96dadc64140106c67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::svpi</definition>
+        <argsstring>(float T)</argsstring>
+        <name>svpi</name>
+        <qualifiedname>FonteUEB::svpi</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="242" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1499" bodyend="1531"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1a6b6b5b2f6e8fc7dde38cb9841a44881b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::svp</definition>
+        <argsstring>(float T)</argsstring>
+        <name>svp</name>
+        <qualifiedname>FonteUEB::svp</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="243" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1405" bodyend="1429"/>
+      </memberdef>
+      <memberdef kind="function" id="classFonteUEB_1abbcb893ad1ac90ae2e7e78cec84c064b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float FonteUEB::Delta</definition>
+        <argsstring>(float T)</argsstring>
+        <name>Delta</name>
+        <qualifiedname>FonteUEB::Delta</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteUEB.h" line="244" column="11" bodyfile="src/FonteUEB.cpp" bodystart="1433" bodyend="1461"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition d&apos;une classe de calcul de la fonte. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Fonte</label>
+        <link refid="classFonte"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FonteUEB</label>
+        <link refid="classFonteUEB"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Fonte</label>
+        <link refid="classFonte"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FonteUEB</label>
+        <link refid="classFonteUEB"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/FonteUEB.h" line="19" column="1" bodyfile="src/FonteUEB.h" bodystart="20" bodyend="275"/>
+    <listofallmembers>
+      <member refid="classFonteUEB_1a8ea5416a10a9d970e129f233e562c9bc" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>AGESN</name></member>
+      <member refid="classFonteUEB_1a2f8dfae16a4bd62738d1fe01b0c6f75e" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>albedo</name></member>
+      <member refid="classFonteUEB_1ab5e9e516c89cd5a0f579fa5894228454" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>assimilationsCE_</name></member>
+      <member refid="classFonteUEB_1a05b02b37f2b58aa9e96037d471e3d7f8" prot="public" virt="virtual"><scope>FonteUEB</scope><name>assimiler</name></member>
+      <member refid="classFonteUEB_1a9b08bccb77cd0747684387a75afe8c5e" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>avantAssimilationsCE_</name></member>
+      <member refid="classFonteUEB_1a0603e67f900780246d1801663b92e987" prot="public" virt="virtual"><scope>FonteUEB</scope><name>calculerFonte</name></member>
+      <member refid="classFonteUEB_1a334545da9965a059846ace29ce303000" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>const_</name></member>
+      <member refid="classFonteUEB_1abbcb893ad1ac90ae2e7e78cec84c064b" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>Delta</name></member>
+      <member refid="classFonteUEB_1a1390d5b2c9ee02a47ae7b3e558d82c1e" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>etatFonteCE_</name></member>
+      <member refid="classFonteUEB_1ab33119b939304b54e38ab13dbae8121a" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>etatsFonte</name></member>
+      <member refid="classFonteUEB_1a9f3b89eb12ba55ddd5d752db2ff3854e" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>etatsFonte_</name></member>
+      <member refid="classFonteUEB_1ad8e0348eb9f5d1ecca0e0310189bbe04" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>etatsFonteCE_</name></member>
+      <member refid="classFonteUEB_1a81607bb4235686dced47082701401dd7" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>FMELT</name></member>
+      <member refid="classFonte_1a09033c0db2dd7570e035a8de5d9a425c" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>Fonte</name></member>
+      <member refid="classFonte_1a819b44ef8da7fa51bbb710a08ffe1f52" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>Fonte</name></member>
+      <member refid="classFonteUEB_1ac3791c45dc0123f37a3536b8710a527e" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>FonteUEB</name></member>
+      <member refid="classFonteUEB_1abebe630519282c66c99675b83c3d9bcf" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>FonteUEB</name></member>
+      <member refid="classFonteUEB_1a0358026dddb771f0ec8e707ce9434c10" prot="public" virt="virtual"><scope>FonteUEB</scope><name>initialiserAssimilations</name></member>
+      <member refid="classFonteUEB_1a9ee44c9dbd269aad90a11440883f2543" prot="public" virt="virtual"><scope>FonteUEB</scope><name>initialiserEtats</name></member>
+      <member refid="classModuleBase_1a3c3d7ab65439a094044950cd1c3a2312" prot="protected" virt="non-virtual"><scope>FonteUEB</scope><name>initialiserEtatsHelper</name></member>
+      <member refid="classFonteUEB_1aeff1f2112799c3896ec4de4b38da0024" prot="public" virt="virtual"><scope>FonteUEB</scope><name>lireParametres</name></member>
+      <member refid="classModuleBase_1a4cffe012ccefb97ad6bf4682ed00505b" prot="protected" virt="non-virtual"><scope>FonteUEB</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1a875fb504bc8f14ca91bbe9df11afb7b6" prot="protected" virt="non-virtual"><scope>FonteUEB</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1aa8ae84ac06d564c430330814bc2bb87a" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1a62c9211ac18959dcbd73139a570775de" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1aa62c61597fe7950d6180dc24965051a7" prot="protected" virt="non-virtual"><scope>FonteUEB</scope><name>nbCE_</name></member>
+      <member refid="classFonteUEB_1a4523fc3264047892b23e0b437a39349b" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>nomChamps_</name></member>
+      <member refid="classModuleBase_1aedc9ff9160a84a9b033b78a91cc7a775" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>nomModele</name></member>
+      <member refid="classModuleBase_1af6dc293923c42f9a4426fb9cf10cba97" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>nomsChampsMeteo</name></member>
+      <member refid="classFonteUEB_1a5794bc8716cea4e4925bc1906f06e054" prot="public" virt="virtual"><scope>FonteUEB</scope><name>obtenirEtats</name></member>
+      <member refid="classModuleBase_1acb5b7967590954504cb9858ba0e30fda" prot="protected" virt="non-virtual"><scope>FonteUEB</scope><name>obtenirEtatsAvantAssimHelper</name></member>
+      <member refid="classFonteUEB_1abcda4157bf344fde9483027f535af8c8" prot="public" virt="virtual"><scope>FonteUEB</scope><name>obtenirEtatsAvantAssimilations</name></member>
+      <member refid="classModuleBase_1a4c987a973c6c983ad77e01b9471e50b2" prot="protected" virt="non-virtual"><scope>FonteUEB</scope><name>obtenirEtatsHelper</name></member>
+      <member refid="classFonteUEB_1ae3e95ab0992fe8ea759157d71e2697fc" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>params_</name></member>
+      <member refid="classFonteUEB_1a14a00dcdcd618a142089c4017dddd5ac" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>PREDICORR</name></member>
+      <member refid="classFonteUEB_1abf9e5a7e0d6a4edd2080395b0652fee1" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>PREHELP</name></member>
+      <member refid="classFonteUEB_1ac09480861cf90dc8bacb0891c8ebe186" prot="public" virt="virtual"><scope>FonteUEB</scope><name>preserverEtatsPasDeTemps</name></member>
+      <member refid="classFonteUEB_1accfc6d2430a37a299b06e2119b4180ec" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>QFM</name></member>
+      <member refid="classFonteUEB_1a7f182989e7770e1d81cdb26daf3ea033" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>QPF</name></member>
+      <member refid="classFonteUEB_1a5907ec096c1903e0fb09182081a2ccdf" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>RKINST</name></member>
+      <member refid="classFonteUEB_1a212294c9500af0a065f37354cc986ad0" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>SNOTMP</name></member>
+      <member refid="classFonteUEB_1a45a16716c8c678436fce59f0a3a8ee8f" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>split_precip_cequeau</name></member>
+      <member refid="classFonteUEB_1a9a0014c6aafc84265d74c6f1d472ab6e" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>SRFTMP</name></member>
+      <member refid="classFonteUEB_1a68ffec3b4d5119004a0ce18b4040a638" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>SRFTMPO</name></member>
+      <member refid="classFonteUEB_1aa50b8e2c07acc25e46e4d9add1a439b4" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>surfeb</name></member>
+      <member refid="classFonteUEB_1a6b6b5b2f6e8fc7dde38cb9841a44881b" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>svp</name></member>
+      <member refid="classFonteUEB_1a991517b7e95218c96dadc64140106c67" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>svpi</name></member>
+      <member refid="classFonteUEB_1aaa3da46452afc9a83bc805d263289487" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>svpw</name></member>
+      <member refid="classFonteUEB_1acd47279c830f36d262d992f53e22c30a" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>TAVG</name></member>
+      <member refid="classFonteUEB_1a9b09d25422a227d9277540867bd03c07" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>TURBFLUX</name></member>
+      <member refid="classFonteUEB_1ae0aac3b297361eaf793f3542c73b666e" prot="private" virt="non-virtual"><scope>FonteUEB</scope><name>zenitAngle_</name></member>
+      <member refid="classFonte_1ad5f341e04045fac683d6befb1c0753be" prot="public" virt="virtual"><scope>FonteUEB</scope><name>~Fonte</name></member>
+      <member refid="classFonteUEB_1a08d21523d3fc1ebe51c1146dcb417c59" prot="public" virt="non-virtual"><scope>FonteUEB</scope><name>~FonteUEB</name></member>
+      <member refid="classModuleBase_1a2f9388584ac2c9f845d0a38678abb852" prot="public" virt="virtual"><scope>FonteUEB</scope><name>~ModuleBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTrieurCEGrille" kind="class" language="C++" prot="public">
+    <compoundname>TrieurCEGrille</compoundname>
+    <includes refid="DonneesMeteo_8h" local="no">DonneesMeteo.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTrieurCEGrille_1a4168d11b27686b9e9249d8d35149c3a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TrieurCEGrille::operator()</definition>
+        <argsstring>(const CarreauEntierPtr carreauEntier1, const CarreauEntierPtr carreauEntier2)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>TrieurCEGrille::operator()</qualifiedname>
+        <param>
+          <type>const CarreauEntierPtr</type>
+          <declname>carreauEntier1</declname>
+        </param>
+        <param>
+          <type>const CarreauEntierPtr</type>
+          <declname>carreauEntier2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="83" column="8" bodyfile="src/DonneesMeteo.cpp" bodystart="309" bodyend="320"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe utilitaire pour le tri des carreaux entiers. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/DonneesMeteo.h" line="80" column="1" bodyfile="src/DonneesMeteo.h" bodystart="81" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classTrieurCEGrille_1a4168d11b27686b9e9249d8d35149c3a8" prot="public" virt="non-virtual"><scope>TrieurCEGrille</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

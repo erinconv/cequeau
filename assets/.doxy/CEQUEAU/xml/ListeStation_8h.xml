@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ListeStation_8h" kind="file" language="C++">
+    <compoundname>ListeStation.h</compoundname>
+    <includes refid="Station_8h" local="yes">Station.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="Interpolateur_8h" local="yes">src/Interpolateur.h</includedby>
+    <includedby refid="ListeStation_8cpp" local="yes">src/ListeStation.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>src/ListeStation.h</label>
+        <link refid="ListeStation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Station.h</label>
+        <link refid="Station_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/Interpolateur.h</label>
+        <link refid="Interpolateur_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/InterpolateurPolygoneThiessen.h</label>
+        <link refid="InterpolateurPolygoneThiessen_8h_source"/>
+      </node>
+      <node id="4">
+        <label>src/InterpolateurPonderationStations.h</label>
+        <link refid="InterpolateurPonderationStations_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/ListeStation.h</label>
+        <link refid="ListeStation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classListeStation" prot="public">ListeStation</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="ListeStation_8h_1a5c0d49ac92f43eb2046ccf4a5d1dfb47" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classStation" kindref="compound">Station</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Station&gt; StationPtr</definition>
+        <argsstring></argsstring>
+        <name>StationPtr</name>
+        <briefdescription>
+<para>&quot;Smart pointer&quot; de station. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="18" column="25" bodyfile="src/ListeStation.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ListeStation_8h_1ad05ddbccb848c687f9830e7544f3393d" prot="public" static="no">
+        <type>std::vector&lt; StationPtr &gt;</type>
+        <definition>typedef std::vector&lt;StationPtr&gt; Stations</definition>
+        <argsstring></argsstring>
+        <name>Stations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ListeStation.h" line="19" column="21" bodyfile="src/ListeStation.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/ListeStation.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEtatCarreauPartiel" kind="class" language="C++" prot="public">
+    <compoundname>EtatCarreauPartiel</compoundname>
+    <includes refid="Simulation_8h" local="no">Simulation.h</includes>
+    <innerclass refid="classEtatCarreauPartiel_1_1Qualite" prot="public">EtatCarreauPartiel::Qualite</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEtatCarreauPartiel_1aeccbaed00416d2dba3459f4ec140b330" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauPartiel::idCarreauPartiel</definition>
+        <argsstring></argsstring>
+        <name>idCarreauPartiel</name>
+        <qualifiedname>EtatCarreauPartiel::idCarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="104" column="9" bodyfile="src/Simulation.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartiel_1aa90676656cb583cf91c527489192af68" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauPartiel::apport</definition>
+        <argsstring></argsstring>
+        <name>apport</name>
+        <qualifiedname>EtatCarreauPartiel::apport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="105" column="9" bodyfile="src/Simulation.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartiel_1accabd3f44a40b82bf727459a8a85a823" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauPartiel::volume</definition>
+        <argsstring></argsstring>
+        <name>volume</name>
+        <qualifiedname>EtatCarreauPartiel::volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="106" column="9" bodyfile="src/Simulation.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartiel_1aa65bd712fd77021b9e7de1ee56e07785" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauPartiel::debit</definition>
+        <argsstring></argsstring>
+        <name>debit</name>
+        <qualifiedname>EtatCarreauPartiel::debit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="107" column="9" bodyfile="src/Simulation.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauPartiel_1aa4f117b1c690129b97090f3b4c313642" prot="public" static="no" mutable="no">
+        <type>class <ref refid="classEtatCarreauPartiel_1_1Qualite" kindref="compound">EtatCarreauPartiel::Qualite</ref></type>
+        <definition>class EtatCarreauPartiel::Qualite EtatCarreauPartiel::Qualite</definition>
+        <argsstring></argsstring>
+        <name>Qualite</name>
+        <qualifiedname>EtatCarreauPartiel::Qualite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="114" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees de l&apos;etat d&apos;un carreau partiel. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Utilise pour conserver l&apos;etat d&apos;un carreau partiel apres la fonction de transfert. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>EtatCarreauPartiel</label>
+        <link refid="classEtatCarreauPartiel"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Qualite</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EtatCarreauPartiel::Qualite</label>
+        <link refid="classEtatCarreauPartiel_1_1Qualite"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/Simulation.h" line="101" column="1" bodyfile="src/Simulation.h" bodystart="102" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classEtatCarreauPartiel_1aa90676656cb583cf91c527489192af68" prot="public" virt="non-virtual"><scope>EtatCarreauPartiel</scope><name>apport</name></member>
+      <member refid="classEtatCarreauPartiel_1aa65bd712fd77021b9e7de1ee56e07785" prot="public" virt="non-virtual"><scope>EtatCarreauPartiel</scope><name>debit</name></member>
+      <member refid="classEtatCarreauPartiel_1aeccbaed00416d2dba3459f4ec140b330" prot="public" virt="non-virtual"><scope>EtatCarreauPartiel</scope><name>idCarreauPartiel</name></member>
+      <member refid="classEtatCarreauPartiel_1aa4f117b1c690129b97090f3b4c313642" prot="public" virt="non-virtual"><scope>EtatCarreauPartiel</scope><name>Qualite</name></member>
+      <member refid="classEtatCarreauPartiel_1accabd3f44a40b82bf727459a8a85a823" prot="public" virt="non-virtual"><scope>EtatCarreauPartiel</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="BassinVersant_8h" kind="file" language="C++">
+    <compoundname>BassinVersant.h</compoundname>
+    <includes refid="CarreauEntier_8h" local="yes">CarreauEntier.h</includes>
+    <includes refid="CarreauPartiel_8h" local="yes">CarreauPartiel.h</includes>
+    <includes refid="Barrage_8h" local="yes">Barrage.h</includes>
+    <includes refid="Puits_8h" local="yes">Puits.h</includes>
+    <includedby refid="BassinVersant_8cpp" local="yes">src/BassinVersant.cpp</includedby>
+    <includedby refid="CequeauQuantiteMex_8cpp" local="yes">src/CequeauQuantiteMex.cpp</includedby>
+    <includedby refid="DonneesMeteo_8h" local="yes">src/DonneesMeteo.h</includedby>
+    <includedby refid="Interpolateur_8h" local="yes">src/Interpolateur.h</includedby>
+    <includedby refid="Simulation_8h" local="yes">src/Simulation.h</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>Barrage.h</label>
+        <link refid="Barrage_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/BassinVersant.h</label>
+        <link refid="BassinVersant_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CarreauEntier.h</label>
+        <link refid="CarreauEntier_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CarreauPartiel.h</label>
+        <link refid="CarreauPartiel_8h_source"/>
+      </node>
+      <node id="4">
+        <label>DateChrono.h</label>
+        <link refid="DateChrono_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Defs.h</label>
+        <link refid="Defs_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MexHelper.hpp</label>
+        <link refid="MexHelper_8hpp_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Parametres.h</label>
+        <link refid="Parametres_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Puits.h</label>
+        <link refid="Puits_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>log.h</label>
+        <link refid="log_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>targetver.h</label>
+        <link refid="targetver_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="15">
+        <label>algorithm</label>
+      </node>
+      <node id="23">
+        <label>array</label>
+      </node>
+      <node id="6">
+        <label>chrono</label>
+      </node>
+      <node id="19">
+        <label>climits</label>
+      </node>
+      <node id="7">
+        <label>cmath</label>
+      </node>
+      <node id="16">
+        <label>cstring</label>
+      </node>
+      <node id="8">
+        <label>ctime</label>
+      </node>
+      <node id="17">
+        <label>fstream</label>
+      </node>
+      <node id="18">
+        <label>iomanip</label>
+      </node>
+      <node id="5">
+        <label>iostream</label>
+      </node>
+      <node id="20">
+        <label>map</label>
+      </node>
+      <node id="24">
+        <label>memory</label>
+      </node>
+      <node id="30">
+        <label>mex.h</label>
+      </node>
+      <node id="21">
+        <label>sstream</label>
+      </node>
+      <node id="27">
+        <label>stdio.h</label>
+      </node>
+      <node id="25">
+        <label>string</label>
+      </node>
+      <node id="28">
+        <label>sys/time.h</label>
+      </node>
+      <node id="32">
+        <label>typeinfo</label>
+      </node>
+      <node id="14">
+        <label>unistd.h</label>
+      </node>
+      <node id="22">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>src/BassinVersant.h</label>
+        <link refid="BassinVersant_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/DonneesMeteo.h</label>
+        <link refid="DonneesMeteo_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/Interpolateur.h</label>
+        <link refid="Interpolateur_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/InterpolateurPolygoneThiessen.h</label>
+        <link refid="InterpolateurPolygoneThiessen_8h_source"/>
+      </node>
+      <node id="5">
+        <label>src/InterpolateurPonderationStations.h</label>
+        <link refid="InterpolateurPonderationStations_8h_source"/>
+      </node>
+      <node id="6">
+        <label>src/Simulation.h</label>
+        <link refid="Simulation_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/SimulationQualite.h</label>
+        <link refid="SimulationQualite_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classBassinVersant" prot="public">BassinVersant</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="BassinVersant_8h_1a6b13725ffd28569555c781979ff4b1e3" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classCarreauEntier" kindref="compound">CarreauEntier</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;CarreauEntier&gt; CarreauEntierPtr</definition>
+        <argsstring></argsstring>
+        <name>CarreauEntierPtr</name>
+        <briefdescription>
+<para>&quot;Smart pointer&quot; de carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="20" column="25" bodyfile="src/BassinVersant.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="BassinVersant_8h_1aebe22fd871450323d3277695aed96259" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classCarreauPartiel" kindref="compound">CarreauPartiel</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;CarreauPartiel&gt; CarreauPartielPtr</definition>
+        <argsstring></argsstring>
+        <name>CarreauPartielPtr</name>
+        <briefdescription>
+<para>&quot;Smart pointer&quot; de carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="22" column="25" bodyfile="src/BassinVersant.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="BassinVersant_8h_1aaeac956517722043072a32e92486d4fc" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classBarrage" kindref="compound">Barrage</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Barrage&gt; BarragePtr</definition>
+        <argsstring></argsstring>
+        <name>BarragePtr</name>
+        <briefdescription>
+<para>&quot;Smart pointer&quot; de barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="24" column="25" bodyfile="src/BassinVersant.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="BassinVersant_8h_1a75df49ab33a8bb0817e4bdad60f29dea" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classPuits" kindref="compound">Puits</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Puits&gt; PuitsPtr</definition>
+        <argsstring></argsstring>
+        <name>PuitsPtr</name>
+        <briefdescription>
+<para>&quot;Smart pointer&quot; de puits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BassinVersant.h" line="26" column="25" bodyfile="src/BassinVersant.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/BassinVersant.h"/>
+  </compounddef>
+</doxygen>

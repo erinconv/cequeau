@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classModuleBase" kind="class" language="C++" prot="public">
+    <compoundname>ModuleBase</compoundname>
+    <derivedcompoundref refid="classDLI" prot="public" virt="non-virtual">DLI</derivedcompoundref>
+    <derivedcompoundref refid="classEvapo" prot="public" virt="non-virtual">Evapo</derivedcompoundref>
+    <derivedcompoundref refid="classFonte" prot="public" virt="non-virtual">Fonte</derivedcompoundref>
+    <includes refid="ModuleBase_8hpp" local="no">ModuleBase.hpp</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classModuleBase_1aa62c61597fe7950d6180dc24965051a7" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModuleBase::nbCE_</definition>
+        <argsstring></argsstring>
+        <name>nbCE_</name>
+        <qualifiedname>ModuleBase::nbCE_</qualifiedname>
+        <briefdescription>
+<para>Nombre de carreaux entiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="33" column="7" bodyfile="src/ModuleBase.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classModuleBase_1ab1a3d079c8dfc8991094716be2a71dfc" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ModuleBase::nomModele_</definition>
+        <argsstring></argsstring>
+        <name>nomModele_</name>
+        <qualifiedname>ModuleBase::nomModele_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="89" column="15" bodyfile="src/ModuleBase.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classModuleBase_1a72f1c0358762b58d6fdbfa86989d51ac" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; ModuleBase::nomsChampsMeteo_</definition>
+        <argsstring></argsstring>
+        <name>nomsChampsMeteo_</name>
+        <qualifiedname>ModuleBase::nomsChampsMeteo_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="90" column="15" bodyfile="src/ModuleBase.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classModuleBase_1aa8ae84ac06d564c430330814bc2bb87a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ModuleBase::ModuleBase</definition>
+        <argsstring>()</argsstring>
+        <name>ModuleBase</name>
+        <qualifiedname>ModuleBase::ModuleBase</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="22" column="3" bodyfile="src/ModuleBase.hpp" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1a62c9211ac18959dcbd73139a570775de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ModuleBase::ModuleBase</definition>
+        <argsstring>(int nbCE, std::string nomModele)</argsstring>
+        <name>ModuleBase</name>
+        <qualifiedname>ModuleBase::ModuleBase</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nbCE</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>nomModele</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="23" column="3" bodyfile="src/ModuleBase.hpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1a2f9388584ac2c9f845d0a38678abb852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>ModuleBase::~ModuleBase</definition>
+        <argsstring>()</argsstring>
+        <name>~ModuleBase</name>
+        <qualifiedname>ModuleBase::~ModuleBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="24" column="11" bodyfile="src/ModuleBase.hpp" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1af6dc293923c42f9a4426fb9cf10cba97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt; &amp;</type>
+        <definition>std::vector&lt; std::string &gt; &amp; ModuleBase::nomsChampsMeteo</definition>
+        <argsstring>()</argsstring>
+        <name>nomsChampsMeteo</name>
+        <qualifiedname>ModuleBase::nomsChampsMeteo</qualifiedname>
+        <briefdescription>
+<para>Nom des intrants meteo propre au modele. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="27" column="15" bodyfile="src/ModuleBase.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1aedc9ff9160a84a9b033b78a91cc7a775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ModuleBase::nomModele</definition>
+        <argsstring>()</argsstring>
+        <name>nomModele</name>
+        <qualifiedname>ModuleBase::nomModele</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="29" column="15" bodyfile="src/ModuleBase.hpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classModuleBase_1a4cffe012ccefb97ad6bf4682ed00505b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModuleBase::lireParametresHelper</definition>
+        <argsstring>(const mxArray *paramFonte, const std::string &amp;nomChamp, std::vector&lt; float &gt; &amp;champ)</argsstring>
+        <name>lireParametresHelper</name>
+        <qualifiedname>ModuleBase::lireParametresHelper</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramFonte</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>champ</declname>
+        </param>
+        <briefdescription>
+<para>Helper pour la lecture d&apos;un parametre spatialisable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="36" column="8" bodyfile="src/ModuleBase.hpp" bodystart="122" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1a875fb504bc8f14ca91bbe9df11afb7b6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ModuleBase::lireParametresHelper</definition>
+        <argsstring>(const mxArray *paramFonte, const std::string &amp;nomChamp, Type &amp;champ)</argsstring>
+        <name>lireParametresHelper</name>
+        <qualifiedname>ModuleBase::lireParametresHelper</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramFonte</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>Type &amp;</type>
+          <declname>champ</declname>
+        </param>
+        <briefdescription>
+<para>Helper generique pour la lecture d&apos;un parametre. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="40" column="8" bodyfile="src/ModuleBase.hpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1a3c3d7ab65439a094044950cd1c3a2312" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ModuleBase::initialiserEtatsHelper</definition>
+        <argsstring>(const mxArray *etats, std::map&lt; std::string, float * &gt; &amp;champs, Type &amp;etatCE, std::vector&lt; Type &gt; &amp;etatsCE)</argsstring>
+        <name>initialiserEtatsHelper</name>
+        <qualifiedname>ModuleBase::initialiserEtatsHelper</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>etats</declname>
+        </param>
+        <param>
+          <type>std::map&lt; std::string, float * &gt; &amp;</type>
+          <declname>champs</declname>
+        </param>
+        <param>
+          <type>Type &amp;</type>
+          <declname>etatCE</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; Type &gt; &amp;</type>
+          <declname>etatsCE</declname>
+        </param>
+        <briefdescription>
+<para>Helper generique pour l&apos;initialisation des etats. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="44" column="8" bodyfile="src/ModuleBase.hpp" bodystart="137" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1a4c987a973c6c983ad77e01b9471e50b2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>mxArray *</type>
+        <definition>mxArray * ModuleBase::obtenirEtatsHelper</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;nomsChamps, const std::vector&lt; std::vector&lt; Type &gt; &gt; &amp;etats, const std::vector&lt; bool &gt; &amp;filtreCE)</argsstring>
+        <name>obtenirEtatsHelper</name>
+        <qualifiedname>ModuleBase::obtenirEtatsHelper</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>nomsChamps</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; Type &gt; &gt; &amp;</type>
+          <declname>etats</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <briefdescription>
+<para>Helper generique pour la sortie des etats en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="49" column="11" bodyfile="src/ModuleBase.hpp" bodystart="184" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classModuleBase_1acb5b7967590954504cb9858ba0e30fda" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>mxArray *</type>
+        <definition>mxArray * ModuleBase::obtenirEtatsAvantAssimHelper</definition>
+        <argsstring>(const std::vector&lt; bool &gt; &amp;filtreCE, const std::vector&lt; std::string &gt; &amp;nomChamps, const std::map&lt; DateChrono, std::vector&lt; Type &gt; &gt; &amp;etatsAvantAssim)</argsstring>
+        <name>obtenirEtatsAvantAssimHelper</name>
+        <qualifiedname>ModuleBase::obtenirEtatsAvantAssimHelper</qualifiedname>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>filtreCE</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>nomChamps</declname>
+        </param>
+        <param>
+          <type>const std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, std::vector&lt; Type &gt; &gt; &amp;</type>
+          <declname>etatsAvantAssim</declname>
+        </param>
+        <briefdescription>
+<para>Helper generique pour la sortie des sauvegarde de etats avant assimilation en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="54" column="11" bodyfile="src/ModuleBase.hpp" bodystart="54" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classModuleBase_1a8dc19fc50049c4150e284aeb27a82b8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModuleBase::validerParametreSpatial</definition>
+        <argsstring>(const std::string &amp;nomChamp, std::vector&lt; float &gt; &amp;champ)</argsstring>
+        <name>validerParametreSpatial</name>
+        <qualifiedname>ModuleBase::validerParametreSpatial</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nomChamp</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>champ</declname>
+        </param>
+        <briefdescription>
+<para>Validation d&apos;un parametre spatialisable. Si une seule valeur, on l&apos;assigne a tous les carreaux entiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ModuleBase.hpp" line="92" column="8" bodyfile="src/ModuleBase.hpp" bodystart="314" bodyend="331"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de base pour les modules de fonte et d&apos;evapotranspiration. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DLI</label>
+        <link refid="classDLI"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Evapo</label>
+        <link refid="classEvapo"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>EvapoCequeau</label>
+        <link refid="classEvapoCequeau"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>EvapoKPenman</label>
+        <link refid="classEvapoKPenman"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>EvapoMcGuinness</label>
+        <link refid="classEvapoMcGuinness"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>EvapoMorton</label>
+        <link refid="classEvapoMorton"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>EvapoPenmanMont</label>
+        <link refid="classEvapoPenmanMont"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>EvapoPriestleyTaylor</label>
+        <link refid="classEvapoPriestleyTaylor"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>EvapoTemplate</label>
+        <link refid="classEvapoTemplate"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Fonte</label>
+        <link refid="classFonte"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>FonteCemaNeige</label>
+        <link refid="classFonteCemaNeige"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>FonteCequeau</label>
+        <link refid="classFonteCequeau"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>FonteTemplate</label>
+        <link refid="classFonteTemplate"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>FonteUEB</label>
+        <link refid="classFonteUEB"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </inheritancegraph>
+    <location file="src/ModuleBase.hpp" line="18" column="1" bodyfile="src/ModuleBase.hpp" bodystart="19" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classModuleBase_1a3c3d7ab65439a094044950cd1c3a2312" prot="protected" virt="non-virtual"><scope>ModuleBase</scope><name>initialiserEtatsHelper</name></member>
+      <member refid="classModuleBase_1a4cffe012ccefb97ad6bf4682ed00505b" prot="protected" virt="non-virtual"><scope>ModuleBase</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1a875fb504bc8f14ca91bbe9df11afb7b6" prot="protected" virt="non-virtual"><scope>ModuleBase</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1aa8ae84ac06d564c430330814bc2bb87a" prot="public" virt="non-virtual"><scope>ModuleBase</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1a62c9211ac18959dcbd73139a570775de" prot="public" virt="non-virtual"><scope>ModuleBase</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1aa62c61597fe7950d6180dc24965051a7" prot="protected" virt="non-virtual"><scope>ModuleBase</scope><name>nbCE_</name></member>
+      <member refid="classModuleBase_1aedc9ff9160a84a9b033b78a91cc7a775" prot="public" virt="non-virtual"><scope>ModuleBase</scope><name>nomModele</name></member>
+      <member refid="classModuleBase_1ab1a3d079c8dfc8991094716be2a71dfc" prot="private" virt="non-virtual"><scope>ModuleBase</scope><name>nomModele_</name></member>
+      <member refid="classModuleBase_1af6dc293923c42f9a4426fb9cf10cba97" prot="public" virt="non-virtual"><scope>ModuleBase</scope><name>nomsChampsMeteo</name></member>
+      <member refid="classModuleBase_1a72f1c0358762b58d6fdbfa86989d51ac" prot="private" virt="non-virtual"><scope>ModuleBase</scope><name>nomsChampsMeteo_</name></member>
+      <member refid="classModuleBase_1acb5b7967590954504cb9858ba0e30fda" prot="protected" virt="non-virtual"><scope>ModuleBase</scope><name>obtenirEtatsAvantAssimHelper</name></member>
+      <member refid="classModuleBase_1a4c987a973c6c983ad77e01b9471e50b2" prot="protected" virt="non-virtual"><scope>ModuleBase</scope><name>obtenirEtatsHelper</name></member>
+      <member refid="classModuleBase_1a8dc19fc50049c4150e284aeb27a82b8d" prot="private" virt="non-virtual"><scope>ModuleBase</scope><name>validerParametreSpatial</name></member>
+      <member refid="classModuleBase_1a2f9388584ac2c9f845d0a38678abb852" prot="public" virt="virtual"><scope>ModuleBase</scope><name>~ModuleBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

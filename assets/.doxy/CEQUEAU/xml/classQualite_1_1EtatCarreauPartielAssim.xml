@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classQualite_1_1EtatCarreauPartielAssim" kind="class" language="C++" prot="public">
+    <compoundname>Qualite::EtatCarreauPartielAssim</compoundname>
+    <includes refid="SimulationQualite_8h" local="no">SimulationQualite.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartielAssim_1a61113461277981a312d4527aec0b31de" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Qualite::EtatCarreauPartielAssim::idCarreauPartiel</definition>
+        <argsstring></argsstring>
+        <name>idCarreauPartiel</name>
+        <qualifiedname>Qualite::EtatCarreauPartielAssim::idCarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="56" column="11" bodyfile="src/SimulationQualite.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartielAssim_1a5e49f635d6dd998fa7fdf17b6f624059" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim Qualite::EtatCarreauPartielAssim::temperatureType</definition>
+        <argsstring></argsstring>
+        <name>temperatureType</name>
+        <qualifiedname>Qualite::EtatCarreauPartielAssim::temperatureType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="57" column="15" bodyfile="src/SimulationQualite.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQualite_1_1EtatCarreauPartielAssim_1a6cc2f7b0eb1a6e0a2aec355ff357a83f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Qualite::EtatCarreauPartielAssim::temperature[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>temperature</name>
+        <qualifiedname>Qualite::EtatCarreauPartielAssim::temperature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="58" column="11" bodyfile="src/SimulationQualite.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees pour l&apos;assimilation des etats d&apos;un carreau partiel. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Utilise pour assimiler des etats aux carreaux partiels. Une valeur: on substitue cette valeur. Deux valeurs: La premiere est un facteur multiplicatif et la seconde une valeur a additionner. </para>
+    </detaileddescription>
+    <location file="src/SimulationQualite.h" line="53" column="3" bodyfile="src/SimulationQualite.h" bodystart="54" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classQualite_1_1EtatCarreauPartielAssim_1a61113461277981a312d4527aec0b31de" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartielAssim</scope><name>idCarreauPartiel</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartielAssim_1a6cc2f7b0eb1a6e0a2aec355ff357a83f" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartielAssim</scope><name>temperature</name></member>
+      <member refid="classQualite_1_1EtatCarreauPartielAssim_1a5e49f635d6dd998fa7fdf17b6f624059" prot="public" virt="non-virtual"><scope>Qualite::EtatCarreauPartielAssim</scope><name>temperatureType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,648 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classBarrage" kind="class" language="C++" prot="public">
+    <compoundname>Barrage</compoundname>
+    <includes refid="Barrage_8h" local="no">Barrage.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classBarrage_1a2de27b9f8a36d2b78acb8c0a86c180b4" prot="private" static="no" mutable="no">
+        <type>TypeBarrage</type>
+        <definition>TypeBarrage Barrage::typeBarrage_</definition>
+        <argsstring></argsstring>
+        <name>typeBarrage_</name>
+        <qualifiedname>Barrage::typeBarrage_</qualifiedname>
+        <briefdescription>
+<para>Type de barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="125" column="15" bodyfile="src/Barrage.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1acf8cc70c0965c66630a614ef4e8d25c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Barrage::idCP_</definition>
+        <argsstring></argsstring>
+        <name>idCP_</name>
+        <qualifiedname>Barrage::idCP_</qualifiedname>
+        <briefdescription>
+<para>Id du carreau partiel sur lequel est situe le barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="129" column="7" bodyfile="src/Barrage.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1a98bf8209bbdfe481fe6af26039f6228e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Barrage::idCPAval_</definition>
+        <argsstring></argsstring>
+        <name>idCPAval_</name>
+        <qualifiedname>Barrage::idCPAval_</qualifiedname>
+        <briefdescription>
+<para>Id du carreau partiel directement en aval du barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="133" column="7" bodyfile="src/Barrage.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1af08837f6c20f478b8f77ead7cf8e962c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Barrage::volume_</definition>
+        <argsstring></argsstring>
+        <name>volume_</name>
+        <qualifiedname>Barrage::volume_</qualifiedname>
+        <briefdescription>
+<para>Volume dans le barrage;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="137" column="9" bodyfile="src/Barrage.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1a16968bccd44bb2c3d4006bda83868551" prot="private" static="no" mutable="no">
+        <type>ParamEquation</type>
+        <definition>ParamEquation Barrage::paramNiveau_</definition>
+        <argsstring></argsstring>
+        <name>paramNiveau_</name>
+        <qualifiedname>Barrage::paramNiveau_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contient les parametres de la relation entre le niveau dï¿½eau dans le</para>
+<para>reservoir (m) et le volume emmagasinï¿½ (millions de m3). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="149" column="17" bodyfile="src/Barrage.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1abb25de1246a9492dde14c96340c93d00" prot="private" static="no" mutable="no">
+        <type>ParamEquation</type>
+        <definition>ParamEquation Barrage::paramDebit_</definition>
+        <argsstring></argsstring>
+        <name>paramDebit_</name>
+        <qualifiedname>Barrage::paramDebit_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contient les parametres de la relation entre le debit (m3/s) a evacuer du</para>
+<para>barrage et le volume emmagasine (millions de m3). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="161" column="17" bodyfile="src/Barrage.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1a1a2fab82537f7340f00975572638b1f3" prot="private" static="no" mutable="no">
+        <type>ParamEquation</type>
+        <definition>ParamEquation Barrage::paramVolume_</definition>
+        <argsstring></argsstring>
+        <name>paramVolume_</name>
+        <qualifiedname>Barrage::paramVolume_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contient les parametres de la relation entre le le volume emmagasinï¿½ (millions de m3),</para>
+<para>et la hauteur d&apos;eau dans le reservoir (m). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="173" column="17" bodyfile="src/Barrage.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1ac12148e4a6f285534f1f5c76b32c9800" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; ParamEquation &gt;</type>
+        <definition>std::vector&lt;ParamEquation&gt; Barrage::paramDebitEvacuationInt_</definition>
+        <argsstring></argsstring>
+        <name>paramDebitEvacuationInt_</name>
+        <qualifiedname>Barrage::paramDebitEvacuationInt_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contient les parametres de la relation entre le debit (m3/s) a evacuer du</para>
+<para>barrage et le volume emmagasine (millions de m3).</para>
+<para>X fois le nombre de relations necessaires pour calculer les evacuations</para>
+<para>du reservoir vers au autre carreau ï¿½ l&apos;interieur du bassin versant. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="189" column="15" bodyfile="src/Barrage.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1a684ef843bce1a8faa56cf19498aa03e3" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classInfoEvacuationExt" kindref="compound">InfoEvacuationExt</ref> &gt;</type>
+        <definition>std::vector&lt;InfoEvacuationExt&gt; Barrage::paramDebitEvacuationExt_</definition>
+        <argsstring></argsstring>
+        <name>paramDebitEvacuationExt_</name>
+        <qualifiedname>Barrage::paramDebitEvacuationExt_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contient les parametres de la relation entre le debit (m3/s) a evacuer du</para>
+<para>barrage et le volume emmagasine (millions de m3).</para>
+<para>X fois le nombre de relations necessaires pour calculer les evacuations</para>
+<para>du reservoir vers un carreau a l&apos;exterieur du bassin versant. Chaque relation</para>
+<para>possede un intervalle de date d&apos;application. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="207" column="15" bodyfile="src/Barrage.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classBarrage_1aa600705f8b74d6e300914e4a3868e562" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; Barrage::debitsMesures_</definition>
+        <argsstring></argsstring>
+        <name>debitsMesures_</name>
+        <qualifiedname>Barrage::debitsMesures_</qualifiedname>
+        <briefdescription>
+<para>Les debits observes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="213" column="15" bodyfile="src/Barrage.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBarrage_1a3be420dc0b575b4206665e791ae1a1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Barrage::Barrage</definition>
+        <argsstring>(int idCP, int idCPAval, float volume, const ParamEquation &amp;paramNiveau, const ParamEquation &amp;paramDebit)</argsstring>
+        <name>Barrage</name>
+        <qualifiedname>Barrage::Barrage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCP</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idCPAval</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramNiveau</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramDebit</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur barrage type 2. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="49" column="3" bodyfile="src/Barrage.cpp" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1accd9731b318cadf02097fa98a6630091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Barrage::Barrage</definition>
+        <argsstring>(int idCP, int idCPAval, float volume, const ParamEquation &amp;paramNiveau, const ParamEquation &amp;paramVolume, const std::vector&lt; ParamEquation &gt; &amp;paramDebitInt, const std::vector&lt; InfoEvacuationExt &gt; &amp;paramDebitExt)</argsstring>
+        <name>Barrage</name>
+        <qualifiedname>Barrage::Barrage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCP</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idCPAval</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramNiveau</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramVolume</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; ParamEquation &gt; &amp;</type>
+          <declname>paramDebitInt</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="classInfoEvacuationExt" kindref="compound">InfoEvacuationExt</ref> &gt; &amp;</type>
+          <declname>paramDebitExt</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur barrage type 5. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="53" column="3" bodyfile="src/Barrage.cpp" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a4ee52d1b0f978399f0ec640d029a5909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Barrage::Barrage</definition>
+        <argsstring>(int idCPAval, const std::vector&lt; float &gt; &amp;debitsMesures)</argsstring>
+        <name>Barrage</name>
+        <qualifiedname>Barrage::Barrage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idCPAval</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>debitsMesures</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur barrage type 3. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="59" column="3" bodyfile="src/Barrage.cpp" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a06622722113a045cae8170474d8f0ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Barrage::~Barrage</definition>
+        <argsstring>()</argsstring>
+        <name>~Barrage</name>
+        <qualifiedname>Barrage::~Barrage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="63" column="3" bodyfile="src/Barrage.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a3201dc82d3f51d78ae6552e895273ea9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Barrage::idCP</definition>
+        <argsstring>() const</argsstring>
+        <name>idCP</name>
+        <qualifiedname>Barrage::idCP</qualifiedname>
+        <briefdescription>
+<para>Getter idCP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="69" column="7" bodyfile="src/Barrage.cpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a88e9bc81d9cde7ba923b92e2fe7cce25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Barrage::idCPAval</definition>
+        <argsstring>() const</argsstring>
+        <name>idCPAval</name>
+        <qualifiedname>Barrage::idCPAval</qualifiedname>
+        <briefdescription>
+<para>Getter idCPAval. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="73" column="7" bodyfile="src/Barrage.cpp" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a570cf16b45cd85b9da38c8d40bcc915e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TypeBarrage</type>
+        <definition>TypeBarrage Barrage::typeBarrage</definition>
+        <argsstring>() const</argsstring>
+        <name>typeBarrage</name>
+        <qualifiedname>Barrage::typeBarrage</qualifiedname>
+        <briefdescription>
+<para>Getter type barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="77" column="15" bodyfile="src/Barrage.cpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a1332546425490cfc78b47d9069558438" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::volume</definition>
+        <argsstring>() const</argsstring>
+        <name>volume</name>
+        <qualifiedname>Barrage::volume</qualifiedname>
+        <briefdescription>
+<para>Getter volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="81" column="9" bodyfile="src/Barrage.cpp" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1ac5d8dde211c37e6784f2d6b7718ae9f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Barrage::volume</definition>
+        <argsstring>(float valeur)</argsstring>
+        <name>volume</name>
+        <qualifiedname>Barrage::volume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+<para>Setter volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="85" column="8" bodyfile="src/Barrage.cpp" bodystart="80" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1ad118ee017e50d22e613b6eab4366cedb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; float &gt; &amp;</type>
+        <definition>const std::vector&lt; float &gt; &amp; Barrage::debitsMesures</definition>
+        <argsstring>() const</argsstring>
+        <name>debitsMesures</name>
+        <qualifiedname>Barrage::debitsMesures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="89" column="21" bodyfile="src/Barrage.cpp" bodystart="87" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1ac4858369132c756e47921318eec3b4e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerNiveauAvecVolume</definition>
+        <argsstring>() const</argsstring>
+        <name>calculerNiveauAvecVolume</name>
+        <qualifiedname>Barrage::calculerNiveauAvecVolume</qualifiedname>
+        <briefdescription>
+<para>Calcul de la hauteur selon le volume du barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="95" column="9" bodyfile="src/Barrage.cpp" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1aa3161f5abd9eb1d516c12a8287fd115b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerNiveauAvecVolume</definition>
+        <argsstring>(float volume) const</argsstring>
+        <name>calculerNiveauAvecVolume</name>
+        <qualifiedname>Barrage::calculerNiveauAvecVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Calcul de la hauteur avec un volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="99" column="9" bodyfile="src/Barrage.cpp" bodystart="101" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a56ec30873a29ae83b0b5acdc37dfac08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerDebitAvecVolume</definition>
+        <argsstring>() const</argsstring>
+        <name>calculerDebitAvecVolume</name>
+        <qualifiedname>Barrage::calculerDebitAvecVolume</qualifiedname>
+        <briefdescription>
+<para>Calcul du debit selon le volume du barrage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="103" column="9" bodyfile="src/Barrage.cpp" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1abde7cf146ae35ec9d14bd91ab81ee425" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerDebitAvecVolume</definition>
+        <argsstring>(const ParamEquation &amp;paramDebit) const</argsstring>
+        <name>calculerDebitAvecVolume</name>
+        <qualifiedname>Barrage::calculerDebitAvecVolume</qualifiedname>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramDebit</declname>
+        </param>
+        <briefdescription>
+<para>Calcul du debit selon le volume du barrage en specifiant les parametres d&apos;equation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="107" column="9" bodyfile="src/Barrage.cpp" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1abc192eff6885d9604134551cf9b04025" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerDebitAvecVolume</definition>
+        <argsstring>(float volume, const ParamEquation &amp;paramDebit) const</argsstring>
+        <name>calculerDebitAvecVolume</name>
+        <qualifiedname>Barrage::calculerDebitAvecVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramDebit</declname>
+        </param>
+        <briefdescription>
+<para>Calcul du debit avec un volume en specifiant les parametres d&apos;equation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="111" column="9" bodyfile="src/Barrage.cpp" bodystart="134" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1afeeafc1f2ebebeda34fdaedf8984955f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerVolumeCpAval</definition>
+        <argsstring>(float volumeEntrant, float deltaTemps, float volumeInitialCpAval, const DateChrono &amp;datePasDeTemps, std::vector&lt; float &gt; &amp;volumesSortants)</argsstring>
+        <name>calculerVolumeCpAval</name>
+        <qualifiedname>Barrage::calculerVolumeCpAval</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volumeEntrant</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTemps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volumeInitialCpAval</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>volumesSortants</declname>
+        </param>
+        <briefdescription>
+<para>Calcul du volume provenant du barrage sur le CP en aval. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="115" column="9" bodyfile="src/Barrage.cpp" bodystart="150" bodyend="191"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classBarrage_1aca447066f9c9fea996f2ab1f50f5e0de" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerVolumeEvacue</definition>
+        <argsstring>(float volumeEntrant, float deltaTemps, const ParamEquation &amp;paramDebit)</argsstring>
+        <name>calculerVolumeEvacue</name>
+        <qualifiedname>Barrage::calculerVolumeEvacue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volumeEntrant</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTemps</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramDebit</declname>
+        </param>
+        <briefdescription>
+<para>Transformation du resultat de CalculerDebitEvacue en volume. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="219" column="9" bodyfile="src/Barrage.cpp" bodystart="212" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a529cc2fcc169f472d38969e0b2e49b1e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::calculerDebitEvacue</definition>
+        <argsstring>(float volumeEntrant, float deltaTemps, const ParamEquation &amp;paramDebit) const</argsstring>
+        <name>calculerDebitEvacue</name>
+        <qualifiedname>Barrage::calculerDebitEvacue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volumeEntrant</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTemps</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramDebit</declname>
+        </param>
+        <briefdescription>
+<para>Calcul du debit evacue selon la methode de Goodrich. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="223" column="9" bodyfile="src/Barrage.cpp" bodystart="227" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a8060b5bc04ddab624094caea0d0b5239" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Barrage::resoudreGoodrich</definition>
+        <argsstring>(float volume, float deltaTemps, float constante, const ParamEquation &amp;paramDebit) const</argsstring>
+        <name>resoudreGoodrich</name>
+        <qualifiedname>Barrage::resoudreGoodrich</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTemps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>constante</declname>
+        </param>
+        <param>
+          <type>const ParamEquation &amp;</type>
+          <declname>paramDebit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="225" column="9" bodyfile="src/Barrage.cpp" bodystart="358" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classBarrage_1a733a382c41d85fee89ae9df6ddb5712b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const ParamEquation *const</type>
+        <definition>const ParamEquation *const Barrage::trouverParamDebitExt</definition>
+        <argsstring>(const DateChrono &amp;jour) const</argsstring>
+        <name>trouverParamDebitExt</name>
+        <qualifiedname>Barrage::trouverParamDebitExt</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>jour</declname>
+        </param>
+        <briefdescription>
+<para>Trouver pour les evacuations a l&apos;exterieur du bassin versant, les parametres d&apos;equation selon un periode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Barrage.h" line="229" column="29" bodyfile="src/Barrage.cpp" bodystart="194" bodyend="209"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition d&apos;un barrage. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Barrage.h" line="41" column="1" bodyfile="src/Barrage.h" bodystart="43" bodyend="231"/>
+    <listofallmembers>
+      <member refid="classBarrage_1a3be420dc0b575b4206665e791ae1a1a2" prot="public" virt="non-virtual"><scope>Barrage</scope><name>Barrage</name></member>
+      <member refid="classBarrage_1accd9731b318cadf02097fa98a6630091" prot="public" virt="non-virtual"><scope>Barrage</scope><name>Barrage</name></member>
+      <member refid="classBarrage_1a4ee52d1b0f978399f0ec640d029a5909" prot="public" virt="non-virtual"><scope>Barrage</scope><name>Barrage</name></member>
+      <member refid="classBarrage_1a56ec30873a29ae83b0b5acdc37dfac08" prot="public" virt="non-virtual"><scope>Barrage</scope><name>calculerDebitAvecVolume</name></member>
+      <member refid="classBarrage_1abde7cf146ae35ec9d14bd91ab81ee425" prot="public" virt="non-virtual"><scope>Barrage</scope><name>calculerDebitAvecVolume</name></member>
+      <member refid="classBarrage_1abc192eff6885d9604134551cf9b04025" prot="public" virt="non-virtual"><scope>Barrage</scope><name>calculerDebitAvecVolume</name></member>
+      <member refid="classBarrage_1a529cc2fcc169f472d38969e0b2e49b1e" prot="private" virt="non-virtual"><scope>Barrage</scope><name>calculerDebitEvacue</name></member>
+      <member refid="classBarrage_1ac4858369132c756e47921318eec3b4e4" prot="public" virt="non-virtual"><scope>Barrage</scope><name>calculerNiveauAvecVolume</name></member>
+      <member refid="classBarrage_1aa3161f5abd9eb1d516c12a8287fd115b" prot="public" virt="non-virtual"><scope>Barrage</scope><name>calculerNiveauAvecVolume</name></member>
+      <member refid="classBarrage_1afeeafc1f2ebebeda34fdaedf8984955f" prot="public" virt="non-virtual"><scope>Barrage</scope><name>calculerVolumeCpAval</name></member>
+      <member refid="classBarrage_1aca447066f9c9fea996f2ab1f50f5e0de" prot="private" virt="non-virtual"><scope>Barrage</scope><name>calculerVolumeEvacue</name></member>
+      <member refid="classBarrage_1ad118ee017e50d22e613b6eab4366cedb" prot="public" virt="non-virtual"><scope>Barrage</scope><name>debitsMesures</name></member>
+      <member refid="classBarrage_1aa600705f8b74d6e300914e4a3868e562" prot="private" virt="non-virtual"><scope>Barrage</scope><name>debitsMesures_</name></member>
+      <member refid="classBarrage_1a3201dc82d3f51d78ae6552e895273ea9" prot="public" virt="non-virtual"><scope>Barrage</scope><name>idCP</name></member>
+      <member refid="classBarrage_1acf8cc70c0965c66630a614ef4e8d25c9" prot="private" virt="non-virtual"><scope>Barrage</scope><name>idCP_</name></member>
+      <member refid="classBarrage_1a88e9bc81d9cde7ba923b92e2fe7cce25" prot="public" virt="non-virtual"><scope>Barrage</scope><name>idCPAval</name></member>
+      <member refid="classBarrage_1a98bf8209bbdfe481fe6af26039f6228e" prot="private" virt="non-virtual"><scope>Barrage</scope><name>idCPAval_</name></member>
+      <member refid="classBarrage_1abb25de1246a9492dde14c96340c93d00" prot="private" virt="non-virtual"><scope>Barrage</scope><name>paramDebit_</name></member>
+      <member refid="classBarrage_1a684ef843bce1a8faa56cf19498aa03e3" prot="private" virt="non-virtual"><scope>Barrage</scope><name>paramDebitEvacuationExt_</name></member>
+      <member refid="classBarrage_1ac12148e4a6f285534f1f5c76b32c9800" prot="private" virt="non-virtual"><scope>Barrage</scope><name>paramDebitEvacuationInt_</name></member>
+      <member refid="classBarrage_1a16968bccd44bb2c3d4006bda83868551" prot="private" virt="non-virtual"><scope>Barrage</scope><name>paramNiveau_</name></member>
+      <member refid="classBarrage_1a1a2fab82537f7340f00975572638b1f3" prot="private" virt="non-virtual"><scope>Barrage</scope><name>paramVolume_</name></member>
+      <member refid="classBarrage_1a8060b5bc04ddab624094caea0d0b5239" prot="private" virt="non-virtual"><scope>Barrage</scope><name>resoudreGoodrich</name></member>
+      <member refid="classBarrage_1a733a382c41d85fee89ae9df6ddb5712b" prot="private" virt="non-virtual"><scope>Barrage</scope><name>trouverParamDebitExt</name></member>
+      <member refid="classBarrage_1a570cf16b45cd85b9da38c8d40bcc915e" prot="public" virt="non-virtual"><scope>Barrage</scope><name>typeBarrage</name></member>
+      <member refid="classBarrage_1a2de27b9f8a36d2b78acb8c0a86c180b4" prot="private" virt="non-virtual"><scope>Barrage</scope><name>typeBarrage_</name></member>
+      <member refid="classBarrage_1a1332546425490cfc78b47d9069558438" prot="public" virt="non-virtual"><scope>Barrage</scope><name>volume</name></member>
+      <member refid="classBarrage_1ac5d8dde211c37e6784f2d6b7718ae9f0" prot="public" virt="non-virtual"><scope>Barrage</scope><name>volume</name></member>
+      <member refid="classBarrage_1af08837f6c20f478b8f77ead7cf8e962c" prot="private" virt="non-virtual"><scope>Barrage</scope><name>volume_</name></member>
+      <member refid="classBarrage_1a06622722113a045cae8170474d8f0ffa" prot="public" virt="non-virtual"><scope>Barrage</scope><name>~Barrage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classParamFacultatifs" kind="class" language="C++" prot="public">
+    <compoundname>ParamFacultatifs</compoundname>
+    <includes refid="Parametres_8h" local="no">Parametres.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classParamFacultatifs_1adb6f56dbde67c41ee9a060a7ecccfd68" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, float &gt;</type>
+        <definition>std::map&lt;int, float&gt; ParamFacultatifs::superficieCPAmontCorriges</definition>
+        <argsstring></argsstring>
+        <name>superficieCPAmontCorriges</name>
+        <qualifiedname>ParamFacultatifs::superficieCPAmontCorriges</qualifiedname>
+        <briefdescription>
+<para>Corrections des superficies des carreaux partiels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="309" column="12" bodyfile="src/Parametres.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamFacultatifs_1ae7acebfaabad28f39e4b264b19ef01ed" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, double &gt;</type>
+        <definition>std::map&lt;int, double&gt; ParamFacultatifs::coeffTxParticuliers</definition>
+        <argsstring></argsstring>
+        <name>coeffTxParticuliers</name>
+        <qualifiedname>ParamFacultatifs::coeffTxParticuliers</qualifiedname>
+        <briefdescription>
+<para>Coefficients de transfert particuliers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="313" column="12" bodyfile="src/Parametres.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamFacultatifs_1aaa1444e322582e6e54091f916cbee0e7" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, int &gt;</type>
+        <definition>std::map&lt;int, int&gt; ParamFacultatifs::lacs</definition>
+        <argsstring></argsstring>
+        <name>lacs</name>
+        <qualifiedname>ParamFacultatifs::lacs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Permettent de tenir compte, pour le calcul des coefficients de transfert,</para>
+<para>des lacs chevauchant plusieurs carreaux partiels, ou encore d&apos;exclure du carreau</para>
+<para>partiel les lacs non situes sur le reseau d&apos;ï¿½coulement </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="325" column="12" bodyfile="src/Parametres.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamFacultatifs_1a4e88fa01ca08a935730e56a2893f294c" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, float &gt;</type>
+        <definition>std::map&lt;int, float&gt; ParamFacultatifs::surfacesImper</definition>
+        <argsstring></argsstring>
+        <name>surfacesImper</name>
+        <qualifiedname>ParamFacultatifs::surfacesImper</qualifiedname>
+        <briefdescription>
+<para>Liste fraction de surface impermeable de carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="329" column="12" bodyfile="src/Parametres.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamFacultatifs_1ae18f8e940729b0c7af12a612227e4b82" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; ParamFacultatifs::lacExutoire</definition>
+        <argsstring></argsstring>
+        <name>lacExutoire</name>
+        <qualifiedname>ParamFacultatifs::lacExutoire</qualifiedname>
+        <briefdescription>
+<para>Liste de l&apos;appartenance des carreaux entiers a une zone de lac exutoire (precipitations directes) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="335" column="15" bodyfile="src/Parametres.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamFacultatifs_1a3d7edb1c9e13a7c45693ff92889abf05" prot="public" static="no" mutable="no">
+        <type>std::multimap&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, <ref refid="classValeurZone" kindref="compound">ValeurZone</ref> &gt;</type>
+        <definition>std::multimap&lt;DateChrono, ValeurZone&gt; ParamFacultatifs::relevesNeige</definition>
+        <argsstring></argsstring>
+        <name>relevesNeige</name>
+        <qualifiedname>ParamFacultatifs::relevesNeige</qualifiedname>
+        <briefdescription>
+<para>Releves de neige remplacant les stocks de neige calcules aux dates donnees. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="343" column="17" bodyfile="src/Parametres.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamFacultatifs_1a38ebb4bfbd35f537446879f21c48dc31" prot="public" static="no" mutable="no">
+        <type>TypeAjustementNeige</type>
+        <definition>TypeAjustementNeige ParamFacultatifs::typeAjustementNeige</definition>
+        <argsstring></argsstring>
+        <name>typeAjustementNeige</name>
+        <qualifiedname>ParamFacultatifs::typeAjustementNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="345" column="23" bodyfile="src/Parametres.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees pour les parametres facultatifs. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>DateChrono</label>
+        <link refid="classDateChrono"/>
+      </node>
+      <node id="1">
+        <label>ParamFacultatifs</label>
+        <link refid="classParamFacultatifs"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>superficieCPAmontCorriges</edgelabel>
+          <edgelabel>surfacesImper</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>coeffTxParticuliers</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>lacs</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>lacExutoire</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>relevesNeige</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ValeurZone</label>
+        <link refid="classValeurZone"/>
+      </node>
+      <node id="3">
+        <label>std::map&lt; int, double &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::map&lt; int, float &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::map&lt; int, int &gt;</label>
+      </node>
+      <node id="6">
+        <label>std::multimap&lt; DateChrono, ValeurZone &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/Parametres.h" line="301" column="1" bodyfile="src/Parametres.h" bodystart="303" bodyend="347"/>
+    <listofallmembers>
+      <member refid="classParamFacultatifs_1ae7acebfaabad28f39e4b264b19ef01ed" prot="public" virt="non-virtual"><scope>ParamFacultatifs</scope><name>coeffTxParticuliers</name></member>
+      <member refid="classParamFacultatifs_1ae18f8e940729b0c7af12a612227e4b82" prot="public" virt="non-virtual"><scope>ParamFacultatifs</scope><name>lacExutoire</name></member>
+      <member refid="classParamFacultatifs_1aaa1444e322582e6e54091f916cbee0e7" prot="public" virt="non-virtual"><scope>ParamFacultatifs</scope><name>lacs</name></member>
+      <member refid="classParamFacultatifs_1a3d7edb1c9e13a7c45693ff92889abf05" prot="public" virt="non-virtual"><scope>ParamFacultatifs</scope><name>relevesNeige</name></member>
+      <member refid="classParamFacultatifs_1adb6f56dbde67c41ee9a060a7ecccfd68" prot="public" virt="non-virtual"><scope>ParamFacultatifs</scope><name>superficieCPAmontCorriges</name></member>
+      <member refid="classParamFacultatifs_1a4e88fa01ca08a935730e56a2893f294c" prot="public" virt="non-virtual"><scope>ParamFacultatifs</scope><name>surfacesImper</name></member>
+      <member refid="classParamFacultatifs_1a38ebb4bfbd35f537446879f21c48dc31" prot="public" virt="non-virtual"><scope>ParamFacultatifs</scope><name>typeAjustementNeige</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

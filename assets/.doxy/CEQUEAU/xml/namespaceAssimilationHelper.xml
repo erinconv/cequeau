@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceAssimilationHelper" kind="namespace" language="C++">
+    <compoundname>AssimilationHelper</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceAssimilationHelper_1a9fd7e190b9560b1acb1f03fb4f218a3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AssimilationHelper::assimilerValeur</definition>
+        <argsstring>(const float valeurAssim[2], TypeAssim typeAssim, float &amp;valeur)</argsstring>
+        <name>assimilerValeur</name>
+        <qualifiedname>AssimilationHelper::assimilerValeur</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>valeurAssim</declname>
+          <array>[2]</array>
+        </param>
+        <param>
+          <type>TypeAssim</type>
+          <declname>typeAssim</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+<para>Remplacement d&apos;une valeur par une donnee d&apos;assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/AssimilationHelper.hpp" line="33" column="15" bodyfile="src/AssimilationHelper.hpp" bodystart="33" bodyend="49" declfile="src/AssimilationHelper.hpp" declline="20" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceAssimilationHelper_1a0d2394a57dcd47cfff486bd9dd21b7a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TypeAssim</type>
+        <definition>TypeAssim AssimilationHelper::obtenirTypeAssim</definition>
+        <argsstring>(const mxArray *varAssimilation)</argsstring>
+        <name>obtenirTypeAssim</name>
+        <qualifiedname>AssimilationHelper::obtenirTypeAssim</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>varAssimilation</declname>
+        </param>
+        <briefdescription>
+<para>Trouver le type d&apos;assimilation pour une variable d&apos;assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/AssimilationHelper.hpp" line="52" column="20" bodyfile="src/AssimilationHelper.hpp" bodystart="52" bodyend="78" declfile="src/AssimilationHelper.hpp" declline="22" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceAssimilationHelper_1a08b27e0b0f2192a2f239f1b73c76406b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AssimilationHelper::obtenirValeursAssim</definition>
+        <argsstring>(const double *valeursAssim, TypeAssim typeAssim, size_t indexCol, float valeurs[2])</argsstring>
+        <name>obtenirValeursAssim</name>
+        <qualifiedname>AssimilationHelper::obtenirValeursAssim</qualifiedname>
+        <param>
+          <type>const double *</type>
+          <declname>valeursAssim</declname>
+        </param>
+        <param>
+          <type>TypeAssim</type>
+          <declname>typeAssim</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>indexCol</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>valeurs</declname>
+          <array>[2]</array>
+        </param>
+        <briefdescription>
+<para>Trouver les valeurs d&apos;assimilation pour une variable d&apos;assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/AssimilationHelper.hpp" line="81" column="15" bodyfile="src/AssimilationHelper.hpp" bodystart="81" bodyend="117" declfile="src/AssimilationHelper.hpp" declline="24" declcolumn="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Fonctions utilitaires pour l&apos;assimilation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/AssimilationHelper.hpp" line="18" column="1"/>
+  </compounddef>
+</doxygen>

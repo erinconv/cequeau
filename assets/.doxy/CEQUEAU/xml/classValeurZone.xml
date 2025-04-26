@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classValeurZone" kind="class" language="C++" prot="public">
+    <compoundname>ValeurZone</compoundname>
+    <includes refid="Parametres_8h" local="no">Parametres.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classValeurZone_1aae3c07e601b1b8710a8018c3dd3e7bac" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ValeurZone::iMin</definition>
+        <argsstring></argsstring>
+        <name>iMin</name>
+        <qualifiedname>ValeurZone::iMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="285" column="7" bodyfile="src/Parametres.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classValeurZone_1a75f50001fa0b08c83e336da72c546429" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ValeurZone::iMax</definition>
+        <argsstring></argsstring>
+        <name>iMax</name>
+        <qualifiedname>ValeurZone::iMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="287" column="7" bodyfile="src/Parametres.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classValeurZone_1abbdcd471cf292e0936de6e88afbf7030" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ValeurZone::jMin</definition>
+        <argsstring></argsstring>
+        <name>jMin</name>
+        <qualifiedname>ValeurZone::jMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="289" column="7" bodyfile="src/Parametres.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classValeurZone_1ab25f942ca14b7a066a6c3a538eed6532" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ValeurZone::jMax</definition>
+        <argsstring></argsstring>
+        <name>jMax</name>
+        <qualifiedname>ValeurZone::jMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="291" column="7" bodyfile="src/Parametres.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classValeurZone_1ae98ad0ce724a3df2187f622c58fd68b3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ValeurZone::valeur</definition>
+        <argsstring></argsstring>
+        <name>valeur</name>
+        <qualifiedname>ValeurZone::valeur</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="293" column="9" bodyfile="src/Parametres.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>valeur specifique d&apos;un parametre pour la zone dï¿½finie par</para>
+<para>iMin, iMax, jMin et jMax </para>
+    </detaileddescription>
+    <location file="src/Parametres.h" line="279" column="1" bodyfile="src/Parametres.h" bodystart="281" bodyend="295"/>
+    <listofallmembers>
+      <member refid="classValeurZone_1a75f50001fa0b08c83e336da72c546429" prot="public" virt="non-virtual"><scope>ValeurZone</scope><name>iMax</name></member>
+      <member refid="classValeurZone_1aae3c07e601b1b8710a8018c3dd3e7bac" prot="public" virt="non-virtual"><scope>ValeurZone</scope><name>iMin</name></member>
+      <member refid="classValeurZone_1ab25f942ca14b7a066a6c3a538eed6532" prot="public" virt="non-virtual"><scope>ValeurZone</scope><name>jMax</name></member>
+      <member refid="classValeurZone_1abbdcd471cf292e0936de6e88afbf7030" prot="public" virt="non-virtual"><scope>ValeurZone</scope><name>jMin</name></member>
+      <member refid="classValeurZone_1ae98ad0ce724a3df2187f622c58fd68b3" prot="public" virt="non-virtual"><scope>ValeurZone</scope><name>valeur</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

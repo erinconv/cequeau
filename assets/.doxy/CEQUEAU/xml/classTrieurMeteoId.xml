@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTrieurMeteoId" kind="class" language="C++" prot="public">
+    <compoundname>TrieurMeteoId</compoundname>
+    <includes refid="DonneesMeteo_8h" local="no">DonneesMeteo.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTrieurMeteoId_1aab037099ab085b76173c09aa174ba2d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TrieurMeteoId::operator()</definition>
+        <argsstring>(const MeteoPtr meteo1, const MeteoPtr meteor2)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>TrieurMeteoId::operator()</qualifiedname>
+        <param>
+          <type>const MeteoPtr</type>
+          <declname>meteo1</declname>
+        </param>
+        <param>
+          <type>const MeteoPtr</type>
+          <declname>meteor2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DonneesMeteo.h" line="93" column="8" bodyfile="src/DonneesMeteo.cpp" bodystart="323" bodyend="331"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe utilitaire pour le tri des donnees meteo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/DonneesMeteo.h" line="90" column="1" bodyfile="src/DonneesMeteo.h" bodystart="91" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classTrieurMeteoId_1aab037099ab085b76173c09aa174ba2d7" prot="public" virt="non-virtual"><scope>TrieurMeteoId</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

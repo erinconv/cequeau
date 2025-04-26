@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classParametresInterpolation" kind="class" language="C++" prot="public">
+    <compoundname>ParametresInterpolation</compoundname>
+    <includes refid="ParametresInterpolation_8h" local="no">ParametresInterpolation.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classParametresInterpolation_1ad49f483e6c4bf7ffc12c2cc990a4f034" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParametresInterpolation::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>ParametresInterpolation::type_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="34" column="9" bodyfile="src/ParametresInterpolation.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametresInterpolation_1af81f5b84880a9a73690a70f40a036742" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParametresInterpolation::coep_</definition>
+        <argsstring></argsstring>
+        <name>coep_</name>
+        <qualifiedname>ParametresInterpolation::coep_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="35" column="9" bodyfile="src/ParametresInterpolation.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParametresInterpolation_1ae484f65f69a4778a8149936ba1835d61" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParametresInterpolation::coet_</definition>
+        <argsstring></argsstring>
+        <name>coet_</name>
+        <qualifiedname>ParametresInterpolation::coet_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="36" column="9" bodyfile="src/ParametresInterpolation.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classParametresInterpolation_1a3e267534a1fad9d881a9b9815074fdf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParametresInterpolation::ParametresInterpolation</definition>
+        <argsstring>()</argsstring>
+        <name>ParametresInterpolation</name>
+        <qualifiedname>ParametresInterpolation::ParametresInterpolation</qualifiedname>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="19" column="3" bodyfile="src/ParametresInterpolation.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametresInterpolation_1ab3745ace4e62932098dc493bf48b2ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParametresInterpolation::~ParametresInterpolation</definition>
+        <argsstring>()</argsstring>
+        <name>~ParametresInterpolation</name>
+        <qualifiedname>ParametresInterpolation::~ParametresInterpolation</qualifiedname>
+        <briefdescription>
+<para>Destructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="21" column="3" bodyfile="src/ParametresInterpolation.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametresInterpolation_1a07448b4fb8b7125ae09bc9f7e31c534e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ParametresInterpolation::type</definition>
+        <argsstring>() const</argsstring>
+        <name>type</name>
+        <qualifiedname>ParametresInterpolation::type</qualifiedname>
+        <briefdescription>
+<para>Getter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="24" column="7" bodyfile="src/ParametresInterpolation.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametresInterpolation_1a8df66a5d6931fdc17881e724ea1430a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ParametresInterpolation::coep</definition>
+        <argsstring>() const</argsstring>
+        <name>coep</name>
+        <qualifiedname>ParametresInterpolation::coep</qualifiedname>
+        <briefdescription>
+<para>Getter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="26" column="9" bodyfile="src/ParametresInterpolation.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametresInterpolation_1a6d5b4a60efe410b5d41945903b79b4e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ParametresInterpolation::coet</definition>
+        <argsstring>() const</argsstring>
+        <name>coet</name>
+        <qualifiedname>ParametresInterpolation::coet</qualifiedname>
+        <briefdescription>
+<para>Getter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="28" column="9" bodyfile="src/ParametresInterpolation.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classParametresInterpolation_1a1ed790f85c949c733ef70fbcd920cddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParametresInterpolation::initialiser</definition>
+        <argsstring>(const mxArray *paramInterpolation)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>ParametresInterpolation::initialiser</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramInterpolation</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ParametresInterpolation.h" line="31" column="8" bodyfile="src/ParametresInterpolation.cpp" bodystart="45" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe des parametres de la simulation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/ParametresInterpolation.h" line="15" column="1" bodyfile="src/ParametresInterpolation.h" bodystart="16" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classParametresInterpolation_1a8df66a5d6931fdc17881e724ea1430a1" prot="public" virt="non-virtual"><scope>ParametresInterpolation</scope><name>coep</name></member>
+      <member refid="classParametresInterpolation_1af81f5b84880a9a73690a70f40a036742" prot="private" virt="non-virtual"><scope>ParametresInterpolation</scope><name>coep_</name></member>
+      <member refid="classParametresInterpolation_1a6d5b4a60efe410b5d41945903b79b4e6" prot="public" virt="non-virtual"><scope>ParametresInterpolation</scope><name>coet</name></member>
+      <member refid="classParametresInterpolation_1ae484f65f69a4778a8149936ba1835d61" prot="private" virt="non-virtual"><scope>ParametresInterpolation</scope><name>coet_</name></member>
+      <member refid="classParametresInterpolation_1a1ed790f85c949c733ef70fbcd920cddf" prot="public" virt="non-virtual"><scope>ParametresInterpolation</scope><name>initialiser</name></member>
+      <member refid="classParametresInterpolation_1a3e267534a1fad9d881a9b9815074fdf3" prot="public" virt="non-virtual"><scope>ParametresInterpolation</scope><name>ParametresInterpolation</name></member>
+      <member refid="classParametresInterpolation_1a07448b4fb8b7125ae09bc9f7e31c534e" prot="public" virt="non-virtual"><scope>ParametresInterpolation</scope><name>type</name></member>
+      <member refid="classParametresInterpolation_1ad49f483e6c4bf7ffc12c2cc990a4f034" prot="private" virt="non-virtual"><scope>ParametresInterpolation</scope><name>type_</name></member>
+      <member refid="classParametresInterpolation_1ab3745ace4e62932098dc493bf48b2ba7" prot="public" virt="non-virtual"><scope>ParametresInterpolation</scope><name>~ParametresInterpolation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

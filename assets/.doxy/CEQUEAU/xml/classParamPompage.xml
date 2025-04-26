@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classParamPompage" kind="class" language="C++" prot="public">
+    <compoundname>ParamPompage</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classParamPompage_1ab901844b1ba878c4a7a83d12bbd21da8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParamPompage::delai</definition>
+        <argsstring></argsstring>
+        <name>delai</name>
+        <qualifiedname>ParamPompage::delai</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="355" column="9" bodyfile="src/Parametres.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamPompage_1abec5e3c821915407d360d40d8d705e7b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ParamPompage::coeffPompage</definition>
+        <argsstring></argsstring>
+        <name>coeffPompage</name>
+        <qualifiedname>ParamPompage::coeffPompage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="357" column="12" bodyfile="src/Parametres.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamPompage_1aabf6879223cd1dcf58ee058f240f99f5" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; ParamPompage::conductiviteHydraulique</definition>
+        <argsstring></argsstring>
+        <name>conductiviteHydraulique</name>
+        <qualifiedname>ParamPompage::conductiviteHydraulique</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="359" column="17" bodyfile="src/Parametres.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamPompage_1a234f7765bca3bf85f5fcad0b9a532ba3" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; ParamPompage::coeffEmmagasinement</definition>
+        <argsstring></argsstring>
+        <name>coeffEmmagasinement</name>
+        <qualifiedname>ParamPompage::coeffEmmagasinement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="361" column="17" bodyfile="src/Parametres.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ParamPompage</label>
+        <link refid="classParamPompage"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>coeffEmmagasinement</edgelabel>
+          <edgelabel>conductiviteHydraulique</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/Parametres.h" line="351" column="1" bodyfile="src/Parametres.h" bodystart="351" bodyend="363"/>
+    <listofallmembers>
+      <member refid="classParamPompage_1a234f7765bca3bf85f5fcad0b9a532ba3" prot="public" virt="non-virtual"><scope>ParamPompage</scope><name>coeffEmmagasinement</name></member>
+      <member refid="classParamPompage_1abec5e3c821915407d360d40d8d705e7b" prot="public" virt="non-virtual"><scope>ParamPompage</scope><name>coeffPompage</name></member>
+      <member refid="classParamPompage_1aabf6879223cd1dcf58ee058f240f99f5" prot="public" virt="non-virtual"><scope>ParamPompage</scope><name>conductiviteHydraulique</name></member>
+      <member refid="classParamPompage_1ab901844b1ba878c4a7a83d12bbd21da8" prot="public" virt="non-virtual"><scope>ParamPompage</scope><name>delai</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

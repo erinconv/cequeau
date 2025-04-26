@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteTemplate_1_1EtatFonteAssimCE" kind="class" language="C++" prot="private">
+    <compoundname>FonteTemplate::EtatFonteAssimCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteTemplate_1_1EtatFonteAssimCE_1ad5a5537d5947f7b5aed0fe042e2dddaa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FonteTemplate::EtatFonteAssimCE::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>FonteTemplate::EtatFonteAssimCE::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteTemplate.h" line="86" column="9" bodyfile="src/FonteTemplate.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteTemplate.h" line="83" column="3" bodyfile="src/FonteTemplate.h" bodystart="84" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classFonteTemplate_1_1EtatFonteAssimCE_1ad5a5537d5947f7b5aed0fe042e2dddaa" prot="public" virt="non-virtual"><scope>FonteTemplate::EtatFonteAssimCE</scope><name>idCarreauEntier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

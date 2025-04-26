@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classSimulation" kind="class" language="C++" prot="public">
+    <compoundname>Simulation</compoundname>
+    <includes refid="Simulation_8h" local="no">Simulation.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classSimulation_1a15c03f8e6dc505505f1c117c1447073e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class SimulationQualite</definition>
+        <argsstring></argsstring>
+        <name>SimulationQualite</name>
+        <qualifiedname>Simulation::SimulationQualite</qualifiedname>
+        <param>
+          <type><ref refid="classSimulationQualite" kindref="compound">SimulationQualite</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="205" column="16" bodyfile="src/Simulation.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSimulation_1a335d4d82fb404f68f63b3279a8363c10" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Simulation::hasNeigeAjustee_</definition>
+        <argsstring></argsstring>
+        <name>hasNeigeAjustee_</name>
+        <qualifiedname>Simulation::hasNeigeAjustee_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="237" column="8" bodyfile="src/Simulation.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1aa55cc6586a58d1cc5c32df72f988966d" prot="private" static="no" mutable="no">
+        <type><ref refid="classBassinVersant" kindref="compound">BassinVersant</ref> &amp;</type>
+        <definition>BassinVersant&amp; Simulation::bassinVersant_</definition>
+        <argsstring></argsstring>
+        <name>bassinVersant_</name>
+        <qualifiedname>Simulation::bassinVersant_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="239" column="17" bodyfile="src/Simulation.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1aabeee409dac84455a934a67bc2531778" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classParametres" kindref="compound">Parametres</ref> &amp;</type>
+        <definition>const Parametres&amp; Simulation::parametres_</definition>
+        <argsstring></argsstring>
+        <name>parametres_</name>
+        <qualifiedname>Simulation::parametres_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="240" column="20" bodyfile="src/Simulation.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a0a54733e17f5b5a2d9bec8c7993cdf87" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classDonneesMeteo" kindref="compound">DonneesMeteo</ref> &amp;</type>
+        <definition>const DonneesMeteo&amp; Simulation::donneesMeteo_</definition>
+        <argsstring></argsstring>
+        <name>donneesMeteo_</name>
+        <qualifiedname>Simulation::donneesMeteo_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="241" column="22" bodyfile="src/Simulation.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a4791529629497400bef3ea335ba761db" prot="private" static="no" mutable="no">
+        <type>FontePtr</type>
+        <definition>FontePtr Simulation::fonte_</definition>
+        <argsstring></argsstring>
+        <name>fonte_</name>
+        <qualifiedname>Simulation::fonte_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="242" column="12" bodyfile="src/Simulation.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a53556e96f3deada66e8a8c554c02cb54" prot="private" static="no" mutable="no">
+        <type>EvapoPtr</type>
+        <definition>EvapoPtr Simulation::evapo_</definition>
+        <argsstring></argsstring>
+        <name>evapo_</name>
+        <qualifiedname>Simulation::evapo_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="243" column="12" bodyfile="src/Simulation.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1ab512b663268c4d69e1a1a199c5696776" prot="private" static="no" mutable="no">
+        <type>const mxArray *</type>
+        <definition>const mxArray* Simulation::etatsPrecedents_</definition>
+        <argsstring></argsstring>
+        <name>etatsPrecedents_</name>
+        <qualifiedname>Simulation::etatsPrecedents_</qualifiedname>
+        <briefdescription>
+<para>Etats precedents. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="246" column="17" bodyfile="src/Simulation.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a517a0e4dc196d528d939e7682a191340" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Simulation::fichierResultats_</definition>
+        <argsstring></argsstring>
+        <name>fichierResultats_</name>
+        <qualifiedname>Simulation::fichierResultats_</qualifiedname>
+        <briefdescription>
+<para>Fichier des resultats, incluant le repertoire. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="248" column="15" bodyfile="src/Simulation.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a6fde6325ecb002c294d426f47440124f" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Simulation::repertoireOut_</definition>
+        <argsstring></argsstring>
+        <name>repertoireOut_</name>
+        <qualifiedname>Simulation::repertoireOut_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="250" column="15" bodyfile="src/Simulation.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a7a27e2483ed704383cba6f475c00b7b2" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, EtatsCarreauxEntiersAssim &gt;</type>
+        <definition>std::map&lt;DateChrono, EtatsCarreauxEntiersAssim&gt; Simulation::assimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsCE_</name>
+        <qualifiedname>Simulation::assimilationsCE_</qualifiedname>
+        <briefdescription>
+<para>Donnees a assimiler aux etats des carreaux entiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="253" column="12" bodyfile="src/Simulation.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a719c6171215eea43856bbe727e2278d8" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, EtatsCarreauxPartielsAssim &gt;</type>
+        <definition>std::map&lt;DateChrono, EtatsCarreauxPartielsAssim&gt; Simulation::assimilationsCP_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsCP_</name>
+        <qualifiedname>Simulation::assimilationsCP_</qualifiedname>
+        <briefdescription>
+<para>Donnees a assimiler aux etats des carreaux partiels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="255" column="12" bodyfile="src/Simulation.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a163639b6924fd64895a5c7df0f4ee770" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, EtatsBarragesAssim &gt;</type>
+        <definition>std::map&lt;DateChrono, EtatsBarragesAssim&gt; Simulation::assimilationsBarrages_</definition>
+        <argsstring></argsstring>
+        <name>assimilationsBarrages_</name>
+        <qualifiedname>Simulation::assimilationsBarrages_</qualifiedname>
+        <briefdescription>
+<para>Donnees a assimiler aux etats des barrages. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="257" column="12" bodyfile="src/Simulation.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1aef58125c10cda987e642806c05288682" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, EtatsCarreauxEntiers &gt;</type>
+        <definition>std::map&lt;DateChrono, EtatsCarreauxEntiers&gt; Simulation::avantAssimilationsCE_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsCE_</name>
+        <qualifiedname>Simulation::avantAssimilationsCE_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux entiers, avant assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="259" column="12" bodyfile="src/Simulation.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1ad6c626fdfe02fa41b22f0fa98fdcf933" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, EtatsCarreauxPartiels &gt;</type>
+        <definition>std::map&lt;DateChrono, EtatsCarreauxPartiels&gt; Simulation::avantAssimilationsCP_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsCP_</name>
+        <qualifiedname>Simulation::avantAssimilationsCP_</qualifiedname>
+        <briefdescription>
+<para>Etats des carreaux partiels, avant assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="261" column="12" bodyfile="src/Simulation.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a8599a3ae73d4953df5b97ba9c4ad47d4" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classDateChrono" kindref="compound">DateChrono</ref>, EtatsBarrages &gt;</type>
+        <definition>std::map&lt;DateChrono, EtatsBarrages&gt; Simulation::avantAssimilationsBarrages_</definition>
+        <argsstring></argsstring>
+        <name>avantAssimilationsBarrages_</name>
+        <qualifiedname>Simulation::avantAssimilationsBarrages_</qualifiedname>
+        <briefdescription>
+<para>Etats des barrages, avant assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="263" column="12" bodyfile="src/Simulation.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a16a711d5ece98a4eb322d18a322d701e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; EtatsCarreauxEntiers &gt;</type>
+        <definition>std::vector&lt;EtatsCarreauxEntiers&gt; Simulation::bilans_</definition>
+        <argsstring></argsstring>
+        <name>bilans_</name>
+        <qualifiedname>Simulation::bilans_</qualifiedname>
+        <briefdescription>
+<para>Resultat de la production. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="266" column="16" bodyfile="src/Simulation.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1a39a58463c260a0591228e8b56d2c4fa2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; EtatsCarreauxPartiels &gt;</type>
+        <definition>std::vector&lt;EtatsCarreauxPartiels&gt; Simulation::debits_</definition>
+        <argsstring></argsstring>
+        <name>debits_</name>
+        <qualifiedname>Simulation::debits_</qualifiedname>
+        <briefdescription>
+<para>Resultat du transfert. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="268" column="15" bodyfile="src/Simulation.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSimulation_1aa2890369b5cf553315ffd1ff01d8c5d7" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; EtatsBarrages &gt;</type>
+        <definition>std::vector&lt;EtatsBarrages&gt; Simulation::barrages_</definition>
+        <argsstring></argsstring>
+        <name>barrages_</name>
+        <qualifiedname>Simulation::barrages_</qualifiedname>
+        <briefdescription>
+<para>Suivi du volume aux barrages. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="270" column="15" bodyfile="src/Simulation.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSimulation_1a9cc515da10713c627ad86723178c4eff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Simulation::Simulation</definition>
+        <argsstring>(BassinVersant &amp;bv, const Parametres &amp;param, const DonneesMeteo &amp;meteo, const mxArray *etatsPrecedents, const std::string &amp;fichierResultats, FontePtr moduleFonte, EvapoPtr moduleEvapo, const mxArray *assimilations=NULL)</argsstring>
+        <name>Simulation</name>
+        <qualifiedname>Simulation::Simulation</qualifiedname>
+        <param>
+          <type><ref refid="classBassinVersant" kindref="compound">BassinVersant</ref> &amp;</type>
+          <declname>bv</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classParametres" kindref="compound">Parametres</ref> &amp;</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classDonneesMeteo" kindref="compound">DonneesMeteo</ref> &amp;</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>const mxArray *</type>
+          <declname>etatsPrecedents</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>fichierResultats</declname>
+        </param>
+        <param>
+          <type>FontePtr</type>
+          <declname>moduleFonte</declname>
+        </param>
+        <param>
+          <type>EvapoPtr</type>
+          <declname>moduleEvapo</declname>
+        </param>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Construteur. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference sur un objet <ref refid="classBassinVersant" kindref="compound">BassinVersant</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference sur un objet <ref refid="classParametres" kindref="compound">Parametres</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>meteo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference sur un objet <ref refid="classDonneesMeteo" kindref="compound">DonneesMeteo</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fichierEtats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Repertoire et nom du fichier Matlab des etats precedents. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fichierResultats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Repertoire et nom du fichier Matlab des resultats. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="214" column="3" bodyfile="src/Simulation.cpp" bodystart="31" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a80fad3f57dfaf195a36f7bc49bc88279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Simulation::~Simulation</definition>
+        <argsstring>()</argsstring>
+        <name>~Simulation</name>
+        <qualifiedname>Simulation::~Simulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="217" column="3" bodyfile="src/Simulation.cpp" bodystart="87" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a2ecb00d2e03ece413425207731986f84" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Simulation::hasNeigeAjustee</definition>
+        <argsstring>() const</argsstring>
+        <name>hasNeigeAjustee</name>
+        <qualifiedname>Simulation::hasNeigeAjustee</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="220" column="8" bodyfile="src/Simulation.cpp" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a9a0e386b6cc3cd4bbecdd6dbd0340bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::executer</definition>
+        <argsstring>(bool estMexFile=false)</argsstring>
+        <name>executer</name>
+        <qualifiedname>Simulation::executer</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>estMexFile</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Execution de la simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="223" column="7" bodyfile="src/Simulation.cpp" bodystart="113" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1ab5b5eebfd8700c25a93900d5782c1fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirEtatsCE</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirEtatsCE</name>
+        <qualifiedname>Simulation::obtenirEtatsCE</qualifiedname>
+        <briefdescription>
+<para>Etats CE en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="225" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a1d0c96cf46a373631a628615f9d4d5dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirEtatsCP</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirEtatsCP</name>
+        <qualifiedname>Simulation::obtenirEtatsCP</qualifiedname>
+        <briefdescription>
+<para>Etats CP en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="227" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="188" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a8f1f9a7cb78829955af2721eb7cb99a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirEtatsBarrage</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirEtatsBarrage</name>
+        <qualifiedname>Simulation::obtenirEtatsBarrage</qualifiedname>
+        <briefdescription>
+<para>Etats barrages en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="229" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="313" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a29e7481a6ff50394030bafdaa455c386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirPasDeTemps</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirPasDeTemps</name>
+        <qualifiedname>Simulation::obtenirPasDeTemps</qualifiedname>
+        <briefdescription>
+<para>Pas de temps en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="231" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="407" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a58f3c993a2f267254a10def21abd5303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirEtatsAvantAssimilations</definition>
+        <argsstring>()</argsstring>
+        <name>obtenirEtatsAvantAssimilations</name>
+        <qualifiedname>Simulation::obtenirEtatsAvantAssimilations</qualifiedname>
+        <briefdescription>
+<para>Pas de temps en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="233" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="429" bodyend="520"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSimulation_1a55f6776674167eca35041b223681b9f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Simulation::traiterParamFacultatifs</definition>
+        <argsstring>()</argsstring>
+        <name>traiterParamFacultatifs</name>
+        <qualifiedname>Simulation::traiterParamFacultatifs</qualifiedname>
+        <briefdescription>
+<para>Traitement des parametres facultatifs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="273" column="8" bodyfile="src/Simulation.cpp" bodystart="315" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a325054cba86b267d9014a740216d4744" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::executerProduction</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const int &amp;noPasDeTemps)</argsstring>
+        <name>executerProduction</name>
+        <qualifiedname>Simulation::executerProduction</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noPasDeTemps</declname>
+        </param>
+        <briefdescription>
+<para>Fonction de production. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>datePasDeTemps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Date du pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>noPasDeTemps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>No du du pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="280" column="8" bodyfile="src/Simulation_Production.cpp" bodystart="37" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1af0e014d84b97739ac052e4096b564aad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::initialiserAssimilations</definition>
+        <argsstring>(const mxArray *assimilations)</argsstring>
+        <name>initialiserAssimilations</name>
+        <qualifiedname>Simulation::initialiserAssimilations</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>assimilations</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des donnees d&apos;assimilation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="283" column="7" bodyfile="src/Simulation_IO.cpp" bodystart="662" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a42c53176f13a6e934131d6a1b24e4498" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, EtatsCarreauxEntiers &amp;etatsCarreauxEntiers)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>Simulation::assimiler</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>EtatsCarreauxEntiers &amp;</type>
+          <declname>etatsCarreauxEntiers</declname>
+        </param>
+        <briefdescription>
+<para>Assimilation donnees CE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="285" column="7" bodyfile="src/Simulation_Assimilation.cpp" bodystart="16" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a368557a747672b38d3af027bc1eda317" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, EtatsCarreauxPartiels &amp;etatsCarreauxPartiels)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>Simulation::assimiler</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>EtatsCarreauxPartiels &amp;</type>
+          <declname>etatsCarreauxPartiels</declname>
+        </param>
+        <briefdescription>
+<para>Assimilation donnees CP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="287" column="7" bodyfile="src/Simulation_Assimilation.cpp" bodystart="68" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a17f38d9c97abb94c082743d130aa67ff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::assimiler</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, EtatsBarrages &amp;etatsBarrages)</argsstring>
+        <name>assimiler</name>
+        <qualifiedname>Simulation::assimiler</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>EtatsBarrages &amp;</type>
+          <declname>etatsBarrages</declname>
+        </param>
+        <briefdescription>
+<para>Assimilation donnees Barrages. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="289" column="7" bodyfile="src/Simulation_Assimilation.cpp" bodystart="113" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a5e1637a014d61bd42d3b379fcd69992b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::executerTransfert</definition>
+        <argsstring>(const int &amp;nbTransfertsParJour, const DateChrono &amp;datePasDeTemps, const int &amp;noPasDeTemps, const float &amp;duree)</argsstring>
+        <name>executerTransfert</name>
+        <qualifiedname>Simulation::executerTransfert</qualifiedname>
+        <param>
+          <type>const int &amp;</type>
+          <declname>nbTransfertsParJour</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noPasDeTemps</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+<para>Fonction de transfert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nbTransfertsParJour</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre de transfert par jour. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datePasDeTemps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Date du pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>noPasDeTemps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>No du du pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="297" column="8" bodyfile="src/Simulation_Transfert.cpp" bodystart="16" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1aff22b0a13b0ecc09b1abc9b1dd48014a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::calculerTemperatureEau</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps)</argsstring>
+        <name>calculerTemperatureEau</name>
+        <qualifiedname>Simulation::calculerTemperatureEau</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="300" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a6b17a70bd3595ff2f1dcf6b69561ff4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Simulation::initialiserCoeffTransfertCP</definition>
+        <argsstring>(int nbTransfertParJour)</argsstring>
+        <name>initialiserCoeffTransfertCP</name>
+        <qualifiedname>Simulation::initialiserCoeffTransfertCP</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nbTransfertParJour</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des coefficient de transfert de chaque carreau. partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="303" column="9" bodyfile="src/Simulation_Transfert.cpp" bodystart="200" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1acfe14f7668662a7d45234794dc38e457" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Simulation::initialiserEtats</definition>
+        <argsstring>()</argsstring>
+        <name>initialiserEtats</name>
+        <qualifiedname>Simulation::initialiserEtats</qualifiedname>
+        <briefdescription>
+<para>Initialisation des etats initiaux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>L&apos;initialisation se fait a partir des parametres ou bien d&apos;etats precedents, s&apos;ils sont presents dans les intrants. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="310" column="9" bodyfile="src/Simulation.cpp" bodystart="501" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a74246159e348430007bb4480c4603ff2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::calculerFonte</definition>
+        <argsstring>(float surfaceForetCE, const EtatCarreauEntier &amp;etatPrecCarreauEntier, EtatCarreauEntier &amp;etatCarreauEntier, float PJE_pluie, float PJN_neige, float TJE_tempMoy, float facteurModulSoleilNeige, float &amp;eauDisponible)</argsstring>
+        <name>calculerFonte</name>
+        <qualifiedname>Simulation::calculerFonte</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>surfaceForetCE</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classEtatCarreauEntier" kindref="compound">EtatCarreauEntier</ref> &amp;</type>
+          <declname>etatPrecCarreauEntier</declname>
+        </param>
+        <param>
+          <type><ref refid="classEtatCarreauEntier" kindref="compound">EtatCarreauEntier</ref> &amp;</type>
+          <declname>etatCarreauEntier</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>PJE_pluie</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>PJN_neige</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>TJE_tempMoy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>facteurModulSoleilNeige</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>eauDisponible</declname>
+        </param>
+        <briefdescription>
+<para>Calcul de la fonte sur un carreau entier pour un pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">surfaceForetCE</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Surface occupee par la foret. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">etatPrecCarreauEntier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Etat du carreau entier pour le pas de temps precedent. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">etatCarreauEntier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference sur l&apos;etat du carreau entier du pas de temps courant. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">PJE_pluie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantite de pluie sur le carreau entier pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">PJN_neige</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantite de neige sur le carreau entier pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">TJE_tempMoy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Temperature moyenne sur le carreau entier pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">facteurModulSoleilNeige</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Facteur de modulation solaire pour la fonte pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">fonteDisponible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Eau disponible resultant de la fonte sur le carreau entier pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">eauDisponible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Eau totale disponible sur le carreau entier pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 ok, -1 sinon </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="325" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1acb659f6fd3e71144647e3ec6ae98e41c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::ajusterNeigeZone</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, std::ofstream &amp;fOut)</argsstring>
+        <name>ajusterNeigeZone</name>
+        <qualifiedname>Simulation::ajusterNeigeZone</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>std::ofstream &amp;</type>
+          <declname>fOut</declname>
+        </param>
+        <briefdescription>
+<para>Calcul de la fonte sur un carreau entier pour un pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Version avec enonces goto. Conservee a titre de reference. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="340" column="7" bodyfile="src/Simulation_Production.cpp" bodystart="569" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a446f50998293412807cbbcb1e5574820" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::ajusterNeige3Releves</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, std::ofstream &amp;fOut)</argsstring>
+        <name>ajusterNeige3Releves</name>
+        <qualifiedname>Simulation::ajusterNeige3Releves</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>std::ofstream &amp;</type>
+          <declname>fOut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="343" column="7" bodyfile="src/Simulation_Production.cpp" bodystart="723" bodyend="981"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1acc887e733f9e090ec86886406331fbfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::calculerBilanReservoirs</definition>
+        <argsstring>(int noJour, CarreauEntier &amp;carreauEntier, const EtatCarreauEntier &amp;etatPrecCarreauEntier, EtatCarreauEntier &amp;etatCarreauEntier, const Meteo &amp;meteo, float PLUFON_eauDisponible, const std::vector&lt; PuitsPtr &gt; &amp;listePuits, int indexPasDeTemps)</argsstring>
+        <name>calculerBilanReservoirs</name>
+        <qualifiedname>Simulation::calculerBilanReservoirs</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noJour</declname>
+        </param>
+        <param>
+          <type><ref refid="classCarreauEntier" kindref="compound">CarreauEntier</ref> &amp;</type>
+          <declname>carreauEntier</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classEtatCarreauEntier" kindref="compound">EtatCarreauEntier</ref> &amp;</type>
+          <declname>etatPrecCarreauEntier</declname>
+        </param>
+        <param>
+          <type><ref refid="classEtatCarreauEntier" kindref="compound">EtatCarreauEntier</ref> &amp;</type>
+          <declname>etatCarreauEntier</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMeteo" kindref="compound">Meteo</ref> &amp;</type>
+          <declname>meteo</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>PLUFON_eauDisponible</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; PuitsPtr &gt; &amp;</type>
+          <declname>listePuits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indexPasDeTemps</declname>
+        </param>
+        <briefdescription>
+<para>Calcul du bilan d&apos;un carreau entier. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">carreauEntier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference sur le carreau entier. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">etatPrecCarreauEntier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Etat du carreau entier pour le pas de temps precedent. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">etatCarreauEntier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference sur l&apos;etat du carreau entier du pas de temps courant. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">TJE_tempMoy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Temperature moyenne sur le carreau entier pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">PLUFON_eauDisponible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Eau totale disponible sur le carreau entier pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">facteurModulSoleilEvapo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Facteur de modulation solaire pour l&apos;evapotranspiration pour le pas de temps. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 ok, -1 sinon </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="357" column="9" bodyfile="src/Simulation_Production.cpp" bodystart="159" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a5d2237d06b9c0f585014b965e4555b2e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::calculerIndexMeteo</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const int &amp;noPasDeTemps)</argsstring>
+        <name>calculerIndexMeteo</name>
+        <qualifiedname>Simulation::calculerIndexMeteo</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noPasDeTemps</declname>
+        </param>
+        <briefdescription>
+<para>Calcul de la position des intrants meteo et debit. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="361" column="7" bodyfile="src/Simulation.cpp" bodystart="721" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a9fca428b3dd44ad9687d0f8b7b81bb8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::calculerIndexPompage</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const int &amp;noPasDeTemps)</argsstring>
+        <name>calculerIndexPompage</name>
+        <qualifiedname>Simulation::calculerIndexPompage</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noPasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="363" column="7" bodyfile="src/Simulation.cpp" bodystart="741" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a5ef9d14f5f2eb8740a7306a8b01e23c3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Simulation::convertirMetreCubeEnHauteur</definition>
+        <argsstring>(const DateChrono &amp;datePasDeTemps, const int &amp;noPasDeTemps)</argsstring>
+        <name>convertirMetreCubeEnHauteur</name>
+        <qualifiedname>Simulation::convertirMetreCubeEnHauteur</qualifiedname>
+        <param>
+          <type>const <ref refid="classDateChrono" kindref="compound">DateChrono</ref> &amp;</type>
+          <declname>datePasDeTemps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>noPasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="364" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1ac7caffa690906ed2fdaf01902bfbd6d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Simulation::ecrireResultats</definition>
+        <argsstring>()</argsstring>
+        <name>ecrireResultats</name>
+        <qualifiedname>Simulation::ecrireResultats</qualifiedname>
+        <briefdescription>
+<para>Ecriture des resultats de la simulation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="367" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a68935f8bf2686d2ce619a122d2ed1e91" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirEtatsCE</definition>
+        <argsstring>(const std::vector&lt; EtatsCarreauxEntiers &gt; &amp;etatsPasDeTemps)</argsstring>
+        <name>obtenirEtatsCE</name>
+        <qualifiedname>Simulation::obtenirEtatsCE</qualifiedname>
+        <param>
+          <type>const std::vector&lt; EtatsCarreauxEntiers &gt; &amp;</type>
+          <declname>etatsPasDeTemps</declname>
+        </param>
+        <briefdescription>
+<para>Etats CE en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="370" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="78" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a219bb20b0749f92d90ba726b2bf3cb2f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirEtatsCP</definition>
+        <argsstring>(const std::vector&lt; EtatsCarreauxPartiels &gt; &amp;etatsPasDeTemps)</argsstring>
+        <name>obtenirEtatsCP</name>
+        <qualifiedname>Simulation::obtenirEtatsCP</qualifiedname>
+        <param>
+          <type>const std::vector&lt; EtatsCarreauxPartiels &gt; &amp;</type>
+          <declname>etatsPasDeTemps</declname>
+        </param>
+        <briefdescription>
+<para>Etats CP en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="373" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="195" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1afc26ae913ed8945397105258f51e7489" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>mxArray *</type>
+        <definition>mxArray * Simulation::obtenirEtatsBarrage</definition>
+        <argsstring>(const std::vector&lt; EtatsBarrages &gt; &amp;etatsPasDeTemps)</argsstring>
+        <name>obtenirEtatsBarrage</name>
+        <qualifiedname>Simulation::obtenirEtatsBarrage</qualifiedname>
+        <param>
+          <type>const std::vector&lt; EtatsBarrages &gt; &amp;</type>
+          <declname>etatsPasDeTemps</declname>
+        </param>
+        <briefdescription>
+<para>Etats CP en mxArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="376" column="11" bodyfile="src/Simulation_IO.cpp" bodystart="320" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a9addb442f8ae8a7a06bccce5ae0699b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>matError Simulation::chargerEtatsCE</definition>
+        <argsstring>(EtatsCarreauxEntiers &amp;etatsCarreauxEntiers)</argsstring>
+        <name>chargerEtatsCE</name>
+        <qualifiedname>Simulation::chargerEtatsCE</qualifiedname>
+        <param>
+          <type>EtatsCarreauxEntiers &amp;</type>
+          <declname>etatsCarreauxEntiers</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des etats des carreaux entiers a partir d&apos;etats precedents en format Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="406" column="7" bodyfile="src/Simulation_IO.cpp" bodystart="524" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1abf535fee8a6f07da293f7c3842b700f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>matError Simulation::chargerEtatsCP</definition>
+        <argsstring>(EtatsCarreauxPartiels &amp;etatsCarreauxPartiels)</argsstring>
+        <name>chargerEtatsCP</name>
+        <qualifiedname>Simulation::chargerEtatsCP</qualifiedname>
+        <param>
+          <type>EtatsCarreauxPartiels &amp;</type>
+          <declname>etatsCarreauxPartiels</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des etats des carreaux partiels a partir d&apos;etats precedents en format Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="409" column="7" bodyfile="src/Simulation_IO.cpp" bodystart="578" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="classSimulation_1a9fcd52d2bcb9815e63d3aaf1e9a554ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>matError Simulation::chargerEtatsBarrages</definition>
+        <argsstring>()</argsstring>
+        <name>chargerEtatsBarrages</name>
+        <qualifiedname>Simulation::chargerEtatsBarrages</qualifiedname>
+        <briefdescription>
+<para>Chargements etats des barrages a partir d&apos;etats precedents en format Matlab. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="412" column="7" bodyfile="src/Simulation_IO.cpp" bodystart="622" bodyend="659"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe simulation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe principale de l&apos;application. </para>
+    </detaileddescription>
+    <location file="src/Simulation.h" line="202" column="1" bodyfile="src/Simulation.h" bodystart="203" bodyend="413"/>
+    <listofallmembers>
+      <member refid="classSimulation_1a446f50998293412807cbbcb1e5574820" prot="private" virt="non-virtual"><scope>Simulation</scope><name>ajusterNeige3Releves</name></member>
+      <member refid="classSimulation_1acb659f6fd3e71144647e3ec6ae98e41c" prot="private" virt="non-virtual"><scope>Simulation</scope><name>ajusterNeigeZone</name></member>
+      <member refid="classSimulation_1a163639b6924fd64895a5c7df0f4ee770" prot="private" virt="non-virtual"><scope>Simulation</scope><name>assimilationsBarrages_</name></member>
+      <member refid="classSimulation_1a7a27e2483ed704383cba6f475c00b7b2" prot="private" virt="non-virtual"><scope>Simulation</scope><name>assimilationsCE_</name></member>
+      <member refid="classSimulation_1a719c6171215eea43856bbe727e2278d8" prot="private" virt="non-virtual"><scope>Simulation</scope><name>assimilationsCP_</name></member>
+      <member refid="classSimulation_1a42c53176f13a6e934131d6a1b24e4498" prot="private" virt="non-virtual"><scope>Simulation</scope><name>assimiler</name></member>
+      <member refid="classSimulation_1a368557a747672b38d3af027bc1eda317" prot="private" virt="non-virtual"><scope>Simulation</scope><name>assimiler</name></member>
+      <member refid="classSimulation_1a17f38d9c97abb94c082743d130aa67ff" prot="private" virt="non-virtual"><scope>Simulation</scope><name>assimiler</name></member>
+      <member refid="classSimulation_1a8599a3ae73d4953df5b97ba9c4ad47d4" prot="private" virt="non-virtual"><scope>Simulation</scope><name>avantAssimilationsBarrages_</name></member>
+      <member refid="classSimulation_1aef58125c10cda987e642806c05288682" prot="private" virt="non-virtual"><scope>Simulation</scope><name>avantAssimilationsCE_</name></member>
+      <member refid="classSimulation_1ad6c626fdfe02fa41b22f0fa98fdcf933" prot="private" virt="non-virtual"><scope>Simulation</scope><name>avantAssimilationsCP_</name></member>
+      <member refid="classSimulation_1aa2890369b5cf553315ffd1ff01d8c5d7" prot="private" virt="non-virtual"><scope>Simulation</scope><name>barrages_</name></member>
+      <member refid="classSimulation_1aa55cc6586a58d1cc5c32df72f988966d" prot="private" virt="non-virtual"><scope>Simulation</scope><name>bassinVersant_</name></member>
+      <member refid="classSimulation_1a16a711d5ece98a4eb322d18a322d701e" prot="private" virt="non-virtual"><scope>Simulation</scope><name>bilans_</name></member>
+      <member refid="classSimulation_1acc887e733f9e090ec86886406331fbfb" prot="private" virt="non-virtual"><scope>Simulation</scope><name>calculerBilanReservoirs</name></member>
+      <member refid="classSimulation_1a74246159e348430007bb4480c4603ff2" prot="private" virt="non-virtual"><scope>Simulation</scope><name>calculerFonte</name></member>
+      <member refid="classSimulation_1a5d2237d06b9c0f585014b965e4555b2e" prot="private" virt="non-virtual"><scope>Simulation</scope><name>calculerIndexMeteo</name></member>
+      <member refid="classSimulation_1a9fca428b3dd44ad9687d0f8b7b81bb8b" prot="private" virt="non-virtual"><scope>Simulation</scope><name>calculerIndexPompage</name></member>
+      <member refid="classSimulation_1aff22b0a13b0ecc09b1abc9b1dd48014a" prot="private" virt="non-virtual"><scope>Simulation</scope><name>calculerTemperatureEau</name></member>
+      <member refid="classSimulation_1a9fcd52d2bcb9815e63d3aaf1e9a554ce" prot="private" virt="non-virtual"><scope>Simulation</scope><name>chargerEtatsBarrages</name></member>
+      <member refid="classSimulation_1a9addb442f8ae8a7a06bccce5ae0699b6" prot="private" virt="non-virtual"><scope>Simulation</scope><name>chargerEtatsCE</name></member>
+      <member refid="classSimulation_1abf535fee8a6f07da293f7c3842b700f4" prot="private" virt="non-virtual"><scope>Simulation</scope><name>chargerEtatsCP</name></member>
+      <member refid="classSimulation_1a5ef9d14f5f2eb8740a7306a8b01e23c3" prot="private" virt="non-virtual"><scope>Simulation</scope><name>convertirMetreCubeEnHauteur</name></member>
+      <member refid="classSimulation_1a39a58463c260a0591228e8b56d2c4fa2" prot="private" virt="non-virtual"><scope>Simulation</scope><name>debits_</name></member>
+      <member refid="classSimulation_1a0a54733e17f5b5a2d9bec8c7993cdf87" prot="private" virt="non-virtual"><scope>Simulation</scope><name>donneesMeteo_</name></member>
+      <member refid="classSimulation_1ac7caffa690906ed2fdaf01902bfbd6d8" prot="private" virt="non-virtual"><scope>Simulation</scope><name>ecrireResultats</name></member>
+      <member refid="classSimulation_1ab512b663268c4d69e1a1a199c5696776" prot="private" virt="non-virtual"><scope>Simulation</scope><name>etatsPrecedents_</name></member>
+      <member refid="classSimulation_1a53556e96f3deada66e8a8c554c02cb54" prot="private" virt="non-virtual"><scope>Simulation</scope><name>evapo_</name></member>
+      <member refid="classSimulation_1a9a0e386b6cc3cd4bbecdd6dbd0340bca" prot="public" virt="non-virtual"><scope>Simulation</scope><name>executer</name></member>
+      <member refid="classSimulation_1a325054cba86b267d9014a740216d4744" prot="private" virt="non-virtual"><scope>Simulation</scope><name>executerProduction</name></member>
+      <member refid="classSimulation_1a5e1637a014d61bd42d3b379fcd69992b" prot="private" virt="non-virtual"><scope>Simulation</scope><name>executerTransfert</name></member>
+      <member refid="classSimulation_1a517a0e4dc196d528d939e7682a191340" prot="private" virt="non-virtual"><scope>Simulation</scope><name>fichierResultats_</name></member>
+      <member refid="classSimulation_1a4791529629497400bef3ea335ba761db" prot="private" virt="non-virtual"><scope>Simulation</scope><name>fonte_</name></member>
+      <member refid="classSimulation_1a2ecb00d2e03ece413425207731986f84" prot="public" virt="non-virtual"><scope>Simulation</scope><name>hasNeigeAjustee</name></member>
+      <member refid="classSimulation_1a335d4d82fb404f68f63b3279a8363c10" prot="private" virt="non-virtual"><scope>Simulation</scope><name>hasNeigeAjustee_</name></member>
+      <member refid="classSimulation_1af0e014d84b97739ac052e4096b564aad" prot="private" virt="non-virtual"><scope>Simulation</scope><name>initialiserAssimilations</name></member>
+      <member refid="classSimulation_1a6b17a70bd3595ff2f1dcf6b69561ff4f" prot="private" virt="non-virtual"><scope>Simulation</scope><name>initialiserCoeffTransfertCP</name></member>
+      <member refid="classSimulation_1acfe14f7668662a7d45234794dc38e457" prot="private" virt="non-virtual"><scope>Simulation</scope><name>initialiserEtats</name></member>
+      <member refid="classSimulation_1a58f3c993a2f267254a10def21abd5303" prot="public" virt="non-virtual"><scope>Simulation</scope><name>obtenirEtatsAvantAssimilations</name></member>
+      <member refid="classSimulation_1a8f1f9a7cb78829955af2721eb7cb99a6" prot="public" virt="non-virtual"><scope>Simulation</scope><name>obtenirEtatsBarrage</name></member>
+      <member refid="classSimulation_1afc26ae913ed8945397105258f51e7489" prot="private" virt="non-virtual"><scope>Simulation</scope><name>obtenirEtatsBarrage</name></member>
+      <member refid="classSimulation_1ab5b5eebfd8700c25a93900d5782c1fd8" prot="public" virt="non-virtual"><scope>Simulation</scope><name>obtenirEtatsCE</name></member>
+      <member refid="classSimulation_1a68935f8bf2686d2ce619a122d2ed1e91" prot="private" virt="non-virtual"><scope>Simulation</scope><name>obtenirEtatsCE</name></member>
+      <member refid="classSimulation_1a1d0c96cf46a373631a628615f9d4d5dd" prot="public" virt="non-virtual"><scope>Simulation</scope><name>obtenirEtatsCP</name></member>
+      <member refid="classSimulation_1a219bb20b0749f92d90ba726b2bf3cb2f" prot="private" virt="non-virtual"><scope>Simulation</scope><name>obtenirEtatsCP</name></member>
+      <member refid="classSimulation_1a29e7481a6ff50394030bafdaa455c386" prot="public" virt="non-virtual"><scope>Simulation</scope><name>obtenirPasDeTemps</name></member>
+      <member refid="classSimulation_1aabeee409dac84455a934a67bc2531778" prot="private" virt="non-virtual"><scope>Simulation</scope><name>parametres_</name></member>
+      <member refid="classSimulation_1a6fde6325ecb002c294d426f47440124f" prot="private" virt="non-virtual"><scope>Simulation</scope><name>repertoireOut_</name></member>
+      <member refid="classSimulation_1a9cc515da10713c627ad86723178c4eff" prot="public" virt="non-virtual"><scope>Simulation</scope><name>Simulation</name></member>
+      <member refid="classSimulation_1a15c03f8e6dc505505f1c117c1447073e" prot="public" virt="non-virtual"><scope>Simulation</scope><name>SimulationQualite</name></member>
+      <member refid="classSimulation_1a55f6776674167eca35041b223681b9f6" prot="private" virt="non-virtual"><scope>Simulation</scope><name>traiterParamFacultatifs</name></member>
+      <member refid="classSimulation_1a80fad3f57dfaf195a36f7bc49bc88279" prot="public" virt="non-virtual"><scope>Simulation</scope><name>~Simulation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

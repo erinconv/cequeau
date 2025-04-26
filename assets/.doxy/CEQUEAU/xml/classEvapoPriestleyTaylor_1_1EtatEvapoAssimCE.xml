@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEvapoPriestleyTaylor_1_1EtatEvapoAssimCE" kind="class" language="C++" prot="private">
+    <compoundname>EvapoPriestleyTaylor::EtatEvapoAssimCE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEvapoPriestleyTaylor_1_1EtatEvapoAssimCE_1af321d04868a8306b723bdd25da999573" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EvapoPriestleyTaylor::EtatEvapoAssimCE::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>EvapoPriestleyTaylor::EtatEvapoAssimCE::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/EvapoPriestleyTaylor.h" line="98" column="9" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/EvapoPriestleyTaylor.h" line="95" column="3" bodyfile="src/EvapoPriestleyTaylor.h" bodystart="96" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classEvapoPriestleyTaylor_1_1EtatEvapoAssimCE_1af321d04868a8306b723bdd25da999573" prot="public" virt="non-virtual"><scope>EvapoPriestleyTaylor::EtatEvapoAssimCE</scope><name>idCarreauEntier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

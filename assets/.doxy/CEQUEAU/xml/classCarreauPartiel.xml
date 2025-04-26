@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classCarreauPartiel" kind="class" language="C++" prot="public">
+    <compoundname>CarreauPartiel</compoundname>
+    <includes refid="CarreauPartiel_8h" local="no">CarreauPartiel.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCarreauPartiel_1ac7ba778cf506241d113f16e8a583db30" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>CarreauPartiel::id_</qualifiedname>
+        <briefdescription>
+<para>Id du carreau partiel. 1 a nbCarreauxPartielss du bassin versant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="301" column="8" bodyfile="src/CarreauPartiel.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a0d1ef0f1b6cadbe9fbc8f50d8f4ca84d" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char CarreauPartiel::codeCarreauPartiel_</definition>
+        <argsstring></argsstring>
+        <name>codeCarreauPartiel_</name>
+        <qualifiedname>CarreauPartiel::codeCarreauPartiel_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="303" column="8" bodyfile="src/CarreauPartiel.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a728cd85aeecc3dd05b8f8e9436a62583" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctSurface_</definition>
+        <argsstring></argsstring>
+        <name>pctSurface_</name>
+        <qualifiedname>CarreauPartiel::pctSurface_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="305" column="8" bodyfile="src/CarreauPartiel.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a4ad9296a7745fb6859f959a743773091" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::iCarreauEntier_</definition>
+        <argsstring></argsstring>
+        <name>iCarreauEntier_</name>
+        <qualifiedname>CarreauPartiel::iCarreauEntier_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="307" column="8" bodyfile="src/CarreauPartiel.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1abd92eb34abe0f8cb49223a89c635e828" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::jCarreauEntier_</definition>
+        <argsstring></argsstring>
+        <name>jCarreauEntier_</name>
+        <qualifiedname>CarreauPartiel::jCarreauEntier_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="309" column="8" bodyfile="src/CarreauPartiel.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a301b86ae88b3668bd62af1a5af4abaaa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::idCarreauPartielAval_</definition>
+        <argsstring></argsstring>
+        <name>idCarreauPartielAval_</name>
+        <qualifiedname>CarreauPartiel::idCarreauPartielAval_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="311" column="8" bodyfile="src/CarreauPartiel.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a2901b426d7c2e345b4f98deae8986d94" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::idCarreauxPartielsAmont_[NB_CP_AMONT]</definition>
+        <argsstring>[NB_CP_AMONT]</argsstring>
+        <name>idCarreauxPartielsAmont_</name>
+        <qualifiedname>CarreauPartiel::idCarreauxPartielsAmont_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="313" column="8" bodyfile="src/CarreauPartiel.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a424c1cae3101adfd47a1266ab9bf3073" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::idCarreauEntier_</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier_</name>
+        <qualifiedname>CarreauPartiel::idCarreauEntier_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="315" column="8" bodyfile="src/CarreauPartiel.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a59531fc153826e67517bf73d52a1dacd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctEau_</definition>
+        <argsstring></argsstring>
+        <name>pctEau_</name>
+        <qualifiedname>CarreauPartiel::pctEau_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="317" column="8" bodyfile="src/CarreauPartiel.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a2114d4d030258d26c4fc718bf1fbd3d6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctForet_</definition>
+        <argsstring></argsstring>
+        <name>pctForet_</name>
+        <qualifiedname>CarreauPartiel::pctForet_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="319" column="8" bodyfile="src/CarreauPartiel.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a137d1c21b45a32c10f0db4da5335f86e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctMarais_</definition>
+        <argsstring></argsstring>
+        <name>pctMarais_</name>
+        <qualifiedname>CarreauPartiel::pctMarais_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="321" column="8" bodyfile="src/CarreauPartiel.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a18a7b37b169b129759187cdae3510f1c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctSolNu_</definition>
+        <argsstring></argsstring>
+        <name>pctSolNu_</name>
+        <qualifiedname>CarreauPartiel::pctSolNu_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="323" column="8" bodyfile="src/CarreauPartiel.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1accb4d025264dd1e49b94d0a6bc9ea7c7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::altitudeMoyenne_</definition>
+        <argsstring></argsstring>
+        <name>altitudeMoyenne_</name>
+        <qualifiedname>CarreauPartiel::altitudeMoyenne_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="325" column="8" bodyfile="src/CarreauPartiel.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a772143b2b0b048f3749973b93f406507" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::profondeurMinimum_</definition>
+        <argsstring></argsstring>
+        <name>profondeurMinimum_</name>
+        <qualifiedname>CarreauPartiel::profondeurMinimum_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="327" column="8" bodyfile="src/CarreauPartiel.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1ac3bd4b702e4c5c581bd4e424c43d367e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::longueurCoursEauPrincipal_</definition>
+        <argsstring></argsstring>
+        <name>longueurCoursEauPrincipal_</name>
+        <qualifiedname>CarreauPartiel::longueurCoursEauPrincipal_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="329" column="8" bodyfile="src/CarreauPartiel.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a25380375c86bd891cd05cce572ea8fac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::largeurCoursEauPrincipal_</definition>
+        <argsstring></argsstring>
+        <name>largeurCoursEauPrincipal_</name>
+        <qualifiedname>CarreauPartiel::largeurCoursEauPrincipal_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="331" column="8" bodyfile="src/CarreauPartiel.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1aae58b788476be00dfdd27230a86557cd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::penteRiviere_</definition>
+        <argsstring></argsstring>
+        <name>penteRiviere_</name>
+        <qualifiedname>CarreauPartiel::penteRiviere_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="333" column="8" bodyfile="src/CarreauPartiel.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1af9689b3b312a12a722a237799d96faf0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieCPAmont_</definition>
+        <argsstring></argsstring>
+        <name>cumulPctSuperficieCPAmont_</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieCPAmont_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="335" column="8" bodyfile="src/CarreauPartiel.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1aa9e536748ca9c792f1cb7288f9e78952" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CarreauPartiel::superficieCPAmont_</definition>
+        <argsstring></argsstring>
+        <name>superficieCPAmont_</name>
+        <qualifiedname>CarreauPartiel::superficieCPAmont_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="337" column="9" bodyfile="src/CarreauPartiel.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a2ae8586b3b36de1ffc6f472c0900a44c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CarreauPartiel::superficieCPAmontCorrige_</definition>
+        <argsstring></argsstring>
+        <name>superficieCPAmontCorrige_</name>
+        <qualifiedname>CarreauPartiel::superficieCPAmontCorrige_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="339" column="9" bodyfile="src/CarreauPartiel.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1aebfc548ed1394cd647a32ebe7431b7f3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieLacsAmont_</definition>
+        <argsstring></argsstring>
+        <name>cumulPctSuperficieLacsAmont_</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieLacsAmont_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="341" column="8" bodyfile="src/CarreauPartiel.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1ab1910ff589aa7529dc846b1cac6b02bb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieMaraisAmont_</definition>
+        <argsstring></argsstring>
+        <name>cumulPctSuperficieMaraisAmont_</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieMaraisAmont_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="343" column="8" bodyfile="src/CarreauPartiel.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1af5aef1edf21959cac9502d557ec8386d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieForetAmont_</definition>
+        <argsstring></argsstring>
+        <name>cumulPctSuperficieForetAmont_</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieForetAmont_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="345" column="8" bodyfile="src/CarreauPartiel.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a2ad404f04161247e523e470042b30da0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CarreauPartiel::coeffTransfert_</definition>
+        <argsstring></argsstring>
+        <name>coeffTransfert_</name>
+        <qualifiedname>CarreauPartiel::coeffTransfert_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="347" column="10" bodyfile="src/CarreauPartiel.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a680976b4564d59b677b056c51872422b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CarreauPartiel::volumeInitial_</definition>
+        <argsstring></argsstring>
+        <name>volumeInitial_</name>
+        <qualifiedname>CarreauPartiel::volumeInitial_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="349" column="9" bodyfile="src/CarreauPartiel.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a11fed429e99a036b3f53103d3d1c1361" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctFermetureFutaie_</definition>
+        <argsstring></argsstring>
+        <name>pctFermetureFutaie_</name>
+        <qualifiedname>CarreauPartiel::pctFermetureFutaie_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="351" column="9" bodyfile="src/CarreauPartiel.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a857b0bce49d5fb91396b2e3b43f0b231" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CarreauPartiel::indiceFoliaire_</definition>
+        <argsstring></argsstring>
+        <name>indiceFoliaire_</name>
+        <qualifiedname>CarreauPartiel::indiceFoliaire_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="353" column="9" bodyfile="src/CarreauPartiel.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a4a5458e0633db5f68c6d7b82723058c5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CarreauPartiel::custom_1_</definition>
+        <argsstring></argsstring>
+        <name>custom_1_</name>
+        <qualifiedname>CarreauPartiel::custom_1_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="355" column="9" bodyfile="src/CarreauPartiel.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a9ac4079e61baf3a1c521eadf7ef6a163" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CarreauPartiel::custom_2_</definition>
+        <argsstring></argsstring>
+        <name>custom_2_</name>
+        <qualifiedname>CarreauPartiel::custom_2_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="357" column="9" bodyfile="src/CarreauPartiel.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a908aa946e3765fdcc3b3d9eabeda7c05" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::latitude_</definition>
+        <argsstring></argsstring>
+        <name>latitude_</name>
+        <qualifiedname>CarreauPartiel::latitude_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="359" column="7" bodyfile="src/CarreauPartiel.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a241708252156b3a45f26060f2cb29d39" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::longitude_</definition>
+        <argsstring></argsstring>
+        <name>longitude_</name>
+        <qualifiedname>CarreauPartiel::longitude_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="361" column="7" bodyfile="src/CarreauPartiel.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1aba2df52910e34843e263edb36b33296e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctFeuillu_</definition>
+        <argsstring></argsstring>
+        <name>pctFeuillu_</name>
+        <qualifiedname>CarreauPartiel::pctFeuillu_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="363" column="7" bodyfile="src/CarreauPartiel.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a658c7ebff59f7eabc648d4e8ef9ba2d2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctConifer_</definition>
+        <argsstring></argsstring>
+        <name>pctConifer_</name>
+        <qualifiedname>CarreauPartiel::pctConifer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="365" column="7" bodyfile="src/CarreauPartiel.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1addbccb88202a76bdec134f8df920c984" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CarreauPartiel::hautMoyenneArbre_</definition>
+        <argsstring></argsstring>
+        <name>hautMoyenneArbre_</name>
+        <qualifiedname>CarreauPartiel::hautMoyenneArbre_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="367" column="10" bodyfile="src/CarreauPartiel.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCarreauPartiel_1a8f8320c2cb8e22e9862339d04dfac8e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CarreauPartiel::azimutCoursEau_</definition>
+        <argsstring></argsstring>
+        <name>azimutCoursEau_</name>
+        <qualifiedname>CarreauPartiel::azimutCoursEau_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="369" column="7" bodyfile="src/CarreauPartiel.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCarreauPartiel_1a88ef60f4a3c728fde2dd9a3e86bfa235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CarreauPartiel::CarreauPartiel</definition>
+        <argsstring>(int id, char codeCarreauPartiel, int pctSurface, int iCarreauEntier, int jCarreauEntier, int idCarreauPartielAval, int idCarreauxPartielsAmont[NB_CP_AMONT], int idCarreauEntier, int pctEau, int pctForet, int pctMarais, int pctSolNu, int altitudeMoyenne, int profondeurMinimum, int longueurCoursEauPrincipal, int largeurCoursEauPrincipal, int penteRiviere, int cumulPctSuperficieCPAmont, int cumulPctSuperficieLacsAmont, int cumulPctSuperficieMaraisAmont, int cumulPctSuperficieForetAmont, float superficieCarreauEntier, int pctFermetureFutaie, float indiceFoliaire, float custom_1, float custom_2, int lat, int lon, int pctFeuillu, int pctConifer, double hautMoyenneArbre, int azimutCoursEau)</argsstring>
+        <name>CarreauPartiel</name>
+        <qualifiedname>CarreauPartiel::CarreauPartiel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>codeCarreauPartiel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctSurface</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iCarreauEntier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jCarreauEntier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idCarreauPartielAval</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idCarreauxPartielsAmont</declname>
+          <array>[NB_CP_AMONT]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idCarreauEntier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctEau</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctForet</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctMarais</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctSolNu</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>altitudeMoyenne</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>profondeurMinimum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>longueurCoursEauPrincipal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>largeurCoursEauPrincipal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>penteRiviere</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cumulPctSuperficieCPAmont</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cumulPctSuperficieLacsAmont</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cumulPctSuperficieMaraisAmont</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cumulPctSuperficieForetAmont</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>superficieCarreauEntier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctFermetureFutaie</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>indiceFoliaire</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>custom_1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>custom_2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lat</declname>
+          <defname>latitude</defname>
+          <briefdescription><para><mdash/> ombre --<mdash/> </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctFeuillu</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pctConifer</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hautMoyenneArbre</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>azimutCoursEau</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="51" column="3" bodyfile="src/CarreauPartiel.cpp" bodystart="16" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a6a91527fae9eae19145546a57086e3ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CarreauPartiel::~CarreauPartiel</definition>
+        <argsstring>()</argsstring>
+        <name>~CarreauPartiel</name>
+        <qualifiedname>CarreauPartiel::~CarreauPartiel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="125" column="3" bodyfile="src/CarreauPartiel.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a1c5d48618818ef82f5e31ca31c7dadfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::id</definition>
+        <argsstring>() const</argsstring>
+        <name>id</name>
+        <qualifiedname>CarreauPartiel::id</qualifiedname>
+        <briefdescription>
+<para>Getter Id du carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="133" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="99" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a577c4efe33b63d6a08ee3929cf3e56e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char CarreauPartiel::codeCarreauPartiel</definition>
+        <argsstring>() const</argsstring>
+        <name>codeCarreauPartiel</name>
+        <qualifiedname>CarreauPartiel::codeCarreauPartiel</qualifiedname>
+        <briefdescription>
+<para>Getter Code du carreau partiel (A - B - C ou D). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="137" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="106" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a521f9c8d7be18b4fe157c8e840fd610f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::pctSurface</definition>
+        <argsstring>() const</argsstring>
+        <name>pctSurface</name>
+        <qualifiedname>CarreauPartiel::pctSurface</qualifiedname>
+        <briefdescription>
+<para>Getter Pourcentage du carreau partiel par rapport au carreau entier (0 a 1). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="141" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a30d2a82a7dd1d061461ccdd958c7154d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::iCarreauEntier</definition>
+        <argsstring>() const</argsstring>
+        <name>iCarreauEntier</name>
+        <qualifiedname>CarreauPartiel::iCarreauEntier</qualifiedname>
+        <briefdescription>
+<para>Getter Abscisse I du carreau entier auquel appartient le carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="145" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1aede60b95d247edbe579bbe837de192d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::jCarreauEntier</definition>
+        <argsstring>() const</argsstring>
+        <name>jCarreauEntier</name>
+        <qualifiedname>CarreauPartiel::jCarreauEntier</qualifiedname>
+        <briefdescription>
+<para>Getter Ordonnï¿½e J du carreau entier auquel appartient le carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="149" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1add39fa7c2914a2b321a4a47ee8b7f418" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::idCarreauPartielAval</definition>
+        <argsstring>() const</argsstring>
+        <name>idCarreauPartielAval</name>
+        <qualifiedname>CarreauPartiel::idCarreauPartielAval</qualifiedname>
+        <briefdescription>
+<para>Getter Id du carreau partiel dans lequel il se jette. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="153" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="134" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a7b8d00869494bd84540222343223c544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const int *</type>
+        <definition>const int * CarreauPartiel::idCarreauxPartielsAmont</definition>
+        <argsstring>()</argsstring>
+        <name>idCarreauxPartielsAmont</name>
+        <qualifiedname>CarreauPartiel::idCarreauxPartielsAmont</qualifiedname>
+        <briefdescription>
+<para>Getter Liste des id des cinq carreaux affluents possible. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="157" column="14" bodyfile="src/CarreauPartiel.cpp" bodystart="141" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1ac6571b8a872ef7e9dfa6fe218b11b76e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::idCarreauEntier</definition>
+        <argsstring>() const</argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>CarreauPartiel::idCarreauEntier</qualifiedname>
+        <briefdescription>
+<para>Getter Id du carreau entier auquel il appartient. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="161" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a8d469b2acbc4e6a3fb9e5e1c12f7e495" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::pctEau</definition>
+        <argsstring>() const</argsstring>
+        <name>pctEau</name>
+        <qualifiedname>CarreauPartiel::pctEau</qualifiedname>
+        <briefdescription>
+<para>Getter Poucentage d&apos;eau sur le carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="165" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a9a731f78e2196176db861f74876b3a8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::pctForet</definition>
+        <argsstring>() const</argsstring>
+        <name>pctForet</name>
+        <qualifiedname>CarreauPartiel::pctForet</qualifiedname>
+        <briefdescription>
+<para>Getter Poucentage de foret sur le carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="169" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="162" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a7221fc5eb095b64d70ebcb5dcd0988e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::pctMarais</definition>
+        <argsstring>() const</argsstring>
+        <name>pctMarais</name>
+        <qualifiedname>CarreauPartiel::pctMarais</qualifiedname>
+        <briefdescription>
+<para>Getter Poucentage de marais sur le carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="173" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="169" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1ad6e9b5446cbacd50aee2b4628b974d46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::pctSolNu</definition>
+        <argsstring>() const</argsstring>
+        <name>pctSolNu</name>
+        <qualifiedname>CarreauPartiel::pctSolNu</qualifiedname>
+        <briefdescription>
+<para>Getter Poucentage de sol deboise sur le carreau partiel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="177" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="176" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a3c4ebdccf3e37bd863457c371d43e9bd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::altitudeMoyenne</definition>
+        <argsstring>() const</argsstring>
+        <name>altitudeMoyenne</name>
+        <qualifiedname>CarreauPartiel::altitudeMoyenne</qualifiedname>
+        <briefdescription>
+<para>Getter altitude moyenne (metres). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="181" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="183" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a18761a95db1b4a093df2917c1d8a5ec1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::profondeurMinimum</definition>
+        <argsstring>() const</argsstring>
+        <name>profondeurMinimum</name>
+        <qualifiedname>CarreauPartiel::profondeurMinimum</qualifiedname>
+        <briefdescription>
+<para>Getter Profondeur minimum (1/100 de metres). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="185" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="190" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a52f0d2f29a8d6c5189ef8a685202fba0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::longueurCoursEauPrincipal</definition>
+        <argsstring>() const</argsstring>
+        <name>longueurCoursEauPrincipal</name>
+        <qualifiedname>CarreauPartiel::longueurCoursEauPrincipal</qualifiedname>
+        <briefdescription>
+<para>Getter Longueur du cours d&apos;eau principal sur la parcelle (1/10 de km). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="189" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="197" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1ab7f834ec5059dc66fb2435c566d9d2de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::largeurCoursEauPrincipal</definition>
+        <argsstring>() const</argsstring>
+        <name>largeurCoursEauPrincipal</name>
+        <qualifiedname>CarreauPartiel::largeurCoursEauPrincipal</qualifiedname>
+        <briefdescription>
+<para>Getter Largeur du cours d&apos;eau principal sur la parcelle (1/10 de metres). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="193" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1ab386caf2d701fbb363bb85d2c075bbc8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::penteRiviere</definition>
+        <argsstring>() const</argsstring>
+        <name>penteRiviere</name>
+        <qualifiedname>CarreauPartiel::penteRiviere</qualifiedname>
+        <briefdescription>
+<para>Getter Pente de la riviere sur le carreau partiel (1/1000 de metres/km). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="197" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="211" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a0e3eeb680f5472ad5d9f269b80e165a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieCPAmont</definition>
+        <argsstring>() const</argsstring>
+        <name>cumulPctSuperficieCPAmont</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieCPAmont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter Cumul des pourcentages de superficie des carreaux partiels en</para>
+<para>amont, calcule ï¿½ la sortie du carreau partiel considere. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="203" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="218" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a416c2c10af956afbd147f20a18d43793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CarreauPartiel::superficieCPAmontCorrige</definition>
+        <argsstring>(float valeur)</argsstring>
+        <name>superficieCPAmontCorrige</name>
+        <qualifiedname>CarreauPartiel::superficieCPAmontCorrige</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+<para>Setter superficieCPAmontCorrige. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="207" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="225" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a64bfb9c468501220aa0529954a99ebc4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieLacsAmont</definition>
+        <argsstring>() const</argsstring>
+        <name>cumulPctSuperficieLacsAmont</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieLacsAmont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter Cumul des pourcentages de superficie des lacs en amont, calcule</para>
+<para>a la sortie du carreau partiel considere. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="213" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="232" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a0b31560117339b2d0775901a646dc6bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieMaraisAmont</definition>
+        <argsstring>() const</argsstring>
+        <name>cumulPctSuperficieMaraisAmont</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieMaraisAmont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter Cumul des pourcentages de superficie des marais en amont, calcule</para>
+<para>a la sortie du carreau partiel considere. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="219" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a7763540e2fa0991bf01171d5ac8139e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::cumulPctSuperficieForetAmont</definition>
+        <argsstring>() const</argsstring>
+        <name>cumulPctSuperficieForetAmont</name>
+        <qualifiedname>CarreauPartiel::cumulPctSuperficieForetAmont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getter Cumul des pourcentages de superficie de foret en amont, calcule</para>
+<para>a la sortie du carreau partiel considere. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="225" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="246" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1ad96587307b96c19ac4811f92a45d3a89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CarreauPartiel::coeffTransfert</definition>
+        <argsstring>() const</argsstring>
+        <name>coeffTransfert</name>
+        <qualifiedname>CarreauPartiel::coeffTransfert</qualifiedname>
+        <briefdescription>
+<para>Getter Coefficient de transfert pour le pas de temps d&apos;une journee. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="229" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="253" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a42fc21b0a7c10386ab7530e6d6c335c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::volumeInitial</definition>
+        <argsstring>() const</argsstring>
+        <name>volumeInitial</name>
+        <qualifiedname>CarreauPartiel::volumeInitial</qualifiedname>
+        <briefdescription>
+<para>Getter Volume d&apos;eau initial. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="233" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="260" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1af50f3342891daacf8669ed268bb983ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctFermetureFutaie</definition>
+        <argsstring>() const</argsstring>
+        <name>pctFermetureFutaie</name>
+        <qualifiedname>CarreauPartiel::pctFermetureFutaie</qualifiedname>
+        <briefdescription>
+<para>Getter Pourcentage fermeture futaie. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="237" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a184fa4da82ecec6726f84881b0c40a5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::indiceFoliaire</definition>
+        <argsstring>() const</argsstring>
+        <name>indiceFoliaire</name>
+        <qualifiedname>CarreauPartiel::indiceFoliaire</qualifiedname>
+        <briefdescription>
+<para>Getter Indice foliaire. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="241" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a861c313eee155787f6ad77d63c49b006" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::custom_1</definition>
+        <argsstring>() const</argsstring>
+        <name>custom_1</name>
+        <qualifiedname>CarreauPartiel::custom_1</qualifiedname>
+        <briefdescription>
+<para>Getter Custom_1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="245" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a9e83d82616132d94086b4557b5284db5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::custom_2</definition>
+        <argsstring>() const</argsstring>
+        <name>custom_2</name>
+        <qualifiedname>CarreauPartiel::custom_2</qualifiedname>
+        <briefdescription>
+<para>Getter Custom_2. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="249" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a4283f1626a2cac2568db3a863b48c28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CarreauPartiel::coeffTransfert</definition>
+        <argsstring>(double valeur)</argsstring>
+        <name>coeffTransfert</name>
+        <qualifiedname>CarreauPartiel::coeffTransfert</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+<para>Setter coefficient de transfert pour le pas de temps d&apos;une journee. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="253" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="331" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1ad04cb1dca0e19f7e7b5a7283c7c90647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CarreauPartiel::volumeInitial</definition>
+        <argsstring>(float valeur)</argsstring>
+        <name>volumeInitial</name>
+        <qualifiedname>CarreauPartiel::volumeInitial</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+<para>Setter Volume d&apos;eau initial. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="257" column="11" bodyfile="src/CarreauPartiel.cpp" bodystart="338" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a7f356c35e1ef5b6a3fac79cb4b5efeda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::latitude</definition>
+        <argsstring>() const</argsstring>
+        <name>latitude</name>
+        <qualifiedname>CarreauPartiel::latitude</qualifiedname>
+        <briefdescription>
+<para>Getter latitude. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="263" column="7" bodyfile="src/CarreauPartiel.cpp" bodystart="289" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a0560654e9b32958713305bb2f63f46e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::longitude</definition>
+        <argsstring>() const</argsstring>
+        <name>longitude</name>
+        <qualifiedname>CarreauPartiel::longitude</qualifiedname>
+        <briefdescription>
+<para>Getter longitude. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="267" column="7" bodyfile="src/CarreauPartiel.cpp" bodystart="296" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a6e68b113c63487263eab9d25699d8529" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctFeuillu</definition>
+        <argsstring>() const</argsstring>
+        <name>pctFeuillu</name>
+        <qualifiedname>CarreauPartiel::pctFeuillu</qualifiedname>
+        <briefdescription>
+<para>Getter pctFeuillu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="271" column="7" bodyfile="src/CarreauPartiel.cpp" bodystart="303" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a03491bfb34e7179ddd16104a3cd7916b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::pctConifer</definition>
+        <argsstring>() const</argsstring>
+        <name>pctConifer</name>
+        <qualifiedname>CarreauPartiel::pctConifer</qualifiedname>
+        <briefdescription>
+<para>Getter pctConifer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="275" column="7" bodyfile="src/CarreauPartiel.cpp" bodystart="310" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a69ede4d45c74e2c55de6a9cd980a76b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CarreauPartiel::hautMoyenneArbre</definition>
+        <argsstring>() const</argsstring>
+        <name>hautMoyenneArbre</name>
+        <qualifiedname>CarreauPartiel::hautMoyenneArbre</qualifiedname>
+        <briefdescription>
+<para>Getter hautMoy. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="279" column="10" bodyfile="src/CarreauPartiel.cpp" bodystart="317" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a78c858329b994f021863dc5c473cd21d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CarreauPartiel::azimutCoursEau</definition>
+        <argsstring>() const</argsstring>
+        <name>azimutCoursEau</name>
+        <qualifiedname>CarreauPartiel::azimutCoursEau</qualifiedname>
+        <briefdescription>
+<para>Getter azimutCoursEau. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="283" column="7" bodyfile="src/CarreauPartiel.cpp" bodystart="324" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classCarreauPartiel_1a76a82006c7c2ea1b3ec36a7315feb365" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float CarreauPartiel::calculerCorrectionDebit</definition>
+        <argsstring>() const</argsstring>
+        <name>calculerCorrectionDebit</name>
+        <qualifiedname>CarreauPartiel::calculerCorrectionDebit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Facteur de correction du debit calcule.</para>
+<para>= cumulPctSuperficieCPAmontCorrige / cumulPctSuperficieCPAmont </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CarreauPartiel.h" line="293" column="9" bodyfile="src/CarreauPartiel.cpp" bodystart="345" bodyend="350"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition d&apos;un carreau partiel. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Definition d&apos;un carreau partiel</para>
+<para>selon les donnees physiographiques PREPAREES. </para>
+    </detaileddescription>
+    <location file="src/CarreauPartiel.h" line="43" column="1" bodyfile="src/CarreauPartiel.h" bodystart="45" bodyend="371"/>
+    <listofallmembers>
+      <member refid="classCarreauPartiel_1a3c4ebdccf3e37bd863457c371d43e9bd" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>altitudeMoyenne</name></member>
+      <member refid="classCarreauPartiel_1accb4d025264dd1e49b94d0a6bc9ea7c7" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>altitudeMoyenne_</name></member>
+      <member refid="classCarreauPartiel_1a78c858329b994f021863dc5c473cd21d" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>azimutCoursEau</name></member>
+      <member refid="classCarreauPartiel_1a8f8320c2cb8e22e9862339d04dfac8e5" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>azimutCoursEau_</name></member>
+      <member refid="classCarreauPartiel_1a76a82006c7c2ea1b3ec36a7315feb365" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>calculerCorrectionDebit</name></member>
+      <member refid="classCarreauPartiel_1a88ef60f4a3c728fde2dd9a3e86bfa235" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>CarreauPartiel</name></member>
+      <member refid="classCarreauPartiel_1a577c4efe33b63d6a08ee3929cf3e56e7" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>codeCarreauPartiel</name></member>
+      <member refid="classCarreauPartiel_1a0d1ef0f1b6cadbe9fbc8f50d8f4ca84d" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>codeCarreauPartiel_</name></member>
+      <member refid="classCarreauPartiel_1ad96587307b96c19ac4811f92a45d3a89" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>coeffTransfert</name></member>
+      <member refid="classCarreauPartiel_1a4283f1626a2cac2568db3a863b48c28b" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>coeffTransfert</name></member>
+      <member refid="classCarreauPartiel_1a2ad404f04161247e523e470042b30da0" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>coeffTransfert_</name></member>
+      <member refid="classCarreauPartiel_1a0e3eeb680f5472ad5d9f269b80e165a1" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieCPAmont</name></member>
+      <member refid="classCarreauPartiel_1af9689b3b312a12a722a237799d96faf0" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieCPAmont_</name></member>
+      <member refid="classCarreauPartiel_1a7763540e2fa0991bf01171d5ac8139e8" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieForetAmont</name></member>
+      <member refid="classCarreauPartiel_1af5aef1edf21959cac9502d557ec8386d" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieForetAmont_</name></member>
+      <member refid="classCarreauPartiel_1a64bfb9c468501220aa0529954a99ebc4" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieLacsAmont</name></member>
+      <member refid="classCarreauPartiel_1aebfc548ed1394cd647a32ebe7431b7f3" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieLacsAmont_</name></member>
+      <member refid="classCarreauPartiel_1a0b31560117339b2d0775901a646dc6bb" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieMaraisAmont</name></member>
+      <member refid="classCarreauPartiel_1ab1910ff589aa7529dc846b1cac6b02bb" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>cumulPctSuperficieMaraisAmont_</name></member>
+      <member refid="classCarreauPartiel_1a861c313eee155787f6ad77d63c49b006" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>custom_1</name></member>
+      <member refid="classCarreauPartiel_1a4a5458e0633db5f68c6d7b82723058c5" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>custom_1_</name></member>
+      <member refid="classCarreauPartiel_1a9e83d82616132d94086b4557b5284db5" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>custom_2</name></member>
+      <member refid="classCarreauPartiel_1a9ac4079e61baf3a1c521eadf7ef6a163" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>custom_2_</name></member>
+      <member refid="classCarreauPartiel_1a69ede4d45c74e2c55de6a9cd980a76b4" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>hautMoyenneArbre</name></member>
+      <member refid="classCarreauPartiel_1addbccb88202a76bdec134f8df920c984" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>hautMoyenneArbre_</name></member>
+      <member refid="classCarreauPartiel_1a30d2a82a7dd1d061461ccdd958c7154d" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>iCarreauEntier</name></member>
+      <member refid="classCarreauPartiel_1a4ad9296a7745fb6859f959a743773091" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>iCarreauEntier_</name></member>
+      <member refid="classCarreauPartiel_1a1c5d48618818ef82f5e31ca31c7dadfe" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>id</name></member>
+      <member refid="classCarreauPartiel_1ac7ba778cf506241d113f16e8a583db30" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>id_</name></member>
+      <member refid="classCarreauPartiel_1ac6571b8a872ef7e9dfa6fe218b11b76e" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>idCarreauEntier</name></member>
+      <member refid="classCarreauPartiel_1a424c1cae3101adfd47a1266ab9bf3073" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>idCarreauEntier_</name></member>
+      <member refid="classCarreauPartiel_1add39fa7c2914a2b321a4a47ee8b7f418" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>idCarreauPartielAval</name></member>
+      <member refid="classCarreauPartiel_1a301b86ae88b3668bd62af1a5af4abaaa" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>idCarreauPartielAval_</name></member>
+      <member refid="classCarreauPartiel_1a7b8d00869494bd84540222343223c544" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>idCarreauxPartielsAmont</name></member>
+      <member refid="classCarreauPartiel_1a2901b426d7c2e345b4f98deae8986d94" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>idCarreauxPartielsAmont_</name></member>
+      <member refid="classCarreauPartiel_1a184fa4da82ecec6726f84881b0c40a5e" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>indiceFoliaire</name></member>
+      <member refid="classCarreauPartiel_1a857b0bce49d5fb91396b2e3b43f0b231" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>indiceFoliaire_</name></member>
+      <member refid="classCarreauPartiel_1aede60b95d247edbe579bbe837de192d0" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>jCarreauEntier</name></member>
+      <member refid="classCarreauPartiel_1abd92eb34abe0f8cb49223a89c635e828" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>jCarreauEntier_</name></member>
+      <member refid="classCarreauPartiel_1ab7f834ec5059dc66fb2435c566d9d2de" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>largeurCoursEauPrincipal</name></member>
+      <member refid="classCarreauPartiel_1a25380375c86bd891cd05cce572ea8fac" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>largeurCoursEauPrincipal_</name></member>
+      <member refid="classCarreauPartiel_1a7f356c35e1ef5b6a3fac79cb4b5efeda" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>latitude</name></member>
+      <member refid="classCarreauPartiel_1a908aa946e3765fdcc3b3d9eabeda7c05" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>latitude_</name></member>
+      <member refid="classCarreauPartiel_1a0560654e9b32958713305bb2f63f46e6" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>longitude</name></member>
+      <member refid="classCarreauPartiel_1a241708252156b3a45f26060f2cb29d39" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>longitude_</name></member>
+      <member refid="classCarreauPartiel_1a52f0d2f29a8d6c5189ef8a685202fba0" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>longueurCoursEauPrincipal</name></member>
+      <member refid="classCarreauPartiel_1ac3bd4b702e4c5c581bd4e424c43d367e" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>longueurCoursEauPrincipal_</name></member>
+      <member refid="classCarreauPartiel_1a03491bfb34e7179ddd16104a3cd7916b" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctConifer</name></member>
+      <member refid="classCarreauPartiel_1a658c7ebff59f7eabc648d4e8ef9ba2d2" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctConifer_</name></member>
+      <member refid="classCarreauPartiel_1a8d469b2acbc4e6a3fb9e5e1c12f7e495" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctEau</name></member>
+      <member refid="classCarreauPartiel_1a59531fc153826e67517bf73d52a1dacd" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctEau_</name></member>
+      <member refid="classCarreauPartiel_1af50f3342891daacf8669ed268bb983ad" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctFermetureFutaie</name></member>
+      <member refid="classCarreauPartiel_1a11fed429e99a036b3f53103d3d1c1361" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctFermetureFutaie_</name></member>
+      <member refid="classCarreauPartiel_1a6e68b113c63487263eab9d25699d8529" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctFeuillu</name></member>
+      <member refid="classCarreauPartiel_1aba2df52910e34843e263edb36b33296e" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctFeuillu_</name></member>
+      <member refid="classCarreauPartiel_1a9a731f78e2196176db861f74876b3a8a" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctForet</name></member>
+      <member refid="classCarreauPartiel_1a2114d4d030258d26c4fc718bf1fbd3d6" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctForet_</name></member>
+      <member refid="classCarreauPartiel_1a7221fc5eb095b64d70ebcb5dcd0988e6" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctMarais</name></member>
+      <member refid="classCarreauPartiel_1a137d1c21b45a32c10f0db4da5335f86e" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctMarais_</name></member>
+      <member refid="classCarreauPartiel_1ad6e9b5446cbacd50aee2b4628b974d46" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctSolNu</name></member>
+      <member refid="classCarreauPartiel_1a18a7b37b169b129759187cdae3510f1c" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctSolNu_</name></member>
+      <member refid="classCarreauPartiel_1a521f9c8d7be18b4fe157c8e840fd610f" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctSurface</name></member>
+      <member refid="classCarreauPartiel_1a728cd85aeecc3dd05b8f8e9436a62583" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>pctSurface_</name></member>
+      <member refid="classCarreauPartiel_1ab386caf2d701fbb363bb85d2c075bbc8" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>penteRiviere</name></member>
+      <member refid="classCarreauPartiel_1aae58b788476be00dfdd27230a86557cd" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>penteRiviere_</name></member>
+      <member refid="classCarreauPartiel_1a18761a95db1b4a093df2917c1d8a5ec1" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>profondeurMinimum</name></member>
+      <member refid="classCarreauPartiel_1a772143b2b0b048f3749973b93f406507" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>profondeurMinimum_</name></member>
+      <member refid="classCarreauPartiel_1aa9e536748ca9c792f1cb7288f9e78952" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>superficieCPAmont_</name></member>
+      <member refid="classCarreauPartiel_1a416c2c10af956afbd147f20a18d43793" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>superficieCPAmontCorrige</name></member>
+      <member refid="classCarreauPartiel_1a2ae8586b3b36de1ffc6f472c0900a44c" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>superficieCPAmontCorrige_</name></member>
+      <member refid="classCarreauPartiel_1a42fc21b0a7c10386ab7530e6d6c335c4" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>volumeInitial</name></member>
+      <member refid="classCarreauPartiel_1ad04cb1dca0e19f7e7b5a7283c7c90647" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>volumeInitial</name></member>
+      <member refid="classCarreauPartiel_1a680976b4564d59b677b056c51872422b" prot="private" virt="non-virtual"><scope>CarreauPartiel</scope><name>volumeInitial_</name></member>
+      <member refid="classCarreauPartiel_1a6a91527fae9eae19145546a57086e3ad" prot="public" virt="non-virtual"><scope>CarreauPartiel</scope><name>~CarreauPartiel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

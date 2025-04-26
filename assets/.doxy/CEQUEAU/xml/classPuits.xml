@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classPuits" kind="class" language="C++" prot="public">
+    <compoundname>Puits</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPuits_1a29a65091a1d816c4c03a2fd3d7f93582" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Puits::idCE</definition>
+        <argsstring></argsstring>
+        <name>idCE</name>
+        <qualifiedname>Puits::idCE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="5" column="9" bodyfile="src/Puits.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPuits_1a11e3ad35d0f6f58aab966fc1136b5e4f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Puits::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>Puits::active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="6" column="9" bodyfile="src/Puits.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPuits_1a6628bc1cfd3a401ebc244b0f10ebb834" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Puits::distanceRiviere</definition>
+        <argsstring></argsstring>
+        <name>distanceRiviere</name>
+        <qualifiedname>Puits::distanceRiviere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="7" column="12" bodyfile="src/Puits.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPuits_1aae5908a672ec6c68bc24879ace1abbfb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Puits::niveauInitial</definition>
+        <argsstring></argsstring>
+        <name>niveauInitial</name>
+        <qualifiedname>Puits::niveauInitial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="8" column="12" bodyfile="src/Puits.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPuits_1adc708126d73df7da7e0fc143bc5bffb8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Puits::rayonP</definition>
+        <argsstring></argsstring>
+        <name>rayonP</name>
+        <qualifiedname>Puits::rayonP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="9" column="12" bodyfile="src/Puits.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPuits_1a80d36b5832fcc817c29a6973ece06a90" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; Puits::niveauxPuits</definition>
+        <argsstring></argsstring>
+        <name>niveauxPuits</name>
+        <qualifiedname>Puits::niveauxPuits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="10" column="17" bodyfile="src/Puits.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPuits_1ad34d2ec90d0be12825b8f3ee0a8d6041" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; Puits::debitPompage</definition>
+        <argsstring></argsstring>
+        <name>debitPompage</name>
+        <qualifiedname>Puits::debitPompage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="11" column="17" bodyfile="src/Puits.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPuits_1a37186771c78a095233f5b7c77d555835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Puits::Puits</definition>
+        <argsstring>(int id, int active, double distance, double niveauInitial, double rayonP, std::vector&lt; double &gt; niveaux, std::vector&lt; double &gt; debit)</argsstring>
+        <name>Puits</name>
+        <qualifiedname>Puits::Puits</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>niveauInitial</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rayonP</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>niveaux</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>debit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="14" column="5" bodyfile="src/Puits.cpp" bodystart="3" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1a7cd8882e0f9cbf57baacdc2d2fa0f8c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Puits::getIdCE</definition>
+        <argsstring>() const</argsstring>
+        <name>getIdCE</name>
+        <qualifiedname>Puits::getIdCE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="16" column="9" bodyfile="src/Puits.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1a91a15621caa5f5d2ec7fb1208a034a6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Puits::getActive</definition>
+        <argsstring>() const</argsstring>
+        <name>getActive</name>
+        <qualifiedname>Puits::getActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="17" column="9" bodyfile="src/Puits.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1ad552c862a7299831ebc72aed37fc007f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Puits::getDistanceRiviere</definition>
+        <argsstring>() const</argsstring>
+        <name>getDistanceRiviere</name>
+        <qualifiedname>Puits::getDistanceRiviere</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="18" column="12" bodyfile="src/Puits.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1a43478c13f6c25f41c09da3b4c88198f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Puits::getNiveauInitial</definition>
+        <argsstring>() const</argsstring>
+        <name>getNiveauInitial</name>
+        <qualifiedname>Puits::getNiveauInitial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="19" column="12" bodyfile="src/Puits.cpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1a01a0a4e4b7e0070896a3654b39588140" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Puits::getRayonP</definition>
+        <argsstring>() const</argsstring>
+        <name>getRayonP</name>
+        <qualifiedname>Puits::getRayonP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="20" column="12" bodyfile="src/Puits.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1aa294881acbc4a2f08901442293245634" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; double &gt; &amp;</type>
+        <definition>const std::vector&lt; double &gt; &amp; Puits::getNiveauxPuits</definition>
+        <argsstring>() const</argsstring>
+        <name>getNiveauxPuits</name>
+        <qualifiedname>Puits::getNiveauxPuits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="22" column="23" bodyfile="src/Puits.cpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1aef55d23b75237e45a0932636a0f5a5ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; double &gt; &amp;</type>
+        <definition>const std::vector&lt; double &gt; &amp; Puits::getDebitPompage</definition>
+        <argsstring>() const</argsstring>
+        <name>getDebitPompage</name>
+        <qualifiedname>Puits::getDebitPompage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="23" column="23" bodyfile="src/Puits.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1af7a937f50fab55ee3817403404db6e70" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Puits::getNiveauPuitsParIndex</definition>
+        <argsstring>(int idxPasDeTemps) const</argsstring>
+        <name>getNiveauPuitsParIndex</name>
+        <qualifiedname>Puits::getNiveauPuitsParIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idxPasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="25" column="12" bodyfile="src/Puits.cpp" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classPuits_1a97a60f78964de4a738b1a04aaefe4346" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Puits::getDebitPompageParIndex</definition>
+        <argsstring>(int idxPasDeTemps) const</argsstring>
+        <name>getDebitPompageParIndex</name>
+        <qualifiedname>Puits::getDebitPompageParIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idxPasDeTemps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Puits.h" line="26" column="12" bodyfile="src/Puits.cpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Puits.h" line="3" column="1" bodyfile="src/Puits.h" bodystart="3" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classPuits_1a11e3ad35d0f6f58aab966fc1136b5e4f" prot="private" virt="non-virtual"><scope>Puits</scope><name>active</name></member>
+      <member refid="classPuits_1ad34d2ec90d0be12825b8f3ee0a8d6041" prot="private" virt="non-virtual"><scope>Puits</scope><name>debitPompage</name></member>
+      <member refid="classPuits_1a6628bc1cfd3a401ebc244b0f10ebb834" prot="private" virt="non-virtual"><scope>Puits</scope><name>distanceRiviere</name></member>
+      <member refid="classPuits_1a91a15621caa5f5d2ec7fb1208a034a6a" prot="public" virt="non-virtual"><scope>Puits</scope><name>getActive</name></member>
+      <member refid="classPuits_1aef55d23b75237e45a0932636a0f5a5ea" prot="public" virt="non-virtual"><scope>Puits</scope><name>getDebitPompage</name></member>
+      <member refid="classPuits_1a97a60f78964de4a738b1a04aaefe4346" prot="public" virt="non-virtual"><scope>Puits</scope><name>getDebitPompageParIndex</name></member>
+      <member refid="classPuits_1ad552c862a7299831ebc72aed37fc007f" prot="public" virt="non-virtual"><scope>Puits</scope><name>getDistanceRiviere</name></member>
+      <member refid="classPuits_1a7cd8882e0f9cbf57baacdc2d2fa0f8c3" prot="public" virt="non-virtual"><scope>Puits</scope><name>getIdCE</name></member>
+      <member refid="classPuits_1a43478c13f6c25f41c09da3b4c88198f1" prot="public" virt="non-virtual"><scope>Puits</scope><name>getNiveauInitial</name></member>
+      <member refid="classPuits_1af7a937f50fab55ee3817403404db6e70" prot="public" virt="non-virtual"><scope>Puits</scope><name>getNiveauPuitsParIndex</name></member>
+      <member refid="classPuits_1aa294881acbc4a2f08901442293245634" prot="public" virt="non-virtual"><scope>Puits</scope><name>getNiveauxPuits</name></member>
+      <member refid="classPuits_1a01a0a4e4b7e0070896a3654b39588140" prot="public" virt="non-virtual"><scope>Puits</scope><name>getRayonP</name></member>
+      <member refid="classPuits_1a29a65091a1d816c4c03a2fd3d7f93582" prot="private" virt="non-virtual"><scope>Puits</scope><name>idCE</name></member>
+      <member refid="classPuits_1aae5908a672ec6c68bc24879ace1abbfb" prot="private" virt="non-virtual"><scope>Puits</scope><name>niveauInitial</name></member>
+      <member refid="classPuits_1a80d36b5832fcc817c29a6973ece06a90" prot="private" virt="non-virtual"><scope>Puits</scope><name>niveauxPuits</name></member>
+      <member refid="classPuits_1a37186771c78a095233f5b7c77d555835" prot="public" virt="non-virtual"><scope>Puits</scope><name>Puits</name></member>
+      <member refid="classPuits_1adc708126d73df7da7e0fc143bc5bffb8" prot="private" virt="non-virtual"><scope>Puits</scope><name>rayonP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

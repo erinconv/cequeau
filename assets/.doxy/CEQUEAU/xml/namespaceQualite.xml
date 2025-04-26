@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceQualite" kind="namespace" language="C++">
+    <compoundname>Qualite</compoundname>
+    <innerclass refid="classQualite_1_1EtatCarreauPartiel" prot="public">Qualite::EtatCarreauPartiel</innerclass>
+    <innerclass refid="classQualite_1_1EtatCarreauPartielAssim" prot="public">Qualite::EtatCarreauPartielAssim</innerclass>
+    <innerclass refid="structQualite_1_1spa__data" prot="public">Qualite::spa_data</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="SimulationQualite_8h_1af9d187ef3463a333b332372cc348bc7b" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classQualite_1_1EtatCarreauPartiel" kindref="compound">EtatCarreauPartiel</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatCarreauPartiel&gt; Qualite::EtatsCarreauxPartiels</definition>
+        <argsstring></argsstring>
+        <name>EtatsCarreauxPartiels</name>
+        <qualifiedname>Qualite::EtatsCarreauxPartiels</qualifiedname>
+        <briefdescription>
+<para>Liste des etats des carreaux partiels a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="62" column="23" bodyfile="src/SimulationQualite.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="SimulationQualite_8h_1ac62ecbd99468b8086a79c1528c2ee2c3" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classQualite_1_1EtatCarreauPartielAssim" kindref="compound">EtatCarreauPartielAssim</ref> &gt;</type>
+        <definition>typedef std::vector&lt;EtatCarreauPartielAssim&gt; Qualite::EtatsCarreauxPartielsAssim</definition>
+        <argsstring></argsstring>
+        <name>EtatsCarreauxPartielsAssim</name>
+        <qualifiedname>Qualite::EtatsCarreauxPartielsAssim</qualifiedname>
+        <briefdescription>
+<para>Liste des assimilations des carreaux partiels a chaque pas de temps. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SimulationQualite.h" line="64" column="23" bodyfile="src/SimulationQualite.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SimulationQualite.h" line="24" column="1"/>
+  </compounddef>
+</doxygen>

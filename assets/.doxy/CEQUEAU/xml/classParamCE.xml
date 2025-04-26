@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classParamCE" kind="class" language="C++" prot="public">
+    <compoundname>ParamCE</compoundname>
+    <includes refid="Parametres_8h" local="no">Parametres.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classParamCE_1a3e24f3174acfa0ff0ebcf88f99b1afdc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::seuilTranformationPluieNeige</definition>
+        <argsstring></argsstring>
+        <name>seuilTranformationPluieNeige</name>
+        <qualifiedname>ParamCE::seuilTranformationPluieNeige</qualifiedname>
+        <briefdescription>
+<para>Seuil de transformation pluie-neige (degC). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="519" column="9" bodyfile="src/Parametres.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a570e876971b43702d5e241b6ad1ea4a5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::tauxPotentielFonteForet</definition>
+        <argsstring></argsstring>
+        <name>tauxPotentielFonteForet</name>
+        <qualifiedname>ParamCE::tauxPotentielFonteForet</qualifiedname>
+        <briefdescription>
+<para>Taux potentiel de fonte en forï¿½t (mm/degC/jour). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="525" column="9" bodyfile="src/Parametres.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a817025f6de68f933b5bb017888e45519" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::tauxPotentielFonteClairiere</definition>
+        <argsstring></argsstring>
+        <name>tauxPotentielFonteClairiere</name>
+        <qualifiedname>ParamCE::tauxPotentielFonteClairiere</qualifiedname>
+        <briefdescription>
+<para>Taux potentiel de fonte en clairiï¿½re (mm/degC/jour). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="531" column="9" bodyfile="src/Parametres.h" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a7aafb70108b1b200aa6ebc70e473e47f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::seuilTempFonteForet</definition>
+        <argsstring></argsstring>
+        <name>seuilTempFonteForet</name>
+        <qualifiedname>ParamCE::seuilTempFonteForet</qualifiedname>
+        <briefdescription>
+<para>Seuil de tempï¿½rature de fonte en foret (degC). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="537" column="9" bodyfile="src/Parametres.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a7a9354156c404347dd072297253979eb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::seuilTempFonteClairiere</definition>
+        <argsstring></argsstring>
+        <name>seuilTempFonteClairiere</name>
+        <qualifiedname>ParamCE::seuilTempFonteClairiere</qualifiedname>
+        <briefdescription>
+<para>Seuil de tempï¿½rature de fonte en clairiere (degC). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="543" column="9" bodyfile="src/Parametres.h" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a09aa142cabe0952a9ed397a0e8574e14" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::tempMurissementNeige</definition>
+        <argsstring></argsstring>
+        <name>tempMurissementNeige</name>
+        <qualifiedname>ParamCE::tempMurissementNeige</qualifiedname>
+        <briefdescription>
+<para>Temperature du murissement du stock de neige (degC). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="549" column="9" bodyfile="src/Parametres.h" bodystart="549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a158e982d5af5bb71c836f6c67a707b19" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::coeffInfiltrationNappe</definition>
+        <argsstring></argsstring>
+        <name>coeffInfiltrationNappe</name>
+        <qualifiedname>ParamCE::coeffInfiltrationNappe</qualifiedname>
+        <briefdescription>
+<para>Coefficient d&apos;infiltration dans le rï¿½servoir NAPPE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="557" column="9" bodyfile="src/Parametres.h" bodystart="557" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a81ea276cf23e15b194ff1f9c4ebe75af" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::coeffVidangeBasseNappe</definition>
+        <argsstring></argsstring>
+        <name>coeffVidangeBasseNappe</name>
+        <qualifiedname>ParamCE::coeffVidangeBasseNappe</qualifiedname>
+        <briefdescription>
+<para>Coefficient de vidange basse du rï¿½servoir NAPPE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="563" column="9" bodyfile="src/Parametres.h" bodystart="563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a2817bac3bc4e16d879cbb69394ccda91" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::coeffVidangeHauteNappe</definition>
+        <argsstring></argsstring>
+        <name>coeffVidangeHauteNappe</name>
+        <qualifiedname>ParamCE::coeffVidangeHauteNappe</qualifiedname>
+        <briefdescription>
+<para>Coefficient de vidange haute du rï¿½servoir NAPPE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="569" column="9" bodyfile="src/Parametres.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a4345bdc83f42072a2841a66336f77ac4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::coeffVidangeIntermediaireSol</definition>
+        <argsstring></argsstring>
+        <name>coeffVidangeIntermediaireSol</name>
+        <qualifiedname>ParamCE::coeffVidangeIntermediaireSol</qualifiedname>
+        <briefdescription>
+<para>Coefficient de vidange intermï¿½diaire du rï¿½servoir SOL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="575" column="9" bodyfile="src/Parametres.h" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1ae6045c20ec3152cd99f112b3b3791e10" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::seuilInfiltrationSolVersNappe</definition>
+        <argsstring></argsstring>
+        <name>seuilInfiltrationSolVersNappe</name>
+        <qualifiedname>ParamCE::seuilInfiltrationSolVersNappe</qualifiedname>
+        <briefdescription>
+<para>Seuil d&apos;infiltration du rï¿½servoir SOL vers le rï¿½servoir NAPPE (mm). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="581" column="9" bodyfile="src/Parametres.h" bodystart="581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a0452a28797c8ca45c2dbe91004f56c7a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::seuilVidangeIntermediaireSol</definition>
+        <argsstring></argsstring>
+        <name>seuilVidangeIntermediaireSol</name>
+        <qualifiedname>ParamCE::seuilVidangeIntermediaireSol</qualifiedname>
+        <briefdescription>
+<para>Seuil de vidange intermï¿½diaire du rï¿½servoir SOL (mm). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="587" column="9" bodyfile="src/Parametres.h" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a1b9cf44812b3cfcca02af693157edefe" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::seuilVidangeHauteNappe</definition>
+        <argsstring></argsstring>
+        <name>seuilVidangeHauteNappe</name>
+        <qualifiedname>ParamCE::seuilVidangeHauteNappe</qualifiedname>
+        <briefdescription>
+<para>Seuil de vidange supï¿½rieure du rï¿½servoir NAPPE (mm). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="593" column="9" bodyfile="src/Parametres.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1afb16192a4b0d5a79f90953e73a13f2b0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::seuilPrelevementEauTauxPotentiel</definition>
+        <argsstring></argsstring>
+        <name>seuilPrelevementEauTauxPotentiel</name>
+        <qualifiedname>ParamCE::seuilPrelevementEauTauxPotentiel</qualifiedname>
+        <briefdescription>
+<para>Seuil de prï¿½lï¿½vement de l&apos;eau ï¿½ taux potentiel, par ï¿½vapotranspiration (mm). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="599" column="9" bodyfile="src/Parametres.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a9f5a1a2e071878c3b37cc5b2da8e1a05" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::hauteurReservoirSol</definition>
+        <argsstring></argsstring>
+        <name>hauteurReservoirSol</name>
+        <qualifiedname>ParamCE::hauteurReservoirSol</qualifiedname>
+        <briefdescription>
+<para>Hauteur du rï¿½servoir SOL (mm). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="605" column="9" bodyfile="src/Parametres.h" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a62b58f5d234371e96452ced849af456f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::lameEauDebutRuisellement</definition>
+        <argsstring></argsstring>
+        <name>lameEauDebutRuisellement</name>
+        <qualifiedname>ParamCE::lameEauDebutRuisellement</qualifiedname>
+        <briefdescription>
+<para>Lame d&apos;eau nï¿½cessaire pour que dï¿½bute le ruissellement sur les surfaces impermeables (mm). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="611" column="9" bodyfile="src/Parametres.h" bodystart="611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a3c8f3eb60cf18a7302ce52c87aede34d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::fractionImpermeableCE</definition>
+        <argsstring></argsstring>
+        <name>fractionImpermeableCE</name>
+        <qualifiedname>ParamCE::fractionImpermeableCE</qualifiedname>
+        <briefdescription>
+<para>Fraction de surface impermï¿½able des carreaux entiers (de 0.0 ï¿½ 1.0). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="617" column="9" bodyfile="src/Parametres.h" bodystart="617" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a1325ea81f2a4b5a6eee952f982c3d60e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::conductiviteHydraulique</definition>
+        <argsstring></argsstring>
+        <name>conductiviteHydraulique</name>
+        <qualifiedname>ParamCE::conductiviteHydraulique</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="621" column="9" bodyfile="src/Parametres.h" bodystart="621" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParamCE_1a5930fe4540e98e97d11cd5d1afab7804" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ParamCE::coeffEmmagasinement</definition>
+        <argsstring></argsstring>
+        <name>coeffEmmagasinement</name>
+        <qualifiedname>ParamCE::coeffEmmagasinement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="625" column="9" bodyfile="src/Parametres.h" bodystart="625" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classParamCE_1a4827bee1cc37c18a0eb18f357f583318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParamCE::ParamCE</definition>
+        <argsstring>()</argsstring>
+        <name>ParamCE</name>
+        <qualifiedname>ParamCE::ParamCE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Parametres.h" line="511" column="3" bodyfile="src/Parametres.cpp" bodystart="491" bodyend="516"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classParametres" kindref="compound">Parametres</ref> spatialisables. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classParametres" kindref="compound">Parametres</ref> obligatoires dont la valeur peut etre modifiee</para>
+<para>pour chaque carreau entier a l&apos;aide de vecteurs facultatifs. </para>
+    </detaileddescription>
+    <location file="src/Parametres.h" line="507" column="1" bodyfile="src/Parametres.h" bodystart="507" bodyend="627"/>
+    <listofallmembers>
+      <member refid="classParamCE_1a5930fe4540e98e97d11cd5d1afab7804" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>coeffEmmagasinement</name></member>
+      <member refid="classParamCE_1a158e982d5af5bb71c836f6c67a707b19" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>coeffInfiltrationNappe</name></member>
+      <member refid="classParamCE_1a81ea276cf23e15b194ff1f9c4ebe75af" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>coeffVidangeBasseNappe</name></member>
+      <member refid="classParamCE_1a2817bac3bc4e16d879cbb69394ccda91" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>coeffVidangeHauteNappe</name></member>
+      <member refid="classParamCE_1a4345bdc83f42072a2841a66336f77ac4" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>coeffVidangeIntermediaireSol</name></member>
+      <member refid="classParamCE_1a1325ea81f2a4b5a6eee952f982c3d60e" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>conductiviteHydraulique</name></member>
+      <member refid="classParamCE_1a3c8f3eb60cf18a7302ce52c87aede34d" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>fractionImpermeableCE</name></member>
+      <member refid="classParamCE_1a9f5a1a2e071878c3b37cc5b2da8e1a05" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>hauteurReservoirSol</name></member>
+      <member refid="classParamCE_1a62b58f5d234371e96452ced849af456f" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>lameEauDebutRuisellement</name></member>
+      <member refid="classParamCE_1a4827bee1cc37c18a0eb18f357f583318" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>ParamCE</name></member>
+      <member refid="classParamCE_1ae6045c20ec3152cd99f112b3b3791e10" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>seuilInfiltrationSolVersNappe</name></member>
+      <member refid="classParamCE_1afb16192a4b0d5a79f90953e73a13f2b0" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>seuilPrelevementEauTauxPotentiel</name></member>
+      <member refid="classParamCE_1a7a9354156c404347dd072297253979eb" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>seuilTempFonteClairiere</name></member>
+      <member refid="classParamCE_1a7aafb70108b1b200aa6ebc70e473e47f" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>seuilTempFonteForet</name></member>
+      <member refid="classParamCE_1a3e24f3174acfa0ff0ebcf88f99b1afdc" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>seuilTranformationPluieNeige</name></member>
+      <member refid="classParamCE_1a1b9cf44812b3cfcca02af693157edefe" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>seuilVidangeHauteNappe</name></member>
+      <member refid="classParamCE_1a0452a28797c8ca45c2dbe91004f56c7a" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>seuilVidangeIntermediaireSol</name></member>
+      <member refid="classParamCE_1a817025f6de68f933b5bb017888e45519" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>tauxPotentielFonteClairiere</name></member>
+      <member refid="classParamCE_1a570e876971b43702d5e241b6ad1ea4a5" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>tauxPotentielFonteForet</name></member>
+      <member refid="classParamCE_1a09aa142cabe0952a9ed397a0e8574e14" prot="public" virt="non-virtual"><scope>ParamCE</scope><name>tempMurissementNeige</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

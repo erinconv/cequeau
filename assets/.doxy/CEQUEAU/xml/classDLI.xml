@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classDLI" kind="class" language="C++" prot="public">
+    <compoundname>DLI</compoundname>
+    <basecompoundref refid="classModuleBase" prot="public" virt="non-virtual">ModuleBase</basecompoundref>
+    <innerclass refid="classDLI_1_1Params" prot="private">DLI::Params</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDLI_1a19faf42341da5d03ec9152766289dded" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DLI::moduleDLI_</definition>
+        <argsstring></argsstring>
+        <name>moduleDLI_</name>
+        <qualifiedname>DLI::moduleDLI_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="73" column="5" bodyfile="src/DLI.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDLI_1a05375e835fd9ac70d6322f918d2cb9f9" prot="private" static="no" mutable="no">
+        <type>class DLI::Params</type>
+        <definition>class DLI::Params DLI::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>DLI::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="95" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDLI_1ab09b269b8e9a1cf424ace414f4c292a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DLI::DLI</definition>
+        <argsstring>()</argsstring>
+        <name>DLI</name>
+        <qualifiedname>DLI::DLI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="19" column="1" bodyfile="src/DLI.cpp" bodystart="9" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1a619b27a505cc924733c9a7eec4c8855f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DLI::initialiser</definition>
+        <argsstring>(int moduleDLI, const mxArray *structParamDLI)</argsstring>
+        <name>initialiser</name>
+        <qualifiedname>DLI::initialiser</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>moduleDLI</declname>
+        </param>
+        <param>
+          <type>const mxArray *</type>
+          <declname>structParamDLI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="25" column="6" bodyfile="src/DLI.cpp" bodystart="233" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1abe60f79002b18d4030621fc9607c0cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DLI::lireParametres</definition>
+        <argsstring>(const mxArray *paramSimul, int numParams)</argsstring>
+        <name>lireParametres</name>
+        <qualifiedname>DLI::lireParametres</qualifiedname>
+        <param>
+          <type>const mxArray *</type>
+          <declname>paramSimul</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numParams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="31" column="6" bodyfile="src/DLI.cpp" bodystart="337" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1a49b967897ded200bb9544bb0b4530bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeRadiation</definition>
+        <argsstring>(double sigma, double ENNUAG, double TKR, double PREVAP, double TKO, double LAI, double DLI)</argsstring>
+        <name>calculeRadiation</name>
+        <qualifiedname>DLI::calculeRadiation</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ENNUAG</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKR</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>PREVAP</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKO</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>LAI</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>DLI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="37" column="8" bodyfile="src/DLI.cpp" bodystart="45" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1a3231ecf0f99b3d322e18e78ce8a47a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM1</definition>
+        <argsstring>(double B)</argsstring>
+        <name>calculeM1</name>
+        <qualifiedname>DLI::calculeM1</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="43" column="8" bodyfile="src/DLI.cpp" bodystart="145" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1a05a124f1938bb9ba787f43995d3ec772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM2</definition>
+        <argsstring>(double B, double TKR)</argsstring>
+        <name>calculeM2</name>
+        <qualifiedname>DLI::calculeM2</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="45" column="8" bodyfile="src/DLI.cpp" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1aa8055c9dbd1ab50c9123bed259c86e13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM3</definition>
+        <argsstring>(double B, double TKR)</argsstring>
+        <name>calculeM3</name>
+        <qualifiedname>DLI::calculeM3</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="47" column="8" bodyfile="src/DLI.cpp" bodystart="161" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1a8b8b18d01978b8714e94f72fdadd45c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM4</definition>
+        <argsstring>(double B, double ea)</argsstring>
+        <name>calculeM4</name>
+        <qualifiedname>DLI::calculeM4</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="49" column="8" bodyfile="src/DLI.cpp" bodystart="169" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1ac18ac1ce8c1ac305eceb81976e0a5ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM5</definition>
+        <argsstring>(double B, double TKR, double ea)</argsstring>
+        <name>calculeM5</name>
+        <qualifiedname>DLI::calculeM5</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKR</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="51" column="8" bodyfile="src/DLI.cpp" bodystart="177" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1a6eccc57bbd0bf9785e75d8063e59d147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM6</definition>
+        <argsstring>(double B, double TKR, double ea)</argsstring>
+        <name>calculeM6</name>
+        <qualifiedname>DLI::calculeM6</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKR</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="53" column="8" bodyfile="src/DLI.cpp" bodystart="185" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1a462070e9f5e55ad8a1d22b5b11ccc10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM7</definition>
+        <argsstring>(double B, double TKR, double ea)</argsstring>
+        <name>calculeM7</name>
+        <qualifiedname>DLI::calculeM7</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKR</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="55" column="8" bodyfile="src/DLI.cpp" bodystart="193" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1aa72f3dddef5b31bb1d3b2a528259fe21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM8</definition>
+        <argsstring>(double B, double TKR, double ea)</argsstring>
+        <name>calculeM8</name>
+        <qualifiedname>DLI::calculeM8</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TKR</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="57" column="8" bodyfile="src/DLI.cpp" bodystart="203" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1ad7c25081fc2b52cb838685ecb713eba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DLI::calculeM9</definition>
+        <argsstring>(double B, double ea, double LAI)</argsstring>
+        <name>calculeM9</name>
+        <qualifiedname>DLI::calculeM9</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ea</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>LAI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="59" column="12" bodyfile="src/DLI.cpp" bodystart="221" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classDLI_1ad4f1cd76cfc3405bfe224ec3d568436b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DLI::moduleDLI</definition>
+        <argsstring>()</argsstring>
+        <name>moduleDLI</name>
+        <qualifiedname>DLI::moduleDLI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/DLI.h" line="65" column="5" bodyfile="src/DLI.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DLI</label>
+        <link refid="classDLI"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DLI</label>
+        <link refid="classDLI"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModuleBase</label>
+        <link refid="classModuleBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/DLI.h" line="13" column="1" bodyfile="src/DLI.h" bodystart="13" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classDLI_1a3231ecf0f99b3d322e18e78ce8a47a33" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM1</name></member>
+      <member refid="classDLI_1a05a124f1938bb9ba787f43995d3ec772" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM2</name></member>
+      <member refid="classDLI_1aa8055c9dbd1ab50c9123bed259c86e13" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM3</name></member>
+      <member refid="classDLI_1a8b8b18d01978b8714e94f72fdadd45c7" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM4</name></member>
+      <member refid="classDLI_1ac18ac1ce8c1ac305eceb81976e0a5ad5" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM5</name></member>
+      <member refid="classDLI_1a6eccc57bbd0bf9785e75d8063e59d147" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM6</name></member>
+      <member refid="classDLI_1a462070e9f5e55ad8a1d22b5b11ccc10c" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM7</name></member>
+      <member refid="classDLI_1aa72f3dddef5b31bb1d3b2a528259fe21" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM8</name></member>
+      <member refid="classDLI_1ad7c25081fc2b52cb838685ecb713eba5" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeM9</name></member>
+      <member refid="classDLI_1a49b967897ded200bb9544bb0b4530bef" prot="public" virt="non-virtual"><scope>DLI</scope><name>calculeRadiation</name></member>
+      <member refid="classDLI_1ab09b269b8e9a1cf424ace414f4c292a4" prot="public" virt="non-virtual"><scope>DLI</scope><name>DLI</name></member>
+      <member refid="classDLI_1a619b27a505cc924733c9a7eec4c8855f" prot="public" virt="non-virtual"><scope>DLI</scope><name>initialiser</name></member>
+      <member refid="classModuleBase_1a3c3d7ab65439a094044950cd1c3a2312" prot="protected" virt="non-virtual"><scope>DLI</scope><name>initialiserEtatsHelper</name></member>
+      <member refid="classDLI_1abe60f79002b18d4030621fc9607c0cee" prot="public" virt="non-virtual"><scope>DLI</scope><name>lireParametres</name></member>
+      <member refid="classModuleBase_1a4cffe012ccefb97ad6bf4682ed00505b" prot="protected" virt="non-virtual"><scope>DLI</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1a875fb504bc8f14ca91bbe9df11afb7b6" prot="protected" virt="non-virtual"><scope>DLI</scope><name>lireParametresHelper</name></member>
+      <member refid="classModuleBase_1aa8ae84ac06d564c430330814bc2bb87a" prot="public" virt="non-virtual"><scope>DLI</scope><name>ModuleBase</name></member>
+      <member refid="classModuleBase_1a62c9211ac18959dcbd73139a570775de" prot="public" virt="non-virtual"><scope>DLI</scope><name>ModuleBase</name></member>
+      <member refid="classDLI_1ad4f1cd76cfc3405bfe224ec3d568436b" prot="public" virt="non-virtual"><scope>DLI</scope><name>moduleDLI</name></member>
+      <member refid="classDLI_1a19faf42341da5d03ec9152766289dded" prot="private" virt="non-virtual"><scope>DLI</scope><name>moduleDLI_</name></member>
+      <member refid="classModuleBase_1aa62c61597fe7950d6180dc24965051a7" prot="protected" virt="non-virtual"><scope>DLI</scope><name>nbCE_</name></member>
+      <member refid="classModuleBase_1aedc9ff9160a84a9b033b78a91cc7a775" prot="public" virt="non-virtual"><scope>DLI</scope><name>nomModele</name></member>
+      <member refid="classModuleBase_1af6dc293923c42f9a4426fb9cf10cba97" prot="public" virt="non-virtual"><scope>DLI</scope><name>nomsChampsMeteo</name></member>
+      <member refid="classModuleBase_1acb5b7967590954504cb9858ba0e30fda" prot="protected" virt="non-virtual"><scope>DLI</scope><name>obtenirEtatsAvantAssimHelper</name></member>
+      <member refid="classModuleBase_1a4c987a973c6c983ad77e01b9471e50b2" prot="protected" virt="non-virtual"><scope>DLI</scope><name>obtenirEtatsHelper</name></member>
+      <member refid="classDLI_1a05375e835fd9ac70d6322f918d2cb9f9" prot="private" virt="non-virtual"><scope>DLI</scope><name>params_</name></member>
+      <member refid="classModuleBase_1a2f9388584ac2c9f845d0a38678abb852" prot="public" virt="virtual"><scope>DLI</scope><name>~ModuleBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classOutput2FILE" kind="class" language="C++" prot="public">
+    <compoundname>Output2FILE</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classOutput2FILE_1a10f20b32157af0d88e5ad9710f2dbd6e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FILE *&amp;</type>
+        <definition>FILE *&amp; Output2FILE::Stream</definition>
+        <argsstring>()</argsstring>
+        <name>Stream</name>
+        <qualifiedname>Output2FILE::Stream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="91" column="17" bodyfile="src/log.h" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutput2FILE_1a4e36a13eb54de8a0c81a90156d66f021" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Output2FILE::Output</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>Output</name>
+        <qualifiedname>Output2FILE::Output</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="92" column="17" bodyfile="src/log.h" bodystart="101" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/log.h" line="88" column="1" bodyfile="src/log.h" bodystart="89" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classOutput2FILE_1a4e36a13eb54de8a0c81a90156d66f021" prot="public" virt="non-virtual"><scope>Output2FILE</scope><name>Output</name></member>
+      <member refid="classOutput2FILE_1a10f20b32157af0d88e5ad9710f2dbd6e" prot="public" virt="non-virtual"><scope>Output2FILE</scope><name>Stream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

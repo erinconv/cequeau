@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFonteCemaNeige_1_1Params" kind="class" language="C++" prot="private">
+    <compoundname>FonteCemaNeige::Params</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1ac6c15d181774bdba4baeb7273673b49e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::Kf</definition>
+        <argsstring></argsstring>
+        <name>Kf</name>
+        <qualifiedname>FonteCemaNeige::Params::Kf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="67" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1ace9a09c696e5af140ecfb965658954a3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::Tf</definition>
+        <argsstring></argsstring>
+        <name>Tf</name>
+        <qualifiedname>FonteCemaNeige::Params::Tf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="69" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1a82d6cf2eb61fa5ea790a008e04696d67" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::seuilTranformationPluieNeige</definition>
+        <argsstring></argsstring>
+        <name>seuilTranformationPluieNeige</name>
+        <qualifiedname>FonteCemaNeige::Params::seuilTranformationPluieNeige</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="71" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1a7e9be3d58ffbb98211655e9c204247b5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::CTg</definition>
+        <argsstring></argsstring>
+        <name>CTg</name>
+        <qualifiedname>FonteCemaNeige::Params::CTg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="73" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1ac66983de73d1428648de3001bad6d90d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::theta</definition>
+        <argsstring></argsstring>
+        <name>theta</name>
+        <qualifiedname>FonteCemaNeige::Params::theta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="74" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1ab1a2c7605a5a40e0ed256c591db5fbbc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::Gseuil</definition>
+        <argsstring></argsstring>
+        <name>Gseuil</name>
+        <qualifiedname>FonteCemaNeige::Params::Gseuil</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="75" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1a616baff93806d554dc6c47c6aa5f3614" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::Zmed</definition>
+        <argsstring></argsstring>
+        <name>Zmed</name>
+        <qualifiedname>FonteCemaNeige::Params::Zmed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="76" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1ae0a4e276650ab217cb4e9ba5839fc060" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::Vmin</definition>
+        <argsstring></argsstring>
+        <name>Vmin</name>
+        <qualifiedname>FonteCemaNeige::Params::Vmin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="79" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1aa38b005daf04f3f9f38e64687df24bb3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::eTg</definition>
+        <argsstring></argsstring>
+        <name>eTg</name>
+        <qualifiedname>FonteCemaNeige::Params::eTg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="83" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFonteCemaNeige_1_1Params_1ab60398582f16177b7e4ac3a3819173f5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FonteCemaNeige::Params::G</definition>
+        <argsstring></argsstring>
+        <name>G</name>
+        <qualifiedname>FonteCemaNeige::Params::G</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/FonteCemaNeige.h" line="85" column="11" bodyfile="src/FonteCemaNeige.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/FonteCemaNeige.h" line="63" column="3" bodyfile="src/FonteCemaNeige.h" bodystart="64" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classFonteCemaNeige_1_1Params_1a7e9be3d58ffbb98211655e9c204247b5" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>CTg</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1aa38b005daf04f3f9f38e64687df24bb3" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>eTg</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1ab60398582f16177b7e4ac3a3819173f5" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>G</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1ab1a2c7605a5a40e0ed256c591db5fbbc" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>Gseuil</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1ac6c15d181774bdba4baeb7273673b49e" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>Kf</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1a82d6cf2eb61fa5ea790a008e04696d67" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>seuilTranformationPluieNeige</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1ace9a09c696e5af140ecfb965658954a3" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>Tf</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1ac66983de73d1428648de3001bad6d90d" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>theta</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1ae0a4e276650ab217cb4e9ba5839fc060" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>Vmin</name></member>
+      <member refid="classFonteCemaNeige_1_1Params_1a616baff93806d554dc6c47c6aa5f3614" prot="public" virt="non-virtual"><scope>FonteCemaNeige::Params</scope><name>Zmed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

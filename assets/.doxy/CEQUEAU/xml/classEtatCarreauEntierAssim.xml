@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classEtatCarreauEntierAssim" kind="class" language="C++" prot="public">
+    <compoundname>EtatCarreauEntierAssim</compoundname>
+    <includes refid="Simulation_8h" local="no">Simulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1abb9ee23ff0ab9f525579ffdbaa18482c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauEntierAssim::idCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>idCarreauEntier</name>
+        <qualifiedname>EtatCarreauEntierAssim::idCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="81" column="9" bodyfile="src/Simulation.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1a42ebde2062e44b3e3ea7c9b5b39f41d2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauEntierAssim::iCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>iCarreauEntier</name>
+        <qualifiedname>EtatCarreauEntierAssim::iCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="82" column="9" bodyfile="src/Simulation.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1a298d35a54d05f5da98c6edc72f0abb82" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EtatCarreauEntierAssim::jCarreauEntier</definition>
+        <argsstring></argsstring>
+        <name>jCarreauEntier</name>
+        <qualifiedname>EtatCarreauEntierAssim::jCarreauEntier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="83" column="9" bodyfile="src/Simulation.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1a30cfbfea93780b2993f166b767e26d9b" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauEntierAssim::niveauEauSolType</definition>
+        <argsstring></argsstring>
+        <name>niveauEauSolType</name>
+        <qualifiedname>EtatCarreauEntierAssim::niveauEauSolType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="84" column="13" bodyfile="src/Simulation.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1ad15315e78f3e9dcb1c9e6a447c1cd9ad" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntierAssim::niveauEauSol[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>niveauEauSol</name>
+        <qualifiedname>EtatCarreauEntierAssim::niveauEauSol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="85" column="9" bodyfile="src/Simulation.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1a73f5e86ecf5c192706fb723860411151" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauEntierAssim::niveauEauNappeType</definition>
+        <argsstring></argsstring>
+        <name>niveauEauNappeType</name>
+        <qualifiedname>EtatCarreauEntierAssim::niveauEauNappeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="86" column="13" bodyfile="src/Simulation.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1ac2a66b7d057274e64aea676e20a220aa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntierAssim::niveauEauNappe[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>niveauEauNappe</name>
+        <qualifiedname>EtatCarreauEntierAssim::niveauEauNappe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="87" column="9" bodyfile="src/Simulation.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1a41c0901b0588ac00d9951055373f7067" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauEntierAssim::niveauEauLacsMaraisType</definition>
+        <argsstring></argsstring>
+        <name>niveauEauLacsMaraisType</name>
+        <qualifiedname>EtatCarreauEntierAssim::niveauEauLacsMaraisType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="88" column="13" bodyfile="src/Simulation.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1aaeb0e57a32bd83021bf15c01e5f7fa6c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntierAssim::niveauEauLacsMarais[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>niveauEauLacsMarais</name>
+        <qualifiedname>EtatCarreauEntierAssim::niveauEauLacsMarais</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="89" column="9" bodyfile="src/Simulation.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1acbe7574d9d29f89d95fba865b3a965c4" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauEntierAssim::evapoPotJourType</definition>
+        <argsstring></argsstring>
+        <name>evapoPotJourType</name>
+        <qualifiedname>EtatCarreauEntierAssim::evapoPotJourType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="90" column="13" bodyfile="src/Simulation.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1ad1ed4083ba4dd90ee7b60baf4f9b89f0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntierAssim::evapoPotJour[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>evapoPotJour</name>
+        <qualifiedname>EtatCarreauEntierAssim::evapoPotJour</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="91" column="9" bodyfile="src/Simulation.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1ad17404232d3c207d5b0bb6457bccc84c" prot="public" static="no" mutable="no">
+        <type>TypeAssim</type>
+        <definition>TypeAssim EtatCarreauEntierAssim::productionType</definition>
+        <argsstring></argsstring>
+        <name>productionType</name>
+        <qualifiedname>EtatCarreauEntierAssim::productionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="92" column="13" bodyfile="src/Simulation.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEtatCarreauEntierAssim_1ad5cf05e65eb41aa7c22b0be1f69c9e23" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EtatCarreauEntierAssim::production[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>production</name>
+        <qualifiedname>EtatCarreauEntierAssim::production</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Simulation.h" line="93" column="9" bodyfile="src/Simulation.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe de donnees pour l&apos;assimilation des etats d&apos;un carreau entier. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Utilise pour assimiler des etats aux carreaux entiers. Une valeur: on substitue cette valeur. Deux valeurs: La premiere est un facteur multiplicatif et la seconde une valeur a additionner. </para>
+    </detaileddescription>
+    <location file="src/Simulation.h" line="78" column="1" bodyfile="src/Simulation.h" bodystart="79" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classEtatCarreauEntierAssim_1ad1ed4083ba4dd90ee7b60baf4f9b89f0" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>evapoPotJour</name></member>
+      <member refid="classEtatCarreauEntierAssim_1acbe7574d9d29f89d95fba865b3a965c4" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>evapoPotJourType</name></member>
+      <member refid="classEtatCarreauEntierAssim_1a42ebde2062e44b3e3ea7c9b5b39f41d2" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>iCarreauEntier</name></member>
+      <member refid="classEtatCarreauEntierAssim_1abb9ee23ff0ab9f525579ffdbaa18482c" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>idCarreauEntier</name></member>
+      <member refid="classEtatCarreauEntierAssim_1a298d35a54d05f5da98c6edc72f0abb82" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>jCarreauEntier</name></member>
+      <member refid="classEtatCarreauEntierAssim_1aaeb0e57a32bd83021bf15c01e5f7fa6c" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>niveauEauLacsMarais</name></member>
+      <member refid="classEtatCarreauEntierAssim_1a41c0901b0588ac00d9951055373f7067" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>niveauEauLacsMaraisType</name></member>
+      <member refid="classEtatCarreauEntierAssim_1ac2a66b7d057274e64aea676e20a220aa" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>niveauEauNappe</name></member>
+      <member refid="classEtatCarreauEntierAssim_1a73f5e86ecf5c192706fb723860411151" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>niveauEauNappeType</name></member>
+      <member refid="classEtatCarreauEntierAssim_1ad15315e78f3e9dcb1c9e6a447c1cd9ad" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>niveauEauSol</name></member>
+      <member refid="classEtatCarreauEntierAssim_1a30cfbfea93780b2993f166b767e26d9b" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>niveauEauSolType</name></member>
+      <member refid="classEtatCarreauEntierAssim_1ad5cf05e65eb41aa7c22b0be1f69c9e23" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>production</name></member>
+      <member refid="classEtatCarreauEntierAssim_1ad17404232d3c207d5b0bb6457bccc84c" prot="public" virt="non-virtual"><scope>EtatCarreauEntierAssim</scope><name>productionType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
