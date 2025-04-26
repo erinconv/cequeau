@@ -169,7 +169,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "http://your-github-pages-url.com" # Placeholder for local execution
+      url: "https://erinconv.github.io/CEQUEAU/" # Placeholder for local execution
     runs-on: ubuntu-latest
     needs: build
     if: github.event_name != 'pull_request' && github.repository_owner != 'act' && github.actor != 'nektos/act'
