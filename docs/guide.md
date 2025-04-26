@@ -315,20 +315,20 @@ The normalized LAI value is reduced to a maximum of 0.8 to prevent the
 `scaled_crayso` to be reduced to less than 0. The `scaled_crayso` is then
 used to calculate the solar radiation.
 
-# Qualité Time Steps
+# Qualite Time Steps
 
 ## Overview
 
-To use sub-daily time steps with the Cequeau Qualité module, the ipassim
+To use sub-daily time steps with the Cequeau Qualite module, the ipassim
 variable in the input struct's option must be modified. The value can be
 set to 1, 2, 3, 4, 6, 8, 12, and 24 (daily). This will change the time
-steps for both the Quantité and Qualité module.
+steps for both the Quantite and Qualite module.
 
 InputStruct.parametres.option.ipassim = 12;
 
 *Note: data assimilation is only available for daily time steps.*
 
-The calculQualite option must also be enabled to use the Qualité module.
+The calculQualite option must also be enabled to use the Qualite module.
 
 InputStruct.parametres.option.calculQualite = 1;
 

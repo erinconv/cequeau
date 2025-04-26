@@ -1,79 +1,80 @@
 site_name: CEQUEAU Documentation
-site_url: https://erinconv.github.io/CEQUEAU/ # <-- UPDATE If USERNAME/REPO differs
-repo_url: https://github.com/erinconv/CEQUEAU # <-- UPDATE If USERNAME/REPO differs
-repo_name: CEQUEAU Model             # <-- UPDATE If USERNAME/REPO differs
+site_description: Documentation for the CEQUEAU hydrological model
+site_author: CEQUEAU Team
+site_url: https://erinconv.github.io/CEQUEAU/
+repo_url: https://github.com/erinconv/CEQUEAU
+repo_name: CEQUEAU Model
 
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  language: en # Or 'fr' if preferred
   palette:
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - navigation.tabs
+    - content.code.copy
 
 plugins:
   - mkdoxy:
       projects:
-        cequeau_project:
+        CEQUEAU:
           src-dirs: src
-          full-doc: False
-          doxy-cfg-file: Doxyfile
+          full-doc: True
+          doxy-dir: doxygen/xml
+          auto-doxy: True
+          generate-autolisting: True  # Generates listing pages automatically
           doxy-cfg:
             DOXYFILE_ENCODING: UTF-8
             INPUT_ENCODING: UTF-8
-            XML_PROGRAMLISTING: NO  # Disable code snippets in XML to reduce potential encoding problems
+            XML_PROGRAMLISTING: NO
+            MARKDOWN_SUPPORT: YES
+            AUTOLINK_SUPPORT: YES
+            BUILTIN_STL_SUPPORT: YES
   - search
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.superfences
   - pymdownx.inlinehilite
-  - pymdownx.snippets
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - md_in_html
-  - footnotes
-  # Enable MathJax
-  - pymdownx.arithmatex:
-      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
 
 # Navigation
 nav:
-  - CEQUEAU Model:
-    - index.md
-    - User Guide: guide.md
-    - Inputs and Outputs: inputs_outputs.md
-    - Octave Notes: octave_notes.md
-  - Development Guide: development.md
-  # - API Reference: 
-  #   - Overview: api.md
-  #   - Core Classes:
-  #     - BassinVersant: api/bassin_versant.md
-  #     - CarreauEntier: api/carreau_entier.md
-  #     - CarreauPartiel: api/carreau_partiel.md
-  #     - Simulation: api/simulation.md
-#   - ... etc 
+  - Home: 
+    - 'index.md'
+    - 'license.md'
+    - 'contributing.md'
+    - 'code_of_conduct.md'
+  - API Documentation:
+    - 'api.md'
+    - 'api/simulation.md'
+    - 'api/bassin_versant.md'
+    - 'api/carreau_entier.md'
+    - 'api/carreau_partiel.md'
+  - API Reference:
+    - 'CEQUEAU/annotated.md'
 
 # Add MathJax Javascript
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js 
+
+# Ensure proper encoding of extra files
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/erinconv/CEQUEAU 

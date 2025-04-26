@@ -1,7 +1,37 @@
-# Welcome to CEQUEAU Documentation
+# CEQUEAU Hydrological Model
 
-This is the main documentation site for the CEQUEAU hydrological model.
+Welcome to the official documentation for the CEQUEAU hydrological model. CEQUEAU is a distributed hydrological model designed for simulating watershed hydrology.
 
-Navigate through the sections using the top bar or the side menu.
+## About CEQUEAU
 
-*More content coming soon after conversion from original documents.* 
+CEQUEAU is a spatially distributed hydrological model that divides a watershed into square grid cells, called "carreaux entiers" (whole squares), which are further divided into "carreaux partiels" (partial squares) based on watershed boundaries. The model simulates various hydrological processes including:
+
+- Snow accumulation and melt
+- Evapotranspiration
+- Surface and subsurface flow
+- Channel routing
+
+## Getting Started
+
+To get started with CEQUEAU:
+
+1. [Installation instructions](installation.md)
+2. [Basic usage guide](guide.md)
+3. [Model configuration](configuration.md)
+
+## API Reference
+
+The API reference provides detailed information about the model's classes and functions:
+
+- [Simulation](api/simulation.md) - The main simulation engine
+- [BassinVersant](api/bassin_versant.md) - Watershed representation
+- [CarreauEntier](api/carreau_entier.md) - Whole grid cells
+- [CarreauPartiel](api/carreau_partiel.md) - Partial grid cells
+
+## Contributing
+
+Contributions to the CEQUEAU model are welcome. Please see our [contribution guidelines](contributing.md) for more information.
+
+## License
+
+CEQUEAU is licensed under [LICENSE]. See the [LICENSE](license.md) file for details. 

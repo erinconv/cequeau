@@ -66,7 +66,7 @@ parametres:
 
 ##### `parametres.option` (`struct`)
 
--   `ipassim`: `double` - Assimilation time step divisor (e.g., 1 for daily, 12 for 12-hourly). See [Quality Time Steps](#qualité-time-steps) in the User Guide.
+-   `ipassim`: `double` - Assimilation time step divisor (e.g., 1 for daily, 12 for 12-hourly). See [Quality Time Steps](#qualite-time-steps) in the User Guide.
 -   `moduleFonte`: `double` - Snowmelt model selection (1 = `cequeau`, 2 = `cemaNeige`, 3 = `ueb`, etc.).
 -   `moduleEvapo`: `double` - Evapotranspiration model selection (1 = `cequeau`, others...). Needs clarification.
 -   `calculQualite`: `double` - Enable water quality simulation (0 = quantity only, 1 = quantity and quality).
