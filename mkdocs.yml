@@ -28,9 +28,15 @@ theme:
 
 plugins:
   - mkdoxy:
-      project: "CEQUEAU"
-      src_dir: "src"
-      doxy_xml: "doxygen/xml"
+      projects:
+        cequeau_project:
+          src-dirs: src
+          full-doc: False
+          doxy-cfg-file: Doxyfile
+          doxy-cfg:
+            DOXYFILE_ENCODING: UTF-8
+            INPUT_ENCODING: UTF-8
+            XML_PROGRAMLISTING: NO  # Disable code snippets in XML to reduce potential encoding problems
   - search
 
 markdown_extensions:
@@ -57,7 +63,13 @@ nav:
     - Inputs and Outputs: inputs_outputs.md
     - Octave Notes: octave_notes.md
   - Development Guide: development.md
-  - API Reference: api.md
+  # - API Reference: 
+  #   - Overview: api.md
+  #   - Core Classes:
+  #     - BassinVersant: api/bassin_versant.md
+  #     - CarreauEntier: api/carreau_entier.md
+  #     - CarreauPartiel: api/carreau_partiel.md
+  #     - Simulation: api/simulation.md
 #   - ... etc 
 
 # Add MathJax Javascript
