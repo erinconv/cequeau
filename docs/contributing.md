@@ -29,6 +29,13 @@ This project adheres to a Code of Conduct that all contributors are expected to 
 6. Push to the branch (`git push origin feature/amazing-feature`).
 7. Open a Pull Request.
 
+### Translating the Source Code and User Manual
+- We are actively working to translate the source code and user manual from French to English to make it the more more accesible to everyone. If you are fluent in both languages, we would greatly appreciate your help!.
+- The original CEQUEAU user manual can be found [here](https://github.com/erinconv/CEQUEAU/blob/main/docs/LEGACY_DOCS/Cequeau.pdf)
+- You can contribute by translating code comments, documentation, and any other relevant materials.
+- Please open an issue to discuss the specific parts you would like to translate, or feel free to submit a pull request with your translations.
+- Ensure that your translations maintain the original meaning and context to help future contributors understand the code and documentation better.
+
 ## Development Setup
 
 1. Clone the repository:
