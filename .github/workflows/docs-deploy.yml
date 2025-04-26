@@ -175,9 +175,6 @@ jobs:
     needs: build
     if: github.event_name != 'pull_request' && github.repository_owner != 'act' && github.actor != 'nektos/act'
     steps:
-      - name: Wait for artifacts to be available
-        run: sleep 15
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
